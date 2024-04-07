@@ -1,0 +1,659 @@
+*****************************************************
+Toolname: Z3 Filename: pigeon-hole-10.smt2
+*****************************************************
+unsat
+(:binary-propagations        825045
+ :conflicts                  49907
+ :decisions                  71657
+ :del-clause                 29134
+ :dyn-subsumption-resolution 16518
+ :elim-binary                2
+ :elim-bool-vars-res         370
+ :elim-bool-vars-scc         9
+ :elim-clauses               2390
+ :elim-literals              4880
+ :max-memory                 12.34
+ :memory                     1.02
+ :minimized-lits             417624
+ :mk-binary-clause           2068
+ :mk-bool-var                550
+ :mk-clause                  50551
+ :mk-ternary-clause          1087
+ :num-allocs                 6124623
+ :probing-assigned           30
+ :propagations               460473
+ :restarts                   3007
+ :rlimit-count               1396874
+ :subsumed                   687
+ :subsumption-resolution     299
+ :ternary-propagations       115758
+ :time                       2.81
+ :total-time                 2.81
+ :tr                         1
+ :units                      95)
+
+real	0m5.212s
+user	0m2.803s
+sys	0m0.009s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: pigeon-hole-11.smt2
+*****************************************************
+unsat
+(:ate                        5
+ :bce                        27
+ :binary-propagations        2210582
+ :conflicts                  121992
+ :decisions                  145562
+ :del-clause                 98825
+ :dyn-subsumption-resolution 74096
+ :elim-bool-vars-res         462
+ :elim-bool-vars-scc         4
+ :elim-clauses               40469
+ :elim-literals              47365
+ :max-memory                 23.75
+ :memory                     1.07
+ :minimized-lits             1020279
+ :mk-binary-clause           2709
+ :mk-bool-var                671
+ :mk-clause                  123050
+ :mk-ternary-clause          1308
+ :num-allocs                 16166207
+ :probing-assigned           40
+ :propagations               908319
+ :restarts                   299
+ :rlimit-count               3142859
+ :subsumed                   457
+ :subsumption-resolution     153
+ :ternary-propagations       131191
+ :time                       7.49
+ :total-time                 7.50
+ :tr                         4
+ :units                      111)
+
+real	0m7.010s
+user	0m7.478s
+sys	0m0.022s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: pigeon-hole-12.smt2
+*****************************************************
+unsat
+(:ate                        15
+ :bce                        38
+ :binary-propagations        7083140
+ :conflicts                  367991
+ :decisions                  463468
+ :del-clause                 117839
+ :dyn-subsumption-resolution 270240
+ :elim-binary                9
+ :elim-bool-vars-res         541
+ :elim-bool-vars-scc         4
+ :elim-clauses               39528
+ :elim-literals              422463
+ :max-memory                 79.99
+ :memory                     1.09
+ :minimized-lits             4425852
+ :mk-binary-clause           3339
+ :mk-bool-var                805
+ :mk-clause                  369110
+ :mk-ternary-clause          1668
+ :num-allocs                 128379287
+ :probing-assigned           63
+ :propagations               2690443
+ :restarts                   4227
+ :rlimit-count               12313667
+ :subsumed                   26874
+ :subsumption-resolution     1406
+ :ternary-propagations       261339
+ :time                       81.08
+ :total-time                 81.08
+ :tr                         8
+ :units                      165)
+
+real	1m20.529s
+user	1m20.942s
+sys	0m0.143s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: pigeon-hole-13.smt2
+*****************************************************
+unsat
+(:ate                        6
+ :bce                        47
+ :binary-propagations        29857074
+ :conflicts                  1566133
+ :decisions                  2413310
+ :del-clause                 518669
+ :dyn-subsumption-resolution 1113507
+ :elim-binary                4
+ :elim-bool-vars-res         629
+ :elim-bool-vars-scc         15
+ :elim-clauses               239803
+ :elim-literals              2313302
+ :gc-clause                  107939
+ :max-memory                 408.31
+ :memory                     1.17
+ :minimized-lits             22480383
+ :mk-binary-clause           4147
+ :mk-bool-var                951
+ :mk-clause                  1567437
+ :mk-ternary-clause          1919
+ :num-allocs                 7381915260.00
+ :probing-assigned           64
+ :propagations               10935548
+ :restarts                   95806
+ :rlimit-count               60190615
+ :subsumed                   16127
+ :subsumption-resolution     3190
+ :ternary-propagations       875127
+ :time                       353.50
+ :total-time                 353.50
+ :tr                         7
+ :units                      167)
+
+real	5m54.869s
+user	5m52.615s
+sys	0m0.904s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: pigeon-hole-14.smt2
+*****************************************************
+unknown
+(:ate                        11
+ :bce                        48
+ :binary-propagations        6690609
+ :conflicts                  327418
+ :decisions                  458620
+ :del-clause                 85544
+ :dyn-subsumption-resolution 194807
+ :elim-binary                5
+ :elim-bool-vars-res         735
+ :elim-bool-vars-scc         11
+ :elim-clauses               405
+ :elim-literals              267623
+ :max-memory                 187.45
+ :memory                     1.31
+ :minimized-lits             4782503
+ :mk-binary-clause           4849
+ :mk-bool-var                1108
+ :mk-clause                  329414
+ :mk-ternary-clause          2012
+ :num-allocs                 282317753
+ :probing-assigned           89
+ :propagations               2292300
+ :restarts                   13086
+ :rlimit-count               9724546
+ :subsumed                   32
+ :subsumption-resolution     1465
+ :ternary-propagations       279699
+ :time                       78.82
+ :total-time                 78.82
+ :tr                         5
+ :units                      108)
+
+real	1m21.075s
+user	1m18.639s
+sys	0m0.186s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: pigeon-hole-15.smt2
+*****************************************************
+unknown
+(:binary-propagations        480839
+ :conflicts                  16294
+ :decisions                  21535
+ :del-clause                 3603
+ :dyn-subsumption-resolution 2327
+ :elim-binary                1
+ :elim-bool-vars-res         759
+ :elim-bool-vars-scc         26
+ :elim-clauses               444
+ :elim-literals              707
+ :max-memory                 10.94
+ :memory                     1.26
+ :minimized-lits             164112
+ :mk-binary-clause           5253
+ :mk-bool-var                1278
+ :mk-clause                  17994
+ :mk-ternary-clause          2231
+ :num-allocs                 9030796
+ :probing-assigned           82
+ :propagations               254297
+ :restarts                   1585
+ :rlimit-count               826553
+ :subsumed                   25
+ :subsumption-resolution     18
+ :ternary-propagations       74597
+ :time                       0.89
+ :total-time                 0.89
+ :units                      113)
+
+real	0m0.830s
+user	0m0.884s
+sys	0m0.009s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: pigeon-hole-16.smt2
+*****************************************************
+unknown
+(:binary-propagations        601776
+ :conflicts                  16515
+ :decisions                  29455
+ :del-clause                 4017
+ :dyn-subsumption-resolution 7356
+ :elim-binary                8
+ :elim-bool-vars-res         884
+ :elim-literals              14
+ :max-memory                 11.20
+ :memory                     1.38
+ :minimized-lits             219030
+ :mk-binary-clause           5972
+ :mk-bool-var                1459
+ :mk-clause                  18901
+ :mk-ternary-clause          2645
+ :num-allocs                 10618964
+ :probing-assigned           125
+ :propagations               353499
+ :restarts                   993
+ :rlimit-count               1094261
+ :subsumed                   20
+ :subsumption-resolution     14
+ :ternary-propagations       103494
+ :time                       0.89
+ :total-time                 0.90
+ :units                      140)
+
+real	0m0.835s
+user	0m0.895s
+sys	0m0.005s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: pigeon-hole-17.smt2
+*****************************************************
+unknown
+(:binary-propagations        158492
+ :conflicts                  3806
+ :decisions                  9936
+ :del-clause                 4421
+ :dyn-subsumption-resolution 568
+ :elim-binary                11
+ :elim-bool-vars-res         996
+ :elim-bool-vars-scc         2
+ :elim-literals              25
+ :max-memory                 4.79
+ :memory                     1.33
+ :minimized-lits             19771
+ :mk-binary-clause           7020
+ :mk-bool-var                1653
+ :mk-clause                  6394
+ :mk-ternary-clause          3004
+ :num-allocs                 4409102
+ :probing-assigned           141
+ :propagations               77105
+ :restarts                   674
+ :rlimit-count               313630
+ :subsumed                   24
+ :subsumption-resolution     21
+ :ternary-propagations       34708
+ :time                       0.19
+ :total-time                 0.20
+ :units                      159)
+
+real	0m0.188s
+user	0m0.194s
+sys	0m0.005s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: pigeon-hole-18.smt2
+*****************************************************
+unknown
+(:binary-propagations        167097
+ :conflicts                  4944
+ :decisions                  6598
+ :del-clause                 5173
+ :dyn-subsumption-resolution 376
+ :elim-bool-vars-res         1129
+ :elim-literals              20
+ :max-memory                 5.42
+ :memory                     1.39
+ :minimized-lits             24811
+ :mk-binary-clause           8192
+ :mk-bool-var                1858
+ :mk-clause                  8071
+ :mk-ternary-clause          3360
+ :num-allocs                 5665066
+ :probing-assigned           162
+ :propagations               93356
+ :restarts                   301
+ :rlimit-count               330389
+ :subsumed                   38
+ :subsumption-resolution     20
+ :ternary-propagations       30071
+ :time                       0.19
+ :total-time                 0.19
+ :units                      179)
+
+real	0m0.184s
+user	0m0.195s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: pigeon-hole-19.smt2
+*****************************************************
+unknown
+(:binary-propagations        135138
+ :conflicts                  3144
+ :decisions                  4796
+ :del-clause                 5507
+ :dyn-subsumption-resolution 148
+ :elim-binary                8
+ :elim-bool-vars-res         1254
+ :elim-bool-vars-scc         32
+ :elim-clauses               4
+ :elim-literals              184
+ :max-memory                 4.84
+ :memory                     1.44
+ :minimized-lits             20333
+ :mk-binary-clause           9749
+ :mk-bool-var                2076
+ :mk-clause                  6343
+ :mk-ternary-clause          3665
+ :num-allocs                 6237015
+ :probing-assigned           153
+ :propagations               64981
+ :restarts                   564
+ :rlimit-count               278305
+ :subsumed                   74
+ :subsumption-resolution     101
+ :ternary-propagations       24326
+ :time                       0.16
+ :total-time                 0.17
+ :units                      199)
+
+real	0m0.159s
+user	0m0.169s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: pigeon-hole-20.smt2
+*****************************************************
+unknown
+(:binary-propagations        134113
+ :conflicts                  2856
+ :decisions                  4610
+ :del-clause                 6190
+ :dyn-subsumption-resolution 124
+ :elim-binary                5
+ :elim-bool-vars-res         1388
+ :elim-bool-vars-scc         5
+ :elim-literals              37
+ :max-memory                 4.79
+ :memory                     1.64
+ :minimized-lits             10415
+ :mk-binary-clause           10870
+ :mk-bool-var                2305
+ :mk-clause                  6585
+ :mk-ternary-clause          4147
+ :num-allocs                 6344667
+ :probing-assigned           200
+ :propagations               50238
+ :restarts                   268
+ :rlimit-count               264582
+ :subsumed                   32
+ :subsumption-resolution     27
+ :ternary-propagations       31428
+ :time                       0.15
+ :total-time                 0.15
+ :units                      222)
+
+real	0m0.153s
+user	0m0.139s
+sys	0m0.017s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: pigeon-hole-2.smt2
+*****************************************************
+unsat
+(:binary-propagations 10
+ :conflicts           1
+ :decisions           1
+ :max-memory          0.72
+ :memory              0.72
+ :mk-binary-clause    9
+ :mk-bool-var         7
+ :num-allocs          13002
+ :rlimit-count        464
+ :time                0.00
+ :total-time          0.00)
+
+real	0m0.010s
+user	0m0.006s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: pigeon-hole-3.smt2
+*****************************************************
+unsat
+(:binary-propagations  58
+ :conflicts            6
+ :decisions            6
+ :del-clause           1
+ :elim-literals        1
+ :max-memory           0.82
+ :memory               0.82
+ :mk-binary-clause     32
+ :mk-bool-var          17
+ :mk-ternary-clause    7
+ :num-allocs           17193
+ :rlimit-count         1025
+ :ternary-propagations 21
+ :time                 0.00
+ :total-time           0.00
+ :units                2)
+
+real	0m0.006s
+user	0m0.005s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: pigeon-hole-4.smt2
+*****************************************************
+unsat
+(:binary-propagations        274
+ :conflicts                  27
+ :decisions                  33
+ :del-clause                 17
+ :dyn-subsumption-resolution 1
+ :elim-clauses               13
+ :elim-literals              11
+ :max-memory                 0.91
+ :memory                     0.91
+ :minimized-lits             10
+ :mk-binary-clause           73
+ :mk-bool-var                31
+ :mk-clause                  8
+ :mk-ternary-clause          20
+ :num-allocs                 21949
+ :propagations               11
+ :rlimit-count               2158
+ :ternary-propagations       163
+ :time                       0.00
+ :total-time                 0.00
+ :units                      18)
+
+real	0m0.007s
+user	0m0.005s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: pigeon-hole-5.smt2
+*****************************************************
+unsat
+(:binary-propagations        1589
+ :conflicts                  138
+ :decisions                  187
+ :del-clause                 57
+ :dyn-subsumption-resolution 4
+ :elim-clauses               46
+ :elim-literals              42
+ :max-memory                 0.94
+ :memory                     0.94
+ :minimized-lits             59
+ :mk-binary-clause           141
+ :mk-bool-var                49
+ :mk-clause                  70
+ :mk-ternary-clause          68
+ :num-allocs                 22192
+ :propagations               152
+ :rlimit-count               5567
+ :ternary-propagations       961
+ :time                       0.00
+ :total-time                 0.00
+ :units                      17)
+
+real	0m0.006s
+user	0m0.000s
+sys	0m0.006s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: pigeon-hole-6.smt2
+*****************************************************
+unsat
+(:binary-propagations        5533
+ :conflicts                  705
+ :decisions                  1180
+ :del-clause                 504
+ :dyn-subsumption-resolution 89
+ :elim-bool-vars-res         33
+ :elim-clauses               169
+ :elim-literals              711
+ :max-memory                 0.96
+ :memory                     0.86
+ :minimized-lits             478
+ :mk-binary-clause           319
+ :mk-bool-var                71
+ :mk-clause                  698
+ :mk-ternary-clause          109
+ :num-allocs                 31851
+ :propagations               2781
+ :restarts                   99
+ :rlimit-count               15628
+ :ternary-propagations       2044
+ :time                       0.00
+ :total-time                 0.01
+ :units                      14)
+
+real	0m0.008s
+user	0m0.008s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: pigeon-hole-7.smt2
+*****************************************************
+unsat
+(:binary-propagations        31679
+ :conflicts                  3926
+ :decisions                  8591
+ :del-clause                 597
+ :dyn-subsumption-resolution 1785
+ :elim-bool-vars-res         48
+ :elim-clauses               323
+ :elim-literals              560
+ :max-memory                 1.90
+ :memory                     0.93
+ :minimized-lits             10128
+ :mk-binary-clause           546
+ :mk-bool-var                97
+ :mk-clause                  3983
+ :mk-ternary-clause          109
+ :num-allocs                 208491
+ :propagations               22885
+ :restarts                   459
+ :rlimit-count               65543
+ :ternary-propagations       1240
+ :time                       0.06
+ :total-time                 0.06
+ :units                      10)
+
+real	0m0.060s
+user	0m0.060s
+sys	0m0.005s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: pigeon-hole-8.smt2
+*****************************************************
+unknown
+(:binary-propagations        44570
+ :conflicts                  2750
+ :decisions                  4442
+ :del-clause                 890
+ :dyn-subsumption-resolution 887
+ :elim-binary                3
+ :elim-bool-vars-res         202
+ :elim-bool-vars-scc         12
+ :elim-clauses               3
+ :elim-literals              38
+ :max-memory                 1.76
+ :memory                     1.01
+ :minimized-lits             10431
+ :mk-binary-clause           1132
+ :mk-bool-var                343
+ :mk-clause                  3069
+ :mk-ternary-clause          593
+ :num-allocs                 427452
+ :probing-assigned           17
+ :propagations               23668
+ :restarts                   172
+ :rlimit-count               87833
+ :subsumed                   16
+ :subsumption-resolution     5
+ :ternary-propagations       10655
+ :time                       0.04
+ :total-time                 0.04
+ :units                      37)
+
+real	0m0.043s
+user	0m0.041s
+sys	0m0.004s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: pigeon-hole-9.smt2
+*****************************************************
+unknown
+(:binary-propagations        113474
+ :conflicts                  6478
+ :decisions                  12128
+ :del-clause                 1179
+ :dyn-subsumption-resolution 4871
+ :elim-binary                2
+ :elim-bool-vars-res         272
+ :elim-bool-vars-scc         8
+ :elim-literals              89
+ :max-memory                 3.10
+ :memory                     1.03
+ :minimized-lits             40314
+ :mk-binary-clause           1405
+ :mk-bool-var                440
+ :mk-clause                  7063
+ :mk-ternary-clause          794
+ :num-allocs                 1026122
+ :probing-assigned           23
+ :propagations               68025
+ :restarts                   355
+ :rlimit-count               215287
+ :subsumed                   20
+ :subsumption-resolution     19
+ :ternary-propagations       17946
+ :time                       0.16
+ :total-time                 0.16
+ :units                      33)
+
+real	0m0.158s
+user	0m0.161s
+sys	0m0.005s
+*****************************************************
+/home/mabutalibov1271/z3.sh: line 8: /home/mabutalibov1271: Is a directory
+/home/mabutalibov1271/z3.sh: line 9: /home/mabutalibov1271: Is a directory
+/home/mabutalibov1271/z3.sh: line 10: /home/mabutalibov1271: Is a directory
+/home/mabutalibov1271/z3.sh: line 11: /home/mabutalibov1271: Is a directory

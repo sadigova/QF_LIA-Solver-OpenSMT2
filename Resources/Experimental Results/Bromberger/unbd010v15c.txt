@@ -1,0 +1,3161 @@
+*****************************************************
+Toolname: OpenSmt Filename:  unbd-sage0.smt2
+*****************************************************
+; this binary is compiled in debug mode (slow)
+; git hash: 6c7cdb4a5347cca012ba39dc381264c308d39f7d
+; symbol enode size: 4
+; list enode size: 13
+; term enode size: 18
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 1
+; Unsatisfiable calls......: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 1
+; Bland operations.........: 0
+; LA time.............: 0 s
+;         0 |        0        0 |    0.017 s | 78.094 MB
+sat
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 18
+; Unsatisfiable calls......: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 17
+; Bland operations.........: 0
+; LA time.............: 0 s
+; -------------------------
+; STATISTICS FOR LOGICS
+; -------------------------
+; Substitutions............: 0
+; -------------------------
+; STATISTICS FOR SAT SOLVER
+; -------------------------
+; Restarts.................: 1
+; Conflicts................: 0
+; Decisions................: 2
+; Propagations.............: 17
+; Conflict literals........: 0
+; T-Lemmata learnt.........: 0
+; T-Lemmata perm learnt....: 0
+; Conflicts learnt.........: 0
+; T-conflicts learnt.......: 0
+; Average learnts size.....: -nan
+; Top level literals.......: 17
+; Search time..............: 0 s
+; Preprocessing time.......: 0.016243 s
+; TSolvers time............: 0.006162 s
+; Init clauses.............: 0
+; Variables................: 17
+
+real	0m0.031s
+user	0m0.024s
+sys	0m0.004s
+*****************************************************
+Toolaname: Z3 Filename: unbd-sage0.smt2
+*****************************************************
+sat
+
+real	0m0.032s
+user	0m0.032s
+sys	0m0.000s
+*****************************************************
+Toolname: Yices SMT2 Filename: unbd-sage0.smt2
+*****************************************************
+sat
+
+real	0m0.003s
+user	0m0.003s
+sys	0m0.000s
+*****************************************************
+Toolname: Mathsat Filename: unbd-sage0.smt2
+*****************************************************
+sat
+
+real	0m0.033s
+user	0m0.020s
+sys	0m0.012s
+*****************************************************
+Toolname: CVC4 Filename: unbd-sage0.smt2
+*****************************************************
+CVC4 interrupted by user.
+/home/mabutalibov1271/scripts/run.sh: line 1: 16718 Aborted                 (core dumped) ~/Downloads/cvc4-1.5-x86_64-linux-opt $i
+
+real	8m49.559s
+user	8m48.440s
+sys	0m0.148s
+*****************************************************
+*****************************************************
+Toolname: OpenSmt Filename:  unbd-sage10.smt2
+*****************************************************
+; this binary is compiled in debug mode (slow)
+; git hash: 6c7cdb4a5347cca012ba39dc381264c308d39f7d
+; symbol enode size: 4
+; list enode size: 13
+; term enode size: 18
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 1
+; Unsatisfiable calls......: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 1
+; Bland operations.........: 0
+; LA time.............: 0 s
+;         0 |        0        0 |    0.018 s | 78.094 MB
+sat
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 18
+; Unsatisfiable calls......: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 16
+; Bland operations.........: 0
+; LA time.............: 0 s
+; -------------------------
+; STATISTICS FOR LOGICS
+; -------------------------
+; Substitutions............: 0
+; -------------------------
+; STATISTICS FOR SAT SOLVER
+; -------------------------
+; Restarts.................: 1
+; Conflicts................: 0
+; Decisions................: 2
+; Propagations.............: 17
+; Conflict literals........: 0
+; T-Lemmata learnt.........: 0
+; T-Lemmata perm learnt....: 0
+; Conflicts learnt.........: 0
+; T-conflicts learnt.......: 0
+; Average learnts size.....: -nan
+; Top level literals.......: 17
+; Search time..............: 0 s
+; Preprocessing time.......: 0.017237 s
+; TSolvers time............: 0.0055 s
+; Init clauses.............: 0
+; Variables................: 17
+
+real	0m0.026s
+user	0m0.024s
+sys	0m0.000s
+*****************************************************
+Toolaname: Z3 Filename: unbd-sage10.smt2
+*****************************************************
+sat
+
+real	0m0.008s
+user	0m0.004s
+sys	0m0.004s
+*****************************************************
+Toolname: Yices SMT2 Filename: unbd-sage10.smt2
+*****************************************************
+sat
+
+real	0m0.004s
+user	0m0.004s
+sys	0m0.000s
+*****************************************************
+Toolname: Mathsat Filename: unbd-sage10.smt2
+*****************************************************
+sat
+
+real	5m59.572s
+user	5m31.071s
+sys	0m27.875s
+*****************************************************
+Toolname: CVC4 Filename: unbd-sage10.smt2
+*****************************************************
+sat
+
+real	0m0.047s
+user	0m0.039s
+sys	0m0.008s
+*****************************************************
+*****************************************************
+Toolname: OpenSmt Filename:  unbd-sage11.smt2
+*****************************************************
+; this binary is compiled in debug mode (slow)
+; git hash: 6c7cdb4a5347cca012ba39dc381264c308d39f7d
+; symbol enode size: 4
+; list enode size: 13
+; term enode size: 18
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 1
+; Unsatisfiable calls......: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 1
+; Bland operations.........: 0
+; LA time.............: 0 s
+;         0 |        0        0 |    0.016 s | 78.094 MB
+sat
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 18
+; Unsatisfiable calls......: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 14
+; Bland operations.........: 0
+; LA time.............: 0 s
+; -------------------------
+; STATISTICS FOR LOGICS
+; -------------------------
+; Substitutions............: 0
+; -------------------------
+; STATISTICS FOR SAT SOLVER
+; -------------------------
+; Restarts.................: 1
+; Conflicts................: 0
+; Decisions................: 2
+; Propagations.............: 17
+; Conflict literals........: 0
+; T-Lemmata learnt.........: 0
+; T-Lemmata perm learnt....: 0
+; Conflicts learnt.........: 0
+; T-conflicts learnt.......: 0
+; Average learnts size.....: -nan
+; Top level literals.......: 17
+; Search time..............: 0 s
+; Preprocessing time.......: 0.015935 s
+; TSolvers time............: 0.005116 s
+; Init clauses.............: 0
+; Variables................: 17
+
+real	0m0.024s
+user	0m0.022s
+sys	0m0.001s
+*****************************************************
+Toolaname: Z3 Filename: unbd-sage11.smt2
+*****************************************************
+sat
+
+real	0m0.365s
+user	0m0.361s
+sys	0m0.004s
+*****************************************************
+Toolname: Yices SMT2 Filename: unbd-sage11.smt2
+*****************************************************
+sat
+
+real	0m0.008s
+user	0m0.008s
+sys	0m0.000s
+*****************************************************
+Toolname: Mathsat Filename: unbd-sage11.smt2
+*****************************************************
+sat
+
+real	0m1.867s
+user	0m1.829s
+sys	0m0.036s
+*****************************************************
+Toolname: CVC4 Filename: unbd-sage11.smt2
+*****************************************************
+sat
+
+real	1m49.035s
+user	1m48.346s
+sys	0m0.508s
+*****************************************************
+*****************************************************
+Toolname: OpenSmt Filename:  unbd-sage12.smt2
+*****************************************************
+; this binary is compiled in debug mode (slow)
+; git hash: 6c7cdb4a5347cca012ba39dc381264c308d39f7d
+; symbol enode size: 4
+; list enode size: 13
+; term enode size: 18
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 1
+; Unsatisfiable calls......: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 1
+; Bland operations.........: 0
+; LA time.............: 0 s
+;         0 |        0        0 |    0.021 s | 78.094 MB
+sat
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 18
+; Unsatisfiable calls......: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 8
+; Bland operations.........: 0
+; LA time.............: 0 s
+; -------------------------
+; STATISTICS FOR LOGICS
+; -------------------------
+; Substitutions............: 0
+; -------------------------
+; STATISTICS FOR SAT SOLVER
+; -------------------------
+; Restarts.................: 1
+; Conflicts................: 0
+; Decisions................: 2
+; Propagations.............: 17
+; Conflict literals........: 0
+; T-Lemmata learnt.........: 0
+; T-Lemmata perm learnt....: 0
+; Conflicts learnt.........: 0
+; T-conflicts learnt.......: 0
+; Average learnts size.....: -nan
+; Top level literals.......: 17
+; Search time..............: 0 s
+; Preprocessing time.......: 0.020681 s
+; TSolvers time............: 0.004474 s
+; Init clauses.............: 0
+; Variables................: 17
+
+real	0m0.029s
+user	0m0.027s
+sys	0m0.000s
+*****************************************************
+Toolaname: Z3 Filename: unbd-sage12.smt2
+*****************************************************
+sat
+
+real	0m7.054s
+user	0m7.021s
+sys	0m0.016s
+*****************************************************
+Toolname: Yices SMT2 Filename: unbd-sage12.smt2
+*****************************************************
+sat
+
+real	0m0.007s
+user	0m0.007s
+sys	0m0.000s
+*****************************************************
+Toolname: Mathsat Filename: unbd-sage12.smt2
+*****************************************************
+sat
+
+real	0m0.148s
+user	0m0.148s
+sys	0m0.000s
+*****************************************************
+Toolname: CVC4 Filename: unbd-sage12.smt2
+*****************************************************
+CVC4 interrupted by user.
+/home/mabutalibov1271/scripts/run.sh: line 1: 16818 Aborted                 (core dumped) ~/Downloads/cvc4-1.5-x86_64-linux-opt $i
+
+real	12m20.862s
+user	12m18.998s
+sys	0m0.328s
+*****************************************************
+*****************************************************
+Toolname: OpenSmt Filename:  unbd-sage13.smt2
+*****************************************************
+; this binary is compiled in debug mode (slow)
+; git hash: 6c7cdb4a5347cca012ba39dc381264c308d39f7d
+; symbol enode size: 4
+; list enode size: 13
+; term enode size: 18
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 1
+; Unsatisfiable calls......: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 1
+; Bland operations.........: 0
+; LA time.............: 0 s
+;         0 |        0        0 |    0.018 s | 78.094 MB
+sat
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 18
+; Unsatisfiable calls......: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 10
+; Bland operations.........: 0
+; LA time.............: 0 s
+; -------------------------
+; STATISTICS FOR LOGICS
+; -------------------------
+; Substitutions............: 0
+; -------------------------
+; STATISTICS FOR SAT SOLVER
+; -------------------------
+; Restarts.................: 1
+; Conflicts................: 0
+; Decisions................: 2
+; Propagations.............: 17
+; Conflict literals........: 0
+; T-Lemmata learnt.........: 0
+; T-Lemmata perm learnt....: 0
+; Conflicts learnt.........: 0
+; T-conflicts learnt.......: 0
+; Average learnts size.....: -nan
+; Top level literals.......: 17
+; Search time..............: 0 s
+; Preprocessing time.......: 0.017396 s
+; TSolvers time............: 0.004624 s
+; Init clauses.............: 0
+; Variables................: 17
+
+real	0m0.025s
+user	0m0.024s
+sys	0m0.000s
+*****************************************************
+Toolaname: Z3 Filename: unbd-sage13.smt2
+*****************************************************
+sat
+
+real	0m22.059s
+user	0m21.923s
+sys	0m0.024s
+*****************************************************
+Toolname: Yices SMT2 Filename: unbd-sage13.smt2
+*****************************************************
+sat
+
+real	0m0.005s
+user	0m0.005s
+sys	0m0.000s
+*****************************************************
+Toolname: Mathsat Filename: unbd-sage13.smt2
+*****************************************************
+sat
+
+real	0m1.699s
+user	0m1.679s
+sys	0m0.016s
+*****************************************************
+Toolname: CVC4 Filename: unbd-sage13.smt2
+*****************************************************
+sat
+
+real	1m5.295s
+user	1m4.914s
+sys	0m0.256s
+*****************************************************
+*****************************************************
+Toolname: OpenSmt Filename:  unbd-sage14.smt2
+*****************************************************
+; this binary is compiled in debug mode (slow)
+; git hash: 6c7cdb4a5347cca012ba39dc381264c308d39f7d
+; symbol enode size: 4
+; list enode size: 13
+; term enode size: 18
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 1
+; Unsatisfiable calls......: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 1
+; Bland operations.........: 0
+; LA time.............: 0 s
+;         0 |        0        0 |    0.021 s | 78.090 MB
+sat
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 18
+; Unsatisfiable calls......: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 11
+; Bland operations.........: 0
+; LA time.............: 0 s
+; -------------------------
+; STATISTICS FOR LOGICS
+; -------------------------
+; Substitutions............: 0
+; -------------------------
+; STATISTICS FOR SAT SOLVER
+; -------------------------
+; Restarts.................: 1
+; Conflicts................: 0
+; Decisions................: 2
+; Propagations.............: 17
+; Conflict literals........: 0
+; T-Lemmata learnt.........: 0
+; T-Lemmata perm learnt....: 0
+; Conflicts learnt.........: 0
+; T-conflicts learnt.......: 0
+; Average learnts size.....: -nan
+; Top level literals.......: 17
+; Search time..............: 0 s
+; Preprocessing time.......: 0.02055 s
+; TSolvers time............: 0.00453 s
+; Init clauses.............: 0
+; Variables................: 17
+
+real	0m0.034s
+user	0m0.026s
+sys	0m0.000s
+*****************************************************
+Toolaname: Z3 Filename: unbd-sage14.smt2
+*****************************************************
+sat
+
+real	0m0.017s
+user	0m0.010s
+sys	0m0.007s
+*****************************************************
+Toolname: Yices SMT2 Filename: unbd-sage14.smt2
+*****************************************************
+sat
+
+real	0m0.004s
+user	0m0.004s
+sys	0m0.000s
+*****************************************************
+Toolname: Mathsat Filename: unbd-sage14.smt2
+*****************************************************
+sat
+
+real	0m0.476s
+user	0m0.459s
+sys	0m0.010s
+*****************************************************
+Toolname: CVC4 Filename: unbd-sage14.smt2
+*****************************************************
+sat
+
+real	2m56.082s
+user	2m55.268s
+sys	0m0.584s
+*****************************************************
+*****************************************************
+Toolname: OpenSmt Filename:  unbd-sage15.smt2
+*****************************************************
+; this binary is compiled in debug mode (slow)
+; git hash: 6c7cdb4a5347cca012ba39dc381264c308d39f7d
+; symbol enode size: 4
+; list enode size: 13
+; term enode size: 18
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 1
+; Unsatisfiable calls......: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 1
+; Bland operations.........: 0
+; LA time.............: 0 s
+;         0 |        0        0 |    0.017 s | 78.098 MB
+sat
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 18
+; Unsatisfiable calls......: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 13
+; Bland operations.........: 0
+; LA time.............: 0 s
+; -------------------------
+; STATISTICS FOR LOGICS
+; -------------------------
+; Substitutions............: 0
+; -------------------------
+; STATISTICS FOR SAT SOLVER
+; -------------------------
+; Restarts.................: 1
+; Conflicts................: 0
+; Decisions................: 2
+; Propagations.............: 17
+; Conflict literals........: 0
+; T-Lemmata learnt.........: 0
+; T-Lemmata perm learnt....: 0
+; Conflicts learnt.........: 0
+; T-conflicts learnt.......: 0
+; Average learnts size.....: -nan
+; Top level literals.......: 17
+; Search time..............: 0 s
+; Preprocessing time.......: 0.01628 s
+; TSolvers time............: 0.004801 s
+; Init clauses.............: 0
+; Variables................: 17
+
+real	0m0.025s
+user	0m0.022s
+sys	0m0.000s
+*****************************************************
+Toolaname: Z3 Filename: unbd-sage15.smt2
+*****************************************************
+sat
+
+real	0m0.086s
+user	0m0.085s
+sys	0m0.000s
+*****************************************************
+Toolname: Yices SMT2 Filename: unbd-sage15.smt2
+*****************************************************
+sat
+
+real	0m0.003s
+user	0m0.003s
+sys	0m0.000s
+*****************************************************
+Toolname: Mathsat Filename: unbd-sage15.smt2
+*****************************************************
+sat
+
+real	0m1.128s
+user	0m1.113s
+sys	0m0.014s
+*****************************************************
+Toolname: CVC4 Filename: unbd-sage15.smt2
+*****************************************************
+CVC4 interrupted by user.
+/home/mabutalibov1271/scripts/run.sh: line 1: 16943 Aborted                 (core dumped) ~/Downloads/cvc4-1.5-x86_64-linux-opt $i
+
+real	15m13.183s
+user	15m8.417s
+sys	0m3.366s
+*****************************************************
+*****************************************************
+Toolname: OpenSmt Filename:  unbd-sage16.smt2
+*****************************************************
+; this binary is compiled in debug mode (slow)
+; git hash: 6c7cdb4a5347cca012ba39dc381264c308d39f7d
+; symbol enode size: 4
+; list enode size: 13
+; term enode size: 18
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 1
+; Unsatisfiable calls......: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 1
+; Bland operations.........: 0
+; LA time.............: 0 s
+;         0 |        0        0 |    0.020 s | 78.094 MB
+sat
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 18
+; Unsatisfiable calls......: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 18
+; Bland operations.........: 4
+; LA time.............: 0 s
+; -------------------------
+; STATISTICS FOR LOGICS
+; -------------------------
+; Substitutions............: 0
+; -------------------------
+; STATISTICS FOR SAT SOLVER
+; -------------------------
+; Restarts.................: 1
+; Conflicts................: 0
+; Decisions................: 2
+; Propagations.............: 17
+; Conflict literals........: 0
+; T-Lemmata learnt.........: 0
+; T-Lemmata perm learnt....: 0
+; Conflicts learnt.........: 0
+; T-conflicts learnt.......: 0
+; Average learnts size.....: -nan
+; Top level literals.......: 17
+; Search time..............: 0 s
+; Preprocessing time.......: 0.019365 s
+; TSolvers time............: 0.006543 s
+; Init clauses.............: 0
+; Variables................: 17
+
+real	0m0.029s
+user	0m0.027s
+sys	0m0.000s
+*****************************************************
+Toolaname: Z3 Filename: unbd-sage16.smt2
+*****************************************************
+sat
+
+real	0m22.059s
+user	0m21.702s
+sys	0m0.068s
+*****************************************************
+Toolname: Yices SMT2 Filename: unbd-sage16.smt2
+*****************************************************
+sat
+
+real	0m0.022s
+user	0m0.021s
+sys	0m0.000s
+*****************************************************
+Toolname: Mathsat Filename: unbd-sage16.smt2
+*****************************************************
+sat
+
+real	0m0.122s
+user	0m0.108s
+sys	0m0.014s
+*****************************************************
+Toolname: CVC4 Filename: unbd-sage16.smt2
+*****************************************************
+CVC4 interrupted by user.
+/home/mabutalibov1271/scripts/run.sh: line 1: 17036 Aborted                 (core dumped) ~/Downloads/cvc4-1.5-x86_64-linux-opt $i
+
+real	3m33.789s
+user	3m32.758s
+sys	0m0.353s
+*****************************************************
+*****************************************************
+Toolname: OpenSmt Filename:  unbd-sage17.smt2
+*****************************************************
+; this binary is compiled in debug mode (slow)
+; git hash: 6c7cdb4a5347cca012ba39dc381264c308d39f7d
+; symbol enode size: 4
+; list enode size: 13
+; term enode size: 18
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 1
+; Unsatisfiable calls......: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 1
+; Bland operations.........: 0
+; LA time.............: 0 s
+;         0 |        0        0 |    0.017 s | 78.094 MB
+sat
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 18
+; Unsatisfiable calls......: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 11
+; Bland operations.........: 0
+; LA time.............: 0 s
+; -------------------------
+; STATISTICS FOR LOGICS
+; -------------------------
+; Substitutions............: 0
+; -------------------------
+; STATISTICS FOR SAT SOLVER
+; -------------------------
+; Restarts.................: 1
+; Conflicts................: 0
+; Decisions................: 2
+; Propagations.............: 17
+; Conflict literals........: 0
+; T-Lemmata learnt.........: 0
+; T-Lemmata perm learnt....: 0
+; Conflicts learnt.........: 0
+; T-conflicts learnt.......: 0
+; Average learnts size.....: -nan
+; Top level literals.......: 17
+; Search time..............: 0 s
+; Preprocessing time.......: 0.016449 s
+; TSolvers time............: 0.004663 s
+; Init clauses.............: 0
+; Variables................: 17
+
+real	0m0.024s
+user	0m0.022s
+sys	0m0.000s
+*****************************************************
+Toolaname: Z3 Filename: unbd-sage17.smt2
+*****************************************************
+sat
+
+real	0m0.025s
+user	0m0.020s
+sys	0m0.004s
+*****************************************************
+Toolname: Yices SMT2 Filename: unbd-sage17.smt2
+*****************************************************
+sat
+
+real	0m0.002s
+user	0m0.002s
+sys	0m0.000s
+*****************************************************
+Toolname: Mathsat Filename: unbd-sage17.smt2
+*****************************************************
+sat
+
+real	0m15.294s
+user	0m14.980s
+sys	0m0.265s
+*****************************************************
+Toolname: CVC4 Filename: unbd-sage17.smt2
+*****************************************************
+sat
+
+real	0m0.017s
+user	0m0.012s
+sys	0m0.004s
+*****************************************************
+*****************************************************
+Toolname: OpenSmt Filename:  unbd-sage18.smt2
+*****************************************************
+; this binary is compiled in debug mode (slow)
+; git hash: 6c7cdb4a5347cca012ba39dc381264c308d39f7d
+; symbol enode size: 4
+; list enode size: 13
+; term enode size: 18
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 1
+; Unsatisfiable calls......: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 1
+; Bland operations.........: 0
+; LA time.............: 0 s
+;         0 |        0        0 |    0.016 s | 78.094 MB
+sat
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 18
+; Unsatisfiable calls......: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 18
+; Bland operations.........: 5
+; LA time.............: 0 s
+; -------------------------
+; STATISTICS FOR LOGICS
+; -------------------------
+; Substitutions............: 0
+; -------------------------
+; STATISTICS FOR SAT SOLVER
+; -------------------------
+; Restarts.................: 1
+; Conflicts................: 0
+; Decisions................: 2
+; Propagations.............: 17
+; Conflict literals........: 0
+; T-Lemmata learnt.........: 0
+; T-Lemmata perm learnt....: 0
+; Conflicts learnt.........: 0
+; T-conflicts learnt.......: 0
+; Average learnts size.....: -nan
+; Top level literals.......: 17
+; Search time..............: 0 s
+; Preprocessing time.......: 0.015662 s
+; TSolvers time............: 0.005824 s
+; Init clauses.............: 0
+; Variables................: 17
+
+real	0m0.025s
+user	0m0.023s
+sys	0m0.000s
+*****************************************************
+Toolaname: Z3 Filename: unbd-sage18.smt2
+*****************************************************
+sat
+
+real	0m0.015s
+user	0m0.010s
+sys	0m0.005s
+*****************************************************
+Toolname: Yices SMT2 Filename: unbd-sage18.smt2
+*****************************************************
+sat
+
+real	0m0.003s
+user	0m0.003s
+sys	0m0.000s
+*****************************************************
+Toolname: Mathsat Filename: unbd-sage18.smt2
+*****************************************************
+sat
+
+real	0m0.959s
+user	0m0.945s
+sys	0m0.012s
+*****************************************************
+Toolname: CVC4 Filename: unbd-sage18.smt2
+*****************************************************
+CVC4 interrupted by user.
+/home/mabutalibov1271/scripts/run.sh: line 1: 17084 Aborted                 (core dumped) ~/Downloads/cvc4-1.5-x86_64-linux-opt $i
+
+real	4m12.813s
+user	4m11.461s
+sys	0m0.869s
+*****************************************************
+*****************************************************
+Toolname: OpenSmt Filename:  unbd-sage19.smt2
+*****************************************************
+; this binary is compiled in debug mode (slow)
+; git hash: 6c7cdb4a5347cca012ba39dc381264c308d39f7d
+; symbol enode size: 4
+; list enode size: 13
+; term enode size: 18
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 1
+; Unsatisfiable calls......: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 1
+; Bland operations.........: 0
+; LA time.............: 0 s
+;         0 |        0        0 |    0.018 s | 78.094 MB
+sat
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 18
+; Unsatisfiable calls......: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 13
+; Bland operations.........: 0
+; LA time.............: 0 s
+; -------------------------
+; STATISTICS FOR LOGICS
+; -------------------------
+; Substitutions............: 0
+; -------------------------
+; STATISTICS FOR SAT SOLVER
+; -------------------------
+; Restarts.................: 1
+; Conflicts................: 0
+; Decisions................: 2
+; Propagations.............: 17
+; Conflict literals........: 0
+; T-Lemmata learnt.........: 0
+; T-Lemmata perm learnt....: 0
+; Conflicts learnt.........: 0
+; T-conflicts learnt.......: 0
+; Average learnts size.....: -nan
+; Top level literals.......: 17
+; Search time..............: 0 s
+; Preprocessing time.......: 0.017734 s
+; TSolvers time............: 0.005412 s
+; Init clauses.............: 0
+; Variables................: 17
+
+real	0m0.027s
+user	0m0.025s
+sys	0m0.000s
+*****************************************************
+Toolaname: Z3 Filename: unbd-sage19.smt2
+*****************************************************
+sat
+
+real	0m22.062s
+user	0m21.975s
+sys	0m0.036s
+*****************************************************
+Toolname: Yices SMT2 Filename: unbd-sage19.smt2
+*****************************************************
+sat
+
+real	0m0.013s
+user	0m0.012s
+sys	0m0.001s
+*****************************************************
+Toolname: Mathsat Filename: unbd-sage19.smt2
+*****************************************************
+sat
+
+real	0m0.050s
+user	0m0.050s
+sys	0m0.000s
+*****************************************************
+Toolname: CVC4 Filename: unbd-sage19.smt2
+*****************************************************
+sat
+
+real	0m0.103s
+user	0m0.094s
+sys	0m0.008s
+*****************************************************
+*****************************************************
+Toolname: OpenSmt Filename:  unbd-sage1.smt2
+*****************************************************
+; this binary is compiled in debug mode (slow)
+; git hash: 6c7cdb4a5347cca012ba39dc381264c308d39f7d
+; symbol enode size: 4
+; list enode size: 13
+; term enode size: 18
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 1
+; Unsatisfiable calls......: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 1
+; Bland operations.........: 0
+; LA time.............: 0 s
+;         0 |        0        0 |    0.014 s | 78.094 MB
+sat
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 18
+; Unsatisfiable calls......: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 18
+; Bland operations.........: 0
+; LA time.............: 0 s
+; -------------------------
+; STATISTICS FOR LOGICS
+; -------------------------
+; Substitutions............: 0
+; -------------------------
+; STATISTICS FOR SAT SOLVER
+; -------------------------
+; Restarts.................: 1
+; Conflicts................: 0
+; Decisions................: 2
+; Propagations.............: 17
+; Conflict literals........: 0
+; T-Lemmata learnt.........: 0
+; T-Lemmata perm learnt....: 0
+; Conflicts learnt.........: 0
+; T-conflicts learnt.......: 0
+; Average learnts size.....: -nan
+; Top level literals.......: 17
+; Search time..............: 0 s
+; Preprocessing time.......: 0.013789 s
+; TSolvers time............: 0.005291 s
+; Init clauses.............: 0
+; Variables................: 17
+
+real	0m0.026s
+user	0m0.020s
+sys	0m0.004s
+*****************************************************
+Toolaname: Z3 Filename: unbd-sage1.smt2
+*****************************************************
+sat
+
+real	0m22.405s
+user	0m22.349s
+sys	0m0.032s
+*****************************************************
+Toolname: Yices SMT2 Filename: unbd-sage1.smt2
+*****************************************************
+sat
+
+real	0m0.018s
+user	0m0.018s
+sys	0m0.000s
+*****************************************************
+Toolname: Mathsat Filename: unbd-sage1.smt2
+*****************************************************
+sat
+
+real	0m1.209s
+user	0m1.193s
+sys	0m0.012s
+*****************************************************
+Toolname: CVC4 Filename: unbd-sage1.smt2
+*****************************************************
+sat
+
+real	0m0.204s
+user	0m0.187s
+sys	0m0.016s
+*****************************************************
+*****************************************************
+Toolname: OpenSmt Filename:  unbd-sage20.smt2
+*****************************************************
+; this binary is compiled in debug mode (slow)
+; git hash: 6c7cdb4a5347cca012ba39dc381264c308d39f7d
+; symbol enode size: 4
+; list enode size: 13
+; term enode size: 18
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 1
+; Unsatisfiable calls......: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 1
+; Bland operations.........: 0
+; LA time.............: 0 s
+;         0 |        0        0 |    0.017 s | 78.090 MB
+sat
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 18
+; Unsatisfiable calls......: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 10
+; Bland operations.........: 0
+; LA time.............: 0 s
+; -------------------------
+; STATISTICS FOR LOGICS
+; -------------------------
+; Substitutions............: 0
+; -------------------------
+; STATISTICS FOR SAT SOLVER
+; -------------------------
+; Restarts.................: 1
+; Conflicts................: 0
+; Decisions................: 2
+; Propagations.............: 17
+; Conflict literals........: 0
+; T-Lemmata learnt.........: 0
+; T-Lemmata perm learnt....: 0
+; Conflicts learnt.........: 0
+; T-conflicts learnt.......: 0
+; Average learnts size.....: -nan
+; Top level literals.......: 17
+; Search time..............: 0 s
+; Preprocessing time.......: 0.016626 s
+; TSolvers time............: 0.00415 s
+; Init clauses.............: 0
+; Variables................: 17
+
+real	0m0.024s
+user	0m0.022s
+sys	0m0.000s
+*****************************************************
+Toolaname: Z3 Filename: unbd-sage20.smt2
+*****************************************************
+sat
+
+real	0m0.007s
+user	0m0.003s
+sys	0m0.003s
+*****************************************************
+Toolname: Yices SMT2 Filename: unbd-sage20.smt2
+*****************************************************
+sat
+
+real	0m0.011s
+user	0m0.011s
+sys	0m0.000s
+*****************************************************
+Toolname: Mathsat Filename: unbd-sage20.smt2
+*****************************************************
+sat
+
+real	0m3.709s
+user	0m3.674s
+sys	0m0.032s
+*****************************************************
+Toolname: CVC4 Filename: unbd-sage20.smt2
+*****************************************************
+CVC4 interrupted by user.
+/home/mabutalibov1271/scripts/run.sh: line 1: 17152 Aborted                 (core dumped) ~/Downloads/cvc4-1.5-x86_64-linux-opt $i
+
+real	7m32.444s
+user	7m31.663s
+sys	0m0.216s
+*****************************************************
+*****************************************************
+Toolname: OpenSmt Filename:  unbd-sage21.smt2
+*****************************************************
+; this binary is compiled in debug mode (slow)
+; git hash: 6c7cdb4a5347cca012ba39dc381264c308d39f7d
+; symbol enode size: 4
+; list enode size: 13
+; term enode size: 18
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 1
+; Unsatisfiable calls......: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 1
+; Bland operations.........: 0
+; LA time.............: 0 s
+;         0 |        0        0 |    0.018 s | 78.090 MB
+sat
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 18
+; Unsatisfiable calls......: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 13
+; Bland operations.........: 0
+; LA time.............: 0 s
+; -------------------------
+; STATISTICS FOR LOGICS
+; -------------------------
+; Substitutions............: 0
+; -------------------------
+; STATISTICS FOR SAT SOLVER
+; -------------------------
+; Restarts.................: 1
+; Conflicts................: 0
+; Decisions................: 2
+; Propagations.............: 17
+; Conflict literals........: 0
+; T-Lemmata learnt.........: 0
+; T-Lemmata perm learnt....: 0
+; Conflicts learnt.........: 0
+; T-conflicts learnt.......: 0
+; Average learnts size.....: -nan
+; Top level literals.......: 17
+; Search time..............: 0 s
+; Preprocessing time.......: 0.017798 s
+; TSolvers time............: 0.00458 s
+; Init clauses.............: 0
+; Variables................: 17
+
+real	0m0.028s
+user	0m0.023s
+sys	0m0.000s
+*****************************************************
+Toolaname: Z3 Filename: unbd-sage21.smt2
+*****************************************************
+sat
+
+real	0m0.054s
+user	0m0.053s
+sys	0m0.000s
+*****************************************************
+Toolname: Yices SMT2 Filename: unbd-sage21.smt2
+*****************************************************
+sat
+
+real	0m0.003s
+user	0m0.003s
+sys	0m0.000s
+*****************************************************
+Toolname: Mathsat Filename: unbd-sage21.smt2
+*****************************************************
+sat
+
+real	0m0.514s
+user	0m0.488s
+sys	0m0.013s
+*****************************************************
+Toolname: CVC4 Filename: unbd-sage21.smt2
+*****************************************************
+CVC4 interrupted by user.
+/home/mabutalibov1271/scripts/run.sh: line 1: 17182 Aborted                 (core dumped) ~/Downloads/cvc4-1.5-x86_64-linux-opt $i
+
+real	9m0.807s
+user	8m59.508s
+sys	0m0.361s
+*****************************************************
+*****************************************************
+Toolname: OpenSmt Filename:  unbd-sage22.smt2
+*****************************************************
+; this binary is compiled in debug mode (slow)
+; git hash: 6c7cdb4a5347cca012ba39dc381264c308d39f7d
+; symbol enode size: 4
+; list enode size: 13
+; term enode size: 18
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 1
+; Unsatisfiable calls......: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 1
+; Bland operations.........: 0
+; LA time.............: 0 s
+;         0 |        0        0 |    0.017 s | 78.090 MB
+sat
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 18
+; Unsatisfiable calls......: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 15
+; Bland operations.........: 0
+; LA time.............: 0 s
+; -------------------------
+; STATISTICS FOR LOGICS
+; -------------------------
+; Substitutions............: 0
+; -------------------------
+; STATISTICS FOR SAT SOLVER
+; -------------------------
+; Restarts.................: 1
+; Conflicts................: 0
+; Decisions................: 2
+; Propagations.............: 17
+; Conflict literals........: 0
+; T-Lemmata learnt.........: 0
+; T-Lemmata perm learnt....: 0
+; Conflicts learnt.........: 0
+; T-conflicts learnt.......: 0
+; Average learnts size.....: -nan
+; Top level literals.......: 17
+; Search time..............: 0 s
+; Preprocessing time.......: 0.016624 s
+; TSolvers time............: 0.004972 s
+; Init clauses.............: 0
+; Variables................: 17
+
+real	0m0.025s
+user	0m0.023s
+sys	0m0.001s
+*****************************************************
+Toolaname: Z3 Filename: unbd-sage22.smt2
+*****************************************************
+sat
+
+real	0m0.011s
+user	0m0.007s
+sys	0m0.004s
+*****************************************************
+Toolname: Yices SMT2 Filename: unbd-sage22.smt2
+*****************************************************
+sat
+
+real	0m0.002s
+user	0m0.002s
+sys	0m0.000s
+*****************************************************
+Toolname: Mathsat Filename: unbd-sage22.smt2
+*****************************************************
+sat
+
+real	0m0.094s
+user	0m0.087s
+sys	0m0.005s
+*****************************************************
+Toolname: CVC4 Filename: unbd-sage22.smt2
+*****************************************************
+CVC4 interrupted by user.
+/home/mabutalibov1271/scripts/run.sh: line 1: 17252 Aborted                 (core dumped) ~/Downloads/cvc4-1.5-x86_64-linux-opt $i
+
+real	9m58.944s
+user	9m57.419s
+sys	0m0.286s
+*****************************************************
+*****************************************************
+Toolname: OpenSmt Filename:  unbd-sage23.smt2
+*****************************************************
+; this binary is compiled in debug mode (slow)
+; git hash: 6c7cdb4a5347cca012ba39dc381264c308d39f7d
+; symbol enode size: 4
+; list enode size: 13
+; term enode size: 18
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 1
+; Unsatisfiable calls......: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 1
+; Bland operations.........: 0
+; LA time.............: 0 s
+;         0 |        0        0 |    0.018 s | 78.098 MB
+sat
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 18
+; Unsatisfiable calls......: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 10
+; Bland operations.........: 0
+; LA time.............: 0 s
+; -------------------------
+; STATISTICS FOR LOGICS
+; -------------------------
+; Substitutions............: 0
+; -------------------------
+; STATISTICS FOR SAT SOLVER
+; -------------------------
+; Restarts.................: 1
+; Conflicts................: 0
+; Decisions................: 2
+; Propagations.............: 17
+; Conflict literals........: 0
+; T-Lemmata learnt.........: 0
+; T-Lemmata perm learnt....: 0
+; Conflicts learnt.........: 0
+; T-conflicts learnt.......: 0
+; Average learnts size.....: -nan
+; Top level literals.......: 17
+; Search time..............: 0 s
+; Preprocessing time.......: 0.017379 s
+; TSolvers time............: 0.005164 s
+; Init clauses.............: 0
+; Variables................: 17
+
+real	0m0.027s
+user	0m0.024s
+sys	0m0.000s
+*****************************************************
+Toolaname: Z3 Filename: unbd-sage23.smt2
+*****************************************************
+sat
+
+real	0m9.978s
+user	0m9.927s
+sys	0m0.012s
+*****************************************************
+Toolname: Yices SMT2 Filename: unbd-sage23.smt2
+*****************************************************
+sat
+
+real	0m0.014s
+user	0m0.014s
+sys	0m0.000s
+*****************************************************
+Toolname: Mathsat Filename: unbd-sage23.smt2
+*****************************************************
+sat
+
+real	0m2.038s
+user	0m2.010s
+sys	0m0.012s
+*****************************************************
+Toolname: CVC4 Filename: unbd-sage23.smt2
+*****************************************************
+sat
+
+real	0m4.074s
+user	0m4.036s
+sys	0m0.032s
+*****************************************************
+*****************************************************
+Toolname: OpenSmt Filename:  unbd-sage24.smt2
+*****************************************************
+; this binary is compiled in debug mode (slow)
+; git hash: 6c7cdb4a5347cca012ba39dc381264c308d39f7d
+; symbol enode size: 4
+; list enode size: 13
+; term enode size: 18
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 1
+; Unsatisfiable calls......: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 1
+; Bland operations.........: 0
+; LA time.............: 0 s
+;         0 |        0        0 |    0.020 s | 78.094 MB
+sat
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 18
+; Unsatisfiable calls......: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 12
+; Bland operations.........: 0
+; LA time.............: 0 s
+; -------------------------
+; STATISTICS FOR LOGICS
+; -------------------------
+; Substitutions............: 0
+; -------------------------
+; STATISTICS FOR SAT SOLVER
+; -------------------------
+; Restarts.................: 1
+; Conflicts................: 0
+; Decisions................: 2
+; Propagations.............: 17
+; Conflict literals........: 0
+; T-Lemmata learnt.........: 0
+; T-Lemmata perm learnt....: 0
+; Conflicts learnt.........: 0
+; T-conflicts learnt.......: 0
+; Average learnts size.....: -nan
+; Top level literals.......: 17
+; Search time..............: 0 s
+; Preprocessing time.......: 0.019668 s
+; TSolvers time............: 0.004641 s
+; Init clauses.............: 0
+; Variables................: 17
+
+real	0m0.032s
+user	0m0.025s
+sys	0m0.000s
+*****************************************************
+Toolaname: Z3 Filename: unbd-sage24.smt2
+*****************************************************
+sat
+
+real	0m0.020s
+user	0m0.016s
+sys	0m0.004s
+*****************************************************
+Toolname: Yices SMT2 Filename: unbd-sage24.smt2
+*****************************************************
+sat
+
+real	0m0.006s
+user	0m0.006s
+sys	0m0.000s
+*****************************************************
+Toolname: Mathsat Filename: unbd-sage24.smt2
+*****************************************************
+sat
+
+real	0m1.669s
+user	0m1.658s
+sys	0m0.007s
+*****************************************************
+Toolname: CVC4 Filename: unbd-sage24.smt2
+*****************************************************
+sat
+
+real	0m14.586s
+user	0m14.494s
+sys	0m0.076s
+*****************************************************
+*****************************************************
+Toolname: OpenSmt Filename:  unbd-sage2.smt2
+*****************************************************
+; this binary is compiled in debug mode (slow)
+; git hash: 6c7cdb4a5347cca012ba39dc381264c308d39f7d
+; symbol enode size: 4
+; list enode size: 13
+; term enode size: 18
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 1
+; Unsatisfiable calls......: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 1
+; Bland operations.........: 0
+; LA time.............: 0 s
+;         0 |        0        0 |    0.017 s | 78.098 MB
+sat
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 18
+; Unsatisfiable calls......: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 11
+; Bland operations.........: 0
+; LA time.............: 0 s
+; -------------------------
+; STATISTICS FOR LOGICS
+; -------------------------
+; Substitutions............: 0
+; -------------------------
+; STATISTICS FOR SAT SOLVER
+; -------------------------
+; Restarts.................: 1
+; Conflicts................: 0
+; Decisions................: 2
+; Propagations.............: 17
+; Conflict literals........: 0
+; T-Lemmata learnt.........: 0
+; T-Lemmata perm learnt....: 0
+; Conflicts learnt.........: 0
+; T-conflicts learnt.......: 0
+; Average learnts size.....: -nan
+; Top level literals.......: 17
+; Search time..............: 0 s
+; Preprocessing time.......: 0.016936 s
+; TSolvers time............: 0.00455 s
+; Init clauses.............: 0
+; Variables................: 17
+
+real	0m0.024s
+user	0m0.023s
+sys	0m0.000s
+*****************************************************
+Toolaname: Z3 Filename: unbd-sage2.smt2
+*****************************************************
+sat
+
+real	0m22.565s
+user	0m22.483s
+sys	0m0.052s
+*****************************************************
+Toolname: Yices SMT2 Filename: unbd-sage2.smt2
+*****************************************************
+sat
+
+real	0m0.004s
+user	0m0.004s
+sys	0m0.000s
+*****************************************************
+Toolname: Mathsat Filename: unbd-sage2.smt2
+*****************************************************
+sat
+
+real	0m2.241s
+user	0m2.225s
+sys	0m0.012s
+*****************************************************
+Toolname: CVC4 Filename: unbd-sage2.smt2
+*****************************************************
+CVC4 interrupted by user.
+/home/mabutalibov1271/scripts/run.sh: line 1: 17343 Aborted                 (core dumped) ~/Downloads/cvc4-1.5-x86_64-linux-opt $i
+
+real	28m29.480s
+user	28m27.102s
+sys	0m0.300s
+*****************************************************
+*****************************************************
+Toolname: OpenSmt Filename:  unbd-sage3.smt2
+*****************************************************
+; this binary is compiled in debug mode (slow)
+; git hash: 6c7cdb4a5347cca012ba39dc381264c308d39f7d
+; symbol enode size: 4
+; list enode size: 13
+; term enode size: 18
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 1
+; Unsatisfiable calls......: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 1
+; Bland operations.........: 0
+; LA time.............: 0 s
+;         0 |        0        0 |    0.017 s | 78.090 MB
+sat
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 18
+; Unsatisfiable calls......: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 11
+; Bland operations.........: 0
+; LA time.............: 0 s
+; -------------------------
+; STATISTICS FOR LOGICS
+; -------------------------
+; Substitutions............: 0
+; -------------------------
+; STATISTICS FOR SAT SOLVER
+; -------------------------
+; Restarts.................: 1
+; Conflicts................: 0
+; Decisions................: 2
+; Propagations.............: 17
+; Conflict literals........: 0
+; T-Lemmata learnt.........: 0
+; T-Lemmata perm learnt....: 0
+; Conflicts learnt.........: 0
+; T-conflicts learnt.......: 0
+; Average learnts size.....: -nan
+; Top level literals.......: 17
+; Search time..............: 0 s
+; Preprocessing time.......: 0.016617 s
+; TSolvers time............: 0.004758 s
+; Init clauses.............: 0
+; Variables................: 17
+
+real	0m0.025s
+user	0m0.023s
+sys	0m0.000s
+*****************************************************
+Toolaname: Z3 Filename: unbd-sage3.smt2
+*****************************************************
+sat
+
+real	0m0.030s
+user	0m0.027s
+sys	0m0.000s
+*****************************************************
+Toolname: Yices SMT2 Filename: unbd-sage3.smt2
+*****************************************************
+sat
+
+real	0m0.002s
+user	0m0.002s
+sys	0m0.000s
+*****************************************************
+Toolname: Mathsat Filename: unbd-sage3.smt2
+*****************************************************
+sat
+
+real	0m0.026s
+user	0m0.022s
+sys	0m0.004s
+*****************************************************
+Toolname: CVC4 Filename: unbd-sage3.smt2
+*****************************************************
+sat
+
+real	0m0.717s
+user	0m0.705s
+sys	0m0.008s
+*****************************************************
+*****************************************************
+Toolname: OpenSmt Filename:  unbd-sage4.smt2
+*****************************************************
+; this binary is compiled in debug mode (slow)
+; git hash: 6c7cdb4a5347cca012ba39dc381264c308d39f7d
+; symbol enode size: 4
+; list enode size: 13
+; term enode size: 18
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 1
+; Unsatisfiable calls......: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 1
+; Bland operations.........: 0
+; LA time.............: 0 s
+;         0 |        0        0 |    0.017 s | 78.094 MB
+sat
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 18
+; Unsatisfiable calls......: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 15
+; Bland operations.........: 0
+; LA time.............: 0 s
+; -------------------------
+; STATISTICS FOR LOGICS
+; -------------------------
+; Substitutions............: 0
+; -------------------------
+; STATISTICS FOR SAT SOLVER
+; -------------------------
+; Restarts.................: 1
+; Conflicts................: 0
+; Decisions................: 2
+; Propagations.............: 17
+; Conflict literals........: 0
+; T-Lemmata learnt.........: 0
+; T-Lemmata perm learnt....: 0
+; Conflicts learnt.........: 0
+; T-conflicts learnt.......: 0
+; Average learnts size.....: -nan
+; Top level literals.......: 17
+; Search time..............: 0 s
+; Preprocessing time.......: 0.016979 s
+; TSolvers time............: 0.00526 s
+; Init clauses.............: 0
+; Variables................: 17
+
+real	0m0.026s
+user	0m0.024s
+sys	0m0.000s
+*****************************************************
+Toolaname: Z3 Filename: unbd-sage4.smt2
+*****************************************************
+sat
+
+real	0m0.274s
+user	0m0.273s
+sys	0m0.000s
+*****************************************************
+Toolname: Yices SMT2 Filename: unbd-sage4.smt2
+*****************************************************
+sat
+
+real	0m0.016s
+user	0m0.016s
+sys	0m0.000s
+*****************************************************
+Toolname: Mathsat Filename: unbd-sage4.smt2
+*****************************************************
+sat
+
+real	0m1.753s
+user	0m1.738s
+sys	0m0.010s
+*****************************************************
+Toolname: CVC4 Filename: unbd-sage4.smt2
+*****************************************************
+CVC4 interrupted by user.
+/home/mabutalibov1271/scripts/run.sh: line 1: 17483 Aborted                 (core dumped) ~/Downloads/cvc4-1.5-x86_64-linux-opt $i
+
+real	9m0.201s
+user	8m58.860s
+sys	0m0.152s
+*****************************************************
+*****************************************************
+Toolname: OpenSmt Filename:  unbd-sage5.smt2
+*****************************************************
+; this binary is compiled in debug mode (slow)
+; git hash: 6c7cdb4a5347cca012ba39dc381264c308d39f7d
+; symbol enode size: 4
+; list enode size: 13
+; term enode size: 18
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 1
+; Unsatisfiable calls......: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 1
+; Bland operations.........: 0
+; LA time.............: 0 s
+;         0 |        0        0 |    0.013 s | 78.090 MB
+sat
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 18
+; Unsatisfiable calls......: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 9
+; Bland operations.........: 0
+; LA time.............: 0 s
+; -------------------------
+; STATISTICS FOR LOGICS
+; -------------------------
+; Substitutions............: 0
+; -------------------------
+; STATISTICS FOR SAT SOLVER
+; -------------------------
+; Restarts.................: 1
+; Conflicts................: 0
+; Decisions................: 2
+; Propagations.............: 17
+; Conflict literals........: 0
+; T-Lemmata learnt.........: 0
+; T-Lemmata perm learnt....: 0
+; Conflicts learnt.........: 0
+; T-conflicts learnt.......: 0
+; Average learnts size.....: -nan
+; Top level literals.......: 17
+; Search time..............: 0 s
+; Preprocessing time.......: 0.012484 s
+; TSolvers time............: 0.004357 s
+; Init clauses.............: 0
+; Variables................: 17
+
+real	0m0.023s
+user	0m0.018s
+sys	0m0.005s
+*****************************************************
+Toolaname: Z3 Filename: unbd-sage5.smt2
+*****************************************************
+sat
+
+real	0m7.058s
+user	0m6.988s
+sys	0m0.040s
+*****************************************************
+Toolname: Yices SMT2 Filename: unbd-sage5.smt2
+*****************************************************
+sat
+
+real	0m0.005s
+user	0m0.002s
+sys	0m0.003s
+*****************************************************
+Toolname: Mathsat Filename: unbd-sage5.smt2
+*****************************************************
+sat
+
+real	0m2.861s
+user	0m2.816s
+sys	0m0.040s
+*****************************************************
+Toolname: CVC4 Filename: unbd-sage5.smt2
+*****************************************************
+sat
+
+real	0m0.032s
+user	0m0.032s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: OpenSmt Filename:  unbd-sage6.smt2
+*****************************************************
+; this binary is compiled in debug mode (slow)
+; git hash: 6c7cdb4a5347cca012ba39dc381264c308d39f7d
+; symbol enode size: 4
+; list enode size: 13
+; term enode size: 18
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 1
+; Unsatisfiable calls......: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 1
+; Bland operations.........: 0
+; LA time.............: 0 s
+;         0 |        0        0 |    0.012 s | 78.094 MB
+sat
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 18
+; Unsatisfiable calls......: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 11
+; Bland operations.........: 0
+; LA time.............: 0 s
+; -------------------------
+; STATISTICS FOR LOGICS
+; -------------------------
+; Substitutions............: 0
+; -------------------------
+; STATISTICS FOR SAT SOLVER
+; -------------------------
+; Restarts.................: 1
+; Conflicts................: 0
+; Decisions................: 2
+; Propagations.............: 17
+; Conflict literals........: 0
+; T-Lemmata learnt.........: 0
+; T-Lemmata perm learnt....: 0
+; Conflicts learnt.........: 0
+; T-conflicts learnt.......: 0
+; Average learnts size.....: -nan
+; Top level literals.......: 17
+; Search time..............: 0 s
+; Preprocessing time.......: 0.012104 s
+; TSolvers time............: 0.004927 s
+; Init clauses.............: 0
+; Variables................: 17
+
+real	0m0.023s
+user	0m0.018s
+sys	0m0.004s
+*****************************************************
+Toolaname: Z3 Filename: unbd-sage6.smt2
+*****************************************************
+sat
+
+real	0m24.045s
+user	0m23.943s
+sys	0m0.040s
+*****************************************************
+Toolname: Yices SMT2 Filename: unbd-sage6.smt2
+*****************************************************
+sat
+
+real	0m0.025s
+user	0m0.025s
+sys	0m0.000s
+*****************************************************
+Toolname: Mathsat Filename: unbd-sage6.smt2
+*****************************************************
+sat
+
+real	0m0.452s
+user	0m0.445s
+sys	0m0.006s
+*****************************************************
+Toolname: CVC4 Filename: unbd-sage6.smt2
+*****************************************************
+sat
+
+real	0m0.474s
+user	0m0.453s
+sys	0m0.012s
+*****************************************************
+*****************************************************
+Toolname: OpenSmt Filename:  unbd-sage7.smt2
+*****************************************************
+; this binary is compiled in debug mode (slow)
+; git hash: 6c7cdb4a5347cca012ba39dc381264c308d39f7d
+; symbol enode size: 4
+; list enode size: 13
+; term enode size: 18
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 1
+; Unsatisfiable calls......: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 1
+; Bland operations.........: 0
+; LA time.............: 0 s
+;         0 |        0        0 |    0.015 s | 78.090 MB
+sat
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 18
+; Unsatisfiable calls......: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 15
+; Bland operations.........: 0
+; LA time.............: 0 s
+; -------------------------
+; STATISTICS FOR LOGICS
+; -------------------------
+; Substitutions............: 0
+; -------------------------
+; STATISTICS FOR SAT SOLVER
+; -------------------------
+; Restarts.................: 1
+; Conflicts................: 0
+; Decisions................: 2
+; Propagations.............: 17
+; Conflict literals........: 0
+; T-Lemmata learnt.........: 0
+; T-Lemmata perm learnt....: 0
+; Conflicts learnt.........: 0
+; T-conflicts learnt.......: 0
+; Average learnts size.....: -nan
+; Top level literals.......: 17
+; Search time..............: 0 s
+; Preprocessing time.......: 0.014616 s
+; TSolvers time............: 0.006195 s
+; Init clauses.............: 0
+; Variables................: 17
+
+real	0m0.027s
+user	0m0.022s
+sys	0m0.004s
+*****************************************************
+Toolaname: Z3 Filename: unbd-sage7.smt2
+*****************************************************
+sat
+
+real	0m0.289s
+user	0m0.284s
+sys	0m0.004s
+*****************************************************
+Toolname: Yices SMT2 Filename: unbd-sage7.smt2
+*****************************************************
+sat
+
+real	0m0.003s
+user	0m0.003s
+sys	0m0.000s
+*****************************************************
+Toolname: Mathsat Filename: unbd-sage7.smt2
+*****************************************************
+sat
+
+real	0m1.072s
+user	0m1.064s
+sys	0m0.007s
+*****************************************************
+Toolname: CVC4 Filename: unbd-sage7.smt2
+*****************************************************
+sat
+
+real	0m47.167s
+user	0m46.879s
+sys	0m0.245s
+*****************************************************
+*****************************************************
+Toolname: OpenSmt Filename:  unbd-sage8.smt2
+*****************************************************
+; this binary is compiled in debug mode (slow)
+; git hash: 6c7cdb4a5347cca012ba39dc381264c308d39f7d
+; symbol enode size: 4
+; list enode size: 13
+; term enode size: 18
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 1
+; Unsatisfiable calls......: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 1
+; Bland operations.........: 0
+; LA time.............: 0 s
+;         0 |        0        0 |    0.021 s | 78.098 MB
+sat
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 18
+; Unsatisfiable calls......: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 12
+; Bland operations.........: 0
+; LA time.............: 0 s
+; -------------------------
+; STATISTICS FOR LOGICS
+; -------------------------
+; Substitutions............: 0
+; -------------------------
+; STATISTICS FOR SAT SOLVER
+; -------------------------
+; Restarts.................: 1
+; Conflicts................: 0
+; Decisions................: 2
+; Propagations.............: 17
+; Conflict literals........: 0
+; T-Lemmata learnt.........: 0
+; T-Lemmata perm learnt....: 0
+; Conflicts learnt.........: 0
+; T-conflicts learnt.......: 0
+; Average learnts size.....: -nan
+; Top level literals.......: 17
+; Search time..............: 0 s
+; Preprocessing time.......: 0.02099 s
+; TSolvers time............: 0.006116 s
+; Init clauses.............: 0
+; Variables................: 17
+
+real	0m0.029s
+user	0m0.028s
+sys	0m0.000s
+*****************************************************
+Toolaname: Z3 Filename: unbd-sage8.smt2
+*****************************************************
+sat
+
+real	0m0.032s
+user	0m0.028s
+sys	0m0.004s
+*****************************************************
+Toolname: Yices SMT2 Filename: unbd-sage8.smt2
+*****************************************************
+sat
+
+real	0m0.003s
+user	0m0.003s
+sys	0m0.000s
+*****************************************************
+Toolname: Mathsat Filename: unbd-sage8.smt2
+*****************************************************
+sat
+
+real	0m0.786s
+user	0m0.778s
+sys	0m0.008s
+*****************************************************
+Toolname: CVC4 Filename: unbd-sage8.smt2
+*****************************************************
+CVC4 interrupted by user.
+/home/mabutalibov1271/scripts/run.sh: line 1: 17597 Aborted                 (core dumped) ~/Downloads/cvc4-1.5-x86_64-linux-opt $i
+
+real	57m31.055s
+user	57m27.221s
+sys	0m0.480s
+*****************************************************
+*****************************************************
+Toolname: OpenSmt Filename:  unbd-sage9.smt2
+*****************************************************
+; this binary is compiled in debug mode (slow)
+; git hash: 6c7cdb4a5347cca012ba39dc381264c308d39f7d
+; symbol enode size: 4
+; list enode size: 13
+; term enode size: 18
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 1
+; Unsatisfiable calls......: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 1
+; Bland operations.........: 0
+; LA time.............: 0 s
+;         0 |        0        0 |    0.017 s | 78.094 MB
+sat
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 18
+; Unsatisfiable calls......: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 17
+; Bland operations.........: 0
+; LA time.............: 0 s
+; -------------------------
+; STATISTICS FOR LOGICS
+; -------------------------
+; Substitutions............: 0
+; -------------------------
+; STATISTICS FOR SAT SOLVER
+; -------------------------
+; Restarts.................: 1
+; Conflicts................: 0
+; Decisions................: 2
+; Propagations.............: 17
+; Conflict literals........: 0
+; T-Lemmata learnt.........: 0
+; T-Lemmata perm learnt....: 0
+; Conflicts learnt.........: 0
+; T-conflicts learnt.......: 0
+; Average learnts size.....: -nan
+; Top level literals.......: 17
+; Search time..............: 0 s
+; Preprocessing time.......: 0.017025 s
+; TSolvers time............: 0.005894 s
+; Init clauses.............: 0
+; Variables................: 17
+
+real	0m0.027s
+user	0m0.024s
+sys	0m0.000s
+*****************************************************
+Toolaname: Z3 Filename: unbd-sage9.smt2
+*****************************************************
+sat
+
+real	0m7.297s
+user	0m7.284s
+sys	0m0.012s
+*****************************************************
+Toolname: Yices SMT2 Filename: unbd-sage9.smt2
+*****************************************************
+sat
+
+real	0m0.013s
+user	0m0.012s
+sys	0m0.000s
+*****************************************************
+Toolname: Mathsat Filename: unbd-sage9.smt2
+*****************************************************
+sat
+
+real	0m5.374s
+user	0m5.353s
+sys	0m0.020s
+*****************************************************
+Toolname: CVC4 Filename: unbd-sage9.smt2
+*****************************************************
+sat
+
+real	0m0.857s
+user	0m0.850s
+sys	0m0.004s
+*****************************************************

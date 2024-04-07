@@ -1,0 +1,892 @@
+---------------------------------------------------------
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `array_false-unreach-call2_true-termination.c' ...
+Parsing array_false-unreach-call2_true-termination.c
+Converting
+Type-checking array_false-unreach-call2_true-termination
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.054 sec.
+Total number of claims in program...(1)
+Warrning: --claim is set to 1.
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LIA logic.
+
+    Checking Claim #1 (100%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+*** INLINING function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+SYMEX TIME: 0.038
+All SSA steps: 74
+Ignored SSA steps after slice: 25
+SLICER TIME: 0
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+CONVERSION TIME: 0.003
+; lia checker query time so far: 0.000000
+SOLVER TIME: 0.001
+RESULT: UNSAT - it holds!
+Skip generating interpolants
+ASSERTION(S) HOLD(S) WITH FULL INLINE
+
+VERIFICATION SUCCESSFUL
+Initial unwinding bound: 10
+Total number of steps: 1
+TOTAL TIME FOR CHECKING THIS CLAIM: 0.042
+
+
+Main Checked Assertion: 
+  file array_false-unreach-call2_true-termination.c line 5 function __VERIFIER_assert
+  assertion
+  FALSE
+#X: Done.
+---------------------------------------------------------
+---------------------------------------------------------
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `bigshot_s2_true-unreach-call.c' ...
+Parsing bigshot_s2_true-unreach-call.c
+Converting
+Type-checking bigshot_s2_true-unreach-call
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.213 sec.
+Total number of claims in program...(1)
+Warrning: --claim is set to 1.
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LIA logic.
+
+    Checking Claim #1 (100%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+*** INLINING function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+SYMEX TIME: 0.011
+All SSA steps: 31
+Ignored SSA steps after slice: 15
+SLICER TIME: 0
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+CONVERSION TIME: 0.001
+; lia checker query time so far: 0.000000
+SOLVER TIME: 0.001
+RESULT: SAT - doesn't hold
+HAVOCING (of 2 calls) AREN'T SUITABLE FOR CHECKING ASSERTION.
+Building error trace
+
+Counterexample:
+
+Violated property:
+  file bigshot_s2_true-unreach-call.c line 7 function __VERIFIER_assert
+  assertion
+  FALSE
+
+A real bug found.
+
+VERIFICATION FAILED
+Initial unwinding bound: 10
+Total number of steps: 1
+Unwinding depth: 1 (2)
+TOTAL TIME FOR CHECKING THIS CLAIM: 0.014
+
+
+Main Checked Assertion: 
+  file bigshot_s2_true-unreach-call.c line 7 function __VERIFIER_assert
+  assertion
+  FALSE
+#X: Done.
+---------------------------------------------------------
+---------------------------------------------------------
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `data_structures_set_multi_proc_false-unreach-call_ground.c' ...
+Parsing data_structures_set_multi_proc_false-unreach-call_ground.c
+Converting
+Type-checking data_structures_set_multi_proc_false-unreach-call_ground
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.083 sec.
+Total number of claims in program...(1)
+Warrning: --claim is set to 1.
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LIA logic.
+
+    Checking Claim #1 (100%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+*** INLINING function: elem_exists
+*** INLINING function: insert
+*** INLINING function: elem_exists
+*** INLINING function: insert
+*** INLINING function: elem_exists
+*** INLINING function: insert
+*** INLINING function: elem_exists
+*** INLINING function: insert
+*** INLINING function: elem_exists
+*** INLINING function: insert
+*** INLINING function: elem_exists
+*** INLINING function: insert
+*** INLINING function: elem_exists
+*** INLINING function: insert
+*** INLINING function: elem_exists
+*** INLINING function: insert
+*** INLINING function: elem_exists
+*** INLINING function: insert
+*** INLINING function: elem_exists
+*** INLINING function: insert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+*** INLINING function: __VERIFIER_assert
+Processing a deferred function: elem_exists
+Processing a deferred function: insert
+Processing a deferred function: elem_exists
+Processing a deferred function: insert
+Processing a deferred function: elem_exists
+Processing a deferred function: insert
+Processing a deferred function: elem_exists
+Processing a deferred function: insert
+Processing a deferred function: elem_exists
+Processing a deferred function: insert
+Processing a deferred function: elem_exists
+Processing a deferred function: insert
+Processing a deferred function: elem_exists
+Processing a deferred function: insert
+Processing a deferred function: elem_exists
+Processing a deferred function: insert
+Processing a deferred function: elem_exists
+Processing a deferred function: insert
+Processing a deferred function: elem_exists
+Processing a deferred function: insert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+SYMEX TIME: 1.175
+All SSA steps: 2563
+Ignored SSA steps after slice: 1133
+SLICER TIME: 0.008
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+CONVERSION TIME: 0.249
+; lia checker query time so far: 0.000000
+SOLVER TIME: 0.037
+RESULT: UNSAT - it holds!
+Skip generating interpolants
+ASSERTION(S) HOLD(S) WITH FULL INLINE
+
+VERIFICATION SUCCESSFUL
+Initial unwinding bound: 10
+Total number of steps: 1
+TOTAL TIME FOR CHECKING THIS CLAIM: 1.469
+
+
+Main Checked Assertion: 
+  file data_structures_set_multi_proc_false-unreach-call_ground.c line 2 function __VERIFIER_assert
+  assertion
+  FALSE
+#X: Done.
+---------------------------------------------------------
+---------------------------------------------------------
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `fibo_2calls_2_false-unreach-call_true-termination.c' ...
+Parsing fibo_2calls_2_false-unreach-call_true-termination.c
+Converting
+Type-checking fibo_2calls_2_false-unreach-call_true-termination
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.106 sec.
+Total number of claims in program...(1)
+Warrning: --claim is set to 1.
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LIA logic.
+
+    Checking Claim #1 (100%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+*** INLINING function: fibo1
+Processing a deferred function: fibo1
+*** INLINING function: fibo2
+*** INLINING function: fibo2
+Processing a deferred function: fibo2
+*** NONDET abstraction used for function: fibo1
+*** NONDET abstraction used for function: fibo1
+Processing a deferred function: fibo2
+*** NONDET abstraction used for function: fibo1
+*** NONDET abstraction used for function: fibo1
+SYMEX TIME: 0.042
+All SSA steps: 117
+Ignored SSA steps after slice: 49
+SLICER TIME: 0.001
+CONVERSION TIME: 0.005
+; lia checker query time so far: 0.000000
+SOLVER TIME: 0.006
+RESULT: SAT - doesn't hold
+HAVOCING (of 4 calls) AREN'T SUITABLE FOR CHECKING ASSERTION.
+Building error trace
+
+Counterexample:
+
+State 16 file fibo_2calls_2_false-unreach-call_true-termination.c line 13 function fibo1 thread 0
+----------------------------------------------------
+  n = 1
+
+State 25 file fibo_2calls_2_false-unreach-call_true-termination.c line 13 function fibo1 thread 0
+----------------------------------------------------
+  n = 0
+
+State 28 file fibo_2calls_2_false-unreach-call_true-termination.c line 13 function fibo1 thread 0
+----------------------------------------------------
+  "function return value" = 1
+
+State 31 file fibo_2calls_2_false-unreach-call_true-termination.c line 37 function main thread 0
+----------------------------------------------------
+  n = 2
+
+State 32 file fibo_2calls_2_false-unreach-call_true-termination.c line 37 function main thread 0
+----------------------------------------------------
+  result = 1
+
+Violated property:
+  file fibo_2calls_2_false-unreach-call_true-termination.c line 39 function main
+  assertion
+  FALSE
+
+A real bug found.
+
+VERIFICATION FAILED
+Initial unwinding bound: 10
+Total number of steps: 1
+Unwinding depth: 1 (4)
+TOTAL TIME FOR CHECKING THIS CLAIM: 0.058
+
+
+Main Checked Assertion: 
+  file fibo_2calls_2_false-unreach-call_true-termination.c line 39 function main
+  assertion
+  FALSE
+#X: Done.
+---------------------------------------------------------
+---------------------------------------------------------
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `implicitunsignedconversion_false-unreach-call_true-termination.c' ...
+Parsing implicitunsignedconversion_false-unreach-call_true-termination.c
+Converting
+Type-checking implicitunsignedconversion_false-unreach-call_true-termination
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.24 sec.
+Total number of claims in program...(1)
+Warrning: --claim is set to 1.
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LIA logic.
+
+    Checking Claim #1 (100%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+SYMEX TIME: 0.019
+All SSA steps: 27
+Ignored SSA steps after slice: 16
+SLICER TIME: 0
+CONVERSION TIME: 0.002
+; lia checker query time so far: 0.000000
+SOLVER TIME: 0.001
+RESULT: SAT - doesn't hold
+Building error trace
+
+Counterexample:
+
+Violated property:
+  file implicitunsignedconversion_false-unreach-call_true-termination.c line 12 function main
+  assertion
+  FALSE
+
+A real bug found.
+
+VERIFICATION FAILED
+Initial unwinding bound: 10
+Total number of steps: 1
+TOTAL TIME FOR CHECKING THIS CLAIM: 0.023
+
+
+Main Checked Assertion: 
+  file implicitunsignedconversion_false-unreach-call_true-termination.c line 12 function main
+  assertion
+  FALSE
+#X: Done.
+---------------------------------------------------------
+---------------------------------------------------------
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `nested_structure_ptr_true-unreach-call_true-termination.c' ...
+Parsing nested_structure_ptr_true-unreach-call_true-termination.c
+Converting
+Type-checking nested_structure_ptr_true-unreach-call_true-termination
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.239 sec.
+Total number of claims in program...(1)
+Warrning: --claim is set to 1.
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LIA logic.
+
+    Checking Claim #1 (100%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+*** INLINING function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+SYMEX TIME: 0.013
+All SSA steps: 37
+Ignored SSA steps after slice: 19
+SLICER TIME: 0
+CONVERSION TIME: 0.002
+; lia checker query time so far: 0.000000
+SOLVER TIME: 0.001
+RESULT: UNSAT - it holds!
+Skip generating interpolants
+ASSERTION(S) HOLD(S) WITH FULL INLINE
+
+VERIFICATION SUCCESSFUL
+Initial unwinding bound: 10
+Total number of steps: 1
+TOTAL TIME FOR CHECKING THIS CLAIM: 0.016
+
+
+Main Checked Assertion: 
+  file nested_structure_ptr_true-unreach-call_true-termination.c line 5 function __VERIFIER_assert
+  assertion
+  FALSE
+#X: Done.
+---------------------------------------------------------
+---------------------------------------------------------
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `pthread-demo-datarace_true-unreach-call.c' ...
+Parsing pthread-demo-datarace_true-unreach-call.c
+Converting
+Type-checking pthread-demo-datarace_true-unreach-call
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.471 sec.
+Total number of claims in program...(1)
+Warrning: --claim is set to 1.
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LIA logic.
+
+    Checking Claim #1 (100%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+*** INLINING function: __VERIFIER_assert
+Processing a deferred function: __VERIFIER_assert
+SYMEX TIME: 0.039
+All SSA steps: 75
+Ignored SSA steps after slice: 42
+SLICER TIME: 0
+CONVERSION TIME: 0.001
+; lia checker query time so far: 0.000000
+SOLVER TIME: 0
+RESULT: UNSAT - it holds!
+Skip generating interpolants
+ASSERTION(S) HOLD(S) WITH FULL INLINE
+
+VERIFICATION SUCCESSFUL
+Initial unwinding bound: 10
+Total number of steps: 1
+Unwinding depth: 1 (2)
+TOTAL TIME FOR CHECKING THIS CLAIM: 0.04
+
+
+Main Checked Assertion: 
+  file pthread-demo-datarace_true-unreach-call.c line 24 function __VERIFIER_assert
+  assertion
+  FALSE
+#X: Done.
+---------------------------------------------------------
+---------------------------------------------------------
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `race-1_3-join_false-unreach-call.c' ...
+Parsing race-1_3-join_false-unreach-call.c
+Converting
+Type-checking race-1_3-join_false-unreach-call
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.808 sec.
+Total number of claims in program...(1)
+Warrning: --claim is set to 1.
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LIA logic.
+
+    Checking Claim #1 (100%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+*** INLINING function: module_init
+*** INLINING function: module_exit
+Processing a deferred function: module_init
+*** INLINING function: ldv_assert
+*** INLINING function: ldv_assert
+Processing a deferred function: module_exit
+*** INLINING function: ldv_assert
+*** INLINING function: ldv_assert
+Processing a deferred function: ldv_assert
+Processing a deferred function: ldv_assert
+Processing a deferred function: ldv_assert
+Processing a deferred function: ldv_assert
+SYMEX TIME: 0.05
+All SSA steps: 82
+Ignored SSA steps after slice: 32
+SLICER TIME: 0
+CONVERSION TIME: 0.004
+; lia checker query time so far: 0.000000
+SOLVER TIME: 0.003
+RESULT: UNSAT - it holds!
+Skip generating interpolants
+ASSERTION(S) HOLD(S) WITH FULL INLINE
+
+VERIFICATION SUCCESSFUL
+Initial unwinding bound: 10
+Total number of steps: 1
+Unwinding depth: 1 (1)
+TOTAL TIME FOR CHECKING THIS CLAIM: 0.057
+
+
+Main Checked Assertion: 
+  file race-1_3-join_false-unreach-call.c line 8 function ldv_assert
+  assertion
+  FALSE
+#X: Done.
+---------------------------------------------------------
+---------------------------------------------------------
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `sll-simple-white-blue_false-unreach-call_false-valid-memcleanup.c' ...
+Parsing sll-simple-white-blue_false-unreach-call_false-valid-memcleanup.c
+Converting
+Type-checking sll-simple-white-blue_false-unreach-call_false-valid-memcleanup
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.579 sec.
+Total number of claims in program...(1)
+Warrning: --claim is set to 1.
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LIA logic.
+
+    Checking Claim #1 (100%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+SYMEX TIME: 0.334
+All SSA steps: 445
+Ignored SSA steps after slice: 181
+SLICER TIME: 0.002
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+CONVERSION TIME: 0.059
+; lia checker query time so far: 0.000000
+SOLVER TIME: 0.018
+RESULT: UNSAT - it holds!
+Skip generating interpolants
+ASSERTION(S) HOLD(S) WITH FULL INLINE
+
+VERIFICATION SUCCESSFUL
+Initial unwinding bound: 10
+Total number of steps: 1
+Unwinding depth: 1 (3)
+TOTAL TIME FOR CHECKING THIS CLAIM: 0.413
+
+
+Main Checked Assertion: 
+  file sll-simple-white-blue_false-unreach-call_false-valid-memcleanup.c line 82 function main
+  assertion
+  FALSE
+#X: Done.
+---------------------------------------------------------
+
+real	0m14.302s
+user	0m14.203s
+sys	0m0.310s
+

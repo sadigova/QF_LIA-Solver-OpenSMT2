@@ -1,0 +1,2010 @@
+*****************************************************
+Toolname: Z3 Filename: problem__001.smt2
+*****************************************************
+sat
+(:arith-lower           8
+ :arith-make-feasible   1
+ :arith-max-columns     65
+ :arith-max-rows        20
+ :arith-patches         1
+ :arith-patches-success 1
+ :arith-rows            20
+ :arith-upper           12
+ :final-checks          1
+ :gcd-calls             1
+ :max-memory            1.47
+ :memory                0.96
+ :mk-bool-var           22
+ :num-allocs            97452
+ :num-checks            1
+ :rlimit-count          4693
+ :time                  0.00
+ :total-time            0.01)
+
+real	0m0.010s
+user	0m0.009s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: problem__002.smt2
+*****************************************************
+sat
+(:arith-lower           9
+ :arith-make-feasible   1
+ :arith-max-columns     65
+ :arith-max-rows        20
+ :arith-patches         1
+ :arith-patches-success 1
+ :arith-rows            20
+ :arith-upper           11
+ :final-checks          1
+ :gcd-calls             1
+ :max-memory            1.48
+ :memory                0.97
+ :mk-bool-var           22
+ :num-allocs            96949
+ :num-checks            1
+ :rlimit-count          4551
+ :time                  0.00
+ :total-time            0.01)
+
+real	0m0.008s
+user	0m0.004s
+sys	0m0.004s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: problem__003.smt2
+*****************************************************
+sat
+(:arith-lower         11
+ :arith-make-feasible 4
+ :arith-max-columns   67
+ :arith-max-rows      22
+ :arith-patches       3
+ :arith-rows          23
+ :arith-upper         12
+ :decisions           3
+ :final-checks        4
+ :gcd-calls           3
+ :max-memory          1.46
+ :memory              0.95
+ :mk-bool-var         25
+ :num-allocs          94778
+ :num-checks          1
+ :rlimit-count        4494
+ :time                0.00
+ :total-time          0.01)
+
+real	0m0.012s
+user	0m0.000s
+sys	0m0.010s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: problem__004.smt2
+*****************************************************
+sat
+(:arith-lower         7
+ :arith-make-feasible 1
+ :arith-max-columns   65
+ :arith-max-rows      20
+ :arith-rows          20
+ :arith-upper         13
+ :final-checks        1
+ :max-memory          1.46
+ :memory              0.95
+ :mk-bool-var         22
+ :num-allocs          96356
+ :num-checks          1
+ :rlimit-count        4507
+ :time                0.00
+ :total-time          0.00)
+
+real	0m0.007s
+user	0m0.000s
+sys	0m0.007s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: problem__005.smt2
+*****************************************************
+sat
+(:arith-lower           7
+ :arith-make-feasible   2
+ :arith-max-columns     66
+ :arith-max-rows        21
+ :arith-patches         2
+ :arith-patches-success 1
+ :arith-rows            21
+ :arith-upper           14
+ :decisions             1
+ :final-checks          2
+ :gcd-calls             2
+ :max-memory            1.49
+ :memory                0.97
+ :mk-bool-var           23
+ :num-allocs            97413
+ :num-checks            1
+ :rlimit-count          4163
+ :time                  0.00
+ :total-time            0.01)
+
+real	0m0.010s
+user	0m0.004s
+sys	0m0.004s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: problem__006.smt2
+*****************************************************
+sat
+(:arith-lower           16
+ :arith-make-feasible   3
+ :arith-max-columns     70
+ :arith-max-rows        25
+ :arith-patches         3
+ :arith-patches-success 1
+ :arith-rows            27
+ :arith-upper           11
+ :decisions             2
+ :final-checks          3
+ :gcd-calls             3
+ :max-memory            1.60
+ :memory                1.03
+ :mk-bool-var           29
+ :num-allocs            107749
+ :num-checks            1
+ :rlimit-count          4896
+ :time                  0.01
+ :total-time            0.01)
+
+real	0m0.009s
+user	0m0.009s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: problem__007.smt2
+*****************************************************
+sat
+(:arith-lower           15
+ :arith-make-feasible   4
+ :arith-max-columns     71
+ :arith-max-rows        26
+ :arith-patches         4
+ :arith-patches-success 1
+ :arith-rows            28
+ :arith-upper           13
+ :decisions             3
+ :final-checks          4
+ :gcd-calls             4
+ :max-memory            1.59
+ :memory                1.05
+ :mk-bool-var           30
+ :num-allocs            110473
+ :num-checks            1
+ :rlimit-count          5044
+ :time                  0.01
+ :total-time            0.01)
+
+real	0m0.013s
+user	0m0.014s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: problem__008.smt2
+*****************************************************
+sat
+(:arith-lower         10
+ :arith-make-feasible 5
+ :arith-max-columns   71
+ :arith-max-rows      26
+ :arith-patches       4
+ :arith-rows          28
+ :arith-upper         18
+ :cube-calls          1
+ :cube-success        1
+ :decisions           3
+ :final-checks        4
+ :gcd-calls           4
+ :max-memory          1.57
+ :memory              1.03
+ :mk-bool-var         30
+ :num-allocs          111335
+ :num-checks          1
+ :rlimit-count        5132
+ :time                0.01
+ :total-time          0.01)
+
+real	0m0.010s
+user	0m0.010s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: problem__009.smt2
+*****************************************************
+sat
+(:arith-lower           10
+ :arith-make-feasible   3
+ :arith-max-columns     70
+ :arith-max-rows        25
+ :arith-patches         3
+ :arith-patches-success 1
+ :arith-rows            27
+ :arith-upper           17
+ :decisions             2
+ :final-checks          3
+ :gcd-calls             3
+ :max-memory            1.57
+ :memory                1.01
+ :mk-bool-var           29
+ :num-allocs            112855
+ :num-checks            1
+ :rlimit-count          5346
+ :time                  0.01
+ :total-time            0.01)
+
+real	0m0.009s
+user	0m0.009s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: problem__010.smt2
+*****************************************************
+sat
+(:arith-lower           16
+ :arith-make-feasible   2
+ :arith-max-columns     70
+ :arith-max-rows        25
+ :arith-patches         2
+ :arith-patches-success 1
+ :arith-rows            26
+ :arith-upper           10
+ :decisions             1
+ :final-checks          2
+ :gcd-calls             2
+ :max-memory            1.58
+ :memory                1.02
+ :mk-bool-var           28
+ :num-allocs            110621
+ :num-checks            1
+ :rlimit-count          5124
+ :time                  0.01
+ :total-time            0.01)
+
+real	0m0.009s
+user	0m0.010s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: problem__011.smt2
+*****************************************************
+sat
+(:arith-lower         16
+ :arith-make-feasible 5
+ :arith-max-columns   77
+ :arith-max-rows      32
+ :arith-patches       4
+ :arith-rows          33
+ :arith-upper         17
+ :cube-calls          1
+ :cube-success        1
+ :decisions           3
+ :final-checks        4
+ :gcd-calls           4
+ :max-memory          1.59
+ :memory              1.00
+ :mk-bool-var         35
+ :num-allocs          127786
+ :num-checks          1
+ :rlimit-count        5666
+ :time                0.01
+ :total-time          0.01)
+
+real	0m0.015s
+user	0m0.012s
+sys	0m0.004s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: problem__012.smt2
+*****************************************************
+sat
+(:arith-lower         17
+ :arith-make-feasible 5
+ :arith-max-columns   77
+ :arith-max-rows      32
+ :arith-patches       4
+ :arith-rows          33
+ :arith-upper         16
+ :cube-calls          1
+ :cube-success        1
+ :decisions           3
+ :final-checks        4
+ :gcd-calls           4
+ :max-memory          1.57
+ :memory              1.08
+ :mk-bool-var         35
+ :num-allocs          119073
+ :num-checks          1
+ :rlimit-count        6295
+ :time                0.01
+ :total-time          0.01)
+
+real	0m0.014s
+user	0m0.012s
+sys	0m0.004s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: problem__013.smt2
+*****************************************************
+sat
+(:arith-lower           14
+ :arith-make-feasible   3
+ :arith-max-columns     75
+ :arith-max-rows        30
+ :arith-patches         3
+ :arith-patches-success 1
+ :arith-rows            32
+ :arith-upper           18
+ :decisions             2
+ :final-checks          3
+ :gcd-calls             3
+ :max-memory            1.69
+ :memory                1.15
+ :mk-bool-var           34
+ :num-allocs            123225
+ :num-checks            1
+ :rlimit-count          5778
+ :time                  0.03
+ :total-time            0.03)
+
+real	0m0.033s
+user	0m0.036s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: problem__014.smt2
+*****************************************************
+sat
+(:arith-lower           19
+ :arith-make-feasible   4
+ :arith-max-columns     75
+ :arith-max-rows        30
+ :arith-patches         4
+ :arith-patches-success 1
+ :arith-rows            33
+ :arith-upper           14
+ :decisions             3
+ :final-checks          4
+ :gcd-calls             4
+ :max-memory            1.67
+ :memory                1.03
+ :mk-bool-var           35
+ :num-allocs            139651
+ :num-checks            1
+ :rlimit-count          5943
+ :time                  0.03
+ :total-time            0.03)
+
+real	0m0.031s
+user	0m0.033s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: problem__015.smt2
+*****************************************************
+sat
+(:arith-lower         21
+ :arith-make-feasible 4
+ :arith-max-columns   77
+ :arith-max-rows      32
+ :arith-patches       3
+ :arith-rows          33
+ :arith-upper         12
+ :decisions           3
+ :final-checks        4
+ :gcd-calls           3
+ :max-memory          1.57
+ :memory              1.02
+ :mk-bool-var         35
+ :num-allocs          111266
+ :num-checks          1
+ :rlimit-count        5619
+ :time                0.01
+ :total-time          0.01)
+
+real	0m0.009s
+user	0m0.010s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: problem__016.smt2
+*****************************************************
+sat
+(:arith-lower           20
+ :arith-make-feasible   1
+ :arith-max-columns     80
+ :arith-max-rows        35
+ :arith-patches         1
+ :arith-patches-success 1
+ :arith-rows            35
+ :arith-upper           15
+ :final-checks          1
+ :gcd-calls             1
+ :max-memory            1.59
+ :memory                1.00
+ :mk-bool-var           37
+ :num-allocs            130575
+ :num-checks            1
+ :rlimit-count          6371
+ :time                  0.01
+ :total-time            0.02)
+
+real	0m0.017s
+user	0m0.014s
+sys	0m0.005s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: problem__017.smt2
+*****************************************************
+sat
+(:arith-lower         20
+ :arith-make-feasible 5
+ :arith-max-columns   81
+ :arith-max-rows      36
+ :arith-patches       4
+ :arith-rows          38
+ :arith-upper         18
+ :cube-calls          1
+ :cube-success        1
+ :decisions           3
+ :final-checks        4
+ :gcd-calls           4
+ :max-memory          1.70
+ :memory              1.07
+ :mk-bool-var         40
+ :num-allocs          148912
+ :num-checks          1
+ :rlimit-count        6992
+ :time                0.14
+ :total-time          0.15)
+
+real	0m0.139s
+user	0m0.144s
+sys	0m0.004s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: problem__018.smt2
+*****************************************************
+sat
+(:arith-lower         21
+ :arith-make-feasible 5
+ :arith-max-columns   81
+ :arith-max-rows      36
+ :arith-patches       4
+ :arith-rows          38
+ :arith-upper         17
+ :cube-calls          1
+ :cube-success        1
+ :decisions           3
+ :final-checks        4
+ :gcd-calls           4
+ :max-memory          1.70
+ :memory              1.07
+ :mk-bool-var         40
+ :num-allocs          142235
+ :num-checks          1
+ :rlimit-count        6817
+ :time                0.04
+ :total-time          0.04)
+
+real	0m0.041s
+user	0m0.044s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: problem__019.smt2
+*****************************************************
+sat
+(:arith-lower           21
+ :arith-make-feasible   1
+ :arith-max-columns     80
+ :arith-max-rows        35
+ :arith-patches         1
+ :arith-patches-success 1
+ :arith-rows            35
+ :arith-upper           14
+ :final-checks          1
+ :gcd-calls             1
+ :max-memory            1.66
+ :memory                1.03
+ :mk-bool-var           37
+ :num-allocs            140876
+ :num-checks            1
+ :rlimit-count          6361
+ :time                  0.02
+ :total-time            0.02)
+
+real	0m0.021s
+user	0m0.018s
+sys	0m0.005s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: problem__020.smt2
+*****************************************************
+sat
+(:arith-lower           12
+ :arith-make-feasible   3
+ :arith-max-columns     81
+ :arith-max-rows        36
+ :arith-patches         3
+ :arith-patches-success 1
+ :arith-rows            37
+ :arith-upper           25
+ :decisions             2
+ :final-checks          3
+ :gcd-calls             3
+ :max-memory            1.72
+ :memory                1.09
+ :mk-bool-var           39
+ :num-allocs            143080
+ :num-checks            1
+ :rlimit-count          6574
+ :time                  0.06
+ :total-time            0.06)
+
+real	0m0.056s
+user	0m0.059s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: problem__021.smt2
+*****************************************************
+sat
+(:arith-lower           24
+ :arith-make-feasible   3
+ :arith-max-columns     85
+ :arith-max-rows        40
+ :arith-patches         3
+ :arith-patches-success 1
+ :arith-rows            42
+ :arith-upper           18
+ :decisions             2
+ :final-checks          3
+ :gcd-calls             3
+ :max-memory            1.78
+ :memory                1.13
+ :mk-bool-var           44
+ :num-allocs            152396
+ :num-checks            1
+ :rlimit-count          7296
+ :time                  0.14
+ :total-time            0.14)
+
+real	0m0.137s
+user	0m0.144s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: problem__022.smt2
+*****************************************************
+sat
+(:arith-lower         16
+ :arith-make-feasible 5
+ :arith-max-columns   86
+ :arith-max-rows      41
+ :arith-patches       4
+ :arith-rows          43
+ :arith-upper         27
+ :cube-calls          1
+ :cube-success        1
+ :decisions           3
+ :final-checks        4
+ :gcd-calls           4
+ :max-memory          1.80
+ :memory              1.16
+ :mk-bool-var         45
+ :num-allocs          159837
+ :num-checks          1
+ :rlimit-count        7538
+ :time                0.11
+ :total-time          0.11)
+
+real	0m0.105s
+user	0m0.108s
+sys	0m0.005s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: problem__023.smt2
+*****************************************************
+sat
+(:arith-lower         21
+ :arith-make-feasible 5
+ :arith-max-columns   86
+ :arith-max-rows      41
+ :arith-patches       4
+ :arith-rows          43
+ :arith-upper         22
+ :cube-calls          1
+ :cube-success        1
+ :decisions           3
+ :final-checks        4
+ :gcd-calls           4
+ :max-memory          1.79
+ :memory              1.13
+ :mk-bool-var         45
+ :num-allocs          164198
+ :num-checks          1
+ :rlimit-count        7507
+ :time                0.22
+ :total-time          0.22)
+
+real	0m0.211s
+user	0m0.216s
+sys	0m0.009s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: problem__024.smt2
+*****************************************************
+sat
+(:arith-lower                51
+ :arith-make-feasible        7
+ :arith-max-columns          171
+ :arith-max-rows             81
+ :arith-patches              6
+ :arith-patches-success      1
+ :arith-rows                 85
+ :arith-upper                34
+ :ate                        1552
+ :bce                        240
+ :binary-propagations        7807287
+ :conflicts                  45558
+ :decisions                  320837
+ :del-clause                 143563
+ :dyn-subsumption-resolution 17801
+ :elim-binary                63
+ :elim-bool-vars-res         35944
+ :elim-bool-vars-scc         674
+ :elim-clauses               5173
+ :elim-literals              25648
+ :final-checks               6
+ :gcd-calls                  6
+ :max-memory                 49.55
+ :memory                     4.87
+ :minimized-lits             117018
+ :mk-binary-clause           123925
+ :mk-bool-var                52083
+ :mk-clause                  89670
+ :mk-ternary-clause          137626
+ :num-allocs                 2921438509
+ :num-checks                 2
+ :probing-assigned           1988
+ :propagations               2470596
+ :restarts                   7946
+ :rlimit-count               20624712
+ :subsumed                   8453
+ :subsumption-resolution     3417
+ :ternary-propagations       7182540
+ :time                       5.59
+ :total-time                 5.60
+ :tr                         64
+ :units                      2181)
+
+real	0m7.518s
+user	0m5.545s
+sys	0m0.056s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: problem__025.smt2
+*****************************************************
+sat
+(:arith-lower           26
+ :arith-make-feasible   2
+ :arith-max-columns     85
+ :arith-max-rows        40
+ :arith-patches         2
+ :arith-patches-success 1
+ :arith-rows            41
+ :arith-upper           15
+ :decisions             1
+ :final-checks          2
+ :gcd-calls             2
+ :max-memory            1.78
+ :memory                1.11
+ :mk-bool-var           43
+ :num-allocs            155088
+ :num-checks            1
+ :rlimit-count          7138
+ :time                  0.04
+ :total-time            0.04)
+
+real	0m0.045s
+user	0m0.039s
+sys	0m0.008s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: problem__026.smt2
+*****************************************************
+sat
+(:arith-lower         29
+ :arith-make-feasible 5
+ :arith-max-columns   90
+ :arith-max-rows      45
+ :arith-patches       4
+ :arith-rows          48
+ :arith-upper         19
+ :cube-calls          1
+ :cube-success        1
+ :decisions           3
+ :final-checks        4
+ :gcd-calls           4
+ :max-memory          1.78
+ :memory              1.19
+ :mk-bool-var         50
+ :num-allocs          155504
+ :num-checks          1
+ :rlimit-count        7992
+ :time                0.41
+ :total-time          0.41)
+
+real	0m0.389s
+user	0m0.411s
+sys	0m0.005s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: problem__027.smt2
+*****************************************************
+sat
+(:arith-lower         22
+ :arith-make-feasible 5
+ :arith-max-columns   91
+ :arith-max-rows      46
+ :arith-patches       4
+ :arith-rows          48
+ :arith-upper         26
+ :cube-calls          1
+ :cube-success        1
+ :decisions           3
+ :final-checks        4
+ :gcd-calls           4
+ :max-memory          1.81
+ :memory              1.22
+ :mk-bool-var         50
+ :num-allocs          168419
+ :num-checks          1
+ :rlimit-count        8081
+ :time                0.39
+ :total-time          0.39)
+
+real	0m0.371s
+user	0m0.396s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: problem__028.smt2
+*****************************************************
+sat
+(:arith-lower           27
+ :arith-make-feasible   3
+ :arith-max-columns     92
+ :arith-max-rows        47
+ :arith-patches         3
+ :arith-patches-success 1
+ :arith-rows            47
+ :arith-upper           20
+ :decisions             2
+ :final-checks          3
+ :gcd-calls             3
+ :max-memory            1.88
+ :memory                1.19
+ :mk-bool-var           49
+ :num-allocs            171774
+ :num-checks            1
+ :rlimit-count          8149
+ :time                  0.23
+ :total-time            0.23)
+
+real	0m0.219s
+user	0m0.230s
+sys	0m0.005s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: problem__029.smt2
+*****************************************************
+sat
+(:arith-lower         22
+ :arith-make-feasible 5
+ :arith-max-columns   90
+ :arith-max-rows      45
+ :arith-patches       4
+ :arith-rows          48
+ :arith-upper         26
+ :cube-calls          1
+ :cube-success        1
+ :decisions           3
+ :final-checks        4
+ :gcd-calls           4
+ :max-memory          1.81
+ :memory              1.22
+ :mk-bool-var         50
+ :num-allocs          174740
+ :num-checks          1
+ :rlimit-count        8468
+ :time                0.34
+ :total-time          0.34)
+
+real	0m0.321s
+user	0m0.336s
+sys	0m0.005s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: problem__030.smt2
+*****************************************************
+sat
+(:arith-lower         25
+ :arith-make-feasible 5
+ :arith-max-columns   91
+ :arith-max-rows      46
+ :arith-patches       4
+ :arith-rows          48
+ :arith-upper         23
+ :cube-calls          1
+ :cube-success        1
+ :decisions           3
+ :final-checks        4
+ :gcd-calls           4
+ :max-memory          1.89
+ :memory              1.20
+ :mk-bool-var         50
+ :num-allocs          181985
+ :num-checks          1
+ :rlimit-count        8113
+ :time                0.25
+ :total-time          0.25)
+
+real	0m0.239s
+user	0m0.251s
+sys	0m0.005s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: problem__031.smt2
+*****************************************************
+sat
+(:arith-lower         25
+ :arith-make-feasible 5
+ :arith-max-columns   96
+ :arith-max-rows      51
+ :arith-patches       4
+ :arith-rows          53
+ :arith-upper         28
+ :cube-calls          1
+ :cube-success        1
+ :decisions           3
+ :final-checks        4
+ :gcd-calls           4
+ :max-memory          1.88
+ :memory              1.18
+ :mk-bool-var         55
+ :num-allocs          195781
+ :num-checks          1
+ :rlimit-count        8992
+ :time                0.64
+ :total-time          0.64)
+
+real	0m0.604s
+user	0m0.643s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: problem__032.smt2
+*****************************************************
+sat
+(:arith-lower         26
+ :arith-make-feasible 5
+ :arith-max-columns   96
+ :arith-max-rows      51
+ :arith-patches       4
+ :arith-rows          53
+ :arith-upper         27
+ :cube-calls          1
+ :cube-success        1
+ :decisions           3
+ :final-checks        4
+ :gcd-calls           4
+ :max-memory          1.87
+ :memory              1.18
+ :mk-bool-var         55
+ :num-allocs          198167
+ :num-checks          1
+ :rlimit-count        9211
+ :time                0.76
+ :total-time          0.76)
+
+real	0m0.718s
+user	0m0.763s
+sys	0m0.005s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: problem__033.smt2
+*****************************************************
+sat
+(:arith-lower         19
+ :arith-make-feasible 5
+ :arith-max-columns   96
+ :arith-max-rows      51
+ :arith-patches       4
+ :arith-rows          53
+ :arith-upper         34
+ :cube-calls          1
+ :cube-success        1
+ :decisions           3
+ :final-checks        4
+ :gcd-calls           4
+ :max-memory          1.90
+ :memory              1.19
+ :mk-bool-var         55
+ :num-allocs          208310
+ :num-checks          1
+ :rlimit-count        8903
+ :time                0.59
+ :total-time          0.60)
+
+real	0m0.564s
+user	0m0.598s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: problem__034.smt2
+*****************************************************
+sat
+(:arith-lower         29
+ :arith-make-feasible 5
+ :arith-max-columns   95
+ :arith-max-rows      50
+ :arith-patches       4
+ :arith-rows          53
+ :arith-upper         24
+ :cube-calls          1
+ :cube-success        1
+ :decisions           3
+ :final-checks        4
+ :gcd-calls           4
+ :max-memory          1.90
+ :memory              1.20
+ :mk-bool-var         55
+ :num-allocs          200542
+ :num-checks          1
+ :rlimit-count        8929
+ :time                0.69
+ :total-time          0.69)
+
+real	0m0.652s
+user	0m0.695s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: problem__035.smt2
+*****************************************************
+sat
+(:arith-bound-propagations-cheap 1
+ :arith-lower                    25
+ :arith-make-feasible            5
+ :arith-max-columns              95
+ :arith-max-rows                 50
+ :arith-patches                  4
+ :arith-propagations             1
+ :arith-rows                     53
+ :arith-upper                    28
+ :cube-calls                     1
+ :cube-success                   1
+ :decisions                      3
+ :final-checks                   4
+ :gcd-calls                      4
+ :max-memory                     1.88
+ :memory                         1.15
+ :mk-bool-var                    55
+ :num-allocs                     192373
+ :num-checks                     1
+ :rlimit-count                   8904
+ :time                           0.96
+ :total-time                     0.96)
+
+real	0m0.903s
+user	0m0.964s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: problem_2__001.smt2
+*****************************************************
+sat
+(:arith-lower           11
+ :arith-make-feasible   1
+ :arith-max-columns     65
+ :arith-max-rows        20
+ :arith-patches         1
+ :arith-patches-success 1
+ :arith-rows            20
+ :arith-upper           9
+ :final-checks          1
+ :gcd-calls             1
+ :max-memory            1.46
+ :memory                0.97
+ :mk-bool-var           22
+ :num-allocs            95624
+ :num-checks            1
+ :rlimit-count          4201
+ :time                  0.00
+ :total-time            0.01)
+
+real	0m0.007s
+user	0m0.004s
+sys	0m0.004s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: problem_2__002.smt2
+*****************************************************
+sat
+(:arith-lower         13
+ :arith-make-feasible 5
+ :arith-max-columns   66
+ :arith-max-rows      21
+ :arith-patches       4
+ :arith-rows          23
+ :arith-upper         10
+ :cube-calls          1
+ :cube-success        1
+ :decisions           3
+ :final-checks        4
+ :gcd-calls           4
+ :max-memory          1.45
+ :memory              0.95
+ :mk-bool-var         25
+ :num-allocs          97939
+ :num-checks          1
+ :rlimit-count        4197
+ :time                0.00
+ :total-time          0.01)
+
+real	0m0.008s
+user	0m0.004s
+sys	0m0.004s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: problem_2__003.smt2
+*****************************************************
+sat
+(:arith-lower         9
+ :arith-make-feasible 2
+ :arith-max-columns   66
+ :arith-max-rows      21
+ :arith-patches       1
+ :arith-rows          21
+ :arith-upper         12
+ :decisions           1
+ :final-checks        2
+ :gcd-calls           1
+ :max-memory          1.46
+ :memory              0.98
+ :mk-bool-var         23
+ :num-allocs          89824
+ :num-checks          1
+ :rlimit-count        4802
+ :time                0.00
+ :total-time          0.01)
+
+real	0m0.008s
+user	0m0.008s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: problem_2__004.smt2
+*****************************************************
+sat
+(:arith-lower           11
+ :arith-make-feasible   2
+ :arith-max-columns     65
+ :arith-max-rows        20
+ :arith-patches         2
+ :arith-patches-success 1
+ :arith-rows            21
+ :arith-upper           10
+ :decisions             1
+ :final-checks          2
+ :gcd-calls             2
+ :max-memory            1.46
+ :memory                0.97
+ :mk-bool-var           23
+ :num-allocs            96514
+ :num-checks            1
+ :rlimit-count          4180
+ :time                  0.01
+ :total-time            0.01)
+
+real	0m0.009s
+user	0m0.010s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: problem_2__005.smt2
+*****************************************************
+sat
+(:arith-lower           9
+ :arith-make-feasible   1
+ :arith-max-columns     65
+ :arith-max-rows        20
+ :arith-patches         1
+ :arith-patches-success 1
+ :arith-rows            20
+ :arith-upper           11
+ :final-checks          1
+ :gcd-calls             1
+ :max-memory            1.46
+ :memory                0.95
+ :mk-bool-var           22
+ :num-allocs            98082
+ :num-checks            1
+ :rlimit-count          4819
+ :time                  0.00
+ :total-time            0.01)
+
+real	0m0.007s
+user	0m0.008s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: problem_2__006.smt2
+*****************************************************
+sat
+(:arith-lower         13
+ :arith-make-feasible 5
+ :arith-max-columns   70
+ :arith-max-rows      25
+ :arith-patches       4
+ :arith-rows          28
+ :arith-upper         15
+ :cube-calls          1
+ :cube-success        1
+ :decisions           3
+ :final-checks        4
+ :gcd-calls           4
+ :max-memory          1.57
+ :memory              1.07
+ :mk-bool-var         30
+ :num-allocs          109418
+ :num-checks          1
+ :rlimit-count        5048
+ :time                0.02
+ :total-time          0.02)
+
+real	0m0.018s
+user	0m0.015s
+sys	0m0.004s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: problem_2__007.smt2
+*****************************************************
+sat
+(:arith-lower         14
+ :arith-make-feasible 1
+ :arith-max-columns   70
+ :arith-max-rows      25
+ :arith-rows          25
+ :arith-upper         11
+ :final-checks        1
+ :max-memory          1.47
+ :memory              0.98
+ :mk-bool-var         27
+ :num-allocs          99871
+ :num-checks          1
+ :rlimit-count        4817
+ :time                0.00
+ :total-time          0.00)
+
+real	0m0.007s
+user	0m0.007s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: problem_2__008.smt2
+*****************************************************
+sat
+(:arith-lower           12
+ :arith-make-feasible   1
+ :arith-max-columns     70
+ :arith-max-rows        25
+ :arith-patches         1
+ :arith-patches-success 1
+ :arith-rows            25
+ :arith-upper           13
+ :final-checks          1
+ :gcd-calls             1
+ :max-memory            1.46
+ :memory                0.95
+ :mk-bool-var           27
+ :num-allocs            97043
+ :num-checks            1
+ :rlimit-count          4673
+ :time                  0.00
+ :total-time            0.00)
+
+real	0m0.007s
+user	0m0.000s
+sys	0m0.007s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: problem_2__009.smt2
+*****************************************************
+sat
+(:arith-lower           12
+ :arith-make-feasible   2
+ :arith-max-columns     71
+ :arith-max-rows        26
+ :arith-patches         2
+ :arith-patches-success 1
+ :arith-rows            26
+ :arith-upper           14
+ :decisions             1
+ :final-checks          2
+ :gcd-calls             2
+ :max-memory            1.57
+ :memory                1.00
+ :mk-bool-var           28
+ :num-allocs            108149
+ :num-checks            1
+ :rlimit-count          4979
+ :time                  0.00
+ :total-time            0.01)
+
+real	0m0.008s
+user	0m0.004s
+sys	0m0.004s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: problem_2__010.smt2
+*****************************************************
+sat
+(:arith-lower           15
+ :arith-make-feasible   4
+ :arith-max-columns     72
+ :arith-max-rows        27
+ :arith-patches         4
+ :arith-patches-success 1
+ :arith-rows            28
+ :arith-upper           13
+ :decisions             3
+ :final-checks          4
+ :gcd-calls             4
+ :max-memory            1.57
+ :memory                1.06
+ :mk-bool-var           30
+ :num-allocs            112876
+ :num-checks            1
+ :rlimit-count          5088
+ :time                  0.01
+ :total-time            0.01)
+
+real	0m0.012s
+user	0m0.013s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: problem_2__011.smt2
+*****************************************************
+sat
+(:arith-lower         18
+ :arith-make-feasible 5
+ :arith-max-columns   76
+ :arith-max-rows      31
+ :arith-patches       4
+ :arith-rows          33
+ :arith-upper         15
+ :cube-calls          1
+ :cube-success        1
+ :decisions           3
+ :final-checks        4
+ :gcd-calls           4
+ :max-memory          1.66
+ :memory              1.01
+ :mk-bool-var         35
+ :num-allocs          139847
+ :num-checks          1
+ :rlimit-count        5769
+ :time                0.02
+ :total-time          0.02)
+
+real	0m0.020s
+user	0m0.022s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: problem_2__012.smt2
+*****************************************************
+sat
+(:arith-lower         16
+ :arith-make-feasible 5
+ :arith-max-columns   76
+ :arith-max-rows      31
+ :arith-patches       4
+ :arith-rows          33
+ :arith-upper         17
+ :cube-calls          1
+ :cube-success        1
+ :decisions           3
+ :final-checks        4
+ :gcd-calls           4
+ :max-memory          1.61
+ :memory              0.97
+ :mk-bool-var         35
+ :num-allocs          126974
+ :num-checks          1
+ :rlimit-count        5526
+ :time                0.01
+ :total-time          0.01)
+
+real	0m0.013s
+user	0m0.014s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: problem_2__013.smt2
+*****************************************************
+sat
+(:arith-lower           22
+ :arith-make-feasible   1
+ :arith-max-columns     75
+ :arith-max-rows        30
+ :arith-patches         1
+ :arith-patches-success 1
+ :arith-rows            30
+ :arith-upper           8
+ :final-checks          1
+ :gcd-calls             1
+ :max-memory            1.57
+ :memory                1.01
+ :mk-bool-var           32
+ :num-allocs            110304
+ :num-checks            1
+ :rlimit-count          5699
+ :time                  0.00
+ :total-time            0.01)
+
+real	0m0.008s
+user	0m0.004s
+sys	0m0.004s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: problem_2__014.smt2
+*****************************************************
+sat
+(:arith-lower         16
+ :arith-make-feasible 5
+ :arith-max-columns   76
+ :arith-max-rows      31
+ :arith-patches       4
+ :arith-rows          33
+ :arith-upper         17
+ :cube-calls          1
+ :cube-success        1
+ :decisions           3
+ :final-checks        4
+ :gcd-calls           4
+ :max-memory          1.69
+ :memory              1.03
+ :mk-bool-var         35
+ :num-allocs          139643
+ :num-checks          1
+ :rlimit-count        5739
+ :time                0.01
+ :total-time          0.02)
+
+real	0m0.017s
+user	0m0.018s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: problem_2__015.smt2
+*****************************************************
+sat
+(:arith-lower         15
+ :arith-make-feasible 5
+ :arith-max-columns   77
+ :arith-max-rows      32
+ :arith-patches       4
+ :arith-rows          33
+ :arith-upper         18
+ :cube-calls          1
+ :cube-success        1
+ :decisions           3
+ :final-checks        4
+ :gcd-calls           4
+ :max-memory          1.57
+ :memory              0.97
+ :mk-bool-var         35
+ :num-allocs          128768
+ :num-checks          1
+ :rlimit-count        6265
+ :time                0.01
+ :total-time          0.01)
+
+real	0m0.010s
+user	0m0.007s
+sys	0m0.004s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: problem_2__016.smt2
+*****************************************************
+sat
+(:arith-lower         18
+ :arith-make-feasible 5
+ :arith-max-columns   82
+ :arith-max-rows      37
+ :arith-patches       4
+ :arith-rows          38
+ :arith-upper         20
+ :cube-calls          1
+ :cube-success        1
+ :decisions           3
+ :final-checks        4
+ :gcd-calls           4
+ :max-memory          1.71
+ :memory              1.08
+ :mk-bool-var         40
+ :num-allocs          141412
+ :num-checks          1
+ :rlimit-count        6716
+ :time                0.04
+ :total-time          0.05)
+
+real	0m0.045s
+user	0m0.047s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: problem_2__017.smt2
+*****************************************************
+sat
+(:arith-lower         19
+ :arith-make-feasible 5
+ :arith-max-columns   80
+ :arith-max-rows      35
+ :arith-patches       4
+ :arith-rows          38
+ :arith-upper         19
+ :cube-calls          1
+ :cube-success        1
+ :decisions           3
+ :final-checks        4
+ :gcd-calls           4
+ :max-memory          1.67
+ :memory              1.10
+ :mk-bool-var         40
+ :num-allocs          135467
+ :num-checks          1
+ :rlimit-count        6654
+ :time                0.08
+ :total-time          0.08)
+
+real	0m0.076s
+user	0m0.081s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: problem_2__018.smt2
+*****************************************************
+sat
+(:arith-lower         18
+ :arith-make-feasible 5
+ :arith-max-columns   80
+ :arith-max-rows      35
+ :arith-patches       4
+ :arith-rows          38
+ :arith-upper         20
+ :cube-calls          1
+ :cube-success        1
+ :decisions           3
+ :final-checks        4
+ :gcd-calls           4
+ :max-memory          1.70
+ :memory              1.11
+ :mk-bool-var         40
+ :num-allocs          140844
+ :num-checks          1
+ :rlimit-count        6360
+ :time                0.08
+ :total-time          0.08)
+
+real	0m0.078s
+user	0m0.075s
+sys	0m0.009s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: problem_2__019.smt2
+*****************************************************
+sat
+(:arith-lower         23
+ :arith-make-feasible 5
+ :arith-max-columns   81
+ :arith-max-rows      36
+ :arith-patches       4
+ :arith-rows          38
+ :arith-upper         15
+ :cube-calls          1
+ :cube-success        1
+ :decisions           3
+ :final-checks        4
+ :gcd-calls           4
+ :max-memory          1.71
+ :memory              1.07
+ :mk-bool-var         40
+ :num-allocs          145759
+ :num-checks          1
+ :rlimit-count        6918
+ :time                0.07
+ :total-time          0.07)
+
+real	0m0.066s
+user	0m0.070s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: problem_2__020.smt2
+*****************************************************
+sat
+(:arith-lower         17
+ :arith-make-feasible 5
+ :arith-max-columns   81
+ :arith-max-rows      36
+ :arith-patches       4
+ :arith-rows          38
+ :arith-upper         21
+ :cube-calls          1
+ :cube-success        1
+ :decisions           3
+ :final-checks        4
+ :gcd-calls           4
+ :max-memory          1.69
+ :memory              1.10
+ :mk-bool-var         40
+ :num-allocs          143664
+ :num-checks          1
+ :rlimit-count        7333
+ :time                0.05
+ :total-time          0.05)
+
+real	0m0.046s
+user	0m0.045s
+sys	0m0.004s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: problem_2__021.smt2
+*****************************************************
+sat
+(:arith-lower         18
+ :arith-make-feasible 5
+ :arith-max-columns   86
+ :arith-max-rows      41
+ :arith-patches       4
+ :arith-rows          43
+ :arith-upper         25
+ :cube-calls          1
+ :cube-success        1
+ :decisions           3
+ :final-checks        4
+ :gcd-calls           4
+ :max-memory          1.78
+ :memory              1.14
+ :mk-bool-var         45
+ :num-allocs          160072
+ :num-checks          1
+ :rlimit-count        7455
+ :time                0.15
+ :total-time          0.15)
+
+real	0m0.142s
+user	0m0.151s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: problem_2__022.smt2
+*****************************************************
+sat
+(:arith-lower         22
+ :arith-make-feasible 5
+ :arith-max-columns   85
+ :arith-max-rows      40
+ :arith-patches       4
+ :arith-rows          43
+ :arith-upper         21
+ :cube-calls          1
+ :cube-success        1
+ :decisions           3
+ :final-checks        4
+ :gcd-calls           4
+ :max-memory          1.71
+ :memory              1.12
+ :mk-bool-var         45
+ :num-allocs          151219
+ :num-checks          1
+ :rlimit-count        7314
+ :time                0.12
+ :total-time          0.12)
+
+real	0m0.117s
+user	0m0.116s
+sys	0m0.009s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: problem_2__023.smt2
+*****************************************************
+sat
+(:arith-lower           23
+ :arith-make-feasible   4
+ :arith-max-columns     85
+ :arith-max-rows        40
+ :arith-patches         4
+ :arith-patches-success 1
+ :arith-rows            43
+ :arith-upper           20
+ :decisions             3
+ :final-checks          4
+ :gcd-calls             4
+ :max-memory            1.78
+ :memory                1.12
+ :mk-bool-var           45
+ :num-allocs            160679
+ :num-checks            1
+ :rlimit-count          7402
+ :time                  0.17
+ :total-time            0.17)
+
+real	0m0.165s
+user	0m0.167s
+sys	0m0.009s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: problem_2__024.smt2
+*****************************************************
+sat
+(:arith-lower         22
+ :arith-make-feasible 5
+ :arith-max-columns   87
+ :arith-max-rows      42
+ :arith-patches       4
+ :arith-rows          43
+ :arith-upper         21
+ :cube-calls          1
+ :cube-success        1
+ :decisions           3
+ :final-checks        4
+ :gcd-calls           4
+ :max-memory          1.80
+ :memory              1.18
+ :mk-bool-var         45
+ :num-allocs          155370
+ :num-checks          1
+ :rlimit-count        7315
+ :time                0.21
+ :total-time          0.21)
+
+real	0m0.196s
+user	0m0.205s
+sys	0m0.005s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: problem_2__025.smt2
+*****************************************************
+sat
+(:arith-lower           20
+ :arith-make-feasible   3
+ :arith-max-columns     85
+ :arith-max-rows        40
+ :arith-patches         3
+ :arith-patches-success 1
+ :arith-rows            42
+ :arith-upper           22
+ :decisions             2
+ :final-checks          3
+ :gcd-calls             3
+ :max-memory            1.79
+ :memory                1.15
+ :mk-bool-var           44
+ :num-allocs            160353
+ :num-checks            1
+ :rlimit-count          7445
+ :time                  0.19
+ :total-time            0.19)
+
+real	0m0.183s
+user	0m0.195s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: problem_2__026.smt2
+*****************************************************
+sat
+(:arith-lower         24
+ :arith-make-feasible 5
+ :arith-max-columns   92
+ :arith-max-rows      47
+ :arith-patches       4
+ :arith-rows          48
+ :arith-upper         24
+ :cube-calls          1
+ :cube-success        1
+ :decisions           3
+ :final-checks        4
+ :gcd-calls           4
+ :max-memory          1.78
+ :memory              1.19
+ :mk-bool-var         50
+ :num-allocs          162625
+ :num-checks          1
+ :rlimit-count        8038
+ :time                0.22
+ :total-time          0.22)
+
+real	0m0.210s
+user	0m0.216s
+sys	0m0.009s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: problem_2__027.smt2
+*****************************************************
+sat
+(:arith-bound-propagations-cheap 1
+ :arith-lower                    23
+ :arith-make-feasible            5
+ :arith-max-columns              90
+ :arith-max-rows                 45
+ :arith-patches                  4
+ :arith-propagations             1
+ :arith-rows                     48
+ :arith-upper                    25
+ :cube-calls                     1
+ :cube-success                   1
+ :decisions                      3
+ :final-checks                   4
+ :gcd-calls                      4
+ :max-memory                     1.82
+ :memory                         1.18
+ :mk-bool-var                    50
+ :num-allocs                     163945
+ :num-checks                     1
+ :rlimit-count                   8004
+ :time                           0.30
+ :total-time                     0.30)
+
+real	0m0.288s
+user	0m0.298s
+sys	0m0.009s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: problem_2__028.smt2
+*****************************************************
+sat
+(:arith-lower         23
+ :arith-make-feasible 5
+ :arith-max-columns   90
+ :arith-max-rows      45
+ :arith-patches       4
+ :arith-rows          48
+ :arith-upper         25
+ :cube-calls          1
+ :cube-success        1
+ :decisions           3
+ :final-checks        4
+ :gcd-calls           4
+ :max-memory          1.78
+ :memory              1.15
+ :mk-bool-var         50
+ :num-allocs          181938
+ :num-checks          1
+ :rlimit-count        9397
+ :time                1.31
+ :total-time          1.31)
+
+real	0m1.227s
+user	0m1.309s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: problem_2__029.smt2
+*****************************************************
+sat
+(:arith-lower           23
+ :arith-make-feasible   3
+ :arith-max-columns     90
+ :arith-max-rows        45
+ :arith-patches         3
+ :arith-patches-success 1
+ :arith-rows            47
+ :arith-upper           24
+ :decisions             2
+ :final-checks          3
+ :gcd-calls             3
+ :max-memory            1.81
+ :memory                1.21
+ :mk-bool-var           49
+ :num-allocs            162682
+ :num-checks            1
+ :rlimit-count          7867
+ :time                  0.15
+ :total-time            0.16)
+
+real	0m0.149s
+user	0m0.151s
+sys	0m0.009s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: problem_2__030.smt2
+*****************************************************
+sat
+(:arith-lower         30
+ :arith-make-feasible 5
+ :arith-max-columns   90
+ :arith-max-rows      45
+ :arith-patches       4
+ :arith-rows          48
+ :arith-upper         18
+ :cube-calls          1
+ :cube-success        1
+ :decisions           3
+ :final-checks        4
+ :gcd-calls           4
+ :max-memory          1.88
+ :memory              1.19
+ :mk-bool-var         50
+ :num-allocs          175209
+ :num-checks          1
+ :rlimit-count        8196
+ :time                0.35
+ :total-time          0.35)
+
+real	0m0.333s
+user	0m0.356s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: problem_2__031.smt2
+*****************************************************
+sat
+(:arith-lower         33
+ :arith-make-feasible 5
+ :arith-max-columns   96
+ :arith-max-rows      51
+ :arith-patches       4
+ :arith-rows          53
+ :arith-upper         20
+ :cube-calls          1
+ :cube-success        1
+ :decisions           3
+ :final-checks        4
+ :gcd-calls           4
+ :max-memory          1.91
+ :memory              1.19
+ :mk-bool-var         55
+ :num-allocs          204008
+ :num-checks          1
+ :rlimit-count        9106
+ :time                1.12
+ :total-time          1.12)
+
+real	0m1.050s
+user	0m1.118s
+sys	0m0.005s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: problem_2__032.smt2
+*****************************************************
+sat
+(:arith-lower         32
+ :arith-make-feasible 5
+ :arith-max-columns   96
+ :arith-max-rows      51
+ :arith-patches       4
+ :arith-rows          53
+ :arith-upper         21
+ :cube-calls          1
+ :cube-success        1
+ :decisions           3
+ :final-checks        4
+ :gcd-calls           4
+ :max-memory          1.90
+ :memory              1.18
+ :mk-bool-var         55
+ :num-allocs          201393
+ :num-checks          1
+ :rlimit-count        9018
+ :time                1.38
+ :total-time          1.38)
+
+real	0m1.297s
+user	0m1.382s
+sys	0m0.005s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: problem_2__033.smt2
+*****************************************************
+sat
+(:arith-lower           28
+ :arith-make-feasible   4
+ :arith-max-columns     95
+ :arith-max-rows        50
+ :arith-patches         4
+ :arith-patches-success 1
+ :arith-rows            53
+ :arith-upper           25
+ :decisions             3
+ :final-checks          4
+ :gcd-calls             4
+ :max-memory            1.91
+ :memory                1.16
+ :mk-bool-var           55
+ :num-allocs            197025
+ :num-checks            1
+ :rlimit-count          8674
+ :time                  0.84
+ :total-time            0.84)
+
+real	0m0.795s
+user	0m0.840s
+sys	0m0.005s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: problem_2__034.smt2
+*****************************************************
+sat
+(:arith-lower         25
+ :arith-make-feasible 5
+ :arith-max-columns   96
+ :arith-max-rows      51
+ :arith-patches       4
+ :arith-rows          53
+ :arith-upper         28
+ :cube-calls          1
+ :cube-success        1
+ :decisions           3
+ :final-checks        4
+ :gcd-calls           4
+ :max-memory          1.90
+ :memory              1.20
+ :mk-bool-var         55
+ :num-allocs          205688
+ :num-checks          1
+ :rlimit-count        8923
+ :time                0.53
+ :total-time          0.53)
+
+real	0m0.501s
+user	0m0.535s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: problem_2__035.smt2
+*****************************************************
+sat
+(:arith-lower         30
+ :arith-make-feasible 5
+ :arith-max-columns   96
+ :arith-max-rows      51
+ :arith-patches       4
+ :arith-rows          53
+ :arith-upper         23
+ :cube-calls          1
+ :cube-success        1
+ :decisions           3
+ :final-checks        4
+ :gcd-calls           4
+ :max-memory          1.90
+ :memory              1.20
+ :mk-bool-var         55
+ :num-allocs          202821
+ :num-checks          1
+ :rlimit-count        8866
+ :time                0.58
+ :total-time          0.58)
+
+real	0m0.553s
+user	0m0.582s
+sys	0m0.000s
+*****************************************************
+/home/mabutalibov1271/z3.sh: line 8: /home/mabutalibov1271: Is a directory
+/home/mabutalibov1271/z3.sh: line 9: /home/mabutalibov1271: Is a directory
+/home/mabutalibov1271/z3.sh: line 10: /home/mabutalibov1271: Is a directory
+/home/mabutalibov1271/z3.sh: line 11: /home/mabutalibov1271: Is a directory

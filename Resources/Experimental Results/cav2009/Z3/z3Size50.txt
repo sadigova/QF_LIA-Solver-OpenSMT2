@@ -1,0 +1,148 @@
+*****************************************************
+Toolname: Z3 Filename: problem__002.smt2
+*****************************************************
+unsat
+(:arith-conflicts     1
+ :arith-lower         13
+ :arith-make-feasible 1
+ :arith-max-columns   30
+ :arith-max-rows      20
+ :arith-rows          20
+ :arith-upper         7
+ :conflicts           1
+ :max-memory          1.45
+ :memory              1.01
+ :mk-bool-var         22
+ :num-allocs          85103
+ :num-checks          1
+ :rlimit-count        4575
+ :time                0.03
+ :total-time          0.03)
+
+real	0m0.032s
+user	0m0.032s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: problem__003.smt2
+*****************************************************
+sat
+(:arith-conflicts     1
+ :arith-lower         13
+ :arith-make-feasible 6
+ :arith-max-columns   30
+ :arith-max-rows      20
+ :arith-patches       4
+ :arith-rows          24
+ :arith-upper         11
+ :conflicts           1
+ :cube-calls          1
+ :cube-success        1
+ :decisions           3
+ :final-checks        4
+ :gcd-calls           4
+ :max-memory          1.54
+ :memory              0.94
+ :mk-bool-var         25
+ :mk-clause           1
+ :num-allocs          124805
+ :num-checks          1
+ :rlimit-count        4813
+ :time                0.05
+ :total-time          0.06)
+
+real	0m0.056s
+user	0m0.056s
+sys	0m0.005s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: problem__004.smt2
+*****************************************************
+sat
+(:arith-lower         11
+ :arith-make-feasible 5
+ :arith-max-columns   32
+ :arith-max-rows      22
+ :arith-patches       4
+ :arith-rows          23
+ :arith-upper         12
+ :cube-calls          1
+ :cube-success        1
+ :decisions           3
+ :final-checks        4
+ :gcd-calls           4
+ :max-memory          1.54
+ :memory              0.94
+ :mk-bool-var         25
+ :num-allocs          124159
+ :num-checks          1
+ :rlimit-count        4617
+ :time                0.04
+ :total-time          0.04)
+
+real	0m0.040s
+user	0m0.043s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: problem__005.smt2
+*****************************************************
+sat
+(:arith-conflicts     2
+ :arith-lower         16
+ :arith-make-feasible 8
+ :arith-max-columns   31
+ :arith-max-rows      21
+ :arith-patches       4
+ :arith-rows          26
+ :arith-upper         10
+ :conflicts           2
+ :cube-calls          1
+ :cube-success        1
+ :decisions           4
+ :final-checks        4
+ :gcd-calls           4
+ :max-memory          1.56
+ :memory              1.00
+ :mk-bool-var         27
+ :mk-clause           1
+ :num-allocs          115821
+ :num-checks          1
+ :propagations        1
+ :rlimit-count        4893
+ :time                0.08
+ :total-time          0.08)
+
+real	0m0.078s
+user	0m0.084s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: problem__006.smt2
+*****************************************************
+unsat
+(:arith-conflicts     1
+ :arith-lower         12
+ :arith-make-feasible 1
+ :arith-max-columns   30
+ :arith-max-rows      20
+ :arith-rows          20
+ :arith-upper         8
+ :conflicts           1
+ :max-memory          1.36
+ :memory              1.00
+ :mk-bool-var         22
+ :num-allocs          69134
+ :num-checks          1
+ :rlimit-count        4627
+ :time                0.01
+ :total-time          0.02)
+
+real	0m0.017s
+user	0m0.018s
+sys	0m0.000s
+*****************************************************
+/home/mabutalibov1271/z3.sh: line 8: /home/mabutalibov1271: Is a directory
+/home/mabutalibov1271/z3.sh: line 9: /home/mabutalibov1271: Is a directory
+/home/mabutalibov1271/z3.sh: line 10: /home/mabutalibov1271: Is a directory
+/home/mabutalibov1271/z3.sh: line 11: /home/mabutalibov1271: Is a directory

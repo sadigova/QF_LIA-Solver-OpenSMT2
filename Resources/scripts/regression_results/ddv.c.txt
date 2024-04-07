@@ -1,0 +1,60 @@
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `ddv.c' ...
+Parsing ddv.c
+Converting
+Type-checking ddv
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+file ddv.c line 2198 function call_ddv: replacing function pointer by 1 possible targets
+file ddv.c line 2208 function call_ddv: replacing function pointer by 2 possible targets
+file ddv.c line 2381 function call_cdev_functions: replacing function pointer by 1 possible targets
+file ddv.c line 2400 function call_cdev_functions: replacing function pointer by 1 possible targets
+file ddv.c line 2423 function call_cdev_functions: replacing function pointer by 1 possible targets
+file ddv.c line 2450 function call_cdev_functions: replacing function pointer by 1 possible targets
+file ddv.c line 2476 function call_cdev_functions: replacing function pointer by 2 possible targets
+file ddv.c line 2504 function call_cdev_functions: replacing function pointer by 2 possible targets
+file ddv.c line 2764 function call_genhd_functions: replacing function pointer by 2 possible targets
+file ddv.c line 2780 function call_genhd_functions: replacing function pointer by 2 possible targets
+file ddv.c line 2798 function call_genhd_functions: replacing function pointer by 1 possible targets
+file ddv.c line 2812 function call_genhd_functions: replacing function pointer by 0 possible targets
+file ddv.c line 2826 function call_genhd_functions: replacing function pointer by 0 possible targets
+file ddv.c line 2841 function call_genhd_functions: replacing function pointer by 2 possible targets
+file ddv.c line 2923 function pci_probe_device: replacing function pointer by 2 possible targets
+file ddv.c line 2943 function pci_remove_device: replacing function pointer by 0 possible targets
+file ddv.c line 2885 function call_interrupt_handler: replacing function pointer by 1 possible targets
+file ddv.c line 3026 function call_tasklet_functions: replacing function pointer by 1 possible targets
+file ddv.c line 3066 function call_timer_functions: replacing function pointer by 1 possible targets
+file ddv.c line 4958 function call_shared_workqueue_functions: replacing function pointer by 0 possible targets
+file ddv.c line 2640 function call_rq_function: replacing function pointer by 0 possible targets
+Generic Property Instrumentation
+    LOAD Time: 2.027 sec.
+Total number of claims in program...(152)
+Warrning: --claim is set to 1.
+Use QF_UF logic.
+    Checking Claim #1 (0%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+*** INLINING function: call_ddv
+Processing a deferred function: call_ddv
+*** INLINING function: init_kernel
+*** NONDET abstraction used for function: zf_init
+*** NONDET abstraction used for function: ddv
+*** NONDET abstraction used for function: zf_exit
+*** NONDET abstraction used for function: zf_init
+Processing a deferred function: init_kernel
+*** INLINING function: spin_lock_init
+Processing a deferred function: spin_lock_init
+SYMEX TIME: 0.372
+All SSA steps: 208
+Ignored SSA steps after slice: 166
+SLICER TIME: 0.002
+CONVERSION TIME: 0.002
+; uf checker query time so far: 0.000000

@@ -1,0 +1,570 @@
+*****************************************************
+Toolname: Yices SMT2 Filename: pigeon-hole-10.smt2
+*****************************************************
+unsat
+(:num-terms 485
+ :num-types 3
+ :total-run-time 0.003
+ :mem-usage 3.789
+ :boolean-variables 1
+ :atoms 0
+ :clauses 1
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 0
+ :conflicts 1
+ :theory-conflicts 1
+ :boolean-propagations 0
+ :theory-propagations 0
+ :simplex-init-vars 132
+ :simplex-init-rows 21
+ :simplex-init-atoms 0
+ :simplex-vars 132
+ :simplex-rows 21
+ :simplex-atoms 0
+ :simplex-pivots 121
+ :simplex-conflicts 1
+ :simplex-interface-lemmas 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: pigeon-hole-11.smt2
+*****************************************************
+unsat
+(:num-terms 577
+ :num-types 3
+ :total-run-time 0.001
+ :mem-usage 3.781
+ :boolean-variables 1
+ :atoms 0
+ :clauses 1
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 0
+ :conflicts 1
+ :theory-conflicts 1
+ :boolean-propagations 0
+ :theory-propagations 0
+ :simplex-init-vars 156
+ :simplex-init-rows 23
+ :simplex-init-atoms 0
+ :simplex-vars 156
+ :simplex-rows 23
+ :simplex-atoms 0
+ :simplex-pivots 141
+ :simplex-conflicts 1
+ :simplex-interface-lemmas 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: pigeon-hole-12.smt2
+*****************************************************
+unsat
+(:num-terms 677
+ :num-types 3
+ :total-run-time 0.001
+ :mem-usage 3.789
+ :boolean-variables 1
+ :atoms 0
+ :clauses 1
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 0
+ :conflicts 1
+ :theory-conflicts 1
+ :boolean-propagations 0
+ :theory-propagations 0
+ :simplex-init-vars 182
+ :simplex-init-rows 25
+ :simplex-init-atoms 0
+ :simplex-vars 182
+ :simplex-rows 25
+ :simplex-atoms 0
+ :simplex-pivots 166
+ :simplex-conflicts 1
+ :simplex-interface-lemmas 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: pigeon-hole-13.smt2
+*****************************************************
+unsat
+(:num-terms 785
+ :num-types 3
+ :total-run-time 0.001
+ :mem-usage 3.789
+ :boolean-variables 1
+ :atoms 0
+ :clauses 1
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 0
+ :conflicts 1
+ :theory-conflicts 1
+ :boolean-propagations 0
+ :theory-propagations 0
+ :simplex-init-vars 210
+ :simplex-init-rows 27
+ :simplex-init-atoms 0
+ :simplex-vars 210
+ :simplex-rows 27
+ :simplex-atoms 0
+ :simplex-pivots 194
+ :simplex-conflicts 1
+ :simplex-interface-lemmas 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: pigeon-hole-14.smt2
+*****************************************************
+unsat
+(:num-terms 901
+ :num-types 3
+ :total-run-time 0.001
+ :mem-usage 3.918
+ :boolean-variables 1
+ :atoms 0
+ :clauses 1
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 0
+ :conflicts 1
+ :theory-conflicts 1
+ :boolean-propagations 0
+ :theory-propagations 0
+ :simplex-init-vars 240
+ :simplex-init-rows 29
+ :simplex-init-atoms 0
+ :simplex-vars 240
+ :simplex-rows 29
+ :simplex-atoms 0
+ :simplex-pivots 223
+ :simplex-conflicts 1
+ :simplex-interface-lemmas 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: pigeon-hole-15.smt2
+*****************************************************
+unsat
+(:num-terms 1025
+ :num-types 3
+ :total-run-time 0.002
+ :mem-usage 3.918
+ :boolean-variables 1
+ :atoms 0
+ :clauses 1
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 0
+ :conflicts 1
+ :theory-conflicts 1
+ :boolean-propagations 0
+ :theory-propagations 0
+ :simplex-init-vars 272
+ :simplex-init-rows 31
+ :simplex-init-atoms 0
+ :simplex-vars 272
+ :simplex-rows 31
+ :simplex-atoms 0
+ :simplex-pivots 255
+ :simplex-conflicts 1
+ :simplex-interface-lemmas 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: pigeon-hole-16.smt2
+*****************************************************
+unsat
+(:num-terms 1157
+ :num-types 3
+ :total-run-time 0.002
+ :mem-usage 3.918
+ :boolean-variables 1
+ :atoms 0
+ :clauses 1
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 0
+ :conflicts 1
+ :theory-conflicts 1
+ :boolean-propagations 0
+ :theory-propagations 0
+ :simplex-init-vars 306
+ :simplex-init-rows 33
+ :simplex-init-atoms 0
+ :simplex-vars 306
+ :simplex-rows 33
+ :simplex-atoms 0
+ :simplex-pivots 286
+ :simplex-conflicts 1
+ :simplex-interface-lemmas 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: pigeon-hole-17.smt2
+*****************************************************
+unsat
+(:num-terms 1297
+ :num-types 3
+ :total-run-time 0.002
+ :mem-usage 3.918
+ :boolean-variables 1
+ :atoms 0
+ :clauses 1
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 0
+ :conflicts 1
+ :theory-conflicts 1
+ :boolean-propagations 0
+ :theory-propagations 0
+ :simplex-init-vars 342
+ :simplex-init-rows 35
+ :simplex-init-atoms 0
+ :simplex-vars 342
+ :simplex-rows 35
+ :simplex-atoms 0
+ :simplex-pivots 322
+ :simplex-conflicts 1
+ :simplex-interface-lemmas 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: pigeon-hole-18.smt2
+*****************************************************
+unsat
+(:num-terms 1445
+ :num-types 3
+ :total-run-time 0.002
+ :mem-usage 4.047
+ :boolean-variables 1
+ :atoms 0
+ :clauses 1
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 0
+ :conflicts 1
+ :theory-conflicts 1
+ :boolean-propagations 0
+ :theory-propagations 0
+ :simplex-init-vars 380
+ :simplex-init-rows 37
+ :simplex-init-atoms 0
+ :simplex-vars 380
+ :simplex-rows 37
+ :simplex-atoms 0
+ :simplex-pivots 359
+ :simplex-conflicts 1
+ :simplex-interface-lemmas 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: pigeon-hole-19.smt2
+*****************************************************
+unsat
+(:num-terms 1601
+ :num-types 3
+ :total-run-time 0.003
+ :mem-usage 4.047
+ :boolean-variables 1
+ :atoms 0
+ :clauses 1
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 0
+ :conflicts 1
+ :theory-conflicts 1
+ :boolean-propagations 0
+ :theory-propagations 0
+ :simplex-init-vars 420
+ :simplex-init-rows 39
+ :simplex-init-atoms 0
+ :simplex-vars 420
+ :simplex-rows 39
+ :simplex-atoms 0
+ :simplex-pivots 398
+ :simplex-conflicts 1
+ :simplex-interface-lemmas 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: pigeon-hole-20.smt2
+*****************************************************
+unsat
+(:num-terms 1765
+ :num-types 3
+ :total-run-time 0.002
+ :mem-usage 4.066
+ :boolean-variables 1
+ :atoms 0
+ :clauses 1
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 0
+ :conflicts 1
+ :theory-conflicts 1
+ :boolean-propagations 0
+ :theory-propagations 0
+ :simplex-init-vars 462
+ :simplex-init-rows 41
+ :simplex-init-atoms 0
+ :simplex-vars 462
+ :simplex-rows 41
+ :simplex-atoms 0
+ :simplex-pivots 440
+ :simplex-conflicts 1
+ :simplex-interface-lemmas 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: pigeon-hole-2.smt2
+*****************************************************
+unsat
+(:num-terms 37
+ :num-types 3
+ :total-run-time 0.000
+ :mem-usage 3.660
+ :boolean-variables 1
+ :atoms 0
+ :clauses 1
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 0
+ :conflicts 1
+ :theory-conflicts 1
+ :boolean-propagations 0
+ :theory-propagations 0
+ :simplex-init-vars 12
+ :simplex-init-rows 5
+ :simplex-init-atoms 0
+ :simplex-vars 12
+ :simplex-rows 5
+ :simplex-atoms 0
+ :simplex-pivots 7
+ :simplex-conflicts 1
+ :simplex-interface-lemmas 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: pigeon-hole-3.smt2
+*****************************************************
+unsat
+(:num-terms 65
+ :num-types 3
+ :total-run-time 0.000
+ :mem-usage 3.660
+ :boolean-variables 1
+ :atoms 0
+ :clauses 1
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 0
+ :conflicts 1
+ :theory-conflicts 1
+ :boolean-propagations 0
+ :theory-propagations 0
+ :simplex-init-vars 20
+ :simplex-init-rows 7
+ :simplex-init-atoms 0
+ :simplex-vars 20
+ :simplex-rows 7
+ :simplex-atoms 0
+ :simplex-pivots 14
+ :simplex-conflicts 1
+ :simplex-interface-lemmas 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: pigeon-hole-4.smt2
+*****************************************************
+unsat
+(:num-terms 101
+ :num-types 3
+ :total-run-time 0.001
+ :mem-usage 3.660
+ :boolean-variables 1
+ :atoms 0
+ :clauses 1
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 0
+ :conflicts 1
+ :theory-conflicts 1
+ :boolean-propagations 0
+ :theory-propagations 0
+ :simplex-init-vars 30
+ :simplex-init-rows 9
+ :simplex-init-atoms 0
+ :simplex-vars 30
+ :simplex-rows 9
+ :simplex-atoms 0
+ :simplex-pivots 24
+ :simplex-conflicts 1
+ :simplex-interface-lemmas 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: pigeon-hole-5.smt2
+*****************************************************
+unsat
+(:num-terms 145
+ :num-types 3
+ :total-run-time 0.001
+ :mem-usage 3.660
+ :boolean-variables 1
+ :atoms 0
+ :clauses 1
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 0
+ :conflicts 1
+ :theory-conflicts 1
+ :boolean-propagations 0
+ :theory-propagations 0
+ :simplex-init-vars 42
+ :simplex-init-rows 11
+ :simplex-init-atoms 0
+ :simplex-vars 42
+ :simplex-rows 11
+ :simplex-atoms 0
+ :simplex-pivots 35
+ :simplex-conflicts 1
+ :simplex-interface-lemmas 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: pigeon-hole-6.smt2
+*****************************************************
+unsat
+(:num-terms 197
+ :num-types 3
+ :total-run-time 0.001
+ :mem-usage 3.660
+ :boolean-variables 1
+ :atoms 0
+ :clauses 1
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 0
+ :conflicts 1
+ :theory-conflicts 1
+ :boolean-propagations 0
+ :theory-propagations 0
+ :simplex-init-vars 56
+ :simplex-init-rows 13
+ :simplex-init-atoms 0
+ :simplex-vars 56
+ :simplex-rows 13
+ :simplex-atoms 0
+ :simplex-pivots 48
+ :simplex-conflicts 1
+ :simplex-interface-lemmas 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: pigeon-hole-7.smt2
+*****************************************************
+unsat
+(:num-terms 257
+ :num-types 3
+ :total-run-time 0.001
+ :mem-usage 3.660
+ :boolean-variables 1
+ :atoms 0
+ :clauses 1
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 0
+ :conflicts 1
+ :theory-conflicts 1
+ :boolean-propagations 0
+ :theory-propagations 0
+ :simplex-init-vars 72
+ :simplex-init-rows 15
+ :simplex-init-atoms 0
+ :simplex-vars 72
+ :simplex-rows 15
+ :simplex-atoms 0
+ :simplex-pivots 63
+ :simplex-conflicts 1
+ :simplex-interface-lemmas 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: pigeon-hole-8.smt2
+*****************************************************
+unsat
+(:num-terms 325
+ :num-types 3
+ :total-run-time 0.001
+ :mem-usage 3.660
+ :boolean-variables 1
+ :atoms 0
+ :clauses 1
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 0
+ :conflicts 1
+ :theory-conflicts 1
+ :boolean-propagations 0
+ :theory-propagations 0
+ :simplex-init-vars 90
+ :simplex-init-rows 17
+ :simplex-init-atoms 0
+ :simplex-vars 90
+ :simplex-rows 17
+ :simplex-atoms 0
+ :simplex-pivots 80
+ :simplex-conflicts 1
+ :simplex-interface-lemmas 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: pigeon-hole-9.smt2
+*****************************************************
+unsat
+(:num-terms 401
+ :num-types 3
+ :total-run-time 0.001
+ :mem-usage 3.660
+ :boolean-variables 1
+ :atoms 0
+ :clauses 1
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 0
+ :conflicts 1
+ :theory-conflicts 1
+ :boolean-propagations 0
+ :theory-propagations 0
+ :simplex-init-vars 110
+ :simplex-init-rows 19
+ :simplex-init-atoms 0
+ :simplex-vars 110
+ :simplex-rows 19
+ :simplex-atoms 0
+ :simplex-pivots 98
+ :simplex-conflicts 1
+ :simplex-interface-lemmas 0
+)
+*****************************************************

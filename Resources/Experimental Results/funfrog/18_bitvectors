@@ -1,0 +1,191 @@
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `bitvector01_true.c' ...
+Parsing bitvector01_true.c
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+<built-in>: note: this is the location of the previous definition
+Converting
+Type-checking bitvector01_true
+file bitvector01_true.c line 21 function main: function `assert' is not declared
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.142 sec.
+Total number of claims in program...(1)
+A specific claim is not set, nor any other claim specification is set.
+Warrning: --claim is set to 1.
+; Warning: disabling SATElite preprocessing to track proof
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LIA logic.
+    Checking Claim #1 (100%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+*** INLINING function: get_shift
+Processing a deferred function: get_shift
+SYMEX TIME: 0.015
+All SSA steps: 43
+Ignored SSA steps after slice: 12
+SLICER TIME: 0
+CONVERSION TIME: 0.002
+; lia checker query time so far: 0.000000
+;         0 |        0        0 |    1.180 s | 147.031 MB
+SOLVER TIME: 0.002
+RESULT: SAT - doesn't hold
+HAVOCING (of 2 calls) AREN'T SUITABLE FOR CHECKING ASSERTION.
+Building error trace
+
+WARNING: Use over approximation. Cannot create an error trace.
+         Use --logic with Different Logic to Try Creating an Error Trace.
+
+A bug found.
+WARNING: Possibly due to the Theory conversion.
+
+VERIFICATION FAILED
+Initial unwinding bound: 10
+Total number of steps: 1
+Unwinding depth: 1 (2)
+TOTAL TIME FOR CHECKING THIS CLAIM: 0.019
+
+
+Main Checked Assertion:
+  file bitvector01_true.c line 21 function main
+  assertion
+  a >= d
+#X: Done.
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `bitvector02_true.c' ...
+Parsing bitvector02_true.c
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+<built-in>: note: this is the location of the previous definition
+Converting
+Type-checking bitvector02_true
+file bitvector02_true.c line 14 function main: function `assert' is not declared
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.106 sec.
+Total number of claims in program...(1)
+A specific claim is not set, nor any other claim specification is set.
+Warrning: --claim is set to 1.
+; Warning: disabling SATElite preprocessing to track proof
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LIA logic.
+    Checking Claim #1 (100%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+SYMEX TIME: 0.009
+All SSA steps: 31
+Ignored SSA steps after slice: 15
+SLICER TIME: 0
+CONVERSION TIME: 0.001
+; lia checker query time so far: 0.000000
+;         0 |        0        0 |    1.144 s | 147.031 MB
+SOLVER TIME: 0.003
+RESULT: SAT - doesn't hold
+HAVOCING (of 3 calls) AREN'T SUITABLE FOR CHECKING ASSERTION.
+Building error trace
+
+WARNING: Use over approximation. Cannot create an error trace.
+         Use --logic with Different Logic to Try Creating an Error Trace.
+
+A bug found.
+WARNING: Possibly due to the Theory conversion.
+
+VERIFICATION FAILED
+Initial unwinding bound: 10
+Total number of steps: 1
+Unwinding depth: 1 (3)
+TOTAL TIME FOR CHECKING THIS CLAIM: 0.013
+
+
+Main Checked Assertion:
+  file bitvector02_true.c line 14 function main
+  assertion
+  (e ^ a) != 0u
+#X: Done.
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `interleave_bits_true.c' ...
+Parsing interleave_bits_true.c
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+<built-in>: note: this is the location of the previous definition
+Converting
+Type-checking interleave_bits_true
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.123 sec.
+Total number of claims in program...(1)
+A specific claim is not set, nor any other claim specification is set.
+Warrning: --claim is set to 1.
+; Warning: disabling SATElite preprocessing to track proof
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LIA logic.
+    Checking Claim #1 (100%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+SYMEX TIME: 0.04
+All SSA steps: 75
+Ignored SSA steps after slice: 27
+SLICER TIME: 0
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+CONVERSION TIME: 0.006
+; lia checker query time so far: 0.000000
+SOLVER TIME: 0.001
+RESULT: UNSAT - it holds!
+Skip generating interpolants
+ASSERTION(S) HOLD(S) WITH FULL INLINE
+
+VERIFICATION SUCCESSFUL
+Initial unwinding bound: 10
+Total number of steps: 1
+TOTAL TIME FOR CHECKING THIS CLAIM: 0.047
+
+
+Main Checked Assertion:
+  file interleave_bits_true.c line 48 function main
+  assertion
+  z == zz || zz > 1000u || z <= 0u
+#X: Done.

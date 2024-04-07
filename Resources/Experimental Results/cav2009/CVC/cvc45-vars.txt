@@ -1,0 +1,695 @@
+*****************************************************
+Toolname: CVC4 Filename: problem__001.smt2
+*****************************************************
+sat
+
+real	0m0.740s
+user	0m0.799s
+sys	0m0.004s
+*****************************************************
+*****************************************************
+Toolname: CVC4 Filename: problem__002.smt2
+*****************************************************
+sat
+
+real	0m0.666s
+user	0m0.708s
+sys	0m0.004s
+*****************************************************
+*****************************************************
+Toolname: CVC4 Filename: problem__003.smt2
+*****************************************************
+sat
+
+real	0m0.010s
+user	0m0.011s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: CVC4 Filename: problem__004.smt2
+*****************************************************
+sat
+
+real	0m0.010s
+user	0m0.011s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: CVC4 Filename: problem__005.smt2
+*****************************************************
+sat
+
+real	0m0.643s
+user	0m0.681s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: CVC4 Filename: problem__006.smt2
+*****************************************************
+CVC4 interrupted by user.
+/home/mabutalibov1271/cvc.sh: line 1:  5767 Aborted                 (core dumped) ~/Downloads/cvc4-1.5-x86_64-linux-opt $i
+
+real	2m36.483s
+user	2m34.495s
+sys	0m0.039s
+*****************************************************
+*****************************************************
+Toolname: CVC4 Filename: problem__007.smt2
+*****************************************************
+CVC4 interrupted by user.
+/home/mabutalibov1271/cvc.sh: line 1:  5805 Aborted                 (core dumped) ~/Downloads/cvc4-1.5-x86_64-linux-opt $i
+
+real	0m0.519s
+user	0m0.448s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: CVC4 Filename: problem__008.smt2
+*****************************************************
+CVC4 interrupted by user.
+/home/mabutalibov1271/cvc.sh: line 1:  5807 Aborted                 (core dumped) ~/Downloads/cvc4-1.5-x86_64-linux-opt $i
+
+real	0m0.491s
+user	0m0.419s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: CVC4 Filename: problem__009.smt2
+*****************************************************
+CVC4 interrupted by user.
+/home/mabutalibov1271/cvc.sh: line 1:  5809 Aborted                 (core dumped) ~/Downloads/cvc4-1.5-x86_64-linux-opt $i
+
+real	0m0.461s
+user	0m0.382s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: CVC4 Filename: problem__010.smt2
+*****************************************************
+CVC4 interrupted by user.
+/home/mabutalibov1271/cvc.sh: line 1:  5811 Aborted                 (core dumped) ~/Downloads/cvc4-1.5-x86_64-linux-opt $i
+
+real	0m0.474s
+user	0m0.391s
+sys	0m0.004s
+*****************************************************
+*****************************************************
+Toolname: CVC4 Filename: problem__011.smt2
+*****************************************************
+CVC4 interrupted by user.
+/home/mabutalibov1271/cvc.sh: line 1:  5813 Aborted                 (core dumped) ~/Downloads/cvc4-1.5-x86_64-linux-opt $i
+
+real	0m0.342s
+user	0m0.254s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: CVC4 Filename: problem__012.smt2
+*****************************************************
+CVC4 interrupted by user.
+/home/mabutalibov1271/cvc.sh: line 1:  5815 Aborted                 (core dumped) ~/Downloads/cvc4-1.5-x86_64-linux-opt $i
+
+real	0m0.375s
+user	0m0.286s
+sys	0m0.004s
+*****************************************************
+*****************************************************
+Toolname: CVC4 Filename: problem__013.smt2
+*****************************************************
+CVC4 interrupted by user.
+/home/mabutalibov1271/cvc.sh: line 1:  5817 Aborted                 (core dumped) ~/Downloads/cvc4-1.5-x86_64-linux-opt $i
+
+real	0m0.406s
+user	0m0.320s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: CVC4 Filename: problem__014.smt2
+*****************************************************
+CVC4 interrupted by user.
+/home/mabutalibov1271/cvc.sh: line 1:  5819 Aborted                 (core dumped) ~/Downloads/cvc4-1.5-x86_64-linux-opt $i
+
+real	0m0.358s
+user	0m0.261s
+sys	0m0.004s
+*****************************************************
+*****************************************************
+Toolname: CVC4 Filename: problem__015.smt2
+*****************************************************
+CVC4 interrupted by user.
+/home/mabutalibov1271/cvc.sh: line 1:  5821 Aborted                 (core dumped) ~/Downloads/cvc4-1.5-x86_64-linux-opt $i
+
+real	0m0.348s
+user	0m0.262s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: CVC4 Filename: problem__016.smt2
+*****************************************************
+CVC4 interrupted by user.
+/home/mabutalibov1271/cvc.sh: line 1:  5823 Aborted                 (core dumped) ~/Downloads/cvc4-1.5-x86_64-linux-opt $i
+
+real	0m0.364s
+user	0m0.274s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: CVC4 Filename: problem__017.smt2
+*****************************************************
+CVC4 interrupted by user.
+/home/mabutalibov1271/cvc.sh: line 1:  5825 Aborted                 (core dumped) ~/Downloads/cvc4-1.5-x86_64-linux-opt $i
+
+real	0m0.351s
+user	0m0.265s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: CVC4 Filename: problem__018.smt2
+*****************************************************
+CVC4 interrupted by user.
+/home/mabutalibov1271/cvc.sh: line 1:  5827 Aborted                 (core dumped) ~/Downloads/cvc4-1.5-x86_64-linux-opt $i
+
+real	0m0.342s
+user	0m0.258s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: CVC4 Filename: problem__019.smt2
+*****************************************************
+CVC4 interrupted by user.
+/home/mabutalibov1271/cvc.sh: line 1:  5829 Aborted                 (core dumped) ~/Downloads/cvc4-1.5-x86_64-linux-opt $i
+
+real	0m0.354s
+user	0m0.262s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: CVC4 Filename: problem__020.smt2
+*****************************************************
+CVC4 interrupted by user.
+/home/mabutalibov1271/cvc.sh: line 1:  5831 Aborted                 (core dumped) ~/Downloads/cvc4-1.5-x86_64-linux-opt $i
+
+real	0m0.366s
+user	0m0.277s
+sys	0m0.004s
+*****************************************************
+*****************************************************
+Toolname: CVC4 Filename: problem__021.smt2
+*****************************************************
+CVC4 interrupted by user.
+/home/mabutalibov1271/cvc.sh: line 1:  5833 Aborted                 (core dumped) ~/Downloads/cvc4-1.5-x86_64-linux-opt $i
+
+real	0m0.348s
+user	0m0.250s
+sys	0m0.009s
+*****************************************************
+*****************************************************
+Toolname: CVC4 Filename: problem__022.smt2
+*****************************************************
+CVC4 interrupted by user.
+/home/mabutalibov1271/cvc.sh: line 1:  5835 Aborted                 (core dumped) ~/Downloads/cvc4-1.5-x86_64-linux-opt $i
+
+real	0m0.353s
+user	0m0.256s
+sys	0m0.004s
+*****************************************************
+*****************************************************
+Toolname: CVC4 Filename: problem__023.smt2
+*****************************************************
+CVC4 interrupted by user.
+/home/mabutalibov1271/cvc.sh: line 1:  5837 Aborted                 (core dumped) ~/Downloads/cvc4-1.5-x86_64-linux-opt $i
+
+real	0m0.381s
+user	0m0.287s
+sys	0m0.009s
+*****************************************************
+*****************************************************
+Toolname: CVC4 Filename: problem__024.smt2
+*****************************************************
+CVC4 interrupted by user.
+/home/mabutalibov1271/cvc.sh: line 1:  5839 Aborted                 (core dumped) ~/Downloads/cvc4-1.5-x86_64-linux-opt $i
+
+real	0m0.301s
+user	0m0.204s
+sys	0m0.004s
+*****************************************************
+*****************************************************
+Toolname: CVC4 Filename: problem__025.smt2
+*****************************************************
+CVC4 interrupted by user.
+/home/mabutalibov1271/cvc.sh: line 1:  5841 Aborted                 (core dumped) ~/Downloads/cvc4-1.5-x86_64-linux-opt $i
+
+real	0m0.504s
+user	0m0.424s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: CVC4 Filename: problem__026.smt2
+*****************************************************
+CVC4 interrupted by user.
+/home/mabutalibov1271/cvc.sh: line 1:  5843 Aborted                 (core dumped) ~/Downloads/cvc4-1.5-x86_64-linux-opt $i
+
+real	0m0.125s
+user	0m0.010s
+sys	0m0.005s
+*****************************************************
+*****************************************************
+Toolname: CVC4 Filename: problem__027.smt2
+*****************************************************
+CVC4 interrupted by user.
+/home/mabutalibov1271/cvc.sh: line 1:  5845 Aborted                 (core dumped) ~/Downloads/cvc4-1.5-x86_64-linux-opt $i
+
+real	0m0.120s
+user	0m0.011s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: CVC4 Filename: problem__028.smt2
+*****************************************************
+CVC4 interrupted by user.
+/home/mabutalibov1271/cvc.sh: line 1:  5847 Aborted                 (core dumped) ~/Downloads/cvc4-1.5-x86_64-linux-opt $i
+
+real	0m0.146s
+user	0m0.008s
+sys	0m0.004s
+*****************************************************
+*****************************************************
+Toolname: CVC4 Filename: problem__029.smt2
+*****************************************************
+CVC4 interrupted by user.
+/home/mabutalibov1271/cvc.sh: line 1:  5849 Aborted                 (core dumped) ~/Downloads/cvc4-1.5-x86_64-linux-opt $i
+
+real	0m0.148s
+user	0m0.014s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: CVC4 Filename: problem__030.smt2
+*****************************************************
+CVC4 interrupted by user.
+/home/mabutalibov1271/cvc.sh: line 1:  5851 Aborted                 (core dumped) ~/Downloads/cvc4-1.5-x86_64-linux-opt $i
+
+real	0m0.136s
+user	0m0.017s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: CVC4 Filename: problem__031.smt2
+*****************************************************
+CVC4 interrupted by user.
+/home/mabutalibov1271/cvc.sh: line 1:  5853 Aborted                 (core dumped) ~/Downloads/cvc4-1.5-x86_64-linux-opt $i
+
+real	0m0.113s
+user	0m0.004s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: CVC4 Filename: problem__032.smt2
+*****************************************************
+CVC4 interrupted by user.
+/home/mabutalibov1271/cvc.sh: line 1:  5855 Aborted                 (core dumped) ~/Downloads/cvc4-1.5-x86_64-linux-opt $i
+
+real	0m0.121s
+user	0m0.008s
+sys	0m0.004s
+*****************************************************
+*****************************************************
+Toolname: CVC4 Filename: problem__033.smt2
+*****************************************************
+CVC4 interrupted by user.
+/home/mabutalibov1271/cvc.sh: line 1:  5857 Aborted                 (core dumped) ~/Downloads/cvc4-1.5-x86_64-linux-opt $i
+
+real	0m0.120s
+user	0m0.005s
+sys	0m0.005s
+*****************************************************
+*****************************************************
+Toolname: CVC4 Filename: problem__034.smt2
+*****************************************************
+CVC4 interrupted by user.
+/home/mabutalibov1271/cvc.sh: line 1:  5859 Aborted                 (core dumped) ~/Downloads/cvc4-1.5-x86_64-linux-opt $i
+
+real	0m0.121s
+user	0m0.010s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: CVC4 Filename: problem__035.smt2
+*****************************************************
+CVC4 interrupted by user.
+/home/mabutalibov1271/cvc.sh: line 1:  5861 Aborted                 (core dumped) ~/Downloads/cvc4-1.5-x86_64-linux-opt $i
+
+real	0m0.130s
+user	0m0.008s
+sys	0m0.004s
+*****************************************************
+*****************************************************
+Toolname: CVC4 Filename: problem_2__001.smt2
+*****************************************************
+CVC4 interrupted by user.
+/home/mabutalibov1271/cvc.sh: line 1:  5863 Aborted                 (core dumped) ~/Downloads/cvc4-1.5-x86_64-linux-opt $i
+
+real	0m0.115s
+user	0m0.000s
+sys	0m0.003s
+*****************************************************
+*****************************************************
+Toolname: CVC4 Filename: problem_2__002.smt2
+*****************************************************
+CVC4 interrupted by user.
+/home/mabutalibov1271/cvc.sh: line 1:  5865 Aborted                 (core dumped) ~/Downloads/cvc4-1.5-x86_64-linux-opt $i
+
+real	0m0.144s
+user	0m0.009s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: CVC4 Filename: problem_2__003.smt2
+*****************************************************
+CVC4 interrupted by user.
+/home/mabutalibov1271/cvc.sh: line 1:  5867 Aborted                 (core dumped) ~/Downloads/cvc4-1.5-x86_64-linux-opt $i
+
+real	0m0.167s
+user	0m0.011s
+sys	0m0.004s
+*****************************************************
+*****************************************************
+Toolname: CVC4 Filename: problem_2__004.smt2
+*****************************************************
+CVC4 interrupted by user.
+/home/mabutalibov1271/cvc.sh: line 1:  5869 Aborted                 (core dumped) ~/Downloads/cvc4-1.5-x86_64-linux-opt $i
+
+real	0m0.147s
+user	0m0.004s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: CVC4 Filename: problem_2__005.smt2
+*****************************************************
+CVC4 interrupted by user.
+/home/mabutalibov1271/cvc.sh: line 1:  5871 Aborted                 (core dumped) ~/Downloads/cvc4-1.5-x86_64-linux-opt $i
+
+real	0m0.119s
+user	0m0.012s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: CVC4 Filename: problem_2__006.smt2
+*****************************************************
+CVC4 interrupted by user.
+/home/mabutalibov1271/cvc.sh: line 1:  5873 Aborted                 (core dumped) ~/Downloads/cvc4-1.5-x86_64-linux-opt $i
+
+real	0m0.121s
+user	0m0.012s
+sys	0m0.004s
+*****************************************************
+*****************************************************
+Toolname: CVC4 Filename: problem_2__007.smt2
+*****************************************************
+CVC4 interrupted by user.
+/home/mabutalibov1271/cvc.sh: line 1:  5875 Aborted                 (core dumped) ~/Downloads/cvc4-1.5-x86_64-linux-opt $i
+
+real	0m0.157s
+user	0m0.014s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: CVC4 Filename: problem_2__008.smt2
+*****************************************************
+CVC4 interrupted by user.
+/home/mabutalibov1271/cvc.sh: line 1:  5877 Aborted                 (core dumped) ~/Downloads/cvc4-1.5-x86_64-linux-opt $i
+
+real	0m0.120s
+user	0m0.004s
+sys	0m0.004s
+*****************************************************
+*****************************************************
+Toolname: CVC4 Filename: problem_2__009.smt2
+*****************************************************
+CVC4 interrupted by user.
+/home/mabutalibov1271/cvc.sh: line 1:  5879 Aborted                 (core dumped) ~/Downloads/cvc4-1.5-x86_64-linux-opt $i
+
+real	0m0.124s
+user	0m0.009s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: CVC4 Filename: problem_2__010.smt2
+*****************************************************
+CVC4 interrupted by user.
+/home/mabutalibov1271/cvc.sh: line 1:  5881 Aborted                 (core dumped) ~/Downloads/cvc4-1.5-x86_64-linux-opt $i
+
+real	0m0.115s
+user	0m0.006s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: CVC4 Filename: problem_2__011.smt2
+*****************************************************
+CVC4 interrupted by user.
+/home/mabutalibov1271/cvc.sh: line 1:  5883 Aborted                 (core dumped) ~/Downloads/cvc4-1.5-x86_64-linux-opt $i
+
+real	0m0.125s
+user	0m0.014s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: CVC4 Filename: problem_2__012.smt2
+*****************************************************
+CVC4 interrupted by user.
+/home/mabutalibov1271/cvc.sh: line 1:  5885 Aborted                 (core dumped) ~/Downloads/cvc4-1.5-x86_64-linux-opt $i
+
+real	0m0.125s
+user	0m0.004s
+sys	0m0.004s
+*****************************************************
+*****************************************************
+Toolname: CVC4 Filename: problem_2__013.smt2
+*****************************************************
+CVC4 interrupted by user.
+/home/mabutalibov1271/cvc.sh: line 1:  5887 Aborted                 (core dumped) ~/Downloads/cvc4-1.5-x86_64-linux-opt $i
+
+real	0m0.108s
+user	0m0.003s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: CVC4 Filename: problem_2__014.smt2
+*****************************************************
+CVC4 interrupted by user.
+/home/mabutalibov1271/cvc.sh: line 1:  5889 Aborted                 (core dumped) ~/Downloads/cvc4-1.5-x86_64-linux-opt $i
+
+real	0m0.120s
+user	0m0.016s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: CVC4 Filename: problem_2__015.smt2
+*****************************************************
+CVC4 interrupted by user.
+/home/mabutalibov1271/cvc.sh: line 1:  5891 Aborted                 (core dumped) ~/Downloads/cvc4-1.5-x86_64-linux-opt $i
+
+real	0m0.129s
+user	0m0.017s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: CVC4 Filename: problem_2__016.smt2
+*****************************************************
+CVC4 interrupted by user.
+/home/mabutalibov1271/cvc.sh: line 1:  5893 Aborted                 (core dumped) ~/Downloads/cvc4-1.5-x86_64-linux-opt $i
+
+real	0m0.117s
+user	0m0.003s
+sys	0m0.006s
+*****************************************************
+*****************************************************
+Toolname: CVC4 Filename: problem_2__017.smt2
+*****************************************************
+CVC4 interrupted by user.
+/home/mabutalibov1271/cvc.sh: line 1:  5895 Aborted                 (core dumped) ~/Downloads/cvc4-1.5-x86_64-linux-opt $i
+
+real	0m0.119s
+user	0m0.009s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: CVC4 Filename: problem_2__018.smt2
+*****************************************************
+CVC4 interrupted by user.
+/home/mabutalibov1271/cvc.sh: line 1:  5897 Aborted                 (core dumped) ~/Downloads/cvc4-1.5-x86_64-linux-opt $i
+
+real	0m0.119s
+user	0m0.014s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: CVC4 Filename: problem_2__019.smt2
+*****************************************************
+CVC4 interrupted by user.
+/home/mabutalibov1271/cvc.sh: line 1:  5899 Aborted                 (core dumped) ~/Downloads/cvc4-1.5-x86_64-linux-opt $i
+
+real	0m0.121s
+user	0m0.016s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: CVC4 Filename: problem_2__020.smt2
+*****************************************************
+CVC4 interrupted by user.
+/home/mabutalibov1271/cvc.sh: line 1:  5901 Aborted                 (core dumped) ~/Downloads/cvc4-1.5-x86_64-linux-opt $i
+
+real	0m1.303s
+user	0m1.257s
+sys	0m0.009s
+*****************************************************
+*****************************************************
+Toolname: CVC4 Filename: problem_2__021.smt2
+*****************************************************
+CVC4 interrupted by user.
+/home/mabutalibov1271/cvc.sh: line 1:  5903 Aborted                 (core dumped) ~/Downloads/cvc4-1.5-x86_64-linux-opt $i
+
+real	0m0.200s
+user	0m0.101s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: CVC4 Filename: problem_2__022.smt2
+*****************************************************
+CVC4 interrupted by user.
+/home/mabutalibov1271/cvc.sh: line 1:  5905 Aborted                 (core dumped) ~/Downloads/cvc4-1.5-x86_64-linux-opt $i
+
+real	0m0.193s
+user	0m0.093s
+sys	0m0.005s
+*****************************************************
+*****************************************************
+Toolname: CVC4 Filename: problem_2__023.smt2
+*****************************************************
+CVC4 interrupted by user.
+/home/mabutalibov1271/cvc.sh: line 1:  5907 Aborted                 (core dumped) ~/Downloads/cvc4-1.5-x86_64-linux-opt $i
+
+real	0m0.157s
+user	0m0.054s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: CVC4 Filename: problem_2__024.smt2
+*****************************************************
+CVC4 interrupted by user.
+/home/mabutalibov1271/cvc.sh: line 1:  5909 Aborted                 (core dumped) ~/Downloads/cvc4-1.5-x86_64-linux-opt $i
+
+real	0m0.160s
+user	0m0.062s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: CVC4 Filename: problem_2__025.smt2
+*****************************************************
+CVC4 interrupted by user.
+/home/mabutalibov1271/cvc.sh: line 1:  5911 Aborted                 (core dumped) ~/Downloads/cvc4-1.5-x86_64-linux-opt $i
+
+real	0m0.803s
+user	0m0.731s
+sys	0m0.013s
+*****************************************************
+*****************************************************
+Toolname: CVC4 Filename: problem_2__026.smt2
+*****************************************************
+CVC4 interrupted by user.
+/home/mabutalibov1271/cvc.sh: line 1:  5913 Aborted                 (core dumped) ~/Downloads/cvc4-1.5-x86_64-linux-opt $i
+
+real	0m0.350s
+user	0m0.244s
+sys	0m0.013s
+*****************************************************
+*****************************************************
+Toolname: CVC4 Filename: problem_2__027.smt2
+*****************************************************
+CVC4 interrupted by user.
+/home/mabutalibov1271/cvc.sh: line 1:  5915 Aborted                 (core dumped) ~/Downloads/cvc4-1.5-x86_64-linux-opt $i
+
+real	0m0.235s
+user	0m0.130s
+sys	0m0.005s
+*****************************************************
+*****************************************************
+Toolname: CVC4 Filename: problem_2__028.smt2
+*****************************************************
+CVC4 interrupted by user.
+/home/mabutalibov1271/cvc.sh: line 1:  5917 Aborted                 (core dumped) ~/Downloads/cvc4-1.5-x86_64-linux-opt $i
+
+real	0m0.199s
+user	0m0.089s
+sys	0m0.009s
+*****************************************************
+*****************************************************
+Toolname: CVC4 Filename: problem_2__029.smt2
+*****************************************************
+CVC4 interrupted by user.
+/home/mabutalibov1271/cvc.sh: line 1:  5919 Aborted                 (core dumped) ~/Downloads/cvc4-1.5-x86_64-linux-opt $i
+
+real	0m0.177s
+user	0m0.080s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: CVC4 Filename: problem_2__030.smt2
+*****************************************************
+CVC4 interrupted by user.
+/home/mabutalibov1271/cvc.sh: line 1:  5921 Aborted                 (core dumped) ~/Downloads/cvc4-1.5-x86_64-linux-opt $i
+
+real	0m0.516s
+user	0m0.421s
+sys	0m0.005s
+*****************************************************
+*****************************************************
+Toolname: CVC4 Filename: problem_2__031.smt2
+*****************************************************
+CVC4 interrupted by user.
+/home/mabutalibov1271/cvc.sh: line 1:  5923 Aborted                 (core dumped) ~/Downloads/cvc4-1.5-x86_64-linux-opt $i
+
+real	0m0.118s
+user	0m0.003s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: CVC4 Filename: problem_2__032.smt2
+*****************************************************
+CVC4 interrupted by user.
+/home/mabutalibov1271/cvc.sh: line 1:  5925 Aborted                 (core dumped) ~/Downloads/cvc4-1.5-x86_64-linux-opt $i
+
+real	0m0.115s
+user	0m0.006s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: CVC4 Filename: problem_2__033.smt2
+*****************************************************
+CVC4 interrupted by user.
+/home/mabutalibov1271/cvc.sh: line 1:  5927 Aborted                 (core dumped) ~/Downloads/cvc4-1.5-x86_64-linux-opt $i
+
+real	0m0.127s
+user	0m0.015s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: CVC4 Filename: problem_2__034.smt2
+*****************************************************
+CVC4 interrupted by user.
+/home/mabutalibov1271/cvc.sh: line 1:  5929 Aborted                 (core dumped) ~/Downloads/cvc4-1.5-x86_64-linux-opt $i
+
+real	0m0.112s
+user	0m0.006s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: CVC4 Filename: problem_2__035.smt2
+*****************************************************
+CVC4 interrupted by user.
+/home/mabutalibov1271/cvc.sh: line 1:  5931 Aborted                 (core dumped) ~/Downloads/cvc4-1.5-x86_64-linux-opt $i
+
+real	0m0.129s
+user	0m0.013s
+sys	0m0.005s
+*****************************************************

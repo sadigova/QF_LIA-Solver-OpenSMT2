@@ -1,0 +1,2951 @@
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `01_main4.c' ...
+Parsing 01_main4.c
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+<built-in>: note: this is the location of the previous definition
+Converting
+Type-checking 01_main4
+file 01_main4.c line 36 function main: function `assert' is not declared
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.176 sec.
+Total number of claims in program...(1)
+A specific claim is not set, nor any other claim specification is set.
+Warrning: --claim is set to 1.
+; Warning: disabling SATElite preprocessing to track proof
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LIA logic.
+    Checking Claim #1 (100%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+*** INLINING function: choice
+Processing a deferred function: choice
+*** INLINING function: getchar
+*** INLINING function: getchar
+Processing a deferred function: getchar
+Processing a deferred function: getchar
+SYMEX TIME: 0.032
+All SSA steps: 77
+Ignored SSA steps after slice: 24
+SLICER TIME: 0.001
+CONVERSION TIME: 0.003
+; lia checker query time so far: 0.000000
+;         0 |        0        0 |    1.195 s | 147.031 MB
+SOLVER TIME: 0.003
+RESULT: UNSAT - it holds!
+Skip generating interpolants
+ASSERTION(S) HOLD(S) WITH FULL INLINE
+
+VERIFICATION SUCCESSFUL
+Initial unwinding bound: 10
+Total number of steps: 1
+TOTAL TIME FOR CHECKING THIS CLAIM: 0.039
+
+
+Main Checked Assertion:
+  file 01_main4.c line 36 function main
+  assertion
+  t >= 10 || t <= 20
+#X: Done.
+
+real	0m1.232s
+user	0m1.210s
+sys	0m0.029s
+---------------------------------------------------------
+---------------------------------------------------------
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `if-else6.c' ...
+Parsing if-else6.c
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+<built-in>: note: this is the location of the previous definition
+Converting
+Type-checking if-else6
+file if-else6.c line 32 function main: function `assert' is not declared
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.025 sec.
+Total number of claims in program...(1)
+A specific claim is not set, nor any other claim specification is set.
+Warrning: --claim is set to 1.
+; Warning: disabling SATElite preprocessing to track proof
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LIA logic.
+    Checking Claim #1 (100%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+*** INLINING function: getchar
+Processing a deferred function: getchar
+SYMEX TIME: 0.022
+All SSA steps: 53
+Ignored SSA steps after slice: 25
+SLICER TIME: 0
+CONVERSION TIME: 0.002
+; lia checker query time so far: 0.000000
+;         0 |        0        0 |    1.072 s | 147.031 MB
+SOLVER TIME: 0.002
+RESULT: SAT - doesn't hold
+Building error trace
+
+Counterexample:
+
+State 9 file if-else6.c line 8 function getchar thread 0
+----------------------------------------------------
+  x = -1
+
+State 13 file if-else6.c line 12 function getchar thread 0
+----------------------------------------------------
+  "function return value" = -1
+
+State 14 file if-else6.c line 18 function main thread 0
+----------------------------------------------------
+  x = -1
+
+Violated property:
+  file if-else6.c line 32 function main
+  assertion t != -2
+  t != -2
+
+A real bug found.
+
+VERIFICATION FAILED
+Initial unwinding bound: 10
+Total number of steps: 1
+TOTAL TIME FOR CHECKING THIS CLAIM: 0.028
+
+
+Main Checked Assertion:
+  file if-else6.c line 32 function main
+  assertion
+  t != -2
+#X: Done.
+
+real	0m1.093s
+user	0m1.079s
+sys	0m0.030s
+---------------------------------------------------------
+---------------------------------------------------------
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `loop_assert_10.c' ...
+Parsing loop_assert_10.c
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+<built-in>: note: this is the location of the previous definition
+Converting
+Type-checking loop_assert_10
+file loop_assert_10.c line 16 function main: function `assert' is not declared
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.071 sec.
+Total number of claims in program...(1)
+A specific claim is not set, nor any other claim specification is set.
+Warrning: --claim is set to 1.
+; Warning: disabling SATElite preprocessing to track proof
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LIA logic.
+    Checking Claim #1 (100%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+SYMEX TIME: 0.173
+All SSA steps: 343
+Ignored SSA steps after slice: 15
+SLICER TIME: 0.002
+CONVERSION TIME: 0.018
+; lia checker query time so far: 0.000000
+;         0 |        0        0 |    1.246 s | 146.902 MB
+SOLVER TIME: 0.002
+RESULT: SAT - doesn't hold
+HAVOCING (of 1 calls) AREN'T SUITABLE FOR CHECKING ASSERTION.
+Building error trace
+
+Counterexample:
+
+Violated property:
+  file loop_assert_10.c line 16 function main
+  assertion a0 != 1
+  a0 != 1
+
+A real bug found.
+
+VERIFICATION FAILED
+Initial unwinding bound: 10
+Total number of steps: 1
+TOTAL TIME FOR CHECKING THIS CLAIM: 0.197
+
+
+Main Checked Assertion:
+  file loop_assert_10.c line 16 function main
+  assertion
+  a0 != 1
+#X: Done.
+
+real	0m1.312s
+user	0m1.253s
+sys	0m0.039s
+---------------------------------------------------------
+---------------------------------------------------------
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `loop_assert_11.c' ...
+Parsing loop_assert_11.c
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+<built-in>: note: this is the location of the previous definition
+Converting
+Type-checking loop_assert_11
+file loop_assert_11.c line 6 function main: function `assert' is not declared
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.033 sec.
+Total number of claims in program...(1)
+A specific claim is not set, nor any other claim specification is set.
+Warrning: --claim is set to 1.
+; Warning: disabling SATElite preprocessing to track proof
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LIA logic.
+    Checking Claim #1 (100%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+SYMEX TIME: 0.018
+All SSA steps: 53
+Ignored SSA steps after slice: 15
+SLICER TIME: 0
+CONVERSION TIME: 0.001
+; lia checker query time so far: 0.000000
+;         0 |        0        0 |    1.072 s | 146.902 MB
+SOLVER TIME: 0.002
+RESULT: SAT - doesn't hold
+Building error trace
+
+Counterexample:
+
+Violated property:
+  file loop_assert_11.c line 6 function main
+  assertion a != 5
+  a != 5
+
+A real bug found.
+
+VERIFICATION FAILED
+Initial unwinding bound: 10
+Total number of steps: 1
+TOTAL TIME FOR CHECKING THIS CLAIM: 0.023
+
+
+Main Checked Assertion:
+  file loop_assert_11.c line 6 function main
+  assertion
+  a != 5
+#X: Done.
+
+real	0m1.104s
+user	0m1.085s
+sys	0m0.035s
+---------------------------------------------------------
+---------------------------------------------------------
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `loop_assert_1.c' ...
+Parsing loop_assert_1.c
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+<built-in>: note: this is the location of the previous definition
+Converting
+Type-checking loop_assert_1
+file loop_assert_1.c line 15 function main: function `assert' is not declared
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.035 sec.
+Total number of claims in program...(2)
+A specific claim is not set, nor any other claim specification is set.
+Warrning: --claim is set to 1.
+; Warning: disabling SATElite preprocessing to track proof
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LIA logic.
+    Checking Claim #1 (50%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+SYMEX TIME: 0.03
+All SSA steps: 74
+Ignored SSA steps after slice: 26
+SLICER TIME: 0
+CONVERSION TIME: 0.002
+; lia checker query time so far: 0.000000
+;         0 |        0        0 |    1.087 s | 146.902 MB
+SOLVER TIME: 0.005
+RESULT: SAT - doesn't hold
+HAVOCING (of 1 calls) AREN'T SUITABLE FOR CHECKING ASSERTION.
+Building error trace
+
+Counterexample:
+
+State 8 file loop_assert_1.c line 16 function main thread 0
+----------------------------------------------------
+  a0 = 5
+
+Violated property:
+  file loop_assert_1.c line 15 function main
+  assertion a0 != 5
+  a0 != 5
+
+A real bug found.
+
+VERIFICATION FAILED
+Initial unwinding bound: 10
+Total number of steps: 1
+TOTAL TIME FOR CHECKING THIS CLAIM: 0.04
+
+
+Main Checked Assertion:
+  file loop_assert_1.c line 15 function main
+  assertion
+  a0 != 5
+#X: Done.
+
+real	0m1.117s
+user	0m1.104s
+sys	0m0.029s
+---------------------------------------------------------
+---------------------------------------------------------
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `loop_assert_3.c' ...
+Parsing loop_assert_3.c
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+<built-in>: note: this is the location of the previous definition
+Converting
+Type-checking loop_assert_3
+file loop_assert_3.c line 6 function main: function `assert' is not declared
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.032 sec.
+Total number of claims in program...(1)
+A specific claim is not set, nor any other claim specification is set.
+Warrning: --claim is set to 1.
+; Warning: disabling SATElite preprocessing to track proof
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LIA logic.
+    Checking Claim #1 (100%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+SYMEX TIME: 0.018
+All SSA steps: 54
+Ignored SSA steps after slice: 25
+SLICER TIME: 0
+CONVERSION TIME: 0.001
+; lia checker query time so far: 0.000000
+;         0 |        0        0 |    1.082 s | 146.902 MB
+SOLVER TIME: 0.001
+RESULT: SAT - doesn't hold
+Building error trace
+
+Counterexample:
+
+Violated property:
+  file loop_assert_3.c line 6 function main
+  assertion a != 5
+  a != 5
+
+A real bug found.
+
+VERIFICATION FAILED
+Initial unwinding bound: 10
+Total number of steps: 1
+TOTAL TIME FOR CHECKING THIS CLAIM: 0.02
+
+
+Main Checked Assertion:
+  file loop_assert_3.c line 6 function main
+  assertion
+  a != 5
+#X: Done.
+
+real	0m1.095s
+user	0m1.091s
+sys	0m0.015s
+---------------------------------------------------------
+---------------------------------------------------------
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `loop_assert_4.c' ...
+Parsing loop_assert_4.c
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+<built-in>: note: this is the location of the previous definition
+Converting
+Type-checking loop_assert_4
+file loop_assert_4.c line 9 function calculate_output: function `assert' is not declared
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.043 sec.
+Total number of claims in program...(1)
+A specific claim is not set, nor any other claim specification is set.
+Warrning: --claim is set to 1.
+; Warning: disabling SATElite preprocessing to track proof
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LIA logic.
+    Checking Claim #1 (100%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+SYMEX TIME: 0.065
+All SSA steps: 173
+Ignored SSA steps after slice: 38
+SLICER TIME: 0
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+CONVERSION TIME: 0.009
+; lia checker query time so far: 0.000000
+;         0 |        0        0 |    1.141 s | 147.031 MB
+SOLVER TIME: 0.007
+RESULT: SAT - doesn't hold
+Building error trace
+
+Counterexample:
+
+State 11 file loop_assert_4.c line 10 function calculate_output thread 0
+----------------------------------------------------
+  "function return value" = 0
+
+State 12 file loop_assert_4.c line 16 function main thread 0
+----------------------------------------------------
+  a00 = 0
+
+State 13 file loop_assert_4.c line 16 function main thread 0
+----------------------------------------------------
+  a0 = 0
+
+State 21 file loop_assert_4.c line 10 function calculate_output thread 0
+----------------------------------------------------
+  "function return value" = 1
+
+State 22 file loop_assert_4.c line 16 function main thread 0
+----------------------------------------------------
+  a00 = 0
+
+State 23 file loop_assert_4.c line 16 function main thread 0
+----------------------------------------------------
+  a0 = 1
+
+Violated property:
+  file loop_assert_4.c line 9 function calculate_output
+  assertion 0
+  (_Bool)0
+
+A real bug found.
+
+VERIFICATION FAILED
+Initial unwinding bound: 10
+Total number of steps: 1
+TOTAL TIME FOR CHECKING THIS CLAIM: 0.086
+
+
+Main Checked Assertion:
+  file loop_assert_4.c line 9 function calculate_output
+  assertion
+  (_Bool)0
+#X: Done.
+
+real	0m1.174s
+user	0m1.155s
+sys	0m0.029s
+---------------------------------------------------------
+---------------------------------------------------------
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `loop_assert_5.c' ...
+Parsing loop_assert_5.c
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+<built-in>: note: this is the location of the previous definition
+Converting
+Type-checking loop_assert_5
+file loop_assert_5.c line 14 function main: function `assert' is not declared
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.086 sec.
+Total number of claims in program...(1)
+A specific claim is not set, nor any other claim specification is set.
+Warrning: --claim is set to 1.
+; Warning: disabling SATElite preprocessing to track proof
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LIA logic.
+    Checking Claim #1 (100%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+SYMEX TIME: 0.023
+All SSA steps: 53
+Ignored SSA steps after slice: 15
+SLICER TIME: 0
+CONVERSION TIME: 0.003
+; lia checker query time so far: 0.000000
+;         0 |        0        0 |    1.135 s | 146.902 MB
+SOLVER TIME: 0.002
+RESULT: SAT - doesn't hold
+HAVOCING (of 1 calls) AREN'T SUITABLE FOR CHECKING ASSERTION.
+Building error trace
+
+Counterexample:
+
+Violated property:
+  file loop_assert_5.c line 14 function main
+  assertion a0 != 1
+  a0 != 1
+
+A real bug found.
+
+VERIFICATION FAILED
+Initial unwinding bound: 10
+Total number of steps: 1
+TOTAL TIME FOR CHECKING THIS CLAIM: 0.029
+
+
+Main Checked Assertion:
+  file loop_assert_5.c line 14 function main
+  assertion
+  a0 != 1
+#X: Done.
+
+real	0m1.158s
+user	0m1.148s
+sys	0m0.010s
+---------------------------------------------------------
+---------------------------------------------------------
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `loop_assert_6.c' ...
+Parsing loop_assert_6.c
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+<built-in>: note: this is the location of the previous definition
+Converting
+Type-checking loop_assert_6
+file loop_assert_6.c line 16 function main: function `assert' is not declared
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.059 sec.
+Total number of claims in program...(2)
+A specific claim is not set, nor any other claim specification is set.
+Warrning: --claim is set to 1.
+; Warning: disabling SATElite preprocessing to track proof
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LIA logic.
+    Checking Claim #1 (50%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+SYMEX TIME: 0.053
+All SSA steps: 174
+Ignored SSA steps after slice: 35
+SLICER TIME: 0.001
+CONVERSION TIME: 0.007
+; lia checker query time so far: 0.000000
+;         0 |        0        0 |    1.134 s | 146.902 MB
+/home/mabutalibov1271/scripts/regression.sh: line 1: 10203 Segmentation fault      (core dumped) ~/hifrog/trunk/cprover/build/hifrog --logic qflia --unwind 10 $i
+
+real	0m1.288s
+user	0m1.142s
+sys	0m0.033s
+---------------------------------------------------------
+---------------------------------------------------------
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `loop_assert_7.c' ...
+Parsing loop_assert_7.c
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+<built-in>: note: this is the location of the previous definition
+Converting
+Type-checking loop_assert_7
+file loop_assert_7.c line 16 function main: function `assert' is not declared
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.124 sec.
+Total number of claims in program...(2)
+A specific claim is not set, nor any other claim specification is set.
+Warrning: --claim is set to 1.
+; Warning: disabling SATElite preprocessing to track proof
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LIA logic.
+    Checking Claim #1 (50%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+SYMEX TIME: 0.029
+All SSA steps: 57
+Ignored SSA steps after slice: 22
+SLICER TIME: 0
+CONVERSION TIME: 0.003
+; lia checker query time so far: 0.000000
+;         0 |        0        0 |    1.200 s | 147.031 MB
+SOLVER TIME: 0.003
+RESULT: SAT - doesn't hold
+Building error trace
+
+Counterexample:
+
+State 12 file loop_assert_7.c line 15 function main thread 0
+----------------------------------------------------
+  a0 = 0
+
+State 13 file loop_assert_7.c line 15 function main thread 0
+----------------------------------------------------
+  a0 = 5
+
+Violated property:
+  file loop_assert_7.c line 16 function main
+  assertion a0 != 5
+  a0 != 5
+
+A real bug found.
+
+VERIFICATION FAILED
+Initial unwinding bound: 10
+Total number of steps: 1
+TOTAL TIME FOR CHECKING THIS CLAIM: 0.038
+
+
+Main Checked Assertion:
+  file loop_assert_7.c line 16 function main
+  assertion
+  a0 != 5
+#X: Done.
+
+real	0m1.221s
+user	0m1.222s
+sys	0m0.017s
+---------------------------------------------------------
+---------------------------------------------------------
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `loop_assert_8.c' ...
+Parsing loop_assert_8.c
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+<built-in>: note: this is the location of the previous definition
+Converting
+Type-checking loop_assert_8
+file loop_assert_8.c line 9 function calculate_output: function `assert' is not declared
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.141 sec.
+Total number of claims in program...(1)
+A specific claim is not set, nor any other claim specification is set.
+Warrning: --claim is set to 1.
+; Warning: disabling SATElite preprocessing to track proof
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LIA logic.
+    Checking Claim #1 (100%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+SYMEX TIME: 0.175
+All SSA steps: 453
+Ignored SSA steps after slice: 110
+SLICER TIME: 0.001
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+CONVERSION TIME: 0.024
+; lia checker query time so far: 0.000000
+;         0 |        0        0 |    1.395 s | 147.031 MB
+/home/mabutalibov1271/scripts/regression.sh: line 1: 10212 Segmentation fault      (core dumped) ~/hifrog/trunk/cprover/build/hifrog --logic qflia --unwind 10 $i
+
+real	0m1.532s
+user	0m1.406s
+sys	0m0.020s
+---------------------------------------------------------
+---------------------------------------------------------
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `loop_assert_9.c' ...
+Parsing loop_assert_9.c
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+<built-in>: note: this is the location of the previous definition
+Converting
+Type-checking loop_assert_9
+file loop_assert_9.c line 9 function calculate_output: function `assert' is not declared
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.165 sec.
+Total number of claims in program...(1)
+A specific claim is not set, nor any other claim specification is set.
+Warrning: --claim is set to 1.
+; Warning: disabling SATElite preprocessing to track proof
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LIA logic.
+    Checking Claim #1 (100%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+SYMEX TIME: 0.571
+All SSA steps: 1443
+Ignored SSA steps after slice: 316
+SLICER TIME: 0.004
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+CONVERSION TIME: 0.089
+; lia checker query time so far: 0.000000
+;         0 |        0        0 |    1.897 s | 146.902 MB
+/home/mabutalibov1271/scripts/regression.sh: line 1: 10217 Segmentation fault      (core dumped) ~/hifrog/trunk/cprover/build/hifrog --logic qflia --unwind 10 $i
+
+real	0m2.045s
+user	0m1.931s
+sys	0m0.046s
+---------------------------------------------------------
+---------------------------------------------------------
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `no-loop-global1.c' ...
+Parsing no-loop-global1.c
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+<built-in>: note: this is the location of the previous definition
+Converting
+Type-checking no-loop-global1
+file no-loop-global1.c line 9 function calculate_output: function `assert' is not declared
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.07 sec.
+Total number of claims in program...(1)
+A specific claim is not set, nor any other claim specification is set.
+Warrning: --claim is set to 1.
+; Warning: disabling SATElite preprocessing to track proof
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LIA logic.
+    Checking Claim #1 (100%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+SYMEX TIME: 0.018
+All SSA steps: 52
+Ignored SSA steps after slice: 26
+SLICER TIME: 0
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+CONVERSION TIME: 0.002
+; lia checker query time so far: 0.000000
+;         0 |        0        0 |    1.109 s | 146.902 MB
+SOLVER TIME: 0.002
+RESULT: SAT - doesn't hold
+Building error trace
+
+Counterexample:
+
+State 3 file no-loop-global1.c line 3 thread 0
+----------------------------------------------------
+  a0 = 0
+
+State 10 file no-loop-global1.c line 10 function calculate_output thread 0
+----------------------------------------------------
+  a0 = 5
+
+Violated property:
+  file no-loop-global1.c line 9 function calculate_output
+  assertion 0
+  (_Bool)0
+
+A real bug found.
+
+VERIFICATION FAILED
+Initial unwinding bound: 10
+Total number of steps: 1
+TOTAL TIME FOR CHECKING THIS CLAIM: 0.024
+
+
+Main Checked Assertion:
+  file no-loop-global1.c line 9 function calculate_output
+  assertion
+  (_Bool)0
+#X: Done.
+
+real	0m1.139s
+user	0m1.118s
+sys	0m0.038s
+---------------------------------------------------------
+---------------------------------------------------------
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `s3.c' ...
+Parsing s3.c
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+<built-in>: note: this is the location of the previous definition
+Converting
+Type-checking s3
+file s3.c line 1018 function sslv3_base_method: function `malloc' is not declared
+file s3.c line 1110 function ssl3_connect: function `assert' is not declared
+file s3.c line 1132 function ssl3_connect: function `nondet_int' is not declared
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.521 sec.
+Total number of claims in program...(131)
+A specific claim is not set, nor any other claim specification is set.
+Warrning: --claim is set to 1.
+; Warning: disabling SATElite preprocessing to track proof
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LIA logic.
+    Checking Claim #1 (0%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+*** INLINING function: ssl3_connect
+Processing a deferred function: ssl3_connect
+SYMEX TIME: 12.447
+All SSA steps: 1790
+Ignored SSA steps after slice: 1724
+SLICER TIME: 0.008
+CONVERSION TIME: 0.067
+; lia checker query time so far: 0.000000
+;         0 |        0        0 |   13.698 s | 152.637 MB
+SOLVER TIME: 0.001
+RESULT: UNSAT - it holds!
+Skip generating interpolants
+ASSERTION(S) HOLD(S) WITH FULL INLINE
+
+VERIFICATION SUCCESSFUL
+Initial unwinding bound: 10
+Total number of steps: 1
+Unwinding depth: 1 (2)
+TOTAL TIME FOR CHECKING THIS CLAIM: 12.526
+
+
+Main Checked Assertion:
+  file s3.c line 1110 function ssl3_connect
+  assertion
+  init == 1
+#X: Done.
+
+real	0m14.114s
+user	0m13.766s
+sys	0m0.030s
+---------------------------------------------------------
+---------------------------------------------------------
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `simpleArith_10.c' ...
+Parsing simpleArith_10.c
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+<built-in>: note: this is the location of the previous definition
+Converting
+Type-checking simpleArith_10
+file simpleArith_10.c line 17 function main: function `assert' is not declared
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.153 sec.
+Total number of claims in program...(1)
+A specific claim is not set, nor any other claim specification is set.
+Warrning: --claim is set to 1.
+; Warning: disabling SATElite preprocessing to track proof
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LIA logic.
+    Checking Claim #1 (100%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+*** INLINING function: get2zero_test
+Processing a deferred function: get2zero_test
+SYMEX TIME: 0.014
+All SSA steps: 38
+Ignored SSA steps after slice: 14
+SLICER TIME: 0
+CONVERSION TIME: 0.001
+; lia checker query time so far: 0.000000
+;         0 |        0        0 |    1.174 s | 146.902 MB
+SOLVER TIME: 0.002
+RESULT: SAT - doesn't hold
+Building error trace
+
+Counterexample:
+
+State 10 file simpleArith_10.c line 5 function get2zero_test thread 0
+----------------------------------------------------
+  a = 0
+
+State 11 file simpleArith_10.c line 7 function get2zero_test thread 0
+----------------------------------------------------
+  a = 1
+
+State 12 file simpleArith_10.c line 10 function get2zero_test thread 0
+----------------------------------------------------
+  a = 0
+
+State 14 file simpleArith_10.c line 10 function get2zero_test thread 0
+----------------------------------------------------
+  "function return value" = 0
+
+State 15 file simpleArith_10.c line 17 function main thread 0
+----------------------------------------------------
+  a = 1
+
+Violated property:
+  file simpleArith_10.c line 17 function main
+  assertion return_value_get2zero_test$1 != 0
+  return_value_get2zero_test$1 != 0
+
+A real bug found.
+
+VERIFICATION FAILED
+Initial unwinding bound: 10
+Total number of steps: 1
+TOTAL TIME FOR CHECKING THIS CLAIM: 0.023
+
+
+Main Checked Assertion:
+  file simpleArith_10.c line 17 function main
+  assertion
+  return_value_get2zero_test$1 != 0
+#X: Done.
+
+real	0m1.219s
+user	0m1.191s
+sys	0m0.025s
+---------------------------------------------------------
+---------------------------------------------------------
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `simpleArith_1.c' ...
+Parsing simpleArith_1.c
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+<built-in>: note: this is the location of the previous definition
+Converting
+Type-checking simpleArith_1
+file simpleArith_1.c line 2 function main: function `nondetInt' is not declared
+file simpleArith_1.c line 9 function main: function `assert' is not declared
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.211 sec.
+Total number of claims in program...(1)
+A specific claim is not set, nor any other claim specification is set.
+Warrning: --claim is set to 1.
+; Warning: disabling SATElite preprocessing to track proof
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LIA logic.
+    Checking Claim #1 (100%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+SYMEX TIME: 0.008
+All SSA steps: 30
+Ignored SSA steps after slice: 15
+SLICER TIME: 0.001
+CONVERSION TIME: 0.002
+; lia checker query time so far: 0.000000
+;         0 |        0        0 |    1.260 s | 146.902 MB
+SOLVER TIME: 0.002
+RESULT: SAT - doesn't hold
+Building error trace
+
+Counterexample:
+
+State 6 file simpleArith_1.c line 2 function main thread 0
+----------------------------------------------------
+  x = 0
+
+State 11 file simpleArith_1.c line 8 function main thread 0
+----------------------------------------------------
+  z = 0
+
+Violated property:
+  file simpleArith_1.c line 9 function main
+  assertion z > 0
+  z > 0
+
+A real bug found.
+
+VERIFICATION FAILED
+Initial unwinding bound: 10
+Total number of steps: 1
+TOTAL TIME FOR CHECKING THIS CLAIM: 0.016
+
+
+Main Checked Assertion:
+  file simpleArith_1.c line 9 function main
+  assertion
+  z > 0
+#X: Done.
+
+real	0m1.278s
+user	0m1.270s
+sys	0m0.027s
+---------------------------------------------------------
+---------------------------------------------------------
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `simpleArith_2.c' ...
+Parsing simpleArith_2.c
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+<built-in>: note: this is the location of the previous definition
+Converting
+Type-checking simpleArith_2
+file simpleArith_2.c line 2 function main: function `nondetFloat' is not declared
+file simpleArith_2.c line 9 function main: function `assert' is not declared
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.42 sec.
+Total number of claims in program...(1)
+A specific claim is not set, nor any other claim specification is set.
+Warrning: --claim is set to 1.
+; Warning: disabling SATElite preprocessing to track proof
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LIA logic.
+    Checking Claim #1 (100%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+SYMEX TIME: 0.013
+All SSA steps: 32
+Ignored SSA steps after slice: 15
+SLICER TIME: 0
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+CONVERSION TIME: 0.003
+; lia checker query time so far: 0.000000
+;         0 |        0        0 |    1.440 s | 146.902 MB
+SOLVER TIME: 0.001
+RESULT: SAT - doesn't hold
+Building error trace
+
+Counterexample:
+
+State 7 file simpleArith_2.c line 2 function main thread 0
+----------------------------------------------------
+  x = 0
+
+State 12 file simpleArith_2.c line 8 function main thread 0
+----------------------------------------------------
+  z = -5
+
+Violated property:
+  file simpleArith_2.c line 9 function main
+  assertion z > 3
+  z > 3
+
+A real bug found.
+
+VERIFICATION FAILED
+Initial unwinding bound: 10
+Total number of steps: 1
+TOTAL TIME FOR CHECKING THIS CLAIM: 0.022
+
+
+Main Checked Assertion:
+  file simpleArith_2.c line 9 function main
+  assertion
+  z > 3
+#X: Done.
+
+real	0m1.504s
+user	0m1.453s
+sys	0m0.056s
+---------------------------------------------------------
+---------------------------------------------------------
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `simpleArith_3.c' ...
+Parsing simpleArith_3.c
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+<built-in>: note: this is the location of the previous definition
+Converting
+Type-checking simpleArith_3
+file simpleArith_3.c line 2 function main: function `nondetFloat' is not declared
+file simpleArith_3.c line 10 function main: function `assert' is not declared
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.283 sec.
+Total number of claims in program...(2)
+A specific claim is not set, nor any other claim specification is set.
+Warrning: --claim is set to 1.
+; Warning: disabling SATElite preprocessing to track proof
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LIA logic.
+    Checking Claim #1 (50%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+SYMEX TIME: 0.012
+All SSA steps: 34
+Ignored SSA steps after slice: 16
+SLICER TIME: 0
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+CONVERSION TIME: 0.002
+; lia checker query time so far: 0.000000
+;         0 |        0        0 |    1.307 s | 147.031 MB
+SOLVER TIME: 0.001
+RESULT: SAT - doesn't hold
+Building error trace
+
+Counterexample:
+
+State 7 file simpleArith_3.c line 2 function main thread 0
+----------------------------------------------------
+  x = 0
+
+State 12 file simpleArith_3.c line 8 function main thread 0
+----------------------------------------------------
+  z = 0
+
+Violated property:
+  file simpleArith_3.c line 10 function main
+  assertion (double)z > 0.0
+  (double)z > 0.0
+
+A real bug found.
+
+VERIFICATION FAILED
+Initial unwinding bound: 10
+Total number of steps: 1
+TOTAL TIME FOR CHECKING THIS CLAIM: 0.018
+
+
+Main Checked Assertion:
+  file simpleArith_3.c line 10 function main
+  assertion
+  (double)z > 0.0
+#X: Done.
+
+real	0m1.354s
+user	0m1.318s
+sys	0m0.041s
+---------------------------------------------------------
+---------------------------------------------------------
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `simpleArith_4.c' ...
+Parsing simpleArith_4.c
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+<built-in>: note: this is the location of the previous definition
+Converting
+Type-checking simpleArith_4
+file simpleArith_4.c line 2 function main: function `nondetFloat' is not declared
+file simpleArith_4.c line 9 function main: function `assert' is not declared
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.495 sec.
+Total number of claims in program...(1)
+A specific claim is not set, nor any other claim specification is set.
+Warrning: --claim is set to 1.
+; Warning: disabling SATElite preprocessing to track proof
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LIA logic.
+    Checking Claim #1 (100%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+SYMEX TIME: 0.011
+All SSA steps: 32
+Ignored SSA steps after slice: 15
+SLICER TIME: 0
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+CONVERSION TIME: 0.001
+; lia checker query time so far: 0.000000
+;         0 |        0        0 |    1.506 s | 146.902 MB
+SOLVER TIME: 0.001
+RESULT: SAT - doesn't hold
+Building error trace
+
+Counterexample:
+
+State 7 file simpleArith_4.c line 2 function main thread 0
+----------------------------------------------------
+  x = -1
+
+State 12 file simpleArith_4.c line 8 function main thread 0
+----------------------------------------------------
+  z = 0
+
+Violated property:
+  file simpleArith_4.c line 9 function main
+  assertion (double)z > 0.0
+  (double)z > 0.0
+
+A real bug found.
+
+VERIFICATION FAILED
+Initial unwinding bound: 10
+Total number of steps: 1
+TOTAL TIME FOR CHECKING THIS CLAIM: 0.016
+
+
+Main Checked Assertion:
+  file simpleArith_4.c line 9 function main
+  assertion
+  (double)z > 0.0
+#X: Done.
+
+real	0m1.557s
+user	0m1.519s
+sys	0m0.038s
+---------------------------------------------------------
+---------------------------------------------------------
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `simpleArith_6.c' ...
+Parsing simpleArith_6.c
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+<built-in>: note: this is the location of the previous definition
+Converting
+Type-checking simpleArith_6
+file simpleArith_6.c line 2 function main: function `nondetFloat' is not declared
+file simpleArith_6.c line 9 function main: function `assert' is not declared
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.246 sec.
+Total number of claims in program...(1)
+A specific claim is not set, nor any other claim specification is set.
+Warrning: --claim is set to 1.
+; Warning: disabling SATElite preprocessing to track proof
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LIA logic.
+    Checking Claim #1 (100%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+SYMEX TIME: 0.008
+All SSA steps: 32
+Ignored SSA steps after slice: 15
+SLICER TIME: 0.001
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+CONVERSION TIME: 0.001
+; lia checker query time so far: 0.000000
+;         0 |        0        0 |    1.288 s | 146.902 MB
+/home/mabutalibov1271/scripts/regression.sh: line 1: 10250 Segmentation fault      (core dumped) ~/hifrog/trunk/cprover/build/hifrog --logic qflia --unwind 10 $i
+
+real	0m1.433s
+user	0m1.294s
+sys	0m0.027s
+---------------------------------------------------------
+---------------------------------------------------------
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `simpleArith_8.c' ...
+Parsing simpleArith_8.c
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+<built-in>: note: this is the location of the previous definition
+Converting
+Type-checking simpleArith_8
+file simpleArith_8.c line 14 function main: function `assert' is not declared
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.192 sec.
+Total number of claims in program...(1)
+A specific claim is not set, nor any other claim specification is set.
+Warrning: --claim is set to 1.
+; Warning: disabling SATElite preprocessing to track proof
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LIA logic.
+    Checking Claim #1 (100%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+SYMEX TIME: 0.013
+All SSA steps: 29
+Ignored SSA steps after slice: 14
+SLICER TIME: 0
+CONVERSION TIME: 0.002
+; lia checker query time so far: 0.000000
+;         0 |        0        0 |    1.228 s | 146.902 MB
+SOLVER TIME: 0.001
+RESULT: SAT - doesn't hold
+Building error trace
+
+Counterexample:
+
+State 8 file simpleArith_8.c line 9 function main thread 0
+----------------------------------------------------
+  a = 0
+
+State 9 file simpleArith_8.c line 11 function main thread 0
+----------------------------------------------------
+  a = 1
+
+Violated property:
+  file simpleArith_8.c line 14 function main
+  assertion a != 0
+  a != 0
+
+A real bug found.
+
+VERIFICATION FAILED
+Initial unwinding bound: 10
+Total number of steps: 1
+TOTAL TIME FOR CHECKING THIS CLAIM: 0.018
+
+
+Main Checked Assertion:
+  file simpleArith_8.c line 14 function main
+  assertion
+  a != 0
+#X: Done.
+
+real	0m1.256s
+user	0m1.242s
+sys	0m0.032s
+---------------------------------------------------------
+---------------------------------------------------------
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `simpleArith_9.c' ...
+Parsing simpleArith_9.c
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+<built-in>: note: this is the location of the previous definition
+Converting
+Type-checking simpleArith_9
+file simpleArith_9.c line 20 function main: function `assert' is not declared
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.265 sec.
+Total number of claims in program...(1)
+A specific claim is not set, nor any other claim specification is set.
+Warrning: --claim is set to 1.
+; Warning: disabling SATElite preprocessing to track proof
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LIA logic.
+    Checking Claim #1 (100%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+*** INLINING function: get2zero_test
+Processing a deferred function: get2zero_test
+SYMEX TIME: 0.015
+All SSA steps: 37
+Ignored SSA steps after slice: 14
+SLICER TIME: 0
+CONVERSION TIME: 0.002
+; lia checker query time so far: 0.000000
+;         0 |        0        0 |    1.314 s | 146.902 MB
+SOLVER TIME: 0.001
+RESULT: SAT - doesn't hold
+Building error trace
+
+Counterexample:
+
+State 9 file simpleArith_9.c line 5 function get2zero_test thread 0
+----------------------------------------------------
+  a = 0
+
+State 10 file simpleArith_9.c line 7 function get2zero_test thread 0
+----------------------------------------------------
+  a = 1
+
+State 11 file simpleArith_9.c line 10 function get2zero_test thread 0
+----------------------------------------------------
+  a = 0
+
+State 13 file simpleArith_9.c line 10 function get2zero_test thread 0
+----------------------------------------------------
+  "function return value" = 0
+
+State 14 file simpleArith_9.c line 18 function main thread 0
+----------------------------------------------------
+  a = 1
+
+State 15 file simpleArith_9.c line 18 function main thread 0
+----------------------------------------------------
+  a = 0
+
+Violated property:
+  file simpleArith_9.c line 20 function main
+  assertion a != 0
+  a != 0
+
+A real bug found.
+
+VERIFICATION FAILED
+Initial unwinding bound: 10
+Total number of steps: 1
+TOTAL TIME FOR CHECKING THIS CLAIM: 0.022
+
+
+Main Checked Assertion:
+  file simpleArith_9.c line 20 function main
+  assertion
+  a != 0
+#X: Done.
+
+real	0m1.334s
+user	0m1.326s
+sys	0m0.024s
+---------------------------------------------------------
+---------------------------------------------------------
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `simple_assert_2.c' ...
+Parsing simple_assert_2.c
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+<built-in>: note: this is the location of the previous definition
+Converting
+Type-checking simple_assert_2
+file simple_assert_2.c line 5 function main: function `assert' is not declared
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.194 sec.
+Total number of claims in program...(1)
+A specific claim is not set, nor any other claim specification is set.
+Warrning: --claim is set to 1.
+; Warning: disabling SATElite preprocessing to track proof
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LIA logic.
+    Checking Claim #1 (100%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+SYMEX TIME: 0.008
+All SSA steps: 19
+Ignored SSA steps after slice: 11
+SLICER TIME: 0.001
+CONVERSION TIME: 0.001
+; lia checker query time so far: 0.000000
+;         0 |        0        0 |    1.226 s | 146.902 MB
+SOLVER TIME: 0.002
+RESULT: SAT - doesn't hold
+Building error trace
+
+Counterexample:
+
+State 6 file simple_assert_2.c line 4 function main thread 0
+----------------------------------------------------
+  y = 10
+
+Violated property:
+  file simple_assert_2.c line 5 function main
+  assertion y < 10
+  y < 10
+
+A real bug found.
+
+VERIFICATION FAILED
+Initial unwinding bound: 10
+Total number of steps: 1
+TOTAL TIME FOR CHECKING THIS CLAIM: 0.014
+
+
+Main Checked Assertion:
+  file simple_assert_2.c line 5 function main
+  assertion
+  y < 10
+#X: Done.
+
+real	0m1.259s
+user	0m1.241s
+sys	0m0.022s
+---------------------------------------------------------
+---------------------------------------------------------
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `simple_assert_3.c' ...
+Parsing simple_assert_3.c
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+<built-in>: note: this is the location of the previous definition
+Converting
+Type-checking simple_assert_3
+file simple_assert_3.c line 3 function main: function `assert' is not declared
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.315 sec.
+Total number of claims in program...(1)
+A specific claim is not set, nor any other claim specification is set.
+Warrning: --claim is set to 1.
+; Warning: disabling SATElite preprocessing to track proof
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LIA logic.
+    Checking Claim #1 (100%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+SYMEX TIME: 0.006
+All SSA steps: 22
+Ignored SSA steps after slice: 14
+SLICER TIME: 0
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+CONVERSION TIME: 0.001
+; lia checker query time so far: 0.000000
+SOLVER TIME: 0
+RESULT: UNSAT - it holds!
+Skip generating interpolants
+ASSERTION(S) HOLD(S) WITH FULL INLINE
+
+VERIFICATION SUCCESSFUL
+Initial unwinding bound: 10
+Total number of steps: 1
+TOTAL TIME FOR CHECKING THIS CLAIM: 0.007
+
+
+Main Checked Assertion:
+  file simple_assert_3.c line 3 function main
+  assertion
+  (_Bool)0.5
+#X: Done.
+
+real	0m1.372s
+user	0m1.354s
+sys	0m0.039s
+---------------------------------------------------------
+---------------------------------------------------------
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `simple_assert_4.c' ...
+Parsing simple_assert_4.c
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+<built-in>: note: this is the location of the previous definition
+Converting
+Type-checking simple_assert_4
+file simple_assert_4.c line 3 function main: function `assert' is not declared
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.299 sec.
+Total number of claims in program...(1)
+A specific claim is not set, nor any other claim specification is set.
+Warrning: --claim is set to 1.
+; Warning: disabling SATElite preprocessing to track proof
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LIA logic.
+    Checking Claim #1 (100%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+SYMEX TIME: 0.009
+All SSA steps: 22
+Ignored SSA steps after slice: 14
+SLICER TIME: 0
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+CONVERSION TIME: 0
+; lia checker query time so far: 0.000000
+SOLVER TIME: 0.001
+RESULT: UNSAT - it holds!
+Skip generating interpolants
+ASSERTION(S) HOLD(S) WITH FULL INLINE
+
+VERIFICATION SUCCESSFUL
+Initial unwinding bound: 10
+Total number of steps: 1
+TOTAL TIME FOR CHECKING THIS CLAIM: 0.01
+
+
+Main Checked Assertion:
+  file simple_assert_4.c line 3 function main
+  assertion
+  (_Bool)1
+#X: Done.
+
+real	0m1.365s
+user	0m1.353s
+sys	0m0.032s
+---------------------------------------------------------
+---------------------------------------------------------
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `simple_assert.c' ...
+Parsing simple_assert.c
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+<built-in>: note: this is the location of the previous definition
+Converting
+Type-checking simple_assert
+file simple_assert.c line 3 function main: function `assert' is not declared
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.236 sec.
+Total number of claims in program...(1)
+A specific claim is not set, nor any other claim specification is set.
+Warrning: --claim is set to 1.
+; Warning: disabling SATElite preprocessing to track proof
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LIA logic.
+    Checking Claim #1 (100%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+SYMEX TIME: 0.008
+All SSA steps: 22
+Ignored SSA steps after slice: 14
+SLICER TIME: 0
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+CONVERSION TIME: 0.001
+; lia checker query time so far: 0.000000
+;         0 |        0        0 |    1.238 s | 146.902 MB
+SOLVER TIME: 0
+RESULT: SAT - doesn't hold
+Building error trace
+
+Counterexample:
+
+Violated property:
+  file simple_assert.c line 3 function main
+  assertion 0
+  (_Bool)0
+
+A real bug found.
+
+VERIFICATION FAILED
+Initial unwinding bound: 10
+Total number of steps: 1
+TOTAL TIME FOR CHECKING THIS CLAIM: 0.011
+
+
+Main Checked Assertion:
+  file simple_assert.c line 3 function main
+  assertion
+  (_Bool)0
+#X: Done.
+
+real	0m1.297s
+user	0m1.249s
+sys	0m0.048s
+---------------------------------------------------------
+---------------------------------------------------------
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `simple_assert_double.c' ...
+Parsing simple_assert_double.c
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+<built-in>: note: this is the location of the previous definition
+Converting
+Type-checking simple_assert_double
+file simple_assert_double.c line 3 function main: function `assert' is not declared
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.109 sec.
+Total number of claims in program...(1)
+A specific claim is not set, nor any other claim specification is set.
+Warrning: --claim is set to 1.
+; Warning: disabling SATElite preprocessing to track proof
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LIA logic.
+    Checking Claim #1 (100%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+SYMEX TIME: 0.005
+All SSA steps: 22
+Ignored SSA steps after slice: 14
+SLICER TIME: 0
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+CONVERSION TIME: 0.001
+; lia checker query time so far: 0.000000
+;         0 |        0        0 |    1.145 s | 146.902 MB
+SOLVER TIME: 0
+RESULT: SAT - doesn't hold
+Building error trace
+
+Counterexample:
+
+Violated property:
+  file simple_assert_double.c line 3 function main
+  assertion 0.0
+  (_Bool)0.0
+
+A real bug found.
+
+VERIFICATION FAILED
+Initial unwinding bound: 10
+Total number of steps: 1
+TOTAL TIME FOR CHECKING THIS CLAIM: 0.008
+
+
+Main Checked Assertion:
+  file simple_assert_double.c line 3 function main
+  assertion
+  (_Bool)0.0
+#X: Done.
+
+real	0m1.161s
+user	0m1.152s
+sys	0m0.026s
+---------------------------------------------------------
+---------------------------------------------------------
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `simple_assert_float.c' ...
+Parsing simple_assert_float.c
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+<built-in>: note: this is the location of the previous definition
+Converting
+Type-checking simple_assert_float
+file simple_assert_float.c line 3 function main: function `assert' is not declared
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.121 sec.
+Total number of claims in program...(1)
+A specific claim is not set, nor any other claim specification is set.
+Warrning: --claim is set to 1.
+; Warning: disabling SATElite preprocessing to track proof
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LIA logic.
+    Checking Claim #1 (100%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+SYMEX TIME: 0.007
+All SSA steps: 22
+Ignored SSA steps after slice: 14
+SLICER TIME: 0
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+CONVERSION TIME: 0
+; lia checker query time so far: 0.000000
+;         0 |        0        0 |    1.164 s | 146.902 MB
+SOLVER TIME: 0.001
+RESULT: SAT - doesn't hold
+Building error trace
+
+Counterexample:
+
+Violated property:
+  file simple_assert_float.c line 3 function main
+  assertion 0.0f
+  (_Bool)0.0f
+
+A real bug found.
+
+VERIFICATION FAILED
+Initial unwinding bound: 10
+Total number of steps: 1
+TOTAL TIME FOR CHECKING THIS CLAIM: 0.009
+
+
+Main Checked Assertion:
+  file simple_assert_float.c line 3 function main
+  assertion
+  (_Bool)0.0f
+#X: Done.
+
+real	0m1.176s
+user	0m1.173s
+sys	0m0.022s
+---------------------------------------------------------
+---------------------------------------------------------
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `simple_call_1.c' ...
+Parsing simple_call_1.c
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+<built-in>: note: this is the location of the previous definition
+Converting
+Type-checking simple_call_1
+file simple_call_1.c line 14 function main: function `assert' is not declared
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.142 sec.
+Total number of claims in program...(1)
+A specific claim is not set, nor any other claim specification is set.
+Warrning: --claim is set to 1.
+; Warning: disabling SATElite preprocessing to track proof
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LIA logic.
+    Checking Claim #1 (100%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+*** INLINING function: foo
+Processing a deferred function: foo
+SYMEX TIME: 0.015
+All SSA steps: 38
+Ignored SSA steps after slice: 11
+SLICER TIME: 0
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+CONVERSION TIME: 0.002
+; lia checker query time so far: 0.000000
+;         0 |        0        0 |    1.166 s | 147.031 MB
+/home/mabutalibov1271/scripts/regression.sh: line 1: 10287 Segmentation fault      (core dumped) ~/hifrog/trunk/cprover/build/hifrog --logic qflia --unwind 10 $i
+
+real	0m1.320s
+user	0m1.175s
+sys	0m0.024s
+---------------------------------------------------------
+---------------------------------------------------------
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `simple_if_1.c' ...
+Parsing simple_if_1.c
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+<built-in>: note: this is the location of the previous definition
+Converting
+Type-checking simple_if_1
+file simple_if_1.c line 15 function main: function `assert' is not declared
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.104 sec.
+Total number of claims in program...(1)
+A specific claim is not set, nor any other claim specification is set.
+Warrning: --claim is set to 1.
+; Warning: disabling SATElite preprocessing to track proof
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LIA logic.
+    Checking Claim #1 (100%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+*** INLINING function: inc
+Processing a deferred function: inc
+SYMEX TIME: 0.01
+All SSA steps: 31
+Ignored SSA steps after slice: 13
+SLICER TIME: 0
+CONVERSION TIME: 0.002
+; lia checker query time so far: 0.000000
+;         0 |        0        0 |    1.152 s | 146.902 MB
+SOLVER TIME: 0.001
+RESULT: UNSAT - it holds!
+Skip generating interpolants
+ASSERTION(S) HOLD(S) WITH FULL INLINE
+
+VERIFICATION SUCCESSFUL
+Initial unwinding bound: 10
+Total number of steps: 1
+TOTAL TIME FOR CHECKING THIS CLAIM: 0.013
+
+
+Main Checked Assertion:
+  file simple_if_1.c line 15 function main
+  assertion
+  z < 10
+#X: Done.
+
+real	0m1.162s
+user	0m1.162s
+sys	0m0.012s
+---------------------------------------------------------
+---------------------------------------------------------
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `simple_if_3.c' ...
+Parsing simple_if_3.c
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+<built-in>: note: this is the location of the previous definition
+Converting
+Type-checking simple_if_3
+file simple_if_3.c line 15 function main: function `assert' is not declared
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.118 sec.
+Total number of claims in program...(1)
+A specific claim is not set, nor any other claim specification is set.
+Warrning: --claim is set to 1.
+; Warning: disabling SATElite preprocessing to track proof
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LIA logic.
+    Checking Claim #1 (100%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+*** INLINING function: inc
+Processing a deferred function: inc
+SYMEX TIME: 0.012
+All SSA steps: 31
+Ignored SSA steps after slice: 13
+SLICER TIME: 0
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+CONVERSION TIME: 0.001
+; lia checker query time so far: 0.000000
+;         0 |        0        0 |    1.148 s | 146.902 MB
+SOLVER TIME: 0.001
+RESULT: UNSAT - it holds!
+Skip generating interpolants
+ASSERTION(S) HOLD(S) WITH FULL INLINE
+
+VERIFICATION SUCCESSFUL
+Initial unwinding bound: 10
+Total number of steps: 1
+TOTAL TIME FOR CHECKING THIS CLAIM: 0.016
+
+
+Main Checked Assertion:
+  file simple_if_3.c line 15 function main
+  assertion
+  z < (float)10
+#X: Done.
+
+real	0m1.179s
+user	0m1.159s
+sys	0m0.025s
+---------------------------------------------------------
+---------------------------------------------------------
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `simple_if_4.c' ...
+Parsing simple_if_4.c
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+<built-in>: note: this is the location of the previous definition
+Converting
+Type-checking simple_if_4
+file simple_if_4.c line 15 function main: function `assert' is not declared
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.115 sec.
+Total number of claims in program...(1)
+A specific claim is not set, nor any other claim specification is set.
+Warrning: --claim is set to 1.
+; Warning: disabling SATElite preprocessing to track proof
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LIA logic.
+    Checking Claim #1 (100%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+*** INLINING function: inc
+Processing a deferred function: inc
+SYMEX TIME: 0.012
+All SSA steps: 31
+Ignored SSA steps after slice: 13
+SLICER TIME: 0
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+CONVERSION TIME: 0.002
+; lia checker query time so far: 0.000000
+;         0 |        0        0 |    1.119 s | 147.031 MB
+SOLVER TIME: 0.001
+RESULT: UNSAT - it holds!
+Skip generating interpolants
+ASSERTION(S) HOLD(S) WITH FULL INLINE
+
+VERIFICATION SUCCESSFUL
+Initial unwinding bound: 10
+Total number of steps: 1
+TOTAL TIME FOR CHECKING THIS CLAIM: 0.016
+
+
+Main Checked Assertion:
+  file simple_if_4.c line 15 function main
+  assertion
+  (double)z < 12.4
+#X: Done.
+
+real	0m1.177s
+user	0m1.134s
+sys	0m0.037s
+---------------------------------------------------------
+---------------------------------------------------------
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `simple_no_branch.c' ...
+Parsing simple_no_branch.c
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+<built-in>: note: this is the location of the previous definition
+Converting
+Type-checking simple_no_branch
+file simple_no_branch.c line 1 function __VERIFIER_error: function `assert' is not declared
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.161 sec.
+Total number of claims in program...(2)
+A specific claim is not set, nor any other claim specification is set.
+Warrning: --claim is set to 1.
+; Warning: disabling SATElite preprocessing to track proof
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LIA logic.
+    Checking Claim #1 (50%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+SYMEX TIME: 0.009
+All SSA steps: 23
+Ignored SSA steps after slice: 14
+SLICER TIME: 0
+CONVERSION TIME: 0
+; lia checker query time so far: 0.000000
+;         0 |        0        0 |    1.197 s | 146.902 MB
+SOLVER TIME: 0.001
+RESULT: SAT - doesn't hold
+Building error trace
+
+Counterexample:
+
+Violated property:
+  file simple_no_branch.c line 4 function main
+  assertion
+  FALSE
+
+A real bug found.
+
+VERIFICATION FAILED
+Initial unwinding bound: 10
+Total number of steps: 1
+TOTAL TIME FOR CHECKING THIS CLAIM: 0.011
+
+
+Main Checked Assertion:
+  file simple_no_branch.c line 4 function main
+  assertion
+  FALSE
+#X: Done.
+
+real	0m1.224s
+user	0m1.213s
+sys	0m0.025s
+---------------------------------------------------------
+---------------------------------------------------------
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `summary_reg_1.c' ...
+Parsing summary_reg_1.c
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+<built-in>: note: this is the location of the previous definition
+Converting
+Type-checking summary_reg_1
+file summary_reg_1.c line 22 function main: function `assert' is not declared
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.241 sec.
+Total number of claims in program...(1)
+A specific claim is not set, nor any other claim specification is set.
+Warrning: --claim is set to 1.
+; Warning: disabling SATElite preprocessing to track proof
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LIA logic.
+    Checking Claim #1 (100%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+*** INLINING function: max
+Processing a deferred function: max
+SYMEX TIME: 0.013
+All SSA steps: 32
+Ignored SSA steps after slice: 12
+SLICER TIME: 0
+CONVERSION TIME: 0.002
+; lia checker query time so far: 0.000000
+;         0 |        0        0 |    1.279 s | 147.031 MB
+SOLVER TIME: 0.002
+RESULT: UNSAT - it holds!
+Skip generating interpolants
+ASSERTION(S) HOLD(S) WITH FULL INLINE
+
+VERIFICATION SUCCESSFUL
+Initial unwinding bound: 10
+Total number of steps: 1
+TOTAL TIME FOR CHECKING THIS CLAIM: 0.017
+
+
+Main Checked Assertion:
+  file summary_reg_1.c line 22 function main
+  assertion
+  a > 0
+#X: Done.
+
+real	0m1.307s
+user	0m1.292s
+sys	0m0.033s
+---------------------------------------------------------
+---------------------------------------------------------
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `tcas_asrt.c' ...
+Parsing tcas_asrt.c
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+<built-in>: note: this is the location of the previous definition
+Converting
+Type-checking tcas_asrt
+file tcas_asrt.c line 50 function initialize: function `assert' is not declared
+file tcas_asrt.c line 156 function Non_Crossing_Biased_Climb: function `Own_Below_Threat' is not declared
+file tcas_asrt.c line 160 function Non_Crossing_Biased_Climb: function `Own_Above_Threat' is not declared
+file tcas_asrt.c line 317 function main: function `exit' is not declared
+file tcas_asrt.c line 320 function main: function `atoi' is not declared
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.354 sec.
+Total number of claims in program...(162)
+A specific claim is not set, nor any other claim specification is set.
+Warrning: --claim is set to 1.
+; Warning: disabling SATElite preprocessing to track proof
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LIA logic.
+    Checking Claim #1 (0%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+*** INLINING function: initialize
+*** NONDET abstraction used for function: alt_sep_test
+Processing a deferred function: initialize
+SYMEX TIME: 0.033
+All SSA steps: 78
+Ignored SSA steps after slice: 59
+SLICER TIME: 0.001
+CONVERSION TIME: 0.001
+; lia checker query time so far: 0.000000
+;         0 |        0        0 |    1.390 s | 152.160 MB
+SOLVER TIME: 0.002
+RESULT: UNSAT - it holds!
+Skip generating interpolants
+ASSERTION(S) HOLD(S) WITH FULL INLINE
+
+VERIFICATION SUCCESSFUL
+Initial unwinding bound: 10
+Total number of steps: 1
+Unwinding depth: 1 (17)
+TOTAL TIME FOR CHECKING THIS CLAIM: 0.039
+
+
+Main Checked Assertion:
+  file tcas_asrt.c line 50 function initialize
+  assertion
+  Alt_Layer_Value == Climb_Inhibit
+#X: Done.
+
+real	0m1.417s
+user	0m1.411s
+sys	0m0.029s
+---------------------------------------------------------
+---------------------------------------------------------
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `while1.c' ...
+Parsing while1.c
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+<built-in>: note: this is the location of the previous definition
+Converting
+Type-checking while1
+file while1.c line 5 function main: function `assert' is not declared
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.091 sec.
+Total number of claims in program...(1)
+A specific claim is not set, nor any other claim specification is set.
+Warrning: --claim is set to 1.
+; Warning: disabling SATElite preprocessing to track proof
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LIA logic.
+    Checking Claim #1 (100%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+SYMEX TIME: 0.02
+All SSA steps: 45
+Ignored SSA steps after slice: 25
+SLICER TIME: 0
+CONVERSION TIME: 0.001
+; lia checker query time so far: 0.000000
+SOLVER TIME: 0
+RESULT: UNSAT - it holds!
+Skip generating interpolants
+ASSERTION(S) HOLD(S) WITH FULL INLINE
+
+VERIFICATION SUCCESSFUL
+Initial unwinding bound: 10
+Total number of steps: 1
+TOTAL TIME FOR CHECKING THIS CLAIM: 0.021
+
+
+Main Checked Assertion:
+  file while1.c line 5 function main
+  assertion
+  i > 0
+#X: Done.
+
+real	0m1.155s
+user	0m1.150s
+sys	0m0.017s

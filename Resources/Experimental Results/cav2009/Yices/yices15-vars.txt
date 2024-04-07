@@ -1,0 +1,1920 @@
+*****************************************************
+Toolname: Yices SMT2 Filename: problem__001.smt2
+*****************************************************
+sat
+(:num-terms 62
+ :num-types 3
+ :total-run-time 0.001
+ :mem-usage 3.660
+ :boolean-variables 2
+ :atoms 1
+ :clauses 0
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 1
+ :conflicts 0
+ :theory-conflicts 0
+ :boolean-propagations 0
+ :theory-propagations 0
+ :simplex-init-vars 31
+ :simplex-init-rows 15
+ :simplex-init-atoms 0
+ :simplex-vars 31
+ :simplex-rows 3
+ :simplex-atoms 1
+ :simplex-pivots 3
+ :simplex-conflicts 0
+ :simplex-interface-lemmas 0
+ :simplex-integer-vars 31
+ :simplex-branch-and-bound 1
+ :simplex-bound-conflicts 0
+ :simplex-bound-recheck-conflicts 0
+ :simplex-itest-conflicts 0
+ :simplex-itest-bound-conflicts 0
+ :simplex-itest-recheck-conflicts 0
+ :simplex-gcd-conflicts 0
+ :simplex-dioph-checks 1
+ :simplex-dioph-conflicts 0
+ :simplex-dioph-bound-conflicts 0
+ :simplex-dioph-recheck-conflicts 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: problem__002.smt2
+*****************************************************
+sat
+(:num-terms 63
+ :num-types 3
+ :total-run-time 0.001
+ :mem-usage 3.660
+ :boolean-variables 2
+ :atoms 1
+ :clauses 0
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 1
+ :conflicts 0
+ :theory-conflicts 0
+ :boolean-propagations 0
+ :theory-propagations 0
+ :simplex-init-vars 31
+ :simplex-init-rows 15
+ :simplex-init-atoms 0
+ :simplex-vars 31
+ :simplex-rows 3
+ :simplex-atoms 1
+ :simplex-pivots 2
+ :simplex-conflicts 0
+ :simplex-interface-lemmas 0
+ :simplex-integer-vars 31
+ :simplex-branch-and-bound 1
+ :simplex-bound-conflicts 0
+ :simplex-bound-recheck-conflicts 0
+ :simplex-itest-conflicts 0
+ :simplex-itest-bound-conflicts 0
+ :simplex-itest-recheck-conflicts 0
+ :simplex-gcd-conflicts 0
+ :simplex-dioph-checks 2
+ :simplex-dioph-conflicts 0
+ :simplex-dioph-bound-conflicts 0
+ :simplex-dioph-recheck-conflicts 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: problem__003.smt2
+*****************************************************
+sat
+(:num-terms 64
+ :num-types 3
+ :total-run-time 0.001
+ :mem-usage 3.660
+ :boolean-variables 1
+ :atoms 0
+ :clauses 0
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 0
+ :conflicts 0
+ :theory-conflicts 0
+ :boolean-propagations 0
+ :theory-propagations 0
+ :simplex-init-vars 31
+ :simplex-init-rows 15
+ :simplex-init-atoms 0
+ :simplex-vars 31
+ :simplex-rows 3
+ :simplex-atoms 0
+ :simplex-pivots 2
+ :simplex-conflicts 0
+ :simplex-interface-lemmas 0
+ :simplex-integer-vars 31
+ :simplex-branch-and-bound 0
+ :simplex-bound-conflicts 0
+ :simplex-bound-recheck-conflicts 0
+ :simplex-itest-conflicts 0
+ :simplex-itest-bound-conflicts 0
+ :simplex-itest-recheck-conflicts 0
+ :simplex-gcd-conflicts 0
+ :simplex-dioph-checks 1
+ :simplex-dioph-conflicts 0
+ :simplex-dioph-bound-conflicts 0
+ :simplex-dioph-recheck-conflicts 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: problem__004.smt2
+*****************************************************
+sat
+(:num-terms 63
+ :num-types 3
+ :total-run-time 0.001
+ :mem-usage 3.660
+ :boolean-variables 1
+ :atoms 0
+ :clauses 0
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 0
+ :conflicts 0
+ :theory-conflicts 0
+ :boolean-propagations 0
+ :theory-propagations 0
+ :simplex-init-vars 31
+ :simplex-init-rows 15
+ :simplex-init-atoms 0
+ :simplex-vars 31
+ :simplex-rows 5
+ :simplex-atoms 0
+ :simplex-pivots 1
+ :simplex-conflicts 0
+ :simplex-interface-lemmas 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: problem__005.smt2
+*****************************************************
+sat
+(:num-terms 61
+ :num-types 3
+ :total-run-time 0.003
+ :mem-usage 3.660
+ :boolean-variables 57
+ :atoms 56
+ :clauses 43
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 56
+ :conflicts 0
+ :theory-conflicts 0
+ :boolean-propagations 0
+ :theory-propagations 0
+ :simplex-init-vars 31
+ :simplex-init-rows 15
+ :simplex-init-atoms 0
+ :simplex-vars 31
+ :simplex-rows 4
+ :simplex-atoms 56
+ :simplex-pivots 76
+ :simplex-conflicts 0
+ :simplex-interface-lemmas 0
+ :simplex-integer-vars 31
+ :simplex-branch-and-bound 56
+ :simplex-bound-conflicts 0
+ :simplex-bound-recheck-conflicts 0
+ :simplex-itest-conflicts 0
+ :simplex-itest-bound-conflicts 0
+ :simplex-itest-recheck-conflicts 0
+ :simplex-gcd-conflicts 0
+ :simplex-dioph-checks 57
+ :simplex-dioph-conflicts 0
+ :simplex-dioph-bound-conflicts 0
+ :simplex-dioph-recheck-conflicts 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: problem__006.smt2
+*****************************************************
+sat
+(:num-terms 74
+ :num-types 3
+ :total-run-time 0.045
+ :mem-usage 3.660
+ :boolean-variables 35
+ :atoms 34
+ :clauses 25
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 35
+ :conflicts 2
+ :theory-conflicts 2
+ :boolean-propagations 2
+ :theory-propagations 0
+ :simplex-init-vars 36
+ :simplex-init-rows 20
+ :simplex-init-atoms 0
+ :simplex-vars 36
+ :simplex-rows 9
+ :simplex-atoms 34
+ :simplex-pivots 868
+ :simplex-conflicts 2
+ :simplex-interface-lemmas 0
+ :simplex-integer-vars 36
+ :simplex-branch-and-bound 34
+ :simplex-bound-conflicts 0
+ :simplex-bound-recheck-conflicts 0
+ :simplex-itest-conflicts 0
+ :simplex-itest-bound-conflicts 0
+ :simplex-itest-recheck-conflicts 0
+ :simplex-gcd-conflicts 0
+ :simplex-dioph-checks 34
+ :simplex-dioph-conflicts 0
+ :simplex-dioph-bound-conflicts 0
+ :simplex-dioph-recheck-conflicts 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: problem__007.smt2
+*****************************************************
+sat
+(:num-terms 73
+ :num-types 3
+ :total-run-time 0.001
+ :mem-usage 3.660
+ :boolean-variables 1
+ :atoms 0
+ :clauses 0
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 0
+ :conflicts 0
+ :theory-conflicts 0
+ :boolean-propagations 0
+ :theory-propagations 0
+ :simplex-init-vars 36
+ :simplex-init-rows 20
+ :simplex-init-atoms 0
+ :simplex-vars 36
+ :simplex-rows 10
+ :simplex-atoms 0
+ :simplex-pivots 15
+ :simplex-conflicts 0
+ :simplex-interface-lemmas 0
+ :simplex-integer-vars 36
+ :simplex-branch-and-bound 0
+ :simplex-bound-conflicts 0
+ :simplex-bound-recheck-conflicts 0
+ :simplex-itest-conflicts 0
+ :simplex-itest-bound-conflicts 0
+ :simplex-itest-recheck-conflicts 0
+ :simplex-gcd-conflicts 0
+ :simplex-dioph-checks 1
+ :simplex-dioph-conflicts 0
+ :simplex-dioph-bound-conflicts 0
+ :simplex-dioph-recheck-conflicts 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: problem__008.smt2
+*****************************************************
+sat
+(:num-terms 71
+ :num-types 3
+ :total-run-time 0.001
+ :mem-usage 3.660
+ :boolean-variables 1
+ :atoms 0
+ :clauses 0
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 0
+ :conflicts 0
+ :theory-conflicts 0
+ :boolean-propagations 0
+ :theory-propagations 0
+ :simplex-init-vars 35
+ :simplex-init-rows 19
+ :simplex-init-atoms 0
+ :simplex-vars 35
+ :simplex-rows 8
+ :simplex-atoms 0
+ :simplex-pivots 1
+ :simplex-conflicts 0
+ :simplex-interface-lemmas 0
+ :simplex-integer-vars 35
+ :simplex-branch-and-bound 0
+ :simplex-bound-conflicts 0
+ :simplex-bound-recheck-conflicts 0
+ :simplex-itest-conflicts 0
+ :simplex-itest-bound-conflicts 0
+ :simplex-itest-recheck-conflicts 0
+ :simplex-gcd-conflicts 0
+ :simplex-dioph-checks 1
+ :simplex-dioph-conflicts 0
+ :simplex-dioph-bound-conflicts 0
+ :simplex-dioph-recheck-conflicts 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: problem__009.smt2
+*****************************************************
+sat
+(:num-terms 74
+ :num-types 3
+ :total-run-time 0.056
+ :mem-usage 3.660
+ :boolean-variables 39
+ :atoms 38
+ :clauses 34
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 49
+ :conflicts 13
+ :theory-conflicts 13
+ :boolean-propagations 13
+ :theory-propagations 0
+ :simplex-init-vars 36
+ :simplex-init-rows 20
+ :simplex-init-atoms 0
+ :simplex-vars 36
+ :simplex-rows 11
+ :simplex-atoms 38
+ :simplex-pivots 343
+ :simplex-conflicts 13
+ :simplex-interface-lemmas 0
+ :simplex-integer-vars 36
+ :simplex-branch-and-bound 38
+ :simplex-bound-conflicts 5
+ :simplex-bound-recheck-conflicts 5
+ :simplex-itest-conflicts 0
+ :simplex-itest-bound-conflicts 1
+ :simplex-itest-recheck-conflicts 1
+ :simplex-gcd-conflicts 0
+ :simplex-dioph-checks 42
+ :simplex-dioph-conflicts 0
+ :simplex-dioph-bound-conflicts 0
+ :simplex-dioph-recheck-conflicts 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: problem__010.smt2
+*****************************************************
+sat
+(:num-terms 74
+ :num-types 3
+ :total-run-time 0.076
+ :mem-usage 3.660
+ :boolean-variables 54
+ :atoms 53
+ :clauses 62
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 59
+ :conflicts 10
+ :theory-conflicts 10
+ :boolean-propagations 11
+ :theory-propagations 1
+ :simplex-init-vars 36
+ :simplex-init-rows 20
+ :simplex-init-atoms 0
+ :simplex-vars 36
+ :simplex-rows 8
+ :simplex-atoms 53
+ :simplex-pivots 677
+ :simplex-conflicts 10
+ :simplex-interface-lemmas 0
+ :simplex-integer-vars 36
+ :simplex-branch-and-bound 53
+ :simplex-bound-conflicts 6
+ :simplex-bound-recheck-conflicts 1
+ :simplex-itest-conflicts 0
+ :simplex-itest-bound-conflicts 1
+ :simplex-itest-recheck-conflicts 1
+ :simplex-gcd-conflicts 0
+ :simplex-dioph-checks 55
+ :simplex-dioph-conflicts 0
+ :simplex-dioph-bound-conflicts 1
+ :simplex-dioph-recheck-conflicts 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: problem__011.smt2
+*****************************************************
+sat
+(:num-terms 84
+ :num-types 3
+ :total-run-time 0.002
+ :mem-usage 3.660
+ :boolean-variables 1
+ :atoms 0
+ :clauses 0
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 0
+ :conflicts 0
+ :theory-conflicts 0
+ :boolean-propagations 0
+ :theory-propagations 0
+ :simplex-init-vars 41
+ :simplex-init-rows 25
+ :simplex-init-atoms 0
+ :simplex-vars 41
+ :simplex-rows 13
+ :simplex-atoms 0
+ :simplex-pivots 25
+ :simplex-conflicts 0
+ :simplex-interface-lemmas 0
+ :simplex-integer-vars 41
+ :simplex-branch-and-bound 0
+ :simplex-bound-conflicts 0
+ :simplex-bound-recheck-conflicts 0
+ :simplex-itest-conflicts 0
+ :simplex-itest-bound-conflicts 0
+ :simplex-itest-recheck-conflicts 0
+ :simplex-gcd-conflicts 0
+ :simplex-dioph-checks 1
+ :simplex-dioph-conflicts 0
+ :simplex-dioph-bound-conflicts 0
+ :simplex-dioph-recheck-conflicts 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: problem__012.smt2
+*****************************************************
+sat
+(:num-terms 84
+ :num-types 3
+ :total-run-time 0.004
+ :mem-usage 3.660
+ :boolean-variables 1
+ :atoms 0
+ :clauses 0
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 0
+ :conflicts 0
+ :theory-conflicts 0
+ :boolean-propagations 0
+ :theory-propagations 0
+ :simplex-init-vars 41
+ :simplex-init-rows 25
+ :simplex-init-atoms 0
+ :simplex-vars 41
+ :simplex-rows 13
+ :simplex-atoms 0
+ :simplex-pivots 82
+ :simplex-conflicts 0
+ :simplex-interface-lemmas 0
+ :simplex-integer-vars 41
+ :simplex-branch-and-bound 0
+ :simplex-bound-conflicts 0
+ :simplex-bound-recheck-conflicts 0
+ :simplex-itest-conflicts 0
+ :simplex-itest-bound-conflicts 0
+ :simplex-itest-recheck-conflicts 0
+ :simplex-gcd-conflicts 0
+ :simplex-dioph-checks 1
+ :simplex-dioph-conflicts 0
+ :simplex-dioph-bound-conflicts 0
+ :simplex-dioph-recheck-conflicts 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: problem__013.smt2
+*****************************************************
+sat
+(:num-terms 84
+ :num-types 3
+ :total-run-time 0.024
+ :mem-usage 3.660
+ :boolean-variables 27
+ :atoms 26
+ :clauses 12
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 26
+ :conflicts 1
+ :theory-conflicts 1
+ :boolean-propagations 1
+ :theory-propagations 0
+ :simplex-init-vars 41
+ :simplex-init-rows 25
+ :simplex-init-atoms 0
+ :simplex-vars 41
+ :simplex-rows 11
+ :simplex-atoms 26
+ :simplex-pivots 190
+ :simplex-conflicts 1
+ :simplex-interface-lemmas 0
+ :simplex-integer-vars 41
+ :simplex-branch-and-bound 26
+ :simplex-bound-conflicts 0
+ :simplex-bound-recheck-conflicts 0
+ :simplex-itest-conflicts 0
+ :simplex-itest-bound-conflicts 0
+ :simplex-itest-recheck-conflicts 0
+ :simplex-gcd-conflicts 0
+ :simplex-dioph-checks 27
+ :simplex-dioph-conflicts 0
+ :simplex-dioph-bound-conflicts 0
+ :simplex-dioph-recheck-conflicts 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: problem__014.smt2
+*****************************************************
+sat
+(:num-terms 83
+ :num-types 3
+ :total-run-time 0.075
+ :mem-usage 3.660
+ :boolean-variables 18
+ :atoms 17
+ :clauses 27
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 31
+ :conflicts 18
+ :theory-conflicts 18
+ :boolean-propagations 21
+ :theory-propagations 1
+ :simplex-init-vars 41
+ :simplex-init-rows 25
+ :simplex-init-atoms 0
+ :simplex-vars 41
+ :simplex-rows 14
+ :simplex-atoms 17
+ :simplex-pivots 1470
+ :simplex-conflicts 18
+ :simplex-interface-lemmas 0
+ :simplex-integer-vars 41
+ :simplex-branch-and-bound 17
+ :simplex-bound-conflicts 2
+ :simplex-bound-recheck-conflicts 2
+ :simplex-itest-conflicts 0
+ :simplex-itest-bound-conflicts 0
+ :simplex-itest-recheck-conflicts 0
+ :simplex-gcd-conflicts 0
+ :simplex-dioph-checks 20
+ :simplex-dioph-conflicts 0
+ :simplex-dioph-bound-conflicts 0
+ :simplex-dioph-recheck-conflicts 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: problem__015.smt2
+*****************************************************
+sat
+(:num-terms 84
+ :num-types 3
+ :total-run-time 0.002
+ :mem-usage 3.660
+ :boolean-variables 1
+ :atoms 0
+ :clauses 0
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 0
+ :conflicts 0
+ :theory-conflicts 0
+ :boolean-propagations 0
+ :theory-propagations 0
+ :simplex-init-vars 41
+ :simplex-init-rows 25
+ :simplex-init-atoms 0
+ :simplex-vars 41
+ :simplex-rows 11
+ :simplex-atoms 0
+ :simplex-pivots 23
+ :simplex-conflicts 0
+ :simplex-interface-lemmas 0
+ :simplex-integer-vars 41
+ :simplex-branch-and-bound 0
+ :simplex-bound-conflicts 0
+ :simplex-bound-recheck-conflicts 0
+ :simplex-itest-conflicts 0
+ :simplex-itest-bound-conflicts 0
+ :simplex-itest-recheck-conflicts 0
+ :simplex-gcd-conflicts 0
+ :simplex-dioph-checks 1
+ :simplex-dioph-conflicts 0
+ :simplex-dioph-bound-conflicts 0
+ :simplex-dioph-recheck-conflicts 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: problem__016.smt2
+*****************************************************
+unsat
+(:num-terms 94
+ :num-types 3
+ :total-run-time 0.003
+ :mem-usage 3.660
+ :boolean-variables 1
+ :atoms 0
+ :clauses 1
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 0
+ :conflicts 1
+ :theory-conflicts 1
+ :boolean-propagations 0
+ :theory-propagations 0
+ :simplex-init-vars 46
+ :simplex-init-rows 30
+ :simplex-init-atoms 0
+ :simplex-vars 46
+ :simplex-rows 18
+ :simplex-atoms 0
+ :simplex-pivots 51
+ :simplex-conflicts 1
+ :simplex-interface-lemmas 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: problem__017.smt2
+*****************************************************
+sat
+(:num-terms 94
+ :num-types 3
+ :total-run-time 0.038
+ :mem-usage 3.660
+ :boolean-variables 15
+ :atoms 14
+ :clauses 24
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 1
+ :decisions 34
+ :conflicts 16
+ :theory-conflicts 16
+ :boolean-propagations 22
+ :theory-propagations 0
+ :simplex-init-vars 46
+ :simplex-init-rows 30
+ :simplex-init-atoms 0
+ :simplex-vars 46
+ :simplex-rows 17
+ :simplex-atoms 14
+ :simplex-pivots 601
+ :simplex-conflicts 16
+ :simplex-interface-lemmas 0
+ :simplex-integer-vars 46
+ :simplex-branch-and-bound 14
+ :simplex-bound-conflicts 8
+ :simplex-bound-recheck-conflicts 2
+ :simplex-itest-conflicts 0
+ :simplex-itest-bound-conflicts 1
+ :simplex-itest-recheck-conflicts 1
+ :simplex-gcd-conflicts 0
+ :simplex-dioph-checks 15
+ :simplex-dioph-conflicts 0
+ :simplex-dioph-bound-conflicts 0
+ :simplex-dioph-recheck-conflicts 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: problem__018.smt2
+*****************************************************
+sat
+(:num-terms 94
+ :num-types 3
+ :total-run-time 0.003
+ :mem-usage 3.660
+ :boolean-variables 6
+ :atoms 5
+ :clauses 0
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 5
+ :conflicts 0
+ :theory-conflicts 0
+ :boolean-propagations 0
+ :theory-propagations 0
+ :simplex-init-vars 46
+ :simplex-init-rows 30
+ :simplex-init-atoms 0
+ :simplex-vars 46
+ :simplex-rows 15
+ :simplex-atoms 5
+ :simplex-pivots 64
+ :simplex-conflicts 0
+ :simplex-interface-lemmas 0
+ :simplex-integer-vars 46
+ :simplex-branch-and-bound 5
+ :simplex-bound-conflicts 0
+ :simplex-bound-recheck-conflicts 0
+ :simplex-itest-conflicts 0
+ :simplex-itest-bound-conflicts 0
+ :simplex-itest-recheck-conflicts 0
+ :simplex-gcd-conflicts 0
+ :simplex-dioph-checks 5
+ :simplex-dioph-conflicts 0
+ :simplex-dioph-bound-conflicts 0
+ :simplex-dioph-recheck-conflicts 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: problem__019.smt2
+*****************************************************
+sat
+(:num-terms 94
+ :num-types 3
+ :total-run-time 0.039
+ :mem-usage 3.660
+ :boolean-variables 27
+ :atoms 26
+ :clauses 36
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 64
+ :conflicts 18
+ :theory-conflicts 17
+ :boolean-propagations 37
+ :theory-propagations 9
+ :simplex-init-vars 46
+ :simplex-init-rows 30
+ :simplex-init-atoms 0
+ :simplex-vars 46
+ :simplex-rows 17
+ :simplex-atoms 26
+ :simplex-pivots 432
+ :simplex-conflicts 17
+ :simplex-interface-lemmas 0
+ :simplex-integer-vars 46
+ :simplex-branch-and-bound 26
+ :simplex-bound-conflicts 4
+ :simplex-bound-recheck-conflicts 1
+ :simplex-itest-conflicts 0
+ :simplex-itest-bound-conflicts 0
+ :simplex-itest-recheck-conflicts 0
+ :simplex-gcd-conflicts 0
+ :simplex-dioph-checks 29
+ :simplex-dioph-conflicts 0
+ :simplex-dioph-bound-conflicts 0
+ :simplex-dioph-recheck-conflicts 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: problem__020.smt2
+*****************************************************
+sat
+(:num-terms 94
+ :num-types 3
+ :total-run-time 0.068
+ :mem-usage 3.789
+ :boolean-variables 28
+ :atoms 27
+ :clauses 23
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 32
+ :conflicts 2
+ :theory-conflicts 2
+ :boolean-propagations 3
+ :theory-propagations 0
+ :simplex-init-vars 45
+ :simplex-init-rows 29
+ :simplex-init-atoms 0
+ :simplex-vars 45
+ :simplex-rows 16
+ :simplex-atoms 27
+ :simplex-pivots 868
+ :simplex-conflicts 2
+ :simplex-interface-lemmas 0
+ :simplex-integer-vars 45
+ :simplex-branch-and-bound 27
+ :simplex-bound-conflicts 1
+ :simplex-bound-recheck-conflicts 0
+ :simplex-itest-conflicts 0
+ :simplex-itest-bound-conflicts 0
+ :simplex-itest-recheck-conflicts 0
+ :simplex-gcd-conflicts 0
+ :simplex-dioph-checks 28
+ :simplex-dioph-conflicts 0
+ :simplex-dioph-bound-conflicts 0
+ :simplex-dioph-recheck-conflicts 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: problem__021.smt2
+*****************************************************
+sat
+(:num-terms 102
+ :num-types 3
+ :total-run-time 0.114
+ :mem-usage 3.789
+ :boolean-variables 23
+ :atoms 22
+ :clauses 13
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 24
+ :conflicts 5
+ :theory-conflicts 5
+ :boolean-propagations 6
+ :theory-propagations 0
+ :simplex-init-vars 50
+ :simplex-init-rows 34
+ :simplex-init-atoms 0
+ :simplex-vars 50
+ :simplex-rows 21
+ :simplex-atoms 22
+ :simplex-pivots 1115
+ :simplex-conflicts 5
+ :simplex-interface-lemmas 0
+ :simplex-integer-vars 50
+ :simplex-branch-and-bound 22
+ :simplex-bound-conflicts 4
+ :simplex-bound-recheck-conflicts 0
+ :simplex-itest-conflicts 0
+ :simplex-itest-bound-conflicts 1
+ :simplex-itest-recheck-conflicts 1
+ :simplex-gcd-conflicts 0
+ :simplex-dioph-checks 23
+ :simplex-dioph-conflicts 0
+ :simplex-dioph-bound-conflicts 0
+ :simplex-dioph-recheck-conflicts 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: problem__022.smt2
+*****************************************************
+unsat
+(:num-terms 103
+ :num-types 3
+ :total-run-time 0.002
+ :mem-usage 3.660
+ :boolean-variables 1
+ :atoms 0
+ :clauses 1
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 0
+ :conflicts 1
+ :theory-conflicts 1
+ :boolean-propagations 0
+ :theory-propagations 0
+ :simplex-init-vars 50
+ :simplex-init-rows 34
+ :simplex-init-atoms 0
+ :simplex-vars 50
+ :simplex-rows 24
+ :simplex-atoms 0
+ :simplex-pivots 24
+ :simplex-conflicts 1
+ :simplex-interface-lemmas 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: problem__023.smt2
+*****************************************************
+unsat
+(:num-terms 104
+ :num-types 3
+ :total-run-time 0.001
+ :mem-usage 3.660
+ :boolean-variables 1
+ :atoms 0
+ :clauses 1
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 0
+ :conflicts 1
+ :theory-conflicts 1
+ :boolean-propagations 0
+ :theory-propagations 0
+ :simplex-init-vars 51
+ :simplex-init-rows 35
+ :simplex-init-atoms 0
+ :simplex-vars 51
+ :simplex-rows 22
+ :simplex-atoms 0
+ :simplex-pivots 17
+ :simplex-conflicts 1
+ :simplex-interface-lemmas 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: problem__024.smt2
+*****************************************************
+unsat
+(:num-terms 104
+ :num-types 3
+ :total-run-time 0.014
+ :mem-usage 3.660
+ :boolean-variables 1
+ :atoms 0
+ :clauses 1
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 0
+ :conflicts 1
+ :theory-conflicts 1
+ :boolean-propagations 0
+ :theory-propagations 0
+ :simplex-init-vars 51
+ :simplex-init-rows 35
+ :simplex-init-atoms 0
+ :simplex-vars 51
+ :simplex-rows 22
+ :simplex-atoms 0
+ :simplex-pivots 184
+ :simplex-conflicts 1
+ :simplex-interface-lemmas 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: problem__025.smt2
+*****************************************************
+unsat
+(:num-terms 104
+ :num-types 3
+ :total-run-time 0.003
+ :mem-usage 3.660
+ :boolean-variables 1
+ :atoms 0
+ :clauses 1
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 0
+ :conflicts 1
+ :theory-conflicts 1
+ :boolean-propagations 0
+ :theory-propagations 0
+ :simplex-init-vars 50
+ :simplex-init-rows 34
+ :simplex-init-atoms 0
+ :simplex-vars 50
+ :simplex-rows 20
+ :simplex-atoms 0
+ :simplex-pivots 64
+ :simplex-conflicts 1
+ :simplex-interface-lemmas 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: problem_2__001.smt2
+*****************************************************
+sat
+(:num-terms 63
+ :num-types 3
+ :total-run-time 0.006
+ :mem-usage 3.660
+ :boolean-variables 17
+ :atoms 16
+ :clauses 3
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 16
+ :conflicts 0
+ :theory-conflicts 0
+ :boolean-propagations 0
+ :theory-propagations 0
+ :simplex-init-vars 31
+ :simplex-init-rows 15
+ :simplex-init-atoms 0
+ :simplex-vars 31
+ :simplex-rows 6
+ :simplex-atoms 16
+ :simplex-pivots 34
+ :simplex-conflicts 0
+ :simplex-interface-lemmas 0
+ :simplex-integer-vars 31
+ :simplex-branch-and-bound 16
+ :simplex-bound-conflicts 0
+ :simplex-bound-recheck-conflicts 0
+ :simplex-itest-conflicts 0
+ :simplex-itest-bound-conflicts 0
+ :simplex-itest-recheck-conflicts 0
+ :simplex-gcd-conflicts 0
+ :simplex-dioph-checks 17
+ :simplex-dioph-conflicts 0
+ :simplex-dioph-bound-conflicts 0
+ :simplex-dioph-recheck-conflicts 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: problem_2__002.smt2
+*****************************************************
+sat
+(:num-terms 63
+ :num-types 3
+ :total-run-time 0.001
+ :mem-usage 3.660
+ :boolean-variables 1
+ :atoms 0
+ :clauses 0
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 0
+ :conflicts 0
+ :theory-conflicts 0
+ :boolean-propagations 0
+ :theory-propagations 0
+ :simplex-init-vars 31
+ :simplex-init-rows 15
+ :simplex-init-atoms 0
+ :simplex-vars 31
+ :simplex-rows 7
+ :simplex-atoms 0
+ :simplex-pivots 5
+ :simplex-conflicts 0
+ :simplex-interface-lemmas 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: problem_2__003.smt2
+*****************************************************
+sat
+(:num-terms 63
+ :num-types 3
+ :total-run-time 0.001
+ :mem-usage 3.660
+ :boolean-variables 2
+ :atoms 1
+ :clauses 0
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 1
+ :conflicts 0
+ :theory-conflicts 0
+ :boolean-propagations 0
+ :theory-propagations 0
+ :simplex-init-vars 31
+ :simplex-init-rows 15
+ :simplex-init-atoms 0
+ :simplex-vars 31
+ :simplex-rows 5
+ :simplex-atoms 1
+ :simplex-pivots 5
+ :simplex-conflicts 0
+ :simplex-interface-lemmas 0
+ :simplex-integer-vars 31
+ :simplex-branch-and-bound 1
+ :simplex-bound-conflicts 0
+ :simplex-bound-recheck-conflicts 0
+ :simplex-itest-conflicts 0
+ :simplex-itest-bound-conflicts 0
+ :simplex-itest-recheck-conflicts 0
+ :simplex-gcd-conflicts 0
+ :simplex-dioph-checks 2
+ :simplex-dioph-conflicts 0
+ :simplex-dioph-bound-conflicts 0
+ :simplex-dioph-recheck-conflicts 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: problem_2__004.smt2
+*****************************************************
+sat
+(:num-terms 60
+ :num-types 3
+ :total-run-time 0.001
+ :mem-usage 3.660
+ :boolean-variables 4
+ :atoms 3
+ :clauses 0
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 3
+ :conflicts 0
+ :theory-conflicts 0
+ :boolean-propagations 0
+ :theory-propagations 0
+ :simplex-init-vars 31
+ :simplex-init-rows 15
+ :simplex-init-atoms 0
+ :simplex-vars 31
+ :simplex-rows 5
+ :simplex-atoms 3
+ :simplex-pivots 5
+ :simplex-conflicts 0
+ :simplex-interface-lemmas 0
+ :simplex-integer-vars 31
+ :simplex-branch-and-bound 3
+ :simplex-bound-conflicts 0
+ :simplex-bound-recheck-conflicts 0
+ :simplex-itest-conflicts 0
+ :simplex-itest-bound-conflicts 0
+ :simplex-itest-recheck-conflicts 0
+ :simplex-gcd-conflicts 0
+ :simplex-dioph-checks 4
+ :simplex-dioph-conflicts 0
+ :simplex-dioph-bound-conflicts 0
+ :simplex-dioph-recheck-conflicts 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: problem_2__005.smt2
+*****************************************************
+sat
+(:num-terms 59
+ :num-types 3
+ :total-run-time 0.000
+ :mem-usage 3.660
+ :boolean-variables 1
+ :atoms 0
+ :clauses 0
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 0
+ :conflicts 0
+ :theory-conflicts 0
+ :boolean-propagations 0
+ :theory-propagations 0
+ :simplex-init-vars 31
+ :simplex-init-rows 15
+ :simplex-init-atoms 0
+ :simplex-vars 31
+ :simplex-rows 4
+ :simplex-atoms 0
+ :simplex-pivots 0
+ :simplex-conflicts 0
+ :simplex-interface-lemmas 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: problem_2__006.smt2
+*****************************************************
+sat
+(:num-terms 74
+ :num-types 3
+ :total-run-time 0.031
+ :mem-usage 3.660
+ :boolean-variables 29
+ :atoms 28
+ :clauses 23
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 30
+ :conflicts 7
+ :theory-conflicts 7
+ :boolean-propagations 8
+ :theory-propagations 1
+ :simplex-init-vars 36
+ :simplex-init-rows 20
+ :simplex-init-atoms 0
+ :simplex-vars 36
+ :simplex-rows 7
+ :simplex-atoms 28
+ :simplex-pivots 101
+ :simplex-conflicts 7
+ :simplex-interface-lemmas 0
+ :simplex-integer-vars 36
+ :simplex-branch-and-bound 28
+ :simplex-bound-conflicts 4
+ :simplex-bound-recheck-conflicts 1
+ :simplex-itest-conflicts 0
+ :simplex-itest-bound-conflicts 3
+ :simplex-itest-recheck-conflicts 3
+ :simplex-gcd-conflicts 0
+ :simplex-dioph-checks 30
+ :simplex-dioph-conflicts 0
+ :simplex-dioph-bound-conflicts 0
+ :simplex-dioph-recheck-conflicts 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: problem_2__007.smt2
+*****************************************************
+sat
+(:num-terms 74
+ :num-types 3
+ :total-run-time 0.038
+ :mem-usage 3.789
+ :boolean-variables 46
+ :atoms 45
+ :clauses 36
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 45
+ :conflicts 0
+ :theory-conflicts 0
+ :boolean-propagations 0
+ :theory-propagations 0
+ :simplex-init-vars 36
+ :simplex-init-rows 20
+ :simplex-init-atoms 0
+ :simplex-vars 36
+ :simplex-rows 7
+ :simplex-atoms 45
+ :simplex-pivots 90
+ :simplex-conflicts 0
+ :simplex-interface-lemmas 0
+ :simplex-integer-vars 36
+ :simplex-branch-and-bound 45
+ :simplex-bound-conflicts 0
+ :simplex-bound-recheck-conflicts 0
+ :simplex-itest-conflicts 0
+ :simplex-itest-bound-conflicts 0
+ :simplex-itest-recheck-conflicts 0
+ :simplex-gcd-conflicts 0
+ :simplex-dioph-checks 46
+ :simplex-dioph-conflicts 0
+ :simplex-dioph-bound-conflicts 0
+ :simplex-dioph-recheck-conflicts 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: problem_2__008.smt2
+*****************************************************
+sat
+(:num-terms 74
+ :num-types 3
+ :total-run-time 0.001
+ :mem-usage 3.660
+ :boolean-variables 1
+ :atoms 0
+ :clauses 0
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 0
+ :conflicts 0
+ :theory-conflicts 0
+ :boolean-propagations 0
+ :theory-propagations 0
+ :simplex-init-vars 36
+ :simplex-init-rows 20
+ :simplex-init-atoms 0
+ :simplex-vars 36
+ :simplex-rows 9
+ :simplex-atoms 0
+ :simplex-pivots 7
+ :simplex-conflicts 0
+ :simplex-interface-lemmas 0
+ :simplex-integer-vars 36
+ :simplex-branch-and-bound 0
+ :simplex-bound-conflicts 0
+ :simplex-bound-recheck-conflicts 0
+ :simplex-itest-conflicts 0
+ :simplex-itest-bound-conflicts 0
+ :simplex-itest-recheck-conflicts 0
+ :simplex-gcd-conflicts 0
+ :simplex-dioph-checks 1
+ :simplex-dioph-conflicts 0
+ :simplex-dioph-bound-conflicts 0
+ :simplex-dioph-recheck-conflicts 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: problem_2__009.smt2
+*****************************************************
+sat
+(:num-terms 71
+ :num-types 3
+ :total-run-time 0.001
+ :mem-usage 3.660
+ :boolean-variables 1
+ :atoms 0
+ :clauses 0
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 0
+ :conflicts 0
+ :theory-conflicts 0
+ :boolean-propagations 0
+ :theory-propagations 0
+ :simplex-init-vars 36
+ :simplex-init-rows 20
+ :simplex-init-atoms 0
+ :simplex-vars 36
+ :simplex-rows 8
+ :simplex-atoms 0
+ :simplex-pivots 2
+ :simplex-conflicts 0
+ :simplex-interface-lemmas 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: problem_2__010.smt2
+*****************************************************
+sat
+(:num-terms 73
+ :num-types 3
+ :total-run-time 0.001
+ :mem-usage 3.660
+ :boolean-variables 1
+ :atoms 0
+ :clauses 0
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 0
+ :conflicts 0
+ :theory-conflicts 0
+ :boolean-propagations 0
+ :theory-propagations 0
+ :simplex-init-vars 36
+ :simplex-init-rows 20
+ :simplex-init-atoms 0
+ :simplex-vars 36
+ :simplex-rows 9
+ :simplex-atoms 0
+ :simplex-pivots 11
+ :simplex-conflicts 0
+ :simplex-interface-lemmas 0
+ :simplex-integer-vars 36
+ :simplex-branch-and-bound 0
+ :simplex-bound-conflicts 0
+ :simplex-bound-recheck-conflicts 0
+ :simplex-itest-conflicts 0
+ :simplex-itest-bound-conflicts 0
+ :simplex-itest-recheck-conflicts 0
+ :simplex-gcd-conflicts 0
+ :simplex-dioph-checks 1
+ :simplex-dioph-conflicts 0
+ :simplex-dioph-bound-conflicts 0
+ :simplex-dioph-recheck-conflicts 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: problem_2__011.smt2
+*****************************************************
+unsat
+(:num-terms 84
+ :num-types 3
+ :total-run-time 0.002
+ :mem-usage 3.660
+ :boolean-variables 1
+ :atoms 0
+ :clauses 1
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 0
+ :conflicts 1
+ :theory-conflicts 1
+ :boolean-propagations 0
+ :theory-propagations 0
+ :simplex-init-vars 41
+ :simplex-init-rows 25
+ :simplex-init-atoms 0
+ :simplex-vars 41
+ :simplex-rows 14
+ :simplex-atoms 0
+ :simplex-pivots 37
+ :simplex-conflicts 1
+ :simplex-interface-lemmas 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: problem_2__012.smt2
+*****************************************************
+sat
+(:num-terms 83
+ :num-types 3
+ :total-run-time 0.028
+ :mem-usage 3.660
+ :boolean-variables 37
+ :atoms 36
+ :clauses 26
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 38
+ :conflicts 6
+ :theory-conflicts 6
+ :boolean-propagations 8
+ :theory-propagations 1
+ :simplex-init-vars 40
+ :simplex-init-rows 24
+ :simplex-init-atoms 0
+ :simplex-vars 40
+ :simplex-rows 11
+ :simplex-atoms 36
+ :simplex-pivots 308
+ :simplex-conflicts 6
+ :simplex-interface-lemmas 0
+ :simplex-integer-vars 40
+ :simplex-branch-and-bound 36
+ :simplex-bound-conflicts 1
+ :simplex-bound-recheck-conflicts 1
+ :simplex-itest-conflicts 0
+ :simplex-itest-bound-conflicts 0
+ :simplex-itest-recheck-conflicts 0
+ :simplex-gcd-conflicts 0
+ :simplex-dioph-checks 38
+ :simplex-dioph-conflicts 0
+ :simplex-dioph-bound-conflicts 0
+ :simplex-dioph-recheck-conflicts 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: problem_2__013.smt2
+*****************************************************
+sat
+(:num-terms 84
+ :num-types 3
+ :total-run-time 0.071
+ :mem-usage 3.660
+ :boolean-variables 43
+ :atoms 42
+ :clauses 72
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 71
+ :conflicts 31
+ :theory-conflicts 31
+ :boolean-propagations 44
+ :theory-propagations 0
+ :simplex-init-vars 41
+ :simplex-init-rows 25
+ :simplex-init-atoms 0
+ :simplex-vars 41
+ :simplex-rows 14
+ :simplex-atoms 42
+ :simplex-pivots 1305
+ :simplex-conflicts 31
+ :simplex-interface-lemmas 0
+ :simplex-integer-vars 41
+ :simplex-branch-and-bound 42
+ :simplex-bound-conflicts 5
+ :simplex-bound-recheck-conflicts 3
+ :simplex-itest-conflicts 0
+ :simplex-itest-bound-conflicts 0
+ :simplex-itest-recheck-conflicts 0
+ :simplex-gcd-conflicts 0
+ :simplex-dioph-checks 46
+ :simplex-dioph-conflicts 0
+ :simplex-dioph-bound-conflicts 0
+ :simplex-dioph-recheck-conflicts 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: problem_2__014.smt2
+*****************************************************
+sat
+(:num-terms 83
+ :num-types 3
+ :total-run-time 0.081
+ :mem-usage 3.660
+ :boolean-variables 39
+ :atoms 38
+ :clauses 39
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 46
+ :conflicts 11
+ :theory-conflicts 11
+ :boolean-propagations 13
+ :theory-propagations 0
+ :simplex-init-vars 41
+ :simplex-init-rows 25
+ :simplex-init-atoms 0
+ :simplex-vars 41
+ :simplex-rows 13
+ :simplex-atoms 38
+ :simplex-pivots 586
+ :simplex-conflicts 10
+ :simplex-interface-lemmas 0
+ :simplex-integer-vars 41
+ :simplex-branch-and-bound 38
+ :simplex-bound-conflicts 4
+ :simplex-bound-recheck-conflicts 0
+ :simplex-itest-conflicts 1
+ :simplex-itest-bound-conflicts 0
+ :simplex-itest-recheck-conflicts 0
+ :simplex-gcd-conflicts 0
+ :simplex-dioph-checks 38
+ :simplex-dioph-conflicts 0
+ :simplex-dioph-bound-conflicts 0
+ :simplex-dioph-recheck-conflicts 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: problem_2__015.smt2
+*****************************************************
+sat
+(:num-terms 84
+ :num-types 3
+ :total-run-time 0.004
+ :mem-usage 3.660
+ :boolean-variables 2
+ :atoms 1
+ :clauses 0
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 1
+ :conflicts 0
+ :theory-conflicts 0
+ :boolean-propagations 0
+ :theory-propagations 0
+ :simplex-init-vars 41
+ :simplex-init-rows 25
+ :simplex-init-atoms 0
+ :simplex-vars 41
+ :simplex-rows 13
+ :simplex-atoms 1
+ :simplex-pivots 55
+ :simplex-conflicts 0
+ :simplex-interface-lemmas 0
+ :simplex-integer-vars 41
+ :simplex-branch-and-bound 1
+ :simplex-bound-conflicts 0
+ :simplex-bound-recheck-conflicts 0
+ :simplex-itest-conflicts 0
+ :simplex-itest-bound-conflicts 0
+ :simplex-itest-recheck-conflicts 0
+ :simplex-gcd-conflicts 0
+ :simplex-dioph-checks 2
+ :simplex-dioph-conflicts 0
+ :simplex-dioph-bound-conflicts 0
+ :simplex-dioph-recheck-conflicts 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: problem_2__016.smt2
+*****************************************************
+sat
+(:num-terms 94
+ :num-types 3
+ :total-run-time 0.054
+ :mem-usage 3.660
+ :boolean-variables 18
+ :atoms 17
+ :clauses 18
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 19
+ :conflicts 8
+ :theory-conflicts 8
+ :boolean-propagations 9
+ :theory-propagations 0
+ :simplex-init-vars 45
+ :simplex-init-rows 29
+ :simplex-init-atoms 0
+ :simplex-vars 45
+ :simplex-rows 15
+ :simplex-atoms 17
+ :simplex-pivots 194
+ :simplex-conflicts 7
+ :simplex-interface-lemmas 0
+ :simplex-integer-vars 45
+ :simplex-branch-and-bound 17
+ :simplex-bound-conflicts 3
+ :simplex-bound-recheck-conflicts 3
+ :simplex-itest-conflicts 1
+ :simplex-itest-bound-conflicts 0
+ :simplex-itest-recheck-conflicts 0
+ :simplex-gcd-conflicts 0
+ :simplex-dioph-checks 18
+ :simplex-dioph-conflicts 0
+ :simplex-dioph-bound-conflicts 0
+ :simplex-dioph-recheck-conflicts 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: problem_2__017.smt2
+*****************************************************
+sat
+(:num-terms 94
+ :num-types 3
+ :total-run-time 0.155
+ :mem-usage 3.828
+ :boolean-variables 20
+ :atoms 19
+ :clauses 23
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 25
+ :conflicts 9
+ :theory-conflicts 9
+ :boolean-propagations 12
+ :theory-propagations 1
+ :simplex-init-vars 46
+ :simplex-init-rows 30
+ :simplex-init-atoms 0
+ :simplex-vars 46
+ :simplex-rows 17
+ :simplex-atoms 19
+ :simplex-pivots 1385
+ :simplex-conflicts 9
+ :simplex-interface-lemmas 0
+ :simplex-integer-vars 46
+ :simplex-branch-and-bound 19
+ :simplex-bound-conflicts 4
+ :simplex-bound-recheck-conflicts 1
+ :simplex-itest-conflicts 0
+ :simplex-itest-bound-conflicts 0
+ :simplex-itest-recheck-conflicts 0
+ :simplex-gcd-conflicts 0
+ :simplex-dioph-checks 21
+ :simplex-dioph-conflicts 0
+ :simplex-dioph-bound-conflicts 0
+ :simplex-dioph-recheck-conflicts 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: problem_2__018.smt2
+*****************************************************
+sat
+(:num-terms 94
+ :num-types 3
+ :total-run-time 3.982
+ :mem-usage 3.918
+ :boolean-variables 117
+ :atoms 116
+ :clauses 1060
+ :restarts 7
+ :clause-db-reduce 9
+ :clause-db-simplify 0
+ :decisions 9530
+ :conflicts 4442
+ :theory-conflicts 4213
+ :boolean-propagations 38208
+ :theory-propagations 7779
+ :simplex-init-vars 46
+ :simplex-init-rows 30
+ :simplex-init-atoms 0
+ :simplex-vars 46
+ :simplex-rows 18
+ :simplex-atoms 116
+ :simplex-pivots 51355
+ :simplex-conflicts 4212
+ :simplex-interface-lemmas 0
+ :simplex-integer-vars 46
+ :simplex-branch-and-bound 116
+ :simplex-bound-conflicts 594
+ :simplex-bound-recheck-conflicts 160
+ :simplex-itest-conflicts 1
+ :simplex-itest-bound-conflicts 0
+ :simplex-itest-recheck-conflicts 0
+ :simplex-gcd-conflicts 0
+ :simplex-dioph-checks 162
+ :simplex-dioph-conflicts 0
+ :simplex-dioph-bound-conflicts 4
+ :simplex-dioph-recheck-conflicts 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: problem_2__019.smt2
+*****************************************************
+unsat
+(:num-terms 94
+ :num-types 3
+ :total-run-time 0.009
+ :mem-usage 3.660
+ :boolean-variables 1
+ :atoms 0
+ :clauses 1
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 0
+ :conflicts 1
+ :theory-conflicts 1
+ :boolean-propagations 0
+ :theory-propagations 0
+ :simplex-init-vars 46
+ :simplex-init-rows 30
+ :simplex-init-atoms 0
+ :simplex-vars 46
+ :simplex-rows 18
+ :simplex-atoms 0
+ :simplex-pivots 148
+ :simplex-conflicts 1
+ :simplex-interface-lemmas 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: problem_2__020.smt2
+*****************************************************
+unsat
+(:num-terms 94
+ :num-types 3
+ :total-run-time 0.005
+ :mem-usage 3.660
+ :boolean-variables 1
+ :atoms 0
+ :clauses 1
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 0
+ :conflicts 1
+ :theory-conflicts 1
+ :boolean-propagations 0
+ :theory-propagations 0
+ :simplex-init-vars 45
+ :simplex-init-rows 29
+ :simplex-init-atoms 0
+ :simplex-vars 45
+ :simplex-rows 16
+ :simplex-atoms 0
+ :simplex-pivots 57
+ :simplex-conflicts 1
+ :simplex-interface-lemmas 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: problem_2__021.smt2
+*****************************************************
+unsat
+(:num-terms 104
+ :num-types 3
+ :total-run-time 0.003
+ :mem-usage 3.660
+ :boolean-variables 1
+ :atoms 0
+ :clauses 1
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 0
+ :conflicts 1
+ :theory-conflicts 1
+ :boolean-propagations 0
+ :theory-propagations 0
+ :simplex-init-vars 51
+ :simplex-init-rows 35
+ :simplex-init-atoms 0
+ :simplex-vars 51
+ :simplex-rows 22
+ :simplex-atoms 0
+ :simplex-pivots 26
+ :simplex-conflicts 1
+ :simplex-interface-lemmas 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: problem_2__022.smt2
+*****************************************************
+unsat
+(:num-terms 104
+ :num-types 3
+ :total-run-time 0.005
+ :mem-usage 3.660
+ :boolean-variables 1
+ :atoms 0
+ :clauses 1
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 0
+ :conflicts 1
+ :theory-conflicts 1
+ :boolean-propagations 0
+ :theory-propagations 0
+ :simplex-init-vars 51
+ :simplex-init-rows 35
+ :simplex-init-atoms 0
+ :simplex-vars 51
+ :simplex-rows 21
+ :simplex-atoms 0
+ :simplex-pivots 46
+ :simplex-conflicts 1
+ :simplex-interface-lemmas 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: problem_2__023.smt2
+*****************************************************
+sat
+(:num-terms 104
+ :num-types 3
+ :total-run-time 0.525
+ :mem-usage 3.789
+ :boolean-variables 38
+ :atoms 37
+ :clauses 43
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 57
+ :conflicts 17
+ :theory-conflicts 16
+ :boolean-propagations 23
+ :theory-propagations 6
+ :simplex-init-vars 51
+ :simplex-init-rows 35
+ :simplex-init-atoms 0
+ :simplex-vars 51
+ :simplex-rows 22
+ :simplex-atoms 37
+ :simplex-pivots 7438
+ :simplex-conflicts 16
+ :simplex-interface-lemmas 0
+ :simplex-integer-vars 51
+ :simplex-branch-and-bound 37
+ :simplex-bound-conflicts 5
+ :simplex-bound-recheck-conflicts 3
+ :simplex-itest-conflicts 0
+ :simplex-itest-bound-conflicts 0
+ :simplex-itest-recheck-conflicts 0
+ :simplex-gcd-conflicts 0
+ :simplex-dioph-checks 39
+ :simplex-dioph-conflicts 0
+ :simplex-dioph-bound-conflicts 1
+ :simplex-dioph-recheck-conflicts 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: problem_2__024.smt2
+*****************************************************
+unsat
+(:num-terms 104
+ :num-types 3
+ :total-run-time 0.002
+ :mem-usage 3.660
+ :boolean-variables 1
+ :atoms 0
+ :clauses 1
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 0
+ :conflicts 1
+ :theory-conflicts 1
+ :boolean-propagations 0
+ :theory-propagations 0
+ :simplex-init-vars 51
+ :simplex-init-rows 35
+ :simplex-init-atoms 0
+ :simplex-vars 51
+ :simplex-rows 21
+ :simplex-atoms 0
+ :simplex-pivots 29
+ :simplex-conflicts 1
+ :simplex-interface-lemmas 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: problem_2__025.smt2
+*****************************************************
+unsat
+(:num-terms 104
+ :num-types 3
+ :total-run-time 0.028
+ :mem-usage 3.660
+ :boolean-variables 10
+ :atoms 9
+ :clauses 12
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 4
+ :decisions 22
+ :conflicts 17
+ :theory-conflicts 17
+ :boolean-propagations 14
+ :theory-propagations 0
+ :simplex-init-vars 50
+ :simplex-init-rows 34
+ :simplex-init-atoms 0
+ :simplex-vars 50
+ :simplex-rows 20
+ :simplex-atoms 9
+ :simplex-pivots 338
+ :simplex-conflicts 17
+ :simplex-interface-lemmas 0
+ :simplex-integer-vars 50
+ :simplex-branch-and-bound 9
+ :simplex-bound-conflicts 6
+ :simplex-bound-recheck-conflicts 0
+ :simplex-itest-conflicts 0
+ :simplex-itest-bound-conflicts 0
+ :simplex-itest-recheck-conflicts 0
+ :simplex-gcd-conflicts 0
+ :simplex-dioph-checks 9
+ :simplex-dioph-conflicts 0
+ :simplex-dioph-bound-conflicts 0
+ :simplex-dioph-recheck-conflicts 0
+)
+*****************************************************

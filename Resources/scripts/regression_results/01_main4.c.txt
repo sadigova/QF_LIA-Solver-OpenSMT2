@@ -1,0 +1,87 @@
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `01_main4.c' ...
+Parsing 01_main4.c
+Converting
+Type-checking 01_main4
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.089 sec.
+Total number of claims in program...(1)
+Warrning: --claim is set to 1.
+Use QF_UF logic.
+    Checking Claim #1 (100%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+*** INLINING function: choice
+Processing a deferred function: choice
+*** INLINING function: getchar
+*** INLINING function: getchar
+Processing a deferred function: getchar
+Processing a deferred function: getchar
+SYMEX TIME: 0.029
+All SSA steps: 77
+Ignored SSA steps after slice: 24
+SLICER TIME: 0
+CONVERSION TIME: 0.006
+; uf checker query time so far: 0.000000
+SOLVER TIME: 0.004
+RESULT: SAT - doesn't hold
+Building error trace
+
+Counterexample:
+
+State 14 file 01_main4.c line 10 function getchar thread 0
+----------------------------------------------------
+  x = u36
+
+State 18 file 01_main4.c line 14 function getchar thread 0
+----------------------------------------------------
+  "function return value" = u36
+
+State 21 file 01_main4.c line 10 function getchar thread 0
+----------------------------------------------------
+  x = u13
+
+State 25 file 01_main4.c line 14 function getchar thread 0
+----------------------------------------------------
+  "function return value" = u13
+
+State 30 file 01_main4.c line 35 function main thread 0
+----------------------------------------------------
+  a = n10
+
+State 31 file 01_main4.c line 35 function main thread 0
+----------------------------------------------------
+  b = n20
+
+State 32 file 01_main4.c line 35 function main thread 0
+----------------------------------------------------
+  t = n-1
+
+Violated property:
+  file 01_main4.c line 36 function main
+  assertion t >= 10 || t <= 20
+  t >= 10 || t <= 20
+
+A real bug found.
+
+VERIFICATION FAILED
+Initial unwinding bound: 10
+Total number of steps: 1
+TOTAL TIME FOR CHECKING THIS CLAIM: 0.044
+
+
+Main Checked Assertion: 
+  file 01_main4.c line 36 function main
+  assertion
+  t >= 10 || t <= 20
+#X: Done.

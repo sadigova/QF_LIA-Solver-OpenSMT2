@@ -1,0 +1,149 @@
+*****************************************************
+Toolname: Z3 Filename: problem__002.smt2
+*****************************************************
+sat
+(:arith-lower           13
+ :arith-make-feasible   1
+ :arith-max-columns     30
+ :arith-max-rows        20
+ :arith-patches         1
+ :arith-patches-success 1
+ :arith-rows            20
+ :arith-upper           7
+ :final-checks          1
+ :gcd-calls             1
+ :max-memory            1.45
+ :memory                1.03
+ :mk-bool-var           22
+ :num-allocs            92643
+ :num-checks            1
+ :rlimit-count          4399
+ :time                  0.01
+ :total-time            0.01)
+
+real	0m0.016s
+user	0m0.016s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: problem__003.smt2
+*****************************************************
+sat
+(:arith-lower           12
+ :arith-make-feasible   1
+ :arith-max-columns     30
+ :arith-max-rows        20
+ :arith-patches         1
+ :arith-patches-success 1
+ :arith-rows            20
+ :arith-upper           8
+ :final-checks          1
+ :gcd-calls             1
+ :max-memory            1.61
+ :memory                1.09
+ :mk-bool-var           22
+ :num-allocs            115932
+ :num-checks            1
+ :rlimit-count          4767
+ :time                  0.03
+ :total-time            0.04)
+
+real	0m0.040s
+user	0m0.034s
+sys	0m0.005s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: problem__004.smt2
+*****************************************************
+unsat
+(:arith-bound-propagations-cheap 4
+ :arith-bound-propagations-lp    1
+ :arith-conflicts                23
+ :arith-lower                    39
+ :arith-make-feasible            63
+ :arith-max-columns              39
+ :arith-max-rows                 29
+ :arith-patches                  26
+ :arith-propagations             4
+ :arith-rows                     73
+ :arith-upper                    34
+ :conflicts                      23
+ :cube-calls                     6
+ :decisions                      40
+ :del-clause                     6
+ :final-checks                   26
+ :gcd-calls                      26
+ :max-memory                     1.45
+ :memory                         0.97
+ :minimized-lits                 5
+ :mk-bool-var                    103
+ :mk-clause                      19
+ :num-allocs                     111919
+ :num-checks                     1
+ :propagations                   5
+ :rlimit-count                   8238
+ :time                           1.15
+ :total-time                     1.15)
+
+real	0m1.073s
+user	0m1.151s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: problem__005.smt2
+*****************************************************
+sat
+(:arith-lower           8
+ :arith-make-feasible   1
+ :arith-max-columns     30
+ :arith-max-rows        20
+ :arith-patches         1
+ :arith-patches-success 1
+ :arith-rows            20
+ :arith-upper           12
+ :final-checks          1
+ :gcd-calls             1
+ :max-memory            1.58
+ :memory                1.05
+ :mk-bool-var           22
+ :num-allocs            114403
+ :num-checks            1
+ :rlimit-count          4485
+ :time                  0.00
+ :total-time            0.01)
+
+real	0m0.009s
+user	0m0.009s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: problem__006.smt2
+*****************************************************
+sat
+(:arith-lower           8
+ :arith-make-feasible   1
+ :arith-max-columns     30
+ :arith-max-rows        20
+ :arith-patches         1
+ :arith-patches-success 1
+ :arith-rows            20
+ :arith-upper           12
+ :final-checks          1
+ :gcd-calls             1
+ :max-memory            1.61
+ :memory                1.08
+ :mk-bool-var           22
+ :num-allocs            115387
+ :num-checks            1
+ :rlimit-count          4713
+ :time                  0.01
+ :total-time            0.01)
+
+real	0m0.016s
+user	0m0.017s
+sys	0m0.000s
+*****************************************************
+/home/mabutalibov1271/z3.sh: line 8: /home/mabutalibov1271: Is a directory
+/home/mabutalibov1271/z3.sh: line 9: /home/mabutalibov1271: Is a directory
+/home/mabutalibov1271/z3.sh: line 10: /home/mabutalibov1271: Is a directory
+/home/mabutalibov1271/z3.sh: line 11: /home/mabutalibov1271: Is a directory

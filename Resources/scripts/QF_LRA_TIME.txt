@@ -1,0 +1,1123 @@
+---------------------------------------------------------
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `01_main4.c' ...
+Parsing 01_main4.c
+Converting
+Type-checking 01_main4
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.09 sec.
+Total number of claims in program...(1)
+Warrning: --claim is set to 1.
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LRA logic.
+    Checking Claim #1 (100%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+*** INLINING function: choice
+Processing a deferred function: choice
+*** INLINING function: getchar
+*** INLINING function: getchar
+Processing a deferred function: getchar
+Processing a deferred function: getchar
+SYMEX TIME: 0.028
+All SSA steps: 77
+Ignored SSA steps after slice: 24
+SLICER TIME: 0
+CONVERSION TIME: 0.005
+; lra checker query time so far: 0.000000
+SOLVER TIME: 0.003
+RESULT: UNSAT - it holds!
+---------------------------------------------------------
+---------------------------------------------------------
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `if-else6.c' ...
+Parsing if-else6.c
+Converting
+Type-checking if-else6
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.063 sec.
+Total number of claims in program...(1)
+Warrning: --claim is set to 1.
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LRA logic.
+    Checking Claim #1 (100%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+*** INLINING function: getchar
+Processing a deferred function: getchar
+SYMEX TIME: 0.021
+All SSA steps: 53
+Ignored SSA steps after slice: 25
+SLICER TIME: 0
+CONVERSION TIME: 0.002
+; lra checker query time so far: 0.000000
+SOLVER TIME: 0.003
+RESULT: SAT - doesn't hold
+Building error trace
+
+Counterexample:
+
+State 9 file if-else6.c line 8 function getchar thread 0
+----------------------------------------------------
+  x = -1
+
+State 13 file if-else6.c line 12 function getchar thread 0
+----------------------------------------------------
+  "function return value" = -1
+
+State 14 file if-else6.c line 18 function main thread 0
+----------------------------------------------------
+  x = -1
+
+Violated property:
+  file if-else6.c line 32 function main
+  assertion t != -2
+  t != -2
+
+A real bug found.
+
+VERIFICATION FAILED
+Initial unwinding bound: 10
+Total number of steps: 1
+TOTAL TIME FOR CHECKING THIS CLAIM: 0.029
+
+
+Main Checked Assertion: 
+  file if-else6.c line 32 function main
+  assertion
+  t != -2
+#X: Done.
+---------------------------------------------------------
+---------------------------------------------------------
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `loop_assert_10.c' ...
+Parsing loop_assert_10.c
+Converting
+Type-checking loop_assert_10
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.049 sec.
+Total number of claims in program...(1)
+Warrning: --claim is set to 1.
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LRA logic.
+    Checking Claim #1 (100%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+SYMEX TIME: 0.137
+All SSA steps: 343
+Ignored SSA steps after slice: 15
+SLICER TIME: 0.001
+CONVERSION TIME: 0.013
+; lra checker query time so far: 0.000000
+SOLVER TIME: 0.002
+RESULT: SAT - doesn't hold
+HAVOCING (of 1 calls) AREN'T SUITABLE FOR CHECKING ASSERTION.
+Building error trace
+
+Counterexample:
+
+Violated property:
+  file loop_assert_10.c line 16 function main
+  assertion a0 != 1
+  a0 != 1
+
+A real bug found.
+
+VERIFICATION FAILED
+Initial unwinding bound: 10
+Total number of steps: 1
+TOTAL TIME FOR CHECKING THIS CLAIM: 0.157
+
+
+Main Checked Assertion: 
+  file loop_assert_10.c line 16 function main
+  assertion
+  a0 != 1
+#X: Done.
+---------------------------------------------------------
+---------------------------------------------------------
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `loop_assert_11.c' ...
+Parsing loop_assert_11.c
+Converting
+Type-checking loop_assert_11
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.035 sec.
+Total number of claims in program...(1)
+Warrning: --claim is set to 1.
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LRA logic.
+    Checking Claim #1 (100%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+SYMEX TIME: 0.021
+All SSA steps: 53
+Ignored SSA steps after slice: 15
+SLICER TIME: 0.001
+CONVERSION TIME: 0.002
+; lra checker query time so far: 0.000000
+SOLVER TIME: 0.002
+RESULT: SAT - doesn't hold
+Building error trace
+
+Counterexample:
+
+Violated property:
+  file loop_assert_11.c line 6 function main
+  assertion a != 5
+  a != 5
+
+A real bug found.
+
+VERIFICATION FAILED
+Initial unwinding bound: 10
+Total number of steps: 1
+TOTAL TIME FOR CHECKING THIS CLAIM: 0.027
+
+
+Main Checked Assertion: 
+  file loop_assert_11.c line 6 function main
+  assertion
+  a != 5
+#X: Done.
+---------------------------------------------------------
+---------------------------------------------------------
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `loop_assert_1.c' ...
+Parsing loop_assert_1.c
+Converting
+Type-checking loop_assert_1
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.07 sec.
+Total number of claims in program...(2)
+Warrning: --claim is set to 1.
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LRA logic.
+    Checking Claim #1 (50%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+SYMEX TIME: 0.028
+All SSA steps: 74
+Ignored SSA steps after slice: 26
+SLICER TIME: 0
+CONVERSION TIME: 0.004
+; lra checker query time so far: 0.000000
+SOLVER TIME: 0.004
+RESULT: SAT - doesn't hold
+HAVOCING (of 1 calls) AREN'T SUITABLE FOR CHECKING ASSERTION.
+Building error trace
+
+Counterexample:
+
+State 8 file loop_assert_1.c line 16 function main thread 0
+----------------------------------------------------
+  a0 = 5
+
+Violated property:
+  file loop_assert_1.c line 15 function main
+  assertion a0 != 5
+  a0 != 5
+
+A real bug found.
+
+VERIFICATION FAILED
+Initial unwinding bound: 10
+Total number of steps: 1
+TOTAL TIME FOR CHECKING THIS CLAIM: 0.038
+
+
+Main Checked Assertion: 
+  file loop_assert_1.c line 15 function main
+  assertion
+  a0 != 5
+#X: Done.
+---------------------------------------------------------
+---------------------------------------------------------
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `loop_assert_3.c' ...
+Parsing loop_assert_3.c
+Converting
+Type-checking loop_assert_3
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.026 sec.
+Total number of claims in program...(1)
+Warrning: --claim is set to 1.
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LRA logic.
+    Checking Claim #1 (100%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+SYMEX TIME: 0.018
+All SSA steps: 54
+Ignored SSA steps after slice: 25
+SLICER TIME: 0
+CONVERSION TIME: 0.001
+; lra checker query time so far: 0.000000
+SOLVER TIME: 0.001
+RESULT: SAT - doesn't hold
+Building error trace
+
+Counterexample:
+
+Violated property:
+  file loop_assert_3.c line 6 function main
+  assertion a != 5
+  a != 5
+
+A real bug found.
+
+VERIFICATION FAILED
+Initial unwinding bound: 10
+Total number of steps: 1
+TOTAL TIME FOR CHECKING THIS CLAIM: 0.02
+
+
+Main Checked Assertion: 
+  file loop_assert_3.c line 6 function main
+  assertion
+  a != 5
+#X: Done.
+---------------------------------------------------------
+---------------------------------------------------------
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `loop_assert_4.c' ...
+Parsing loop_assert_4.c
+Converting
+Type-checking loop_assert_4
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.158 sec.
+Total number of claims in program...(1)
+Warrning: --claim is set to 1.
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LRA logic.
+    Checking Claim #1 (100%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+SYMEX TIME: 0.064
+All SSA steps: 173
+Ignored SSA steps after slice: 38
+SLICER TIME: 0.001
+CONVERSION TIME: 0.009
+; lra checker query time so far: 0.000000
+SOLVER TIME: 0.009
+RESULT: SAT - doesn't hold
+Building error trace
+
+Counterexample:
+
+State 11 file loop_assert_4.c line 10 function calculate_output thread 0
+----------------------------------------------------
+  "function return value" = 0
+
+State 12 file loop_assert_4.c line 16 function main thread 0
+----------------------------------------------------
+  a00 = 0
+
+State 13 file loop_assert_4.c line 16 function main thread 0
+----------------------------------------------------
+  a0 = 0
+
+State 21 file loop_assert_4.c line 10 function calculate_output thread 0
+----------------------------------------------------
+  "function return value" = 1
+
+State 22 file loop_assert_4.c line 16 function main thread 0
+----------------------------------------------------
+  a00 = 0
+
+State 23 file loop_assert_4.c line 16 function main thread 0
+----------------------------------------------------
+  a0 = 1
+
+Violated property:
+  file loop_assert_4.c line 9 function calculate_output
+  assertion 0
+  (_Bool)0
+
+A real bug found.
+
+VERIFICATION FAILED
+Initial unwinding bound: 10
+Total number of steps: 1
+TOTAL TIME FOR CHECKING THIS CLAIM: 0.087
+
+
+Main Checked Assertion: 
+  file loop_assert_4.c line 9 function calculate_output
+  assertion
+  (_Bool)0
+#X: Done.
+---------------------------------------------------------
+---------------------------------------------------------
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `loop_assert_5.c' ...
+Parsing loop_assert_5.c
+Converting
+Type-checking loop_assert_5
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.098 sec.
+Total number of claims in program...(1)
+Warrning: --claim is set to 1.
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LRA logic.
+    Checking Claim #1 (100%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+*** NONDET abstraction used for function: calculate_output
+SYMEX TIME: 0.023
+All SSA steps: 53
+Ignored SSA steps after slice: 15
+SLICER TIME: 0
+CONVERSION TIME: 0.002
+; lra checker query time so far: 0.000000
+SOLVER TIME: 0.002
+RESULT: SAT - doesn't hold
+HAVOCING (of 1 calls) AREN'T SUITABLE FOR CHECKING ASSERTION.
+Building error trace
+
+Counterexample:
+
+Violated property:
+  file loop_assert_5.c line 14 function main
+  assertion a0 != 1
+  a0 != 1
+
+A real bug found.
+
+VERIFICATION FAILED
+Initial unwinding bound: 10
+Total number of steps: 1
+TOTAL TIME FOR CHECKING THIS CLAIM: 0.028
+
+
+Main Checked Assertion: 
+  file loop_assert_5.c line 14 function main
+  assertion
+  a0 != 1
+#X: Done.
+---------------------------------------------------------
+---------------------------------------------------------
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `loop_assert_6.c' ...
+Parsing loop_assert_6.c
+Converting
+Type-checking loop_assert_6
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.111 sec.
+Total number of claims in program...(2)
+Warrning: --claim is set to 1.
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LRA logic.
+    Checking Claim #1 (50%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+SYMEX TIME: 0.054
+All SSA steps: 174
+Ignored SSA steps after slice: 35
+SLICER TIME: 0.001
+CONVERSION TIME: 0.008
+; lra checker query time so far: 0.000000
+SOLVER TIME: 0.008
+RESULT: SAT - doesn't hold
+Building error trace
+
+Counterexample:
+
+State 11 file loop_assert_6.c line 15 function main thread 0
+----------------------------------------------------
+  a0 = 0
+
+State 12 file loop_assert_6.c line 15 function main thread 0
+----------------------------------------------------
+  a0 = 5
+
+Violated property:
+  file loop_assert_6.c line 16 function main
+  assertion a0 != 5
+  a0 != 5
+
+A real bug found.
+
+VERIFICATION FAILED
+Initial unwinding bound: 10
+Total number of steps: 1
+TOTAL TIME FOR CHECKING THIS CLAIM: 0.074
+
+
+Main Checked Assertion: 
+  file loop_assert_6.c line 16 function main
+  assertion
+  a0 != 5
+#X: Done.
+---------------------------------------------------------
+---------------------------------------------------------
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `loop_assert_7.c' ...
+Parsing loop_assert_7.c
+Converting
+Type-checking loop_assert_7
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.036 sec.
+Total number of claims in program...(2)
+Warrning: --claim is set to 1.
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LRA logic.
+    Checking Claim #1 (50%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+SYMEX TIME: 0.021
+All SSA steps: 57
+Ignored SSA steps after slice: 22
+SLICER TIME: 0
+CONVERSION TIME: 0.002
+; lra checker query time so far: 0.000000
+SOLVER TIME: 0.002
+RESULT: SAT - doesn't hold
+Building error trace
+
+Counterexample:
+
+State 12 file loop_assert_7.c line 15 function main thread 0
+----------------------------------------------------
+  a0 = 0
+
+State 13 file loop_assert_7.c line 15 function main thread 0
+----------------------------------------------------
+  a0 = 5
+
+Violated property:
+  file loop_assert_7.c line 16 function main
+  assertion a0 != 5
+  a0 != 5
+
+A real bug found.
+
+VERIFICATION FAILED
+Initial unwinding bound: 10
+Total number of steps: 1
+TOTAL TIME FOR CHECKING THIS CLAIM: 0.027
+
+
+Main Checked Assertion: 
+  file loop_assert_7.c line 16 function main
+  assertion
+  a0 != 5
+#X: Done.
+---------------------------------------------------------
+---------------------------------------------------------
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `loop_assert_8.c' ...
+Parsing loop_assert_8.c
+Converting
+Type-checking loop_assert_8
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.054 sec.
+Total number of claims in program...(1)
+Warrning: --claim is set to 1.
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LRA logic.
+    Checking Claim #1 (100%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+SYMEX TIME: 0.175
+All SSA steps: 453
+Ignored SSA steps after slice: 110
+SLICER TIME: 0.001
+CONVERSION TIME: 0.021
+; lra checker query time so far: 0.000000
+SOLVER TIME: 0.029
+RESULT: SAT - doesn't hold
+Building error trace
+
+Counterexample:
+
+State 3 file loop_assert_8.c line 3 thread 0
+----------------------------------------------------
+  a0 = 0
+
+State 13 file loop_assert_8.c line 10 function calculate_output thread 0
+----------------------------------------------------
+  a0 = 1
+
+Violated property:
+  file loop_assert_8.c line 9 function calculate_output
+  assertion 0
+  (_Bool)0
+
+A real bug found.
+
+VERIFICATION FAILED
+Initial unwinding bound: 10
+Total number of steps: 1
+TOTAL TIME FOR CHECKING THIS CLAIM: 0.228
+
+
+Main Checked Assertion: 
+  file loop_assert_8.c line 9 function calculate_output
+  assertion
+  (_Bool)0
+#X: Done.
+---------------------------------------------------------
+---------------------------------------------------------
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `loop_assert_9.c' ...
+Parsing loop_assert_9.c
+Converting
+Type-checking loop_assert_9
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.197 sec.
+Total number of claims in program...(1)
+Warrning: --claim is set to 1.
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LRA logic.
+    Checking Claim #1 (100%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+*** INLINING function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+Processing a deferred function: calculate_output
+SYMEX TIME: 0.529
+All SSA steps: 1443
+Ignored SSA steps after slice: 316
+SLICER TIME: 0.005
+CONVERSION TIME: 0.082

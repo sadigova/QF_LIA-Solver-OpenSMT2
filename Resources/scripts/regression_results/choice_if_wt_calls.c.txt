@@ -1,0 +1,57 @@
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `choice_if_wt_calls.c' ...
+Parsing choice_if_wt_calls.c
+Converting
+Type-checking choice_if_wt_calls
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.046 sec.
+Total number of claims in program...(1)
+Warrning: --claim is set to 1.
+Use QF_UF logic.
+    Checking Claim #1 (100%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+SYMEX TIME: 0.009
+All SSA steps: 25
+Ignored SSA steps after slice: 14
+SLICER TIME: 0
+CONVERSION TIME: 0.001
+; uf checker query time so far: 0.000000
+SOLVER TIME: 0.001
+RESULT: SAT - doesn't hold
+Building error trace
+
+Counterexample:
+
+State 6 file choice_if_wt_calls.c line 3 function main thread 0
+----------------------------------------------------
+  x = u16
+
+Violated property:
+  file choice_if_wt_calls.c line 5 function main
+  assertion x != -1
+  x != -1
+
+A real bug found.
+
+VERIFICATION FAILED
+Initial unwinding bound: 10
+Total number of steps: 1
+TOTAL TIME FOR CHECKING THIS CLAIM: 0.013
+
+
+Main Checked Assertion: 
+  file choice_if_wt_calls.c line 5 function main
+  assertion
+  x != -1
+#X: Done.

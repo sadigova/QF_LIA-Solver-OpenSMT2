@@ -1,0 +1,85 @@
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `bernoulli.c' ...
+Parsing bernoulli.c
+Converting
+Type-checking bernoulli
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.201 sec.
+Total number of claims in program...(1)
+Warrning: --claim is set to 1.
+Use QF_UF logic.
+    Checking Claim #1 (100%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+*** INLINING function: bernoulli
+Processing a deferred function: bernoulli
+SYMEX TIME: 0.04
+All SSA steps: 87
+Ignored SSA steps after slice: 33
+SLICER TIME: 0.001
+CONVERSION TIME: 0.006
+; uf checker query time so far: 0.000000
+SOLVER TIME: 0.001
+RESULT: SAT - doesn't hold
+HAVOCING (of 1 calls) AREN'T SUITABLE FOR CHECKING ASSERTION.
+Building error trace
+
+Counterexample:
+
+State 6 file bernoulli.c line 14 function main thread 0
+----------------------------------------------------
+  x = u333
+
+State 8 file bernoulli.c line 15 function main thread 0
+----------------------------------------------------
+  n = u342
+
+State 14 file bernoulli.c line 7 function bernoulli thread 0
+----------------------------------------------------
+  y = n1
+
+State 35 file bernoulli.c line 9 function bernoulli thread 0
+----------------------------------------------------
+  "function return value" = u315
+
+State 36 file bernoulli.c line 16 function main thread 0
+----------------------------------------------------
+  x = u333
+
+State 37 file bernoulli.c line 16 function main thread 0
+----------------------------------------------------
+  n = u342
+
+State 38 file bernoulli.c line 16 function main thread 0
+----------------------------------------------------
+  z = u315
+
+Violated property:
+  file bernoulli.c line 17 function main
+  assertion x <= -1 || z >= 1
+  x <= -1 || z >= 1
+
+A real bug found.
+
+VERIFICATION FAILED
+Initial unwinding bound: 10
+Total number of steps: 1
+Unwinding depth: 1 (1)
+TOTAL TIME FOR CHECKING THIS CLAIM: 0.052
+
+
+Main Checked Assertion: 
+  file bernoulli.c line 17 function main
+  assertion
+  x <= -1 || z >= 1
+#X: Done.

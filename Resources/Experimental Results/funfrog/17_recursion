@@ -1,0 +1,755 @@
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `Arith.c' ...
+Parsing Arith.c
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+<built-in>: note: this is the location of the previous definition
+Converting
+Type-checking Arith
+file Arith.c line 31 function main: function `assert' is not declared
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.105 sec.
+Total number of claims in program...(6)
+A specific claim is not set, nor any other claim specification is set.
+Warrning: --claim is set to 1.
+; Warning: disabling SATElite preprocessing to track proof
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LIA logic.
+    Checking Claim #1 (16%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+*** INLINING function: f
+Processing a deferred function: f
+*** NONDET abstraction used for function: f
+SYMEX TIME: 0.02
+All SSA steps: 45
+Ignored SSA steps after slice: 18
+SLICER TIME: 0
+CONVERSION TIME: 0.002
+; lia checker query time so far: 0.000000
+;         0 |        0        0 |    1.160 s | 147.031 MB
+SOLVER TIME: 0.002
+RESULT: SAT - doesn't hold
+HAVOCING (of 1 calls) AREN'T SUITABLE FOR CHECKING ASSERTION.
+Automatically increasing unwinding bound for f
+*** REFINING function: f
+Go to next iteration
+
+Refining partition: 4
+Processing a deferred function: f
+*** NONDET abstraction used for function: f
+SYMEX TIME: 0.004
+All SSA steps: 63
+Ignored SSA steps after slice: 22
+SLICER TIME: 0
+Incrementally adding partitions to the SMT solver
+CONVERSION TIME: 0.003
+; lia checker query time so far: 0.000002
+;; Using OpenSMT Incremental Mode with 238 additional literals
+SOLVER TIME: 0.003
+RESULT: SAT - doesn't hold
+HAVOCING (of 1 calls) AREN'T SUITABLE FOR CHECKING ASSERTION.
+Automatically increasing unwinding bound for f
+*** REFINING function: f
+Go to next iteration
+
+Refining partition: 5
+Processing a deferred function: f
+*** NONDET abstraction used for function: f
+SYMEX TIME: 0.005
+All SSA steps: 81
+Ignored SSA steps after slice: 26
+SLICER TIME: 0
+Incrementally adding partitions to the SMT solver
+CONVERSION TIME: 0.004
+; lia checker query time so far: 0.000004
+;; Using OpenSMT Incremental Mode with 309 additional literals
+SOLVER TIME: 0.004
+RESULT: SAT - doesn't hold
+HAVOCING (of 1 calls) AREN'T SUITABLE FOR CHECKING ASSERTION.
+Automatically increasing unwinding bound for f
+*** REFINING function: f
+Go to next iteration
+
+Refining partition: 6
+Processing a deferred function: f
+*** NONDET abstraction used for function: f
+SYMEX TIME: 0.006
+All SSA steps: 99
+Ignored SSA steps after slice: 30
+SLICER TIME: 0.001
+Incrementally adding partitions to the SMT solver
+CONVERSION TIME: 0.004
+; lia checker query time so far: 0.000006
+;; Using OpenSMT Incremental Mode with 380 additional literals
+SOLVER TIME: 0.007
+RESULT: SAT - doesn't hold
+HAVOCING (of 1 calls) AREN'T SUITABLE FOR CHECKING ASSERTION.
+Automatically increasing unwinding bound for f
+*** REFINING function: f
+Go to next iteration
+
+Refining partition: 7
+Processing a deferred function: f
+*** NONDET abstraction used for function: f
+SYMEX TIME: 0.005
+All SSA steps: 117
+Ignored SSA steps after slice: 34
+SLICER TIME: 0.001
+Incrementally adding partitions to the SMT solver
+CONVERSION TIME: 0.007
+; lia checker query time so far: 0.000008
+;; Using OpenSMT Incremental Mode with 451 additional literals
+SOLVER TIME: 0.007
+RESULT: SAT - doesn't hold
+HAVOCING (of 1 calls) AREN'T SUITABLE FOR CHECKING ASSERTION.
+Automatically increasing unwinding bound for f
+*** REFINING function: f
+Go to next iteration
+
+Refining partition: 8
+Processing a deferred function: f
+*** NONDET abstraction used for function: f
+SYMEX TIME: 0.005
+All SSA steps: 135
+Ignored SSA steps after slice: 38
+SLICER TIME: 0.001
+Incrementally adding partitions to the SMT solver
+CONVERSION TIME: 0.008
+; lia checker query time so far: 0.000010
+;; Using OpenSMT Incremental Mode with 522 additional literals
+SOLVER TIME: 0.009
+RESULT: UNSAT - it holds!
+Skip generating interpolants
+ASSERTION(S) HOLD(S) WITH FULL INLINE
+
+VERIFICATION SUCCESSFUL
+Initial unwinding bound: 10
+Total number of steps: 6
+Unwinding depth: 6 (6)
+TOTAL TIME FOR CHECKING THIS CLAIM: 0.111
+
+
+Main Checked Assertion:
+  file Arith.c line 31 function main
+  assertion
+  x < 25 || y >= 0
+#X: Done.
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `EvenOdd.c' ...
+Parsing EvenOdd.c
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+<built-in>: note: this is the location of the previous definition
+Converting
+Type-checking EvenOdd
+file EvenOdd.c line 39 function main: function `assert' is not declared
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.105 sec.
+Total number of claims in program...(5)
+A specific claim is not set, nor any other claim specification is set.
+Warrning: --claim is set to 1.
+; Warning: disabling SATElite preprocessing to track proof
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LIA logic.
+    Checking Claim #1 (20%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+*** INLINING function: isOdd
+Processing a deferred function: isOdd
+*** INLINING function: isEven
+Processing a deferred function: isEven
+*** NONDET abstraction used for function: isOdd
+SYMEX TIME: 0.028
+All SSA steps: 76
+Ignored SSA steps after slice: 31
+SLICER TIME: 0
+CONVERSION TIME: 0.006
+; lia checker query time so far: 0.000000
+;         0 |        0        0 |    1.158 s | 147.160 MB
+SOLVER TIME: 0.004
+RESULT: SAT - doesn't hold
+HAVOCING (of 1 calls) AREN'T SUITABLE FOR CHECKING ASSERTION.
+Building error trace
+
+WARNING: Use over approximation. Cannot create an error trace.
+         Use --logic with Different Logic to Try Creating an Error Trace.
+
+A bug found.
+WARNING: Possibly due to the Theory conversion.
+
+VERIFICATION FAILED
+Initial unwinding bound: 10
+Total number of steps: 1
+Unwinding depth: 1 (1)
+TOTAL TIME FOR CHECKING THIS CLAIM: 0.038
+
+
+Main Checked Assertion:
+  file EvenOdd.c line 39 function main
+  assertion
+  n < 0 || n > 5 || result < 0 || result == mod
+#X: Done.
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `GCD.c' ...
+Parsing GCD.c
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+<built-in>: note: this is the location of the previous definition
+Converting
+Type-checking GCD
+file GCD.c line 45 function main: function `assert' is not declared
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.141 sec.
+Total number of claims in program...(4)
+A specific claim is not set, nor any other claim specification is set.
+Warrning: --claim is set to 1.
+; Warning: disabling SATElite preprocessing to track proof
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LIA logic.
+    Checking Claim #1 (25%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+*** INLINING function: gcd
+*** INLINING function: divides
+Processing a deferred function: gcd
+*** NONDET abstraction used for function: gcd
+*** NONDET abstraction used for function: gcd
+Processing a deferred function: divides
+*** NONDET abstraction used for function: divides
+SYMEX TIME: 0.046
+All SSA steps: 121
+Ignored SSA steps after slice: 59
+SLICER TIME: 0
+CONVERSION TIME: 0.007
+; lia checker query time so far: 0.000000
+;         0 |        0        0 |    1.215 s | 147.160 MB
+SOLVER TIME: 0.004
+RESULT: SAT - doesn't hold
+HAVOCING (of 3 calls) AREN'T SUITABLE FOR CHECKING ASSERTION.
+Automatically increasing unwinding bound for divides
+*** REFINING function: divides
+Go to next iteration
+
+Refining partition: 7
+Processing a deferred function: divides
+*** NONDET abstraction used for function: divides
+SYMEX TIME: 0.009
+All SSA steps: 148
+Ignored SSA steps after slice: 69
+SLICER TIME: 0
+Incrementally adding partitions to the SMT solver
+CONVERSION TIME: 0.009
+; lia checker query time so far: 0.000003
+/home/mabutalibov1271/scripts/regression.sh: line 1:  4830 Segmentation fault      (core dumped) ~/hifrog/trunk/cprover/build/hifrog --logic qflia --unwind 10 $i
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `rec1.c' ...
+Parsing rec1.c
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+<built-in>: note: this is the location of the previous definition
+Converting
+Type-checking rec1
+file rec1.c line 18 function main: function `assert' is not declared
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.09 sec.
+Total number of claims in program...(1)
+A specific claim is not set, nor any other claim specification is set.
+Warrning: --claim is set to 1.
+; Warning: disabling SATElite preprocessing to track proof
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LIA logic.
+    Checking Claim #1 (100%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+*** INLINING function: rec
+Processing a deferred function: rec
+*** NONDET abstraction used for function: rec
+SYMEX TIME: 0.01
+All SSA steps: 30
+Ignored SSA steps after slice: 14
+SLICER TIME: 0
+CONVERSION TIME: 0.002
+; lia checker query time so far: 0.000000
+;         0 |        0        0 |    1.135 s | 146.902 MB
+SOLVER TIME: 0.001
+RESULT: SAT - doesn't hold
+HAVOCING (of 1 calls) AREN'T SUITABLE FOR CHECKING ASSERTION.
+Automatically increasing unwinding bound for rec
+*** REFINING function: rec
+Go to next iteration
+
+Refining partition: 4
+Processing a deferred function: rec
+*** NONDET abstraction used for function: rec
+SYMEX TIME: 0.003
+All SSA steps: 38
+Ignored SSA steps after slice: 14
+SLICER TIME: 0
+Incrementally adding partitions to the SMT solver
+CONVERSION TIME: 0.002
+; lia checker query time so far: 0.000003
+/home/mabutalibov1271/scripts/regression.sh: line 1:  4835 Segmentation fault      (core dumped) ~/hifrog/trunk/cprover/build/hifrog --logic qflia --unwind 10 $i
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `rec2.c' ...
+Parsing rec2.c
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+<built-in>: note: this is the location of the previous definition
+Converting
+Type-checking rec2
+file rec2.c line 18 function main: function `assert' is not declared
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.13 sec.
+Total number of claims in program...(1)
+A specific claim is not set, nor any other claim specification is set.
+Warrning: --claim is set to 1.
+; Warning: disabling SATElite preprocessing to track proof
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LIA logic.
+    Checking Claim #1 (100%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+*** INLINING function: rec
+Processing a deferred function: rec
+*** NONDET abstraction used for function: rec
+SYMEX TIME: 0.013
+All SSA steps: 30
+Ignored SSA steps after slice: 14
+SLICER TIME: 0
+CONVERSION TIME: 0.001
+; lia checker query time so far: 0.000000
+;         0 |        0        0 |    1.181 s | 146.902 MB
+SOLVER TIME: 0.001
+RESULT: SAT - doesn't hold
+HAVOCING (of 1 calls) AREN'T SUITABLE FOR CHECKING ASSERTION.
+Automatically increasing unwinding bound for rec
+*** REFINING function: rec
+Go to next iteration
+
+Refining partition: 4
+Processing a deferred function: rec
+*** NONDET abstraction used for function: rec
+SYMEX TIME: 0.003
+All SSA steps: 38
+Ignored SSA steps after slice: 14
+SLICER TIME: 0
+Incrementally adding partitions to the SMT solver
+CONVERSION TIME: 0.002
+; lia checker query time so far: 0.000005
+/home/mabutalibov1271/scripts/regression.sh: line 1:  4840 Segmentation fault      (core dumped) ~/hifrog/trunk/cprover/build/hifrog --logic qflia --unwind 10 $i
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `rec3.c' ...
+Parsing rec3.c
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+<built-in>: note: this is the location of the previous definition
+Converting
+Type-checking rec3
+file rec3.c line 27 function main: function `assert' is not declared
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.187 sec.
+Total number of claims in program...(1)
+A specific claim is not set, nor any other claim specification is set.
+Warrning: --claim is set to 1.
+; Warning: disabling SATElite preprocessing to track proof
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LIA logic.
+    Checking Claim #1 (100%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+*** INLINING function: loop
+Processing a deferred function: loop
+*** INLINING function: get_int
+*** NONDET abstraction used for function: loop
+Processing a deferred function: get_int
+SYMEX TIME: 0.016
+All SSA steps: 40
+Ignored SSA steps after slice: 18
+SLICER TIME: 0
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+CONVERSION TIME: 0.002
+; lia checker query time so far: 0.000000
+;         0 |        0        0 |    1.219 s | 147.031 MB
+SOLVER TIME: 0.002
+RESULT: SAT - doesn't hold
+HAVOCING (of 1 calls) AREN'T SUITABLE FOR CHECKING ASSERTION.
+Automatically increasing unwinding bound for loop
+*** REFINING function: loop
+Go to next iteration
+
+Refining partition: 5
+Processing a deferred function: loop
+*** INLINING function: get_int
+*** NONDET abstraction used for function: loop
+Processing a deferred function: get_int
+SYMEX TIME: 0.007
+All SSA steps: 59
+Ignored SSA steps after slice: 23
+SLICER TIME: 0
+Incrementally adding partitions to the SMT solver
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+CONVERSION TIME: 0.002
+; lia checker query time so far: 0.000003
+;; Using OpenSMT Incremental Mode with 234 additional literals
+SOLVER TIME: 0.002
+RESULT: SAT - doesn't hold
+HAVOCING (of 1 calls) AREN'T SUITABLE FOR CHECKING ASSERTION.
+Automatically increasing unwinding bound for loop
+*** REFINING function: loop
+Go to next iteration
+
+Refining partition: 7
+Processing a deferred function: loop
+*** INLINING function: get_int
+*** NONDET abstraction used for function: loop
+Processing a deferred function: get_int
+SYMEX TIME: 0.005
+All SSA steps: 78
+Ignored SSA steps after slice: 28
+SLICER TIME: 0
+Incrementally adding partitions to the SMT solver
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+CONVERSION TIME: 0.004
+; lia checker query time so far: 0.000005
+;; Using OpenSMT Incremental Mode with 318 additional literals
+SOLVER TIME: 0.003
+RESULT: SAT - doesn't hold
+HAVOCING (of 1 calls) AREN'T SUITABLE FOR CHECKING ASSERTION.
+Automatically increasing unwinding bound for loop
+*** REFINING function: loop
+Go to next iteration
+
+Refining partition: 9
+Processing a deferred function: loop
+*** INLINING function: get_int
+*** NONDET abstraction used for function: loop
+Processing a deferred function: get_int
+SYMEX TIME: 0.008
+All SSA steps: 97
+Ignored SSA steps after slice: 33
+SLICER TIME: 0.001
+Incrementally adding partitions to the SMT solver
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+CONVERSION TIME: 0.005
+; lia checker query time so far: 0.000007
+;; Using OpenSMT Incremental Mode with 402 additional literals
+SOLVER TIME: 0.004
+RESULT: SAT - doesn't hold
+HAVOCING (of 1 calls) AREN'T SUITABLE FOR CHECKING ASSERTION.
+Building error trace
+
+Counterexample:
+
+State 3 file rec3.c line 9 thread 0
+----------------------------------------------------
+  a = 0
+
+State 10 file rec3.c line 4 function get_int thread 0
+----------------------------------------------------
+  g = 1
+
+State 13 file rec3.c line 6 function get_int thread 0
+----------------------------------------------------
+  "function return value" = 1
+
+State 14 file rec3.c line 13 function loop thread 0
+----------------------------------------------------
+  b = 1
+
+State 21 file rec3.c line 4 function get_int thread 0
+----------------------------------------------------
+  g = 0
+
+State 24 file rec3.c line 6 function get_int thread 0
+----------------------------------------------------
+  "function return value" = 0
+
+State 25 file rec3.c line 13 function loop thread 0
+----------------------------------------------------
+  b = 0
+
+State 32 file rec3.c line 4 function get_int thread 0
+----------------------------------------------------
+  g = 0
+
+State 35 file rec3.c line 6 function get_int thread 0
+----------------------------------------------------
+  "function return value" = 0
+
+State 36 file rec3.c line 13 function loop thread 0
+----------------------------------------------------
+  b = 0
+
+State 43 file rec3.c line 4 function get_int thread 0
+----------------------------------------------------
+  g = 0
+
+State 46 file rec3.c line 6 function get_int thread 0
+----------------------------------------------------
+  "function return value" = 0
+
+State 47 file rec3.c line 13 function loop thread 0
+----------------------------------------------------
+  b = 0
+
+Violated property:
+  file rec3.c line 27 function main
+  assertion 0
+  (_Bool)0
+
+A real bug found.
+
+VERIFICATION FAILED
+Initial unwinding bound: 10
+Total number of steps: 4
+Unwinding depth: 4 (4)
+TOTAL TIME FOR CHECKING THIS CLAIM: 0.071
+
+
+Main Checked Assertion:
+  file rec3.c line 27 function main
+  assertion
+  (_Bool)0
+#X: Done.
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `rec4.c' ...
+Parsing rec4.c
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+<built-in>: note: this is the location of the previous definition
+Converting
+Type-checking rec4
+file rec4.c line 18 function main: function `assert' is not declared
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.093 sec.
+Total number of claims in program...(1)
+A specific claim is not set, nor any other claim specification is set.
+Warrning: --claim is set to 1.
+; Warning: disabling SATElite preprocessing to track proof
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LIA logic.
+    Checking Claim #1 (100%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+*** INLINING function: rec
+Processing a deferred function: rec
+*** NONDET abstraction used for function: rec
+SYMEX TIME: 0.012
+All SSA steps: 31
+Ignored SSA steps after slice: 14
+SLICER TIME: 0
+CONVERSION TIME: 0.001
+; lia checker query time so far: 0.000000
+;         0 |        0        0 |    1.133 s | 147.031 MB
+SOLVER TIME: 0.003
+RESULT: SAT - doesn't hold
+HAVOCING (of 1 calls) AREN'T SUITABLE FOR CHECKING ASSERTION.
+Automatically increasing unwinding bound for rec
+*** REFINING function: rec
+Go to next iteration
+
+Refining partition: 4
+Processing a deferred function: rec
+*** NONDET abstraction used for function: rec
+SYMEX TIME: 0.003
+All SSA steps: 39
+Ignored SSA steps after slice: 14
+SLICER TIME: 0
+Incrementally adding partitions to the SMT solver
+CONVERSION TIME: 0.003
+; lia checker query time so far: 0.000016
+;         0 |        0        0 |    1.142 s | 147.031 MB
+;; Using OpenSMT Incremental Mode with 177 additional literals
+SOLVER TIME: 0.003
+RESULT: SAT - doesn't hold
+HAVOCING (of 1 calls) AREN'T SUITABLE FOR CHECKING ASSERTION.
+Automatically increasing unwinding bound for rec
+*** REFINING function: rec
+Go to next iteration
+
+Refining partition: 5
+Processing a deferred function: rec
+*** NONDET abstraction used for function: rec
+SYMEX TIME: 0.003
+All SSA steps: 47
+Ignored SSA steps after slice: 14
+SLICER TIME: 0
+Incrementally adding partitions to the SMT solver
+CONVERSION TIME: 0.003
+; lia checker query time so far: 0.000018
+;; Using OpenSMT Incremental Mode with 225 additional literals
+SOLVER TIME: 0.002
+RESULT: SAT - doesn't hold
+HAVOCING (of 1 calls) AREN'T SUITABLE FOR CHECKING ASSERTION.
+Automatically increasing unwinding bound for rec
+*** REFINING function: rec
+Go to next iteration
+
+Refining partition: 6
+Processing a deferred function: rec
+*** NONDET abstraction used for function: rec
+SYMEX TIME: 0.002
+All SSA steps: 55
+Ignored SSA steps after slice: 14
+SLICER TIME: 0
+Incrementally adding partitions to the SMT solver
+CONVERSION TIME: 0.005
+; lia checker query time so far: 0.000019
+;; Using OpenSMT Incremental Mode with 273 additional literals
+SOLVER TIME: 0.004
+RESULT: SAT - doesn't hold
+HAVOCING (of 1 calls) AREN'T SUITABLE FOR CHECKING ASSERTION.
+Automatically increasing unwinding bound for rec
+*** REFINING function: rec
+Go to next iteration
+
+Refining partition: 7
+Processing a deferred function: rec
+*** NONDET abstraction used for function: rec
+SYMEX TIME: 0.003
+All SSA steps: 63
+Ignored SSA steps after slice: 14
+SLICER TIME: 0
+Incrementally adding partitions to the SMT solver
+CONVERSION TIME: 0.005
+; lia checker query time so far: 0.000041
+;; Using OpenSMT Incremental Mode with 321 additional literals
+SOLVER TIME: 0.006
+RESULT: SAT - doesn't hold
+HAVOCING (of 1 calls) AREN'T SUITABLE FOR CHECKING ASSERTION.
+Automatically increasing unwinding bound for rec
+*** REFINING function: rec
+Go to next iteration
+
+Refining partition: 8
+Processing a deferred function: rec
+*** NONDET abstraction used for function: rec
+SYMEX TIME: 0.002
+All SSA steps: 71
+Ignored SSA steps after slice: 14
+SLICER TIME: 0
+Incrementally adding partitions to the SMT solver
+CONVERSION TIME: 0.005
+; lia checker query time so far: 0.000046
+;; Using OpenSMT Incremental Mode with 369 additional literals
+SOLVER TIME: 0.011
+RESULT: SAT - doesn't hold
+HAVOCING (of 1 calls) AREN'T SUITABLE FOR CHECKING ASSERTION.
+Automatically increasing unwinding bound for rec
+*** REFINING function: rec
+Go to next iteration
+
+Refining partition: 9
+Processing a deferred function: rec
+*** NONDET abstraction used for function: rec
+SYMEX TIME: 0.002
+All SSA steps: 79
+Ignored SSA steps after slice: 14
+SLICER TIME: 0.001
+Incrementally adding partitions to the SMT solver
+CONVERSION TIME: 0.005
+; lia checker query time so far: 0.000047
+/home/mabutalibov1271/scripts/regression.sh: line 1:  4849 Segmentation fault      (core dumped) ~/hifrog/trunk/cprover/build/hifrog --logic qflia --unwind 10 $i
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `rec.c' ...
+Parsing rec.c
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+<built-in>: note: this is the location of the previous definition
+Converting
+Type-checking rec
+file rec.c line 18 function main: function `assert' is not declared
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.091 sec.
+Total number of claims in program...(1)
+A specific claim is not set, nor any other claim specification is set.
+Warrning: --claim is set to 1.
+; Warning: disabling SATElite preprocessing to track proof
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LIA logic.
+    Checking Claim #1 (100%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+*** INLINING function: rec
+Processing a deferred function: rec
+*** NONDET abstraction used for function: rec
+SYMEX TIME: 0.011
+All SSA steps: 30
+Ignored SSA steps after slice: 14
+SLICER TIME: 0
+CONVERSION TIME: 0.003
+; lia checker query time so far: 0.000000
+;         0 |        0        0 |    1.147 s | 146.902 MB
+/home/mabutalibov1271/scripts/regression.sh: line 1:  4854 Segmentation fault      (core dumped) ~/hifrog/trunk/cprover/build/hifrog --logic qflia --unwind 10 $i

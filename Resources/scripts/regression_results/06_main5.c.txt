@@ -1,0 +1,109 @@
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `06_main5.c' ...
+Parsing 06_main5.c
+Converting
+Type-checking 06_main5
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.065 sec.
+Total number of claims in program...(3)
+Warrning: --claim is set to 1.
+Use QF_UF logic.
+    Checking Claim #1 (33%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+*** INLINING function: test2
+*** NONDET abstraction used for function: test3
+Processing a deferred function: test2
+*** INLINING function: test1
+Processing a deferred function: test1
+*** INLINING function: test
+Processing a deferred function: test
+SYMEX TIME: 0.019
+All SSA steps: 60
+Ignored SSA steps after slice: 13
+SLICER TIME: 0
+CONVERSION TIME: 0.003
+; uf checker query time so far: 0.000000
+SOLVER TIME: 0.002
+RESULT: SAT - doesn't hold
+HAVOCING (of 3 calls) AREN'T SUITABLE FOR CHECKING ASSERTION.
+Building error trace
+
+Counterexample:
+
+State 3 file 06_main5.c line 1 thread 0
+----------------------------------------------------
+  a = n-101
+
+State 7 file 06_main5.c line 39 function main thread 0
+----------------------------------------------------
+  p = u50
+
+State 9 file 06_main5.c line 40 function main thread 0
+----------------------------------------------------
+  q = u172
+
+State 21 file 06_main5.c line 6 function test thread 0
+----------------------------------------------------
+  "function return value" = u35
+
+State 22 file 06_main5.c line 11 function test1 thread 0
+----------------------------------------------------
+  m = u50
+
+State 23 file 06_main5.c line 11 function test1 thread 0
+----------------------------------------------------
+  n = u50
+
+State 24 file 06_main5.c line 11 function test1 thread 0
+----------------------------------------------------
+  m = u35
+
+State 27 file 06_main5.c line 12 function test1 thread 0
+----------------------------------------------------
+  "function return value" = u35
+
+State 28 file 06_main5.c line 17 function test2 thread 0
+----------------------------------------------------
+  n = u50
+
+State 30 file 06_main5.c line 17 function test2 thread 0
+----------------------------------------------------
+  m = n-101
+
+State 32 file 06_main5.c line 19 function test2 thread 0
+----------------------------------------------------
+  a = n-101
+
+State 35 file 06_main5.c line 46 function main thread 0
+----------------------------------------------------
+  n = u50
+
+Violated property:
+  file 06_main5.c line 47 function main
+  assertion a > 0
+  a > 0
+
+A real bug found.
+
+VERIFICATION FAILED
+Initial unwinding bound: 10
+Total number of steps: 1
+TOTAL TIME FOR CHECKING THIS CLAIM: 0.03
+
+
+Main Checked Assertion: 
+  file 06_main5.c line 47 function main
+  assertion
+  a > 0
+#X: Done.

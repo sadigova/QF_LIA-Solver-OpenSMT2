@@ -1,0 +1,1204 @@
+*****************************************************
+Toolname: Z3 Filename: prime_cone_sat_10.smt2
+*****************************************************
+sat
+(:arith-lower           9
+ :arith-make-feasible   1
+ :arith-max-columns     21
+ :arith-max-rows        11
+ :arith-patches         1
+ :arith-patches-success 1
+ :arith-rows            21
+ :arith-upper           12
+ :final-checks          1
+ :gcd-calls             1
+ :max-memory            1.28
+ :memory                0.88
+ :mk-bool-var           23
+ :num-allocs            68493
+ :num-checks            1
+ :rlimit-count          3447
+ :time                  0.00
+ :total-time            0.01)
+
+real	0m0.011s
+user	0m0.000s
+sys	0m0.009s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: prime_cone_sat_11.smt2
+*****************************************************
+sat
+(:arith-lower           10
+ :arith-make-feasible   1
+ :arith-max-columns     23
+ :arith-max-rows        12
+ :arith-patches         1
+ :arith-patches-success 1
+ :arith-rows            23
+ :arith-upper           13
+ :final-checks          1
+ :gcd-calls             1
+ :max-memory            1.38
+ :memory                0.90
+ :mk-bool-var           25
+ :num-allocs            76620
+ :num-checks            1
+ :rlimit-count          4046
+ :time                  0.00
+ :total-time            0.00)
+
+real	0m0.006s
+user	0m0.000s
+sys	0m0.006s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: prime_cone_sat_12.smt2
+*****************************************************
+sat
+(:arith-lower           11
+ :arith-make-feasible   1
+ :arith-max-columns     25
+ :arith-max-rows        13
+ :arith-patches         1
+ :arith-patches-success 1
+ :arith-rows            25
+ :arith-upper           14
+ :final-checks          1
+ :gcd-calls             1
+ :max-memory            1.39
+ :memory                0.93
+ :mk-bool-var           27
+ :num-allocs            78804
+ :num-checks            1
+ :rlimit-count          4693
+ :time                  0.00
+ :total-time            0.00)
+
+real	0m0.008s
+user	0m0.006s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: prime_cone_sat_13.smt2
+*****************************************************
+sat
+(:arith-lower           12
+ :arith-make-feasible   1
+ :arith-max-columns     27
+ :arith-max-rows        14
+ :arith-patches         1
+ :arith-patches-success 1
+ :arith-rows            27
+ :arith-upper           15
+ :final-checks          1
+ :gcd-calls             1
+ :max-memory            1.38
+ :memory                0.94
+ :mk-bool-var           29
+ :num-allocs            81166
+ :num-checks            1
+ :rlimit-count          5628
+ :time                  0.00
+ :total-time            0.01)
+
+real	0m0.009s
+user	0m0.009s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: prime_cone_sat_14.smt2
+*****************************************************
+sat
+(:arith-lower           13
+ :arith-make-feasible   1
+ :arith-max-columns     29
+ :arith-max-rows        15
+ :arith-patches         1
+ :arith-patches-success 1
+ :arith-rows            29
+ :arith-upper           16
+ :final-checks          1
+ :gcd-calls             1
+ :max-memory            1.38
+ :memory                0.95
+ :mk-bool-var           31
+ :num-allocs            83679
+ :num-checks            1
+ :rlimit-count          6261
+ :time                  0.00
+ :total-time            0.01)
+
+real	0m0.007s
+user	0m0.004s
+sys	0m0.004s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: prime_cone_sat_15.smt2
+*****************************************************
+sat
+(:arith-lower           14
+ :arith-make-feasible   1
+ :arith-max-columns     31
+ :arith-max-rows        16
+ :arith-patches         1
+ :arith-patches-success 1
+ :arith-rows            31
+ :arith-upper           17
+ :final-checks          1
+ :gcd-calls             1
+ :max-memory            1.40
+ :memory                0.97
+ :mk-bool-var           33
+ :num-allocs            84982
+ :num-checks            1
+ :rlimit-count          6922
+ :time                  0.00
+ :total-time            0.01)
+
+real	0m0.007s
+user	0m0.000s
+sys	0m0.007s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: prime_cone_sat_16.smt2
+*****************************************************
+sat
+(:arith-lower           15
+ :arith-make-feasible   1
+ :arith-max-columns     33
+ :arith-max-rows        17
+ :arith-patches         1
+ :arith-patches-success 1
+ :arith-rows            33
+ :arith-upper           18
+ :final-checks          1
+ :gcd-calls             1
+ :max-memory            1.60
+ :memory                0.95
+ :mk-bool-var           35
+ :num-allocs            127252
+ :num-checks            1
+ :rlimit-count          8061
+ :time                  0.00
+ :total-time            0.00)
+
+real	0m0.007s
+user	0m0.007s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: prime_cone_sat_17.smt2
+*****************************************************
+sat
+(:arith-lower           16
+ :arith-make-feasible   1
+ :arith-max-columns     35
+ :arith-max-rows        18
+ :arith-patches         1
+ :arith-patches-success 1
+ :arith-rows            35
+ :arith-upper           19
+ :final-checks          1
+ :gcd-calls             1
+ :max-memory            1.51
+ :memory                0.96
+ :mk-bool-var           37
+ :num-allocs            117266
+ :num-checks            1
+ :rlimit-count          8648
+ :time                  0.00
+ :total-time            0.00)
+
+real	0m0.007s
+user	0m0.003s
+sys	0m0.004s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: prime_cone_sat_18.smt2
+*****************************************************
+sat
+(:arith-lower           17
+ :arith-make-feasible   1
+ :arith-max-columns     37
+ :arith-max-rows        19
+ :arith-patches         1
+ :arith-patches-success 1
+ :arith-rows            37
+ :arith-upper           20
+ :final-checks          1
+ :gcd-calls             1
+ :max-memory            1.65
+ :memory                1.01
+ :mk-bool-var           39
+ :num-allocs            145973
+ :num-checks            1
+ :rlimit-count          9923
+ :time                  0.00
+ :total-time            0.00)
+
+real	0m0.008s
+user	0m0.008s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: prime_cone_sat_19.smt2
+*****************************************************
+sat
+(:arith-lower           18
+ :arith-make-feasible   1
+ :arith-max-columns     39
+ :arith-max-rows        20
+ :arith-patches         1
+ :arith-patches-success 1
+ :arith-rows            39
+ :arith-upper           21
+ :final-checks          1
+ :gcd-calls             1
+ :max-memory            1.65
+ :memory                1.04
+ :mk-bool-var           41
+ :num-allocs            147028
+ :num-checks            1
+ :rlimit-count          10926
+ :time                  0.00
+ :total-time            0.01)
+
+real	0m0.008s
+user	0m0.008s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: prime_cone_sat_20.smt2
+*****************************************************
+sat
+(:arith-lower           19
+ :arith-make-feasible   1
+ :arith-max-columns     41
+ :arith-max-rows        21
+ :arith-patches         1
+ :arith-patches-success 1
+ :arith-rows            41
+ :arith-upper           22
+ :final-checks          1
+ :gcd-calls             1
+ :max-memory            1.67
+ :memory                1.06
+ :mk-bool-var           43
+ :num-allocs            151526
+ :num-checks            1
+ :rlimit-count          11787
+ :time                  0.00
+ :total-time            0.01)
+
+real	0m0.007s
+user	0m0.008s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: prime_cone_sat_2.smt2
+*****************************************************
+sat
+(:arith-lower           1
+ :arith-make-feasible   1
+ :arith-max-columns     5
+ :arith-max-rows        3
+ :arith-patches         1
+ :arith-patches-success 1
+ :arith-rows            5
+ :arith-upper           4
+ :final-checks          1
+ :gcd-calls             1
+ :max-memory            1.14
+ :memory                0.85
+ :mk-bool-var           7
+ :num-allocs            41216
+ :num-checks            1
+ :rlimit-count          375
+ :time                  0.00
+ :total-time            0.00)
+
+real	0m0.005s
+user	0m0.005s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: prime_cone_sat_3.smt2
+*****************************************************
+sat
+(:arith-lower           2
+ :arith-make-feasible   1
+ :arith-max-columns     7
+ :arith-max-rows        4
+ :arith-patches         1
+ :arith-patches-success 1
+ :arith-rows            7
+ :arith-upper           5
+ :final-checks          1
+ :gcd-calls             1
+ :max-memory            1.14
+ :memory                0.85
+ :mk-bool-var           9
+ :num-allocs            42159
+ :num-checks            1
+ :rlimit-count          638
+ :time                  0.00
+ :total-time            0.00)
+
+real	0m0.005s
+user	0m0.005s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: prime_cone_sat_4.smt2
+*****************************************************
+sat
+(:arith-lower           3
+ :arith-make-feasible   1
+ :arith-max-columns     9
+ :arith-max-rows        5
+ :arith-patches         1
+ :arith-patches-success 1
+ :arith-rows            9
+ :arith-upper           6
+ :final-checks          1
+ :gcd-calls             1
+ :max-memory            1.15
+ :memory                0.87
+ :mk-bool-var           11
+ :num-allocs            42841
+ :num-checks            1
+ :rlimit-count          891
+ :time                  0.00
+ :total-time            0.00)
+
+real	0m0.005s
+user	0m0.005s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: prime_cone_sat_5.smt2
+*****************************************************
+sat
+(:arith-lower           4
+ :arith-make-feasible   1
+ :arith-max-columns     11
+ :arith-max-rows        6
+ :arith-patches         1
+ :arith-patches-success 1
+ :arith-rows            11
+ :arith-upper           7
+ :final-checks          1
+ :gcd-calls             1
+ :max-memory            1.15
+ :memory                0.88
+ :mk-bool-var           13
+ :num-allocs            43439
+ :num-checks            1
+ :rlimit-count          1252
+ :time                  0.00
+ :total-time            0.00)
+
+real	0m0.005s
+user	0m0.005s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: prime_cone_sat_6.smt2
+*****************************************************
+sat
+(:arith-lower           5
+ :arith-make-feasible   1
+ :arith-max-columns     13
+ :arith-max-rows        7
+ :arith-patches         1
+ :arith-patches-success 1
+ :arith-rows            13
+ :arith-upper           8
+ :final-checks          1
+ :gcd-calls             1
+ :max-memory            1.26
+ :memory                0.81
+ :mk-bool-var           15
+ :num-allocs            64106
+ :num-checks            1
+ :rlimit-count          1531
+ :time                  0.00
+ :total-time            0.00)
+
+real	0m0.005s
+user	0m0.005s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: prime_cone_sat_7.smt2
+*****************************************************
+sat
+(:arith-lower           6
+ :arith-make-feasible   1
+ :arith-max-columns     15
+ :arith-max-rows        8
+ :arith-patches         1
+ :arith-patches-success 1
+ :arith-rows            15
+ :arith-upper           9
+ :final-checks          1
+ :gcd-calls             1
+ :max-memory            1.25
+ :memory                0.81
+ :mk-bool-var           17
+ :num-allocs            65743
+ :num-checks            1
+ :rlimit-count          2058
+ :time                  0.00
+ :total-time            0.00)
+
+real	0m0.005s
+user	0m0.000s
+sys	0m0.005s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: prime_cone_sat_8.smt2
+*****************************************************
+sat
+(:arith-lower           7
+ :arith-make-feasible   1
+ :arith-max-columns     17
+ :arith-max-rows        9
+ :arith-patches         1
+ :arith-patches-success 1
+ :arith-rows            17
+ :arith-upper           10
+ :final-checks          1
+ :gcd-calls             1
+ :max-memory            1.25
+ :memory                0.82
+ :mk-bool-var           19
+ :num-allocs            65615
+ :num-checks            1
+ :rlimit-count          2393
+ :time                  0.00
+ :total-time            0.00)
+
+real	0m0.005s
+user	0m0.000s
+sys	0m0.006s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: prime_cone_sat_9.smt2
+*****************************************************
+sat
+(:arith-lower           8
+ :arith-make-feasible   1
+ :arith-max-columns     19
+ :arith-max-rows        10
+ :arith-patches         1
+ :arith-patches-success 1
+ :arith-rows            19
+ :arith-upper           11
+ :final-checks          1
+ :gcd-calls             1
+ :max-memory            1.28
+ :memory                0.86
+ :mk-bool-var           21
+ :num-allocs            67390
+ :num-checks            1
+ :rlimit-count          3056
+ :time                  0.00
+ :total-time            0.00)
+
+real	0m0.006s
+user	0m0.003s
+sys	0m0.003s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: prime_cone_unsat_10.smt2
+*****************************************************
+unsat
+(:arith-bound-propagations-cheap 258
+ :arith-bound-propagations-lp    16
+ :arith-conflicts                68
+ :arith-lower                    130
+ :arith-make-feasible            430
+ :arith-max-columns              21
+ :arith-max-rows                 11
+ :arith-patches                  247
+ :arith-propagations             258
+ :arith-rows                     367
+ :arith-upper                    237
+ :binary-propagations            40
+ :conflicts                      71
+ :cube-calls                     61
+ :decisions                      287
+ :del-clause                     162
+ :final-checks                   247
+ :gcd-calls                      247
+ :max-memory                     1.28
+ :memory                         0.94
+ :minimized-lits                 14
+ :mk-bool-var                    412
+ :mk-clause                      162
+ :num-allocs                     79196
+ :num-checks                     1
+ :propagations                   181
+ :rlimit-count                   11917
+ :time                           0.03
+ :total-time                     0.03)
+
+real	0m0.032s
+user	0m0.034s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: prime_cone_unsat_11.smt2
+*****************************************************
+unsat
+(:arith-bound-propagations-cheap 170
+ :arith-bound-propagations-lp    25
+ :arith-conflicts                57
+ :arith-lower                    114
+ :arith-make-feasible            299
+ :arith-max-columns              23
+ :arith-max-rows                 12
+ :arith-patches                  161
+ :arith-propagations             170
+ :arith-rows                     269
+ :arith-upper                    155
+ :binary-propagations            85
+ :conflicts                      67
+ :cube-calls                     40
+ :decisions                      252
+ :del-clause                     188
+ :final-checks                   161
+ :gcd-calls                      161
+ :max-memory                     1.38
+ :memory                         0.95
+ :minimized-lits                 8
+ :mk-bool-var                    344
+ :mk-clause                      188
+ :num-allocs                     94641
+ :num-checks                     1
+ :propagations                   233
+ :rlimit-count                   10394
+ :time                           0.02
+ :total-time                     0.02)
+
+real	0m0.023s
+user	0m0.019s
+sys	0m0.005s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: prime_cone_unsat_12.smt2
+*****************************************************
+unsat
+(:arith-bound-propagations-cheap 239
+ :arith-bound-propagations-lp    25
+ :arith-conflicts                81
+ :arith-lower                    170
+ :arith-make-feasible            415
+ :arith-max-columns              25
+ :arith-max-rows                 13
+ :arith-patches                  224
+ :arith-propagations             239
+ :arith-rows                     366
+ :arith-upper                    196
+ :binary-propagations            90
+ :conflicts                      85
+ :cube-calls                     56
+ :decisions                      387
+ :del-clause                     202
+ :final-checks                   224
+ :gcd-calls                      224
+ :max-memory                     1.38
+ :memory                         0.90
+ :minimized-lits                 5
+ :mk-bool-var                    447
+ :mk-clause                      202
+ :num-allocs                     118438
+ :num-checks                     1
+ :propagations                   227
+ :rlimit-count                   13982
+ :time                           0.03
+ :total-time                     0.03)
+
+real	0m0.034s
+user	0m0.036s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: prime_cone_unsat_13.smt2
+*****************************************************
+unsat
+(:arith-bound-propagations-cheap 155
+ :arith-bound-propagations-lp    20
+ :arith-conflicts                63
+ :arith-lower                    126
+ :arith-make-feasible            286
+ :arith-max-columns              27
+ :arith-max-rows                 14
+ :arith-patches                  149
+ :arith-propagations             155
+ :arith-rows                     264
+ :arith-upper                    138
+ :binary-propagations            70
+ :conflicts                      68
+ :cube-calls                     37
+ :decisions                      305
+ :del-clause                     187
+ :final-checks                   149
+ :gcd-calls                      149
+ :max-memory                     1.38
+ :memory                         0.90
+ :minimized-lits                 18
+ :mk-bool-var                    364
+ :mk-clause                      187
+ :num-allocs                     108803
+ :num-checks                     1
+ :propagations                   218
+ :rlimit-count                   12368
+ :time                           0.02
+ :total-time                     0.03)
+
+real	0m0.027s
+user	0m0.025s
+sys	0m0.004s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: prime_cone_unsat_14.smt2
+*****************************************************
+unsat
+(:arith-bound-propagations-cheap 536
+ :arith-bound-propagations-lp    44
+ :arith-conflicts                116
+ :arith-lower                    244
+ :arith-make-feasible            865
+ :arith-max-columns              29
+ :arith-max-rows                 15
+ :arith-patches                  510
+ :arith-propagations             536
+ :arith-rows                     708
+ :arith-upper                    464
+ :binary-propagations            349
+ :conflicts                      128
+ :cube-calls                     127
+ :decisions                      857
+ :del-clause                     296
+ :final-checks                   510
+ :gcd-calls                      510
+ :max-memory                     1.48
+ :memory                         0.89
+ :minimized-lits                 14
+ :mk-bool-var                    781
+ :mk-clause                      296
+ :num-allocs                     193474
+ :num-checks                     1
+ :propagations                   709
+ :restarts                       1
+ :rlimit-count                   27332
+ :time                           0.09
+ :total-time                     0.09)
+
+real	0m0.091s
+user	0m0.093s
+sys	0m0.005s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: prime_cone_unsat_15.smt2
+*****************************************************
+unsat
+(:arith-bound-propagations-cheap 249
+ :arith-bound-propagations-lp    62
+ :arith-conflicts                87
+ :arith-lower                    166
+ :arith-make-feasible            422
+ :arith-max-columns              31
+ :arith-max-rows                 16
+ :arith-patches                  222
+ :arith-propagations             249
+ :arith-rows                     389
+ :arith-upper                    223
+ :binary-propagations            61
+ :conflicts                      93
+ :cube-calls                     55
+ :decisions                      417
+ :del-clause                     379
+ :final-checks                   222
+ :gcd-calls                      222
+ :max-memory                     1.49
+ :memory                         0.99
+ :minimized-lits                 30
+ :mk-bool-var                    559
+ :mk-clause                      396
+ :num-allocs                     137535
+ :num-checks                     1
+ :propagations                   351
+ :rlimit-count                   17207
+ :time                           0.04
+ :total-time                     0.05)
+
+real	0m0.045s
+user	0m0.048s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: prime_cone_unsat_16.smt2
+*****************************************************
+unsat
+(:arith-bound-propagations-cheap 198
+ :arith-bound-propagations-lp    25
+ :arith-conflicts                63
+ :arith-lower                    141
+ :arith-make-feasible            336
+ :arith-max-columns              33
+ :arith-max-rows                 17
+ :arith-patches                  178
+ :arith-propagations             198
+ :arith-rows                     320
+ :arith-upper                    179
+ :binary-propagations            45
+ :conflicts                      69
+ :cube-calls                     44
+ :decisions                      434
+ :del-clause                     176
+ :final-checks                   178
+ :gcd-calls                      178
+ :max-memory                     1.48
+ :memory                         0.97
+ :minimized-lits                 20
+ :mk-bool-var                    419
+ :mk-clause                      177
+ :num-allocs                     126852
+ :num-checks                     1
+ :propagations                   166
+ :rlimit-count                   17097
+ :time                           0.04
+ :total-time                     0.04)
+
+real	0m0.042s
+user	0m0.045s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: prime_cone_unsat_17.smt2
+*****************************************************
+unsat
+(:arith-bound-propagations-cheap 108
+ :arith-bound-propagations-lp    37
+ :arith-conflicts                55
+ :arith-lower                    106
+ :arith-make-feasible            210
+ :arith-max-columns              35
+ :arith-max-rows                 18
+ :arith-patches                  100
+ :arith-propagations             108
+ :arith-rows                     225
+ :arith-upper                    119
+ :binary-propagations            36
+ :conflicts                      56
+ :cube-calls                     25
+ :decisions                      296
+ :del-clause                     126
+ :final-checks                   100
+ :gcd-calls                      100
+ :max-memory                     1.51
+ :memory                         0.97
+ :minimized-lits                 17
+ :mk-bool-var                    310
+ :mk-clause                      129
+ :num-allocs                     127119
+ :num-checks                     1
+ :propagations                   97
+ :rlimit-count                   14402
+ :time                           0.02
+ :total-time                     0.02)
+
+real	0m0.025s
+user	0m0.027s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: prime_cone_unsat_18.smt2
+*****************************************************
+unsat
+(:arith-bound-propagations-cheap 444
+ :arith-bound-propagations-lp    44
+ :arith-conflicts                108
+ :arith-lower                    255
+ :arith-make-feasible            723
+ :arith-max-columns              37
+ :arith-max-rows                 19
+ :arith-patches                  417
+ :arith-propagations             444
+ :arith-rows                     617
+ :arith-upper                    362
+ :binary-propagations            568
+ :conflicts                      119
+ :cube-calls                     104
+ :decisions                      993
+ :del-clause                     357
+ :final-checks                   417
+ :gcd-calls                      417
+ :max-memory                     1.61
+ :memory                         0.96
+ :minimized-lits                 15
+ :mk-bool-var                    760
+ :mk-clause                      358
+ :num-allocs                     217006
+ :num-checks                     1
+ :propagations                   934
+ :restarts                       1
+ :rlimit-count                   30622
+ :time                           0.10
+ :total-time                     0.10)
+
+real	0m0.094s
+user	0m0.102s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: prime_cone_unsat_19.smt2
+*****************************************************
+unsat
+(:arith-bound-propagations-cheap 197
+ :arith-bound-propagations-lp    41
+ :arith-conflicts                57
+ :arith-lower                    114
+ :arith-make-feasible            334
+ :arith-max-columns              39
+ :arith-max-rows                 20
+ :arith-patches                  184
+ :arith-propagations             197
+ :arith-rows                     316
+ :arith-upper                    202
+ :binary-propagations            58
+ :conflicts                      59
+ :cube-calls                     46
+ :decisions                      421
+ :del-clause                     140
+ :final-checks                   184
+ :gcd-calls                      184
+ :max-memory                     1.51
+ :memory                         0.95
+ :minimized-lits                 24
+ :mk-bool-var                    429
+ :mk-clause                      140
+ :num-allocs                     141984
+ :num-checks                     1
+ :propagations                   134
+ :rlimit-count                   20427
+ :time                           0.05
+ :total-time                     0.06)
+
+real	0m0.055s
+user	0m0.058s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: prime_cone_unsat_20.smt2
+*****************************************************
+unsat
+(:arith-bound-propagations-cheap 315
+ :arith-bound-propagations-lp    112
+ :arith-conflicts                104
+ :arith-lower                    220
+ :arith-make-feasible            528
+ :arith-max-columns              41
+ :arith-max-rows                 21
+ :arith-patches                  279
+ :arith-propagations             315
+ :arith-rows                     488
+ :arith-upper                    268
+ :binary-propagations            355
+ :conflicts                      110
+ :cube-calls                     69
+ :decisions                      744
+ :del-clause                     581
+ :final-checks                   279
+ :gcd-calls                      279
+ :max-memory                     1.63
+ :memory                         0.99
+ :minimized-lits                 13
+ :mk-bool-var                    929
+ :mk-clause                      581
+ :num-allocs                     206079
+ :num-checks                     1
+ :propagations                   625
+ :restarts                       1
+ :rlimit-count                   27439
+ :time                           0.08
+ :total-time                     0.08)
+
+real	0m0.079s
+user	0m0.083s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: prime_cone_unsat_3.smt2
+*****************************************************
+unsat
+(:arith-bound-propagations-cheap 22
+ :arith-bound-propagations-lp    9
+ :arith-conflicts                8
+ :arith-lower                    18
+ :arith-make-feasible            37
+ :arith-max-columns              7
+ :arith-max-rows                 4
+ :arith-patches                  19
+ :arith-propagations             22
+ :arith-rows                     42
+ :arith-upper                    24
+ :binary-propagations            2
+ :conflicts                      10
+ :cube-calls                     4
+ :decisions                      20
+ :del-clause                     11
+ :final-checks                   19
+ :gcd-calls                      19
+ :max-memory                     1.14
+ :memory                         0.89
+ :minimized-lits                 1
+ :mk-bool-var                    48
+ :mk-clause                      18
+ :num-allocs                     43111
+ :num-checks                     1
+ :propagations                   5
+ :rlimit-count                   1261
+ :time                           0.00
+ :total-time                     0.00)
+
+real	0m0.006s
+user	0m0.006s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: prime_cone_unsat_4.smt2
+*****************************************************
+unsat
+(:arith-bound-propagations-cheap 31
+ :arith-bound-propagations-lp    6
+ :arith-conflicts                14
+ :arith-fixed-eqs                1
+ :arith-lower                    22
+ :arith-make-feasible            57
+ :arith-max-columns              9
+ :arith-max-rows                 5
+ :arith-patches                  29
+ :arith-propagations             31
+ :arith-rows                     60
+ :arith-upper                    38
+ :conflicts                      14
+ :cube-calls                     7
+ :decisions                      38
+ :del-clause                     19
+ :final-checks                   29
+ :gcd-calls                      29
+ :max-memory                     1.15
+ :memory                         0.81
+ :minimized-lits                 1
+ :mk-bool-var                    64
+ :mk-clause                      19
+ :num-allocs                     52271
+ :num-checks                     1
+ :propagations                   4
+ :rlimit-count                   1859
+ :time                           0.00
+ :total-time                     0.00)
+
+real	0m0.007s
+user	0m0.007s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: prime_cone_unsat_5.smt2
+*****************************************************
+unsat
+(:arith-bound-propagations-cheap 34
+ :arith-bound-propagations-lp    14
+ :arith-conflicts                18
+ :arith-lower                    30
+ :arith-make-feasible            56
+ :arith-max-columns              11
+ :arith-max-rows                 6
+ :arith-patches                  28
+ :arith-propagations             34
+ :arith-rows                     69
+ :arith-upper                    39
+ :binary-propagations            7
+ :conflicts                      18
+ :cube-calls                     7
+ :decisions                      38
+ :del-clause                     34
+ :final-checks                   28
+ :gcd-calls                      28
+ :max-memory                     1.25
+ :memory                         0.83
+ :minimized-lits                 2
+ :mk-bool-var                    81
+ :mk-clause                      34
+ :num-allocs                     65276
+ :num-checks                     1
+ :propagations                   15
+ :rlimit-count                   2318
+ :time                           0.00
+ :total-time                     0.00)
+
+real	0m0.007s
+user	0m0.007s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: prime_cone_unsat_6.smt2
+*****************************************************
+unsat
+(:arith-bound-propagations-cheap 50
+ :arith-bound-propagations-lp    13
+ :arith-conflicts                24
+ :arith-lower                    38
+ :arith-make-feasible            93
+ :arith-max-columns              13
+ :arith-max-rows                 7
+ :arith-patches                  44
+ :arith-propagations             50
+ :arith-rows                     98
+ :arith-upper                    60
+ :binary-propagations            9
+ :conflicts                      25
+ :cube-calls                     11
+ :decisions                      61
+ :del-clause                     113
+ :final-checks                   44
+ :gcd-calls                      44
+ :max-memory                     1.26
+ :memory                         0.87
+ :minimized-lits                 1
+ :mk-bool-var                    164
+ :mk-clause                      113
+ :num-allocs                     70314
+ :num-checks                     1
+ :propagations                   51
+ :rlimit-count                   3229
+ :time                           0.00
+ :total-time                     0.01)
+
+real	0m0.008s
+user	0m0.008s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: prime_cone_unsat_7.smt2
+*****************************************************
+unsat
+(:arith-bound-propagations-cheap 38
+ :arith-bound-propagations-lp    10
+ :arith-conflicts                17
+ :arith-lower                    39
+ :arith-make-feasible            72
+ :arith-max-columns              15
+ :arith-max-rows                 8
+ :arith-patches                  33
+ :arith-propagations             38
+ :arith-rows                     78
+ :arith-upper                    39
+ :binary-propagations            9
+ :conflicts                      17
+ :cube-calls                     8
+ :decisions                      43
+ :del-clause                     23
+ :final-checks                   33
+ :gcd-calls                      33
+ :max-memory                     1.26
+ :memory                         0.87
+ :minimized-lits                 1
+ :mk-bool-var                    84
+ :mk-clause                      23
+ :num-allocs                     67297
+ :num-checks                     1
+ :propagations                   11
+ :rlimit-count                   3433
+ :time                           0.00
+ :total-time                     0.01)
+
+real	0m0.007s
+user	0m0.008s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: prime_cone_unsat_8.smt2
+*****************************************************
+unsat
+(:arith-bound-propagations-cheap 126
+ :arith-bound-propagations-lp    23
+ :arith-conflicts                39
+ :arith-lower                    81
+ :arith-make-feasible            219
+ :arith-max-columns              17
+ :arith-max-rows                 9
+ :arith-patches                  120
+ :arith-propagations             126
+ :arith-rows                     195
+ :arith-upper                    114
+ :binary-propagations            24
+ :conflicts                      40
+ :cube-calls                     30
+ :decisions                      134
+ :del-clause                     69
+ :final-checks                   120
+ :gcd-calls                      120
+ :max-memory                     1.27
+ :memory                         0.91
+ :minimized-lits                 15
+ :mk-bool-var                    238
+ :mk-clause                      102
+ :num-allocs                     68901
+ :num-checks                     1
+ :propagations                   65
+ :rlimit-count                   6451
+ :time                           0.01
+ :total-time                     0.01)
+
+real	0m0.015s
+user	0m0.011s
+sys	0m0.005s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: prime_cone_unsat_9.smt2
+*****************************************************
+unsat
+(:arith-bound-propagations-cheap 370
+ :arith-bound-propagations-lp    33
+ :arith-conflicts                76
+ :arith-lower                    182
+ :arith-make-feasible            597
+ :arith-max-columns              19
+ :arith-max-rows                 10
+ :arith-patches                  360
+ :arith-propagations             370
+ :arith-rows                     481
+ :arith-upper                    299
+ :binary-propagations            35
+ :conflicts                      82
+ :cube-calls                     90
+ :decisions                      474
+ :del-clause                     125
+ :final-checks                   360
+ :gcd-calls                      360
+ :max-memory                     1.38
+ :memory                         0.86
+ :minimized-lits                 8
+ :mk-bool-var                    495
+ :mk-clause                      125
+ :num-allocs                     124986
+ :num-checks                     1
+ :propagations                   157
+ :rlimit-count                   15181
+ :time                           0.04
+ :total-time                     0.04)
+
+real	0m0.038s
+user	0m0.041s
+sys	0m0.000s
+*****************************************************
+/home/mabutalibov1271/z3.sh: line 8: /home/mabutalibov1271: Is a directory
+/home/mabutalibov1271/z3.sh: line 9: /home/mabutalibov1271: Is a directory
+/home/mabutalibov1271/z3.sh: line 10: /home/mabutalibov1271: Is a directory
+/home/mabutalibov1271/z3.sh: line 11: /home/mabutalibov1271: Is a directory

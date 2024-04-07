@@ -1,0 +1,480 @@
+Loading `main2_err.c' ...
+Parsing main2_err.c
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+<built-in>: note: this is the location of the previous definition
+Converting
+Type-checking main2_err
+file main2_err.c line 34 function main: function `assert' is not declared
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.123 sec.
+Total number of claims in program...(1)
+A specific claim is not set, nor any other claim specification is set.
+Warrning: --claim is set to 1.
+; Warning: disabling SATElite preprocessing to track proof
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LIA logic.
+    Checking Claim #1 (100%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+*** INLINING function: getchar
+Processing a deferred function: getchar
+SYMEX TIME: 0.027
+All SSA steps: 54
+Ignored SSA steps after slice: 26
+SLICER TIME: 0
+CONVERSION TIME: 0.002
+; lia checker query time so far: 0.000000
+;         0 |        0        0 |    1.147 s | 147.031 MB
+SOLVER TIME: 0.003
+RESULT: SAT - doesn't hold
+Building error trace
+
+Counterexample:
+
+State 9 file main2_err.c line 10 function getchar thread 0
+----------------------------------------------------
+  x = -1
+
+State 13 file main2_err.c line 14 function getchar thread 0
+----------------------------------------------------
+  "function return value" = -1
+
+State 14 file main2_err.c line 20 function main thread 0
+----------------------------------------------------
+  x = -1
+
+Violated property:
+  file main2_err.c line 34 function main
+  assertion t != -2
+  t != -2
+
+A real bug found.
+
+VERIFICATION FAILED
+Initial unwinding bound: 10
+Total number of steps: 1
+TOTAL TIME FOR CHECKING THIS CLAIM: 0.034
+
+
+Main Checked Assertion:
+  file main2_err.c line 34 function main
+  assertion
+  t != -2
+#X: Done.
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `main2_ok.c' ...
+Parsing main2_ok.c
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+<built-in>: note: this is the location of the previous definition
+Converting
+Type-checking main2_ok
+file main2_ok.c line 34 function main: function `assert' is not declared
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.145 sec.
+Total number of claims in program...(1)
+A specific claim is not set, nor any other claim specification is set.
+Warrning: --claim is set to 1.
+; Warning: disabling SATElite preprocessing to track proof
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LIA logic.
+    Checking Claim #1 (100%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+*** INLINING function: getchar
+Processing a deferred function: getchar
+SYMEX TIME: 0.031
+All SSA steps: 54
+Ignored SSA steps after slice: 26
+SLICER TIME: 0
+CONVERSION TIME: 0.002
+; lia checker query time so far: 0.000000
+;         0 |        0        0 |    1.152 s | 147.031 MB
+/home/mabutalibov1271/scripts/regression.sh: line 1:  3585 Segmentation fault      (core dumped) ~/hifrog/trunk/cprover/build/hifrog --logic qflia --unwind 10 $i
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `main3.c' ...
+Parsing main3.c
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+<built-in>: note: this is the location of the previous definition
+Converting
+Type-checking main3
+file main3.c line 42 function main: function `assert' is not declared
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.065 sec.
+Total number of claims in program...(1)
+A specific claim is not set, nor any other claim specification is set.
+Warrning: --claim is set to 1.
+; Warning: disabling SATElite preprocessing to track proof
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LIA logic.
+    Checking Claim #1 (100%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+*** INLINING function: getchar
+*** INLINING function: getchar
+*** INLINING function: choice
+Processing a deferred function: getchar
+Processing a deferred function: getchar
+Processing a deferred function: choice
+SYMEX TIME: 0.029
+All SSA steps: 88
+Ignored SSA steps after slice: 29
+SLICER TIME: 0.001
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+CONVERSION TIME: 0.006
+; lia checker query time so far: 0.000000
+;         0 |        0        0 |    1.141 s | 147.031 MB
+/home/mabutalibov1271/scripts/regression.sh: line 1:  3590 Segmentation fault      (core dumped) ~/hifrog/trunk/cprover/build/hifrog --logic qflia --unwind 10 $i
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `main4.c' ...
+Parsing main4.c
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+<built-in>: note: this is the location of the previous definition
+Converting
+Type-checking main4
+file main4.c line 48 function main: function `assert' is not declared
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.124 sec.
+Total number of claims in program...(1)
+A specific claim is not set, nor any other claim specification is set.
+Warrning: --claim is set to 1.
+; Warning: disabling SATElite preprocessing to track proof
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LIA logic.
+    Checking Claim #1 (100%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+*** INLINING function: choice
+Processing a deferred function: choice
+*** INLINING function: getchar
+*** INLINING function: getchar
+Processing a deferred function: getchar
+Processing a deferred function: getchar
+SYMEX TIME: 0.038
+All SSA steps: 77
+Ignored SSA steps after slice: 24
+SLICER TIME: 0
+CONVERSION TIME: 0.007
+; lia checker query time so far: 0.000000
+;         0 |        0        0 |    1.153 s | 147.031 MB
+SOLVER TIME: 0.004
+RESULT: UNSAT - it holds!
+Skip generating interpolants
+ASSERTION(S) HOLD(S) WITH FULL INLINE
+
+VERIFICATION SUCCESSFUL
+Initial unwinding bound: 10
+Total number of steps: 1
+TOTAL TIME FOR CHECKING THIS CLAIM: 0.05
+
+
+Main Checked Assertion:
+  file main4.c line 48 function main
+  assertion
+  t >= 10 || t <= 20
+#X: Done.
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `main5.c' ...
+Parsing main5.c
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+<built-in>: note: this is the location of the previous definition
+Converting
+Type-checking main5
+file main5.c line 45 function main: function `assert' is not declared
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.103 sec.
+Total number of claims in program...(1)
+A specific claim is not set, nor any other claim specification is set.
+Warrning: --claim is set to 1.
+; Warning: disabling SATElite preprocessing to track proof
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LIA logic.
+    Checking Claim #1 (100%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+*** INLINING function: choice
+Processing a deferred function: choice
+*** INLINING function: getchar
+*** INLINING function: getchar
+Processing a deferred function: getchar
+Processing a deferred function: getchar
+SYMEX TIME: 0.031
+All SSA steps: 77
+Ignored SSA steps after slice: 24
+SLICER TIME: 0.001
+CONVERSION TIME: 0.003
+; lia checker query time so far: 0.000000
+;         0 |        0        0 |    1.128 s | 147.031 MB
+SOLVER TIME: 0.003
+RESULT: UNSAT - it holds!
+Skip generating interpolants
+ASSERTION(S) HOLD(S) WITH FULL INLINE
+
+VERIFICATION SUCCESSFUL
+Initial unwinding bound: 10
+Total number of steps: 1
+TOTAL TIME FOR CHECKING THIS CLAIM: 0.038
+
+
+Main Checked Assertion:
+  file main5.c line 45 function main
+  assertion
+  t == 1
+#X: Done.
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `main6.c' ...
+Parsing main6.c
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+<built-in>: note: this is the location of the previous definition
+Converting
+Type-checking main6
+file main6.c line 42 function main: function `assert' is not declared
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.117 sec.
+Total number of claims in program...(1)
+A specific claim is not set, nor any other claim specification is set.
+Warrning: --claim is set to 1.
+; Warning: disabling SATElite preprocessing to track proof
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LIA logic.
+    Checking Claim #1 (100%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+*** INLINING function: getchar
+*** INLINING function: getchar
+*** INLINING function: choice
+Processing a deferred function: getchar
+Processing a deferred function: getchar
+Processing a deferred function: choice
+*** INLINING function: getchar
+*** INLINING function: getchar
+Processing a deferred function: getchar
+Processing a deferred function: getchar
+SYMEX TIME: 0.035
+All SSA steps: 97
+Ignored SSA steps after slice: 24
+SLICER TIME: 0
+CONVERSION TIME: 0.005
+; lia checker query time so far: 0.000000
+;         0 |        0        0 |    1.164 s | 147.031 MB
+/home/mabutalibov1271/scripts/regression.sh: line 1:  3603 Segmentation fault      (core dumped) ~/hifrog/trunk/cprover/build/hifrog --logic qflia --unwind 10 $i
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `main7.c' ...
+Parsing main7.c
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+<built-in>: note: this is the location of the previous definition
+Converting
+Type-checking main7
+file main7.c line 3 function main: function `assert' is not declared
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.097 sec.
+Total number of claims in program...(1)
+A specific claim is not set, nor any other claim specification is set.
+Warrning: --claim is set to 1.
+; Warning: disabling SATElite preprocessing to track proof
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LIA logic.
+    Checking Claim #1 (100%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+SYMEX TIME: 0.007
+All SSA steps: 22
+Ignored SSA steps after slice: 14
+SLICER TIME: 0.001
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+CONVERSION TIME: 0
+; lia checker query time so far: 0.000000
+;         0 |        0        0 |    1.134 s | 146.898 MB
+SOLVER TIME: 0.001
+RESULT: SAT - doesn't hold
+Building error trace
+
+Counterexample:
+
+Violated property:
+  file main7.c line 3 function main
+  assertion 0
+  (_Bool)0
+
+A real bug found.
+
+VERIFICATION FAILED
+Initial unwinding bound: 10
+Total number of steps: 1
+TOTAL TIME FOR CHECKING THIS CLAIM: 0.01
+
+
+Main Checked Assertion:
+  file main7.c line 3 function main
+  assertion
+  (_Bool)0
+#X: Done.
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `main8.c' ...
+Parsing main8.c
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+<built-in>: note: this is the location of the previous definition
+Converting
+Type-checking main8
+file main8.c line 21 function main: function `assert' is not declared
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.651 sec.
+Total number of claims in program...(1)
+A specific claim is not set, nor any other claim specification is set.
+Warrning: --claim is set to 1.
+; Warning: disabling SATElite preprocessing to track proof
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LIA logic.
+    Checking Claim #1 (100%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+SYMEX TIME: 0.014
+All SSA steps: 35
+Ignored SSA steps after slice: 11
+SLICER TIME: 0
+CONVERSION TIME: 0.003
+; lia checker query time so far: 0.000000
+;         0 |        0        0 |    1.131 s | 147.031 MB
+SOLVER TIME: 0.002
+RESULT: UNSAT - it holds!
+Skip generating interpolants
+ASSERTION(S) HOLD(S) WITH FULL INLINE
+
+VERIFICATION SUCCESSFUL
+Initial unwinding bound: 10
+Total number of steps: 1
+TOTAL TIME FOR CHECKING THIS CLAIM: 0.019
+
+
+Main Checked Assertion:
+  file main8.c line 21 function main
+  assertion
+  a + b == p + q
+#X: Done.
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `main9.c' ...
+Parsing main9.c
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+<built-in>: note: this is the location of the previous definition
+Converting
+Type-checking main9
+file main9.c line 17 function main: function `assert' is not declared
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.134 sec.
+Total number of claims in program...(1)
+A specific claim is not set, nor any other claim specification is set.
+Warrning: --claim is set to 1.
+; Warning: disabling SATElite preprocessing to track proof
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LIA logic.
+    Checking Claim #1 (100%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+SYMEX TIME: 0.011
+All SSA steps: 28
+Ignored SSA steps after slice: 12
+SLICER TIME: 0
+CONVERSION TIME: 0.001
+; lia checker query time so far: 0.000000
+;         0 |        0        0 |    1.159 s | 146.902 MB
+SOLVER TIME: 0.002
+RESULT: UNSAT - it holds!
+Skip generating interpolants
+ASSERTION(S) HOLD(S) WITH FULL INLINE
+
+VERIFICATION SUCCESSFUL
+Initial unwinding bound: 10
+Total number of steps: 1
+TOTAL TIME FOR CHECKING THIS CLAIM: 0.014
+
+
+Main Checked Assertion:
+  file main9.c line 17 function main
+  assertion
+  a != 1
+#X: Done.

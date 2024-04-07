@@ -1,0 +1,1554 @@
+*****************************************************
+Toolname: Yices SMT2 Filename: prime_cone_sat_10.smt2
+*****************************************************
+sat
+(:num-terms 45
+ :num-types 3
+ :total-run-time 0.001
+ :mem-usage 3.660
+ :boolean-variables 2
+ :atoms 1
+ :clauses 0
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 1
+ :conflicts 0
+ :theory-conflicts 0
+ :boolean-propagations 0
+ :theory-propagations 0
+ :simplex-init-vars 22
+ :simplex-init-rows 11
+ :simplex-init-atoms 0
+ :simplex-vars 22
+ :simplex-rows 11
+ :simplex-atoms 1
+ :simplex-pivots 27
+ :simplex-conflicts 0
+ :simplex-interface-lemmas 0
+ :simplex-integer-vars 22
+ :simplex-branch-and-bound 1
+ :simplex-bound-conflicts 0
+ :simplex-bound-recheck-conflicts 0
+ :simplex-itest-conflicts 0
+ :simplex-itest-bound-conflicts 0
+ :simplex-itest-recheck-conflicts 0
+ :simplex-gcd-conflicts 0
+ :simplex-dioph-checks 2
+ :simplex-dioph-conflicts 0
+ :simplex-dioph-bound-conflicts 0
+ :simplex-dioph-recheck-conflicts 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: prime_cone_sat_11.smt2
+*****************************************************
+sat
+(:num-terms 49
+ :num-types 3
+ :total-run-time 0.001
+ :mem-usage 3.660
+ :boolean-variables 2
+ :atoms 1
+ :clauses 0
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 1
+ :conflicts 0
+ :theory-conflicts 0
+ :boolean-propagations 0
+ :theory-propagations 0
+ :simplex-init-vars 24
+ :simplex-init-rows 12
+ :simplex-init-atoms 0
+ :simplex-vars 24
+ :simplex-rows 12
+ :simplex-atoms 1
+ :simplex-pivots 28
+ :simplex-conflicts 0
+ :simplex-interface-lemmas 0
+ :simplex-integer-vars 24
+ :simplex-branch-and-bound 1
+ :simplex-bound-conflicts 0
+ :simplex-bound-recheck-conflicts 0
+ :simplex-itest-conflicts 0
+ :simplex-itest-bound-conflicts 0
+ :simplex-itest-recheck-conflicts 0
+ :simplex-gcd-conflicts 0
+ :simplex-dioph-checks 2
+ :simplex-dioph-conflicts 0
+ :simplex-dioph-bound-conflicts 0
+ :simplex-dioph-recheck-conflicts 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: prime_cone_sat_12.smt2
+*****************************************************
+sat
+(:num-terms 53
+ :num-types 3
+ :total-run-time 0.001
+ :mem-usage 3.660
+ :boolean-variables 2
+ :atoms 1
+ :clauses 0
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 1
+ :conflicts 0
+ :theory-conflicts 0
+ :boolean-propagations 0
+ :theory-propagations 0
+ :simplex-init-vars 26
+ :simplex-init-rows 13
+ :simplex-init-atoms 0
+ :simplex-vars 26
+ :simplex-rows 13
+ :simplex-atoms 1
+ :simplex-pivots 35
+ :simplex-conflicts 0
+ :simplex-interface-lemmas 0
+ :simplex-integer-vars 26
+ :simplex-branch-and-bound 1
+ :simplex-bound-conflicts 0
+ :simplex-bound-recheck-conflicts 0
+ :simplex-itest-conflicts 0
+ :simplex-itest-bound-conflicts 0
+ :simplex-itest-recheck-conflicts 0
+ :simplex-gcd-conflicts 0
+ :simplex-dioph-checks 2
+ :simplex-dioph-conflicts 0
+ :simplex-dioph-bound-conflicts 0
+ :simplex-dioph-recheck-conflicts 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: prime_cone_sat_13.smt2
+*****************************************************
+sat
+(:num-terms 57
+ :num-types 3
+ :total-run-time 0.001
+ :mem-usage 3.660
+ :boolean-variables 2
+ :atoms 1
+ :clauses 0
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 1
+ :conflicts 0
+ :theory-conflicts 0
+ :boolean-propagations 0
+ :theory-propagations 0
+ :simplex-init-vars 28
+ :simplex-init-rows 14
+ :simplex-init-atoms 0
+ :simplex-vars 28
+ :simplex-rows 14
+ :simplex-atoms 1
+ :simplex-pivots 31
+ :simplex-conflicts 0
+ :simplex-interface-lemmas 0
+ :simplex-integer-vars 28
+ :simplex-branch-and-bound 1
+ :simplex-bound-conflicts 0
+ :simplex-bound-recheck-conflicts 0
+ :simplex-itest-conflicts 0
+ :simplex-itest-bound-conflicts 0
+ :simplex-itest-recheck-conflicts 0
+ :simplex-gcd-conflicts 0
+ :simplex-dioph-checks 2
+ :simplex-dioph-conflicts 0
+ :simplex-dioph-bound-conflicts 0
+ :simplex-dioph-recheck-conflicts 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: prime_cone_sat_14.smt2
+*****************************************************
+sat
+(:num-terms 61
+ :num-types 3
+ :total-run-time 0.002
+ :mem-usage 3.660
+ :boolean-variables 2
+ :atoms 1
+ :clauses 0
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 1
+ :conflicts 0
+ :theory-conflicts 0
+ :boolean-propagations 0
+ :theory-propagations 0
+ :simplex-init-vars 30
+ :simplex-init-rows 15
+ :simplex-init-atoms 0
+ :simplex-vars 30
+ :simplex-rows 15
+ :simplex-atoms 1
+ :simplex-pivots 30
+ :simplex-conflicts 0
+ :simplex-interface-lemmas 0
+ :simplex-integer-vars 30
+ :simplex-branch-and-bound 1
+ :simplex-bound-conflicts 0
+ :simplex-bound-recheck-conflicts 0
+ :simplex-itest-conflicts 0
+ :simplex-itest-bound-conflicts 0
+ :simplex-itest-recheck-conflicts 0
+ :simplex-gcd-conflicts 0
+ :simplex-dioph-checks 2
+ :simplex-dioph-conflicts 0
+ :simplex-dioph-bound-conflicts 0
+ :simplex-dioph-recheck-conflicts 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: prime_cone_sat_15.smt2
+*****************************************************
+sat
+(:num-terms 65
+ :num-types 3
+ :total-run-time 0.002
+ :mem-usage 3.660
+ :boolean-variables 2
+ :atoms 1
+ :clauses 0
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 1
+ :conflicts 0
+ :theory-conflicts 0
+ :boolean-propagations 0
+ :theory-propagations 0
+ :simplex-init-vars 32
+ :simplex-init-rows 16
+ :simplex-init-atoms 0
+ :simplex-vars 32
+ :simplex-rows 16
+ :simplex-atoms 1
+ :simplex-pivots 32
+ :simplex-conflicts 0
+ :simplex-interface-lemmas 0
+ :simplex-integer-vars 32
+ :simplex-branch-and-bound 1
+ :simplex-bound-conflicts 0
+ :simplex-bound-recheck-conflicts 0
+ :simplex-itest-conflicts 0
+ :simplex-itest-bound-conflicts 0
+ :simplex-itest-recheck-conflicts 0
+ :simplex-gcd-conflicts 0
+ :simplex-dioph-checks 2
+ :simplex-dioph-conflicts 0
+ :simplex-dioph-bound-conflicts 0
+ :simplex-dioph-recheck-conflicts 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: prime_cone_sat_16.smt2
+*****************************************************
+sat
+(:num-terms 69
+ :num-types 3
+ :total-run-time 0.002
+ :mem-usage 3.660
+ :boolean-variables 2
+ :atoms 1
+ :clauses 0
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 1
+ :conflicts 0
+ :theory-conflicts 0
+ :boolean-propagations 0
+ :theory-propagations 0
+ :simplex-init-vars 34
+ :simplex-init-rows 17
+ :simplex-init-atoms 0
+ :simplex-vars 34
+ :simplex-rows 17
+ :simplex-atoms 1
+ :simplex-pivots 57
+ :simplex-conflicts 0
+ :simplex-interface-lemmas 0
+ :simplex-integer-vars 34
+ :simplex-branch-and-bound 1
+ :simplex-bound-conflicts 0
+ :simplex-bound-recheck-conflicts 0
+ :simplex-itest-conflicts 0
+ :simplex-itest-bound-conflicts 0
+ :simplex-itest-recheck-conflicts 0
+ :simplex-gcd-conflicts 0
+ :simplex-dioph-checks 2
+ :simplex-dioph-conflicts 0
+ :simplex-dioph-bound-conflicts 0
+ :simplex-dioph-recheck-conflicts 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: prime_cone_sat_17.smt2
+*****************************************************
+sat
+(:num-terms 73
+ :num-types 3
+ :total-run-time 0.002
+ :mem-usage 3.828
+ :boolean-variables 2
+ :atoms 1
+ :clauses 0
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 1
+ :conflicts 0
+ :theory-conflicts 0
+ :boolean-propagations 0
+ :theory-propagations 0
+ :simplex-init-vars 36
+ :simplex-init-rows 18
+ :simplex-init-atoms 0
+ :simplex-vars 36
+ :simplex-rows 18
+ :simplex-atoms 1
+ :simplex-pivots 34
+ :simplex-conflicts 0
+ :simplex-interface-lemmas 0
+ :simplex-integer-vars 36
+ :simplex-branch-and-bound 1
+ :simplex-bound-conflicts 0
+ :simplex-bound-recheck-conflicts 0
+ :simplex-itest-conflicts 0
+ :simplex-itest-bound-conflicts 0
+ :simplex-itest-recheck-conflicts 0
+ :simplex-gcd-conflicts 0
+ :simplex-dioph-checks 2
+ :simplex-dioph-conflicts 0
+ :simplex-dioph-bound-conflicts 0
+ :simplex-dioph-recheck-conflicts 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: prime_cone_sat_18.smt2
+*****************************************************
+sat
+(:num-terms 77
+ :num-types 3
+ :total-run-time 0.003
+ :mem-usage 3.828
+ :boolean-variables 2
+ :atoms 1
+ :clauses 0
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 1
+ :conflicts 0
+ :theory-conflicts 0
+ :boolean-propagations 0
+ :theory-propagations 0
+ :simplex-init-vars 38
+ :simplex-init-rows 19
+ :simplex-init-atoms 0
+ :simplex-vars 38
+ :simplex-rows 19
+ :simplex-atoms 1
+ :simplex-pivots 35
+ :simplex-conflicts 0
+ :simplex-interface-lemmas 0
+ :simplex-integer-vars 38
+ :simplex-branch-and-bound 1
+ :simplex-bound-conflicts 0
+ :simplex-bound-recheck-conflicts 0
+ :simplex-itest-conflicts 0
+ :simplex-itest-bound-conflicts 0
+ :simplex-itest-recheck-conflicts 0
+ :simplex-gcd-conflicts 0
+ :simplex-dioph-checks 2
+ :simplex-dioph-conflicts 0
+ :simplex-dioph-bound-conflicts 0
+ :simplex-dioph-recheck-conflicts 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: prime_cone_sat_19.smt2
+*****************************************************
+sat
+(:num-terms 81
+ :num-types 3
+ :total-run-time 0.003
+ :mem-usage 3.844
+ :boolean-variables 2
+ :atoms 1
+ :clauses 0
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 1
+ :conflicts 0
+ :theory-conflicts 0
+ :boolean-propagations 0
+ :theory-propagations 0
+ :simplex-init-vars 40
+ :simplex-init-rows 20
+ :simplex-init-atoms 0
+ :simplex-vars 40
+ :simplex-rows 20
+ :simplex-atoms 1
+ :simplex-pivots 36
+ :simplex-conflicts 0
+ :simplex-interface-lemmas 0
+ :simplex-integer-vars 40
+ :simplex-branch-and-bound 1
+ :simplex-bound-conflicts 0
+ :simplex-bound-recheck-conflicts 0
+ :simplex-itest-conflicts 0
+ :simplex-itest-bound-conflicts 0
+ :simplex-itest-recheck-conflicts 0
+ :simplex-gcd-conflicts 0
+ :simplex-dioph-checks 2
+ :simplex-dioph-conflicts 0
+ :simplex-dioph-bound-conflicts 0
+ :simplex-dioph-recheck-conflicts 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: prime_cone_sat_20.smt2
+*****************************************************
+sat
+(:num-terms 85
+ :num-types 3
+ :total-run-time 0.003
+ :mem-usage 3.844
+ :boolean-variables 2
+ :atoms 1
+ :clauses 0
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 1
+ :conflicts 0
+ :theory-conflicts 0
+ :boolean-propagations 0
+ :theory-propagations 0
+ :simplex-init-vars 42
+ :simplex-init-rows 21
+ :simplex-init-atoms 0
+ :simplex-vars 42
+ :simplex-rows 21
+ :simplex-atoms 1
+ :simplex-pivots 37
+ :simplex-conflicts 0
+ :simplex-interface-lemmas 0
+ :simplex-integer-vars 42
+ :simplex-branch-and-bound 1
+ :simplex-bound-conflicts 0
+ :simplex-bound-recheck-conflicts 0
+ :simplex-itest-conflicts 0
+ :simplex-itest-bound-conflicts 0
+ :simplex-itest-recheck-conflicts 0
+ :simplex-gcd-conflicts 0
+ :simplex-dioph-checks 2
+ :simplex-dioph-conflicts 0
+ :simplex-dioph-bound-conflicts 0
+ :simplex-dioph-recheck-conflicts 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: prime_cone_sat_2.smt2
+*****************************************************
+sat
+(:num-terms 13
+ :num-types 3
+ :total-run-time 0.001
+ :mem-usage 3.660
+ :boolean-variables 1
+ :atoms 0
+ :clauses 0
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 0
+ :conflicts 0
+ :theory-conflicts 0
+ :boolean-propagations 0
+ :theory-propagations 0
+ :simplex-init-vars 6
+ :simplex-init-rows 3
+ :simplex-init-atoms 0
+ :simplex-vars 6
+ :simplex-rows 3
+ :simplex-atoms 0
+ :simplex-pivots 3
+ :simplex-conflicts 0
+ :simplex-interface-lemmas 0
+ :simplex-integer-vars 6
+ :simplex-branch-and-bound 0
+ :simplex-bound-conflicts 0
+ :simplex-bound-recheck-conflicts 0
+ :simplex-itest-conflicts 0
+ :simplex-itest-bound-conflicts 0
+ :simplex-itest-recheck-conflicts 0
+ :simplex-gcd-conflicts 0
+ :simplex-dioph-checks 1
+ :simplex-dioph-conflicts 0
+ :simplex-dioph-bound-conflicts 0
+ :simplex-dioph-recheck-conflicts 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: prime_cone_sat_3.smt2
+*****************************************************
+sat
+(:num-terms 17
+ :num-types 3
+ :total-run-time 0.001
+ :mem-usage 3.660
+ :boolean-variables 1
+ :atoms 0
+ :clauses 0
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 0
+ :conflicts 0
+ :theory-conflicts 0
+ :boolean-propagations 0
+ :theory-propagations 0
+ :simplex-init-vars 8
+ :simplex-init-rows 4
+ :simplex-init-atoms 0
+ :simplex-vars 8
+ :simplex-rows 4
+ :simplex-atoms 0
+ :simplex-pivots 10
+ :simplex-conflicts 0
+ :simplex-interface-lemmas 0
+ :simplex-integer-vars 8
+ :simplex-branch-and-bound 0
+ :simplex-bound-conflicts 0
+ :simplex-bound-recheck-conflicts 0
+ :simplex-itest-conflicts 0
+ :simplex-itest-bound-conflicts 0
+ :simplex-itest-recheck-conflicts 0
+ :simplex-gcd-conflicts 0
+ :simplex-dioph-checks 1
+ :simplex-dioph-conflicts 0
+ :simplex-dioph-bound-conflicts 0
+ :simplex-dioph-recheck-conflicts 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: prime_cone_sat_4.smt2
+*****************************************************
+sat
+(:num-terms 21
+ :num-types 3
+ :total-run-time 0.001
+ :mem-usage 3.660
+ :boolean-variables 4
+ :atoms 3
+ :clauses 0
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 3
+ :conflicts 0
+ :theory-conflicts 0
+ :boolean-propagations 0
+ :theory-propagations 0
+ :simplex-init-vars 10
+ :simplex-init-rows 5
+ :simplex-init-atoms 0
+ :simplex-vars 10
+ :simplex-rows 5
+ :simplex-atoms 3
+ :simplex-pivots 24
+ :simplex-conflicts 0
+ :simplex-interface-lemmas 0
+ :simplex-integer-vars 10
+ :simplex-branch-and-bound 3
+ :simplex-bound-conflicts 0
+ :simplex-bound-recheck-conflicts 0
+ :simplex-itest-conflicts 0
+ :simplex-itest-bound-conflicts 0
+ :simplex-itest-recheck-conflicts 0
+ :simplex-gcd-conflicts 0
+ :simplex-dioph-checks 4
+ :simplex-dioph-conflicts 0
+ :simplex-dioph-bound-conflicts 0
+ :simplex-dioph-recheck-conflicts 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: prime_cone_sat_5.smt2
+*****************************************************
+sat
+(:num-terms 25
+ :num-types 3
+ :total-run-time 0.001
+ :mem-usage 3.660
+ :boolean-variables 3
+ :atoms 2
+ :clauses 0
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 2
+ :conflicts 0
+ :theory-conflicts 0
+ :boolean-propagations 0
+ :theory-propagations 0
+ :simplex-init-vars 12
+ :simplex-init-rows 6
+ :simplex-init-atoms 0
+ :simplex-vars 12
+ :simplex-rows 6
+ :simplex-atoms 2
+ :simplex-pivots 32
+ :simplex-conflicts 0
+ :simplex-interface-lemmas 0
+ :simplex-integer-vars 12
+ :simplex-branch-and-bound 2
+ :simplex-bound-conflicts 0
+ :simplex-bound-recheck-conflicts 0
+ :simplex-itest-conflicts 0
+ :simplex-itest-bound-conflicts 0
+ :simplex-itest-recheck-conflicts 0
+ :simplex-gcd-conflicts 0
+ :simplex-dioph-checks 3
+ :simplex-dioph-conflicts 0
+ :simplex-dioph-bound-conflicts 0
+ :simplex-dioph-recheck-conflicts 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: prime_cone_sat_6.smt2
+*****************************************************
+sat
+(:num-terms 29
+ :num-types 3
+ :total-run-time 0.001
+ :mem-usage 3.660
+ :boolean-variables 5
+ :atoms 4
+ :clauses 0
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 4
+ :conflicts 0
+ :theory-conflicts 0
+ :boolean-propagations 0
+ :theory-propagations 0
+ :simplex-init-vars 14
+ :simplex-init-rows 7
+ :simplex-init-atoms 0
+ :simplex-vars 14
+ :simplex-rows 7
+ :simplex-atoms 4
+ :simplex-pivots 32
+ :simplex-conflicts 0
+ :simplex-interface-lemmas 0
+ :simplex-integer-vars 14
+ :simplex-branch-and-bound 4
+ :simplex-bound-conflicts 0
+ :simplex-bound-recheck-conflicts 0
+ :simplex-itest-conflicts 0
+ :simplex-itest-bound-conflicts 0
+ :simplex-itest-recheck-conflicts 0
+ :simplex-gcd-conflicts 0
+ :simplex-dioph-checks 5
+ :simplex-dioph-conflicts 0
+ :simplex-dioph-bound-conflicts 0
+ :simplex-dioph-recheck-conflicts 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: prime_cone_sat_7.smt2
+*****************************************************
+sat
+(:num-terms 33
+ :num-types 3
+ :total-run-time 0.001
+ :mem-usage 3.660
+ :boolean-variables 2
+ :atoms 1
+ :clauses 0
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 1
+ :conflicts 0
+ :theory-conflicts 0
+ :boolean-propagations 0
+ :theory-propagations 0
+ :simplex-init-vars 16
+ :simplex-init-rows 8
+ :simplex-init-atoms 0
+ :simplex-vars 16
+ :simplex-rows 8
+ :simplex-atoms 1
+ :simplex-pivots 24
+ :simplex-conflicts 0
+ :simplex-interface-lemmas 0
+ :simplex-integer-vars 16
+ :simplex-branch-and-bound 1
+ :simplex-bound-conflicts 0
+ :simplex-bound-recheck-conflicts 0
+ :simplex-itest-conflicts 0
+ :simplex-itest-bound-conflicts 0
+ :simplex-itest-recheck-conflicts 0
+ :simplex-gcd-conflicts 0
+ :simplex-dioph-checks 2
+ :simplex-dioph-conflicts 0
+ :simplex-dioph-bound-conflicts 0
+ :simplex-dioph-recheck-conflicts 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: prime_cone_sat_8.smt2
+*****************************************************
+sat
+(:num-terms 37
+ :num-types 3
+ :total-run-time 0.001
+ :mem-usage 3.660
+ :boolean-variables 2
+ :atoms 1
+ :clauses 0
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 1
+ :conflicts 0
+ :theory-conflicts 0
+ :boolean-propagations 0
+ :theory-propagations 0
+ :simplex-init-vars 18
+ :simplex-init-rows 9
+ :simplex-init-atoms 0
+ :simplex-vars 18
+ :simplex-rows 9
+ :simplex-atoms 1
+ :simplex-pivots 24
+ :simplex-conflicts 0
+ :simplex-interface-lemmas 0
+ :simplex-integer-vars 18
+ :simplex-branch-and-bound 1
+ :simplex-bound-conflicts 0
+ :simplex-bound-recheck-conflicts 0
+ :simplex-itest-conflicts 0
+ :simplex-itest-bound-conflicts 0
+ :simplex-itest-recheck-conflicts 0
+ :simplex-gcd-conflicts 0
+ :simplex-dioph-checks 2
+ :simplex-dioph-conflicts 0
+ :simplex-dioph-bound-conflicts 0
+ :simplex-dioph-recheck-conflicts 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: prime_cone_sat_9.smt2
+*****************************************************
+sat
+(:num-terms 41
+ :num-types 3
+ :total-run-time 0.001
+ :mem-usage 3.660
+ :boolean-variables 2
+ :atoms 1
+ :clauses 0
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 1
+ :conflicts 0
+ :theory-conflicts 0
+ :boolean-propagations 0
+ :theory-propagations 0
+ :simplex-init-vars 20
+ :simplex-init-rows 10
+ :simplex-init-atoms 0
+ :simplex-vars 20
+ :simplex-rows 10
+ :simplex-atoms 1
+ :simplex-pivots 26
+ :simplex-conflicts 0
+ :simplex-interface-lemmas 0
+ :simplex-integer-vars 20
+ :simplex-branch-and-bound 1
+ :simplex-bound-conflicts 0
+ :simplex-bound-recheck-conflicts 0
+ :simplex-itest-conflicts 0
+ :simplex-itest-bound-conflicts 0
+ :simplex-itest-recheck-conflicts 0
+ :simplex-gcd-conflicts 0
+ :simplex-dioph-checks 2
+ :simplex-dioph-conflicts 0
+ :simplex-dioph-bound-conflicts 0
+ :simplex-dioph-recheck-conflicts 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: prime_cone_unsat_10.smt2
+*****************************************************
+unsat
+(:num-terms 47
+ :num-types 3
+ :total-run-time 0.002
+ :mem-usage 3.660
+ :boolean-variables 4
+ :atoms 3
+ :clauses 6
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 3
+ :conflicts 4
+ :theory-conflicts 4
+ :boolean-propagations 2
+ :theory-propagations 0
+ :simplex-init-vars 22
+ :simplex-init-rows 11
+ :simplex-init-atoms 0
+ :simplex-vars 22
+ :simplex-rows 11
+ :simplex-atoms 3
+ :simplex-pivots 88
+ :simplex-conflicts 4
+ :simplex-interface-lemmas 0
+ :simplex-integer-vars 22
+ :simplex-branch-and-bound 3
+ :simplex-bound-conflicts 1
+ :simplex-bound-recheck-conflicts 0
+ :simplex-itest-conflicts 0
+ :simplex-itest-bound-conflicts 0
+ :simplex-itest-recheck-conflicts 0
+ :simplex-gcd-conflicts 0
+ :simplex-dioph-checks 4
+ :simplex-dioph-conflicts 0
+ :simplex-dioph-bound-conflicts 0
+ :simplex-dioph-recheck-conflicts 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: prime_cone_unsat_11.smt2
+*****************************************************
+unsat
+(:num-terms 51
+ :num-types 3
+ :total-run-time 0.003
+ :mem-usage 3.660
+ :boolean-variables 4
+ :atoms 3
+ :clauses 5
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 3
+ :conflicts 4
+ :theory-conflicts 4
+ :boolean-propagations 2
+ :theory-propagations 0
+ :simplex-init-vars 24
+ :simplex-init-rows 12
+ :simplex-init-atoms 0
+ :simplex-vars 24
+ :simplex-rows 12
+ :simplex-atoms 3
+ :simplex-pivots 97
+ :simplex-conflicts 4
+ :simplex-interface-lemmas 0
+ :simplex-integer-vars 24
+ :simplex-branch-and-bound 3
+ :simplex-bound-conflicts 0
+ :simplex-bound-recheck-conflicts 1
+ :simplex-itest-conflicts 0
+ :simplex-itest-bound-conflicts 0
+ :simplex-itest-recheck-conflicts 0
+ :simplex-gcd-conflicts 0
+ :simplex-dioph-checks 3
+ :simplex-dioph-conflicts 0
+ :simplex-dioph-bound-conflicts 0
+ :simplex-dioph-recheck-conflicts 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: prime_cone_unsat_12.smt2
+*****************************************************
+unsat
+(:num-terms 55
+ :num-types 3
+ :total-run-time 0.004
+ :mem-usage 3.660
+ :boolean-variables 4
+ :atoms 3
+ :clauses 6
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 3
+ :conflicts 4
+ :theory-conflicts 4
+ :boolean-propagations 2
+ :theory-propagations 0
+ :simplex-init-vars 26
+ :simplex-init-rows 13
+ :simplex-init-atoms 0
+ :simplex-vars 26
+ :simplex-rows 13
+ :simplex-atoms 3
+ :simplex-pivots 125
+ :simplex-conflicts 4
+ :simplex-interface-lemmas 0
+ :simplex-integer-vars 26
+ :simplex-branch-and-bound 3
+ :simplex-bound-conflicts 1
+ :simplex-bound-recheck-conflicts 1
+ :simplex-itest-conflicts 0
+ :simplex-itest-bound-conflicts 0
+ :simplex-itest-recheck-conflicts 0
+ :simplex-gcd-conflicts 0
+ :simplex-dioph-checks 4
+ :simplex-dioph-conflicts 0
+ :simplex-dioph-bound-conflicts 0
+ :simplex-dioph-recheck-conflicts 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: prime_cone_unsat_13.smt2
+*****************************************************
+unsat
+(:num-terms 59
+ :num-types 3
+ :total-run-time 0.005
+ :mem-usage 3.660
+ :boolean-variables 4
+ :atoms 3
+ :clauses 6
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 3
+ :conflicts 4
+ :theory-conflicts 4
+ :boolean-propagations 2
+ :theory-propagations 0
+ :simplex-init-vars 28
+ :simplex-init-rows 14
+ :simplex-init-atoms 0
+ :simplex-vars 28
+ :simplex-rows 14
+ :simplex-atoms 3
+ :simplex-pivots 122
+ :simplex-conflicts 4
+ :simplex-interface-lemmas 0
+ :simplex-integer-vars 28
+ :simplex-branch-and-bound 3
+ :simplex-bound-conflicts 0
+ :simplex-bound-recheck-conflicts 1
+ :simplex-itest-conflicts 0
+ :simplex-itest-bound-conflicts 0
+ :simplex-itest-recheck-conflicts 0
+ :simplex-gcd-conflicts 0
+ :simplex-dioph-checks 4
+ :simplex-dioph-conflicts 0
+ :simplex-dioph-bound-conflicts 0
+ :simplex-dioph-recheck-conflicts 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: prime_cone_unsat_14.smt2
+*****************************************************
+unsat
+(:num-terms 63
+ :num-types 3
+ :total-run-time 0.005
+ :mem-usage 3.660
+ :boolean-variables 5
+ :atoms 4
+ :clauses 8
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 4
+ :conflicts 5
+ :theory-conflicts 5
+ :boolean-propagations 4
+ :theory-propagations 1
+ :simplex-init-vars 30
+ :simplex-init-rows 15
+ :simplex-init-atoms 0
+ :simplex-vars 30
+ :simplex-rows 15
+ :simplex-atoms 4
+ :simplex-pivots 138
+ :simplex-conflicts 5
+ :simplex-interface-lemmas 0
+ :simplex-integer-vars 30
+ :simplex-branch-and-bound 4
+ :simplex-bound-conflicts 1
+ :simplex-bound-recheck-conflicts 1
+ :simplex-itest-conflicts 0
+ :simplex-itest-bound-conflicts 0
+ :simplex-itest-recheck-conflicts 0
+ :simplex-gcd-conflicts 0
+ :simplex-dioph-checks 4
+ :simplex-dioph-conflicts 0
+ :simplex-dioph-bound-conflicts 0
+ :simplex-dioph-recheck-conflicts 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: prime_cone_unsat_15.smt2
+*****************************************************
+unsat
+(:num-terms 67
+ :num-types 3
+ :total-run-time 0.005
+ :mem-usage 3.660
+ :boolean-variables 4
+ :atoms 3
+ :clauses 6
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 3
+ :conflicts 4
+ :theory-conflicts 4
+ :boolean-propagations 2
+ :theory-propagations 0
+ :simplex-init-vars 32
+ :simplex-init-rows 16
+ :simplex-init-atoms 0
+ :simplex-vars 32
+ :simplex-rows 16
+ :simplex-atoms 3
+ :simplex-pivots 120
+ :simplex-conflicts 4
+ :simplex-interface-lemmas 0
+ :simplex-integer-vars 32
+ :simplex-branch-and-bound 3
+ :simplex-bound-conflicts 0
+ :simplex-bound-recheck-conflicts 1
+ :simplex-itest-conflicts 0
+ :simplex-itest-bound-conflicts 0
+ :simplex-itest-recheck-conflicts 0
+ :simplex-gcd-conflicts 0
+ :simplex-dioph-checks 4
+ :simplex-dioph-conflicts 0
+ :simplex-dioph-bound-conflicts 0
+ :simplex-dioph-recheck-conflicts 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: prime_cone_unsat_16.smt2
+*****************************************************
+unsat
+(:num-terms 71
+ :num-types 3
+ :total-run-time 0.006
+ :mem-usage 3.660
+ :boolean-variables 4
+ :atoms 3
+ :clauses 4
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 1
+ :decisions 4
+ :conflicts 4
+ :theory-conflicts 4
+ :boolean-propagations 1
+ :theory-propagations 0
+ :simplex-init-vars 34
+ :simplex-init-rows 17
+ :simplex-init-atoms 0
+ :simplex-vars 34
+ :simplex-rows 17
+ :simplex-atoms 3
+ :simplex-pivots 134
+ :simplex-conflicts 4
+ :simplex-interface-lemmas 0
+ :simplex-integer-vars 34
+ :simplex-branch-and-bound 3
+ :simplex-bound-conflicts 0
+ :simplex-bound-recheck-conflicts 2
+ :simplex-itest-conflicts 0
+ :simplex-itest-bound-conflicts 0
+ :simplex-itest-recheck-conflicts 0
+ :simplex-gcd-conflicts 0
+ :simplex-dioph-checks 4
+ :simplex-dioph-conflicts 0
+ :simplex-dioph-bound-conflicts 0
+ :simplex-dioph-recheck-conflicts 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: prime_cone_unsat_17.smt2
+*****************************************************
+unsat
+(:num-terms 75
+ :num-types 3
+ :total-run-time 0.011
+ :mem-usage 3.832
+ :boolean-variables 5
+ :atoms 4
+ :clauses 8
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 5
+ :conflicts 6
+ :theory-conflicts 6
+ :boolean-propagations 4
+ :theory-propagations 0
+ :simplex-init-vars 36
+ :simplex-init-rows 18
+ :simplex-init-atoms 0
+ :simplex-vars 36
+ :simplex-rows 18
+ :simplex-atoms 4
+ :simplex-pivots 188
+ :simplex-conflicts 6
+ :simplex-interface-lemmas 0
+ :simplex-integer-vars 36
+ :simplex-branch-and-bound 4
+ :simplex-bound-conflicts 1
+ :simplex-bound-recheck-conflicts 1
+ :simplex-itest-conflicts 0
+ :simplex-itest-bound-conflicts 0
+ :simplex-itest-recheck-conflicts 0
+ :simplex-gcd-conflicts 0
+ :simplex-dioph-checks 4
+ :simplex-dioph-conflicts 0
+ :simplex-dioph-bound-conflicts 0
+ :simplex-dioph-recheck-conflicts 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: prime_cone_unsat_18.smt2
+*****************************************************
+unsat
+(:num-terms 79
+ :num-types 3
+ :total-run-time 0.009
+ :mem-usage 3.836
+ :boolean-variables 4
+ :atoms 3
+ :clauses 6
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 3
+ :conflicts 4
+ :theory-conflicts 4
+ :boolean-propagations 2
+ :theory-propagations 0
+ :simplex-init-vars 38
+ :simplex-init-rows 19
+ :simplex-init-atoms 0
+ :simplex-vars 38
+ :simplex-rows 19
+ :simplex-atoms 3
+ :simplex-pivots 144
+ :simplex-conflicts 4
+ :simplex-interface-lemmas 0
+ :simplex-integer-vars 38
+ :simplex-branch-and-bound 3
+ :simplex-bound-conflicts 1
+ :simplex-bound-recheck-conflicts 0
+ :simplex-itest-conflicts 0
+ :simplex-itest-bound-conflicts 0
+ :simplex-itest-recheck-conflicts 0
+ :simplex-gcd-conflicts 0
+ :simplex-dioph-checks 4
+ :simplex-dioph-conflicts 0
+ :simplex-dioph-bound-conflicts 0
+ :simplex-dioph-recheck-conflicts 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: prime_cone_unsat_19.smt2
+*****************************************************
+unsat
+(:num-terms 83
+ :num-types 3
+ :total-run-time 0.011
+ :mem-usage 3.848
+ :boolean-variables 5
+ :atoms 4
+ :clauses 8
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 4
+ :conflicts 5
+ :theory-conflicts 5
+ :boolean-propagations 3
+ :theory-propagations 0
+ :simplex-init-vars 40
+ :simplex-init-rows 20
+ :simplex-init-atoms 0
+ :simplex-vars 40
+ :simplex-rows 20
+ :simplex-atoms 4
+ :simplex-pivots 161
+ :simplex-conflicts 5
+ :simplex-interface-lemmas 0
+ :simplex-integer-vars 40
+ :simplex-branch-and-bound 4
+ :simplex-bound-conflicts 1
+ :simplex-bound-recheck-conflicts 0
+ :simplex-itest-conflicts 0
+ :simplex-itest-bound-conflicts 0
+ :simplex-itest-recheck-conflicts 0
+ :simplex-gcd-conflicts 0
+ :simplex-dioph-checks 4
+ :simplex-dioph-conflicts 0
+ :simplex-dioph-bound-conflicts 0
+ :simplex-dioph-recheck-conflicts 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: prime_cone_unsat_20.smt2
+*****************************************************
+unsat
+(:num-terms 87
+ :num-types 3
+ :total-run-time 0.013
+ :mem-usage 3.844
+ :boolean-variables 4
+ :atoms 3
+ :clauses 5
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 3
+ :conflicts 4
+ :theory-conflicts 4
+ :boolean-propagations 2
+ :theory-propagations 0
+ :simplex-init-vars 42
+ :simplex-init-rows 21
+ :simplex-init-atoms 0
+ :simplex-vars 42
+ :simplex-rows 21
+ :simplex-atoms 3
+ :simplex-pivots 187
+ :simplex-conflicts 4
+ :simplex-interface-lemmas 0
+ :simplex-integer-vars 42
+ :simplex-branch-and-bound 3
+ :simplex-bound-conflicts 0
+ :simplex-bound-recheck-conflicts 1
+ :simplex-itest-conflicts 0
+ :simplex-itest-bound-conflicts 0
+ :simplex-itest-recheck-conflicts 0
+ :simplex-gcd-conflicts 0
+ :simplex-dioph-checks 4
+ :simplex-dioph-conflicts 0
+ :simplex-dioph-bound-conflicts 0
+ :simplex-dioph-recheck-conflicts 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: prime_cone_unsat_3.smt2
+*****************************************************
+unsat
+(:num-terms 19
+ :num-types 3
+ :total-run-time 0.001
+ :mem-usage 3.660
+ :boolean-variables 2
+ :atoms 1
+ :clauses 2
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 1
+ :decisions 1
+ :conflicts 2
+ :theory-conflicts 2
+ :boolean-propagations 0
+ :theory-propagations 0
+ :simplex-init-vars 8
+ :simplex-init-rows 4
+ :simplex-init-atoms 0
+ :simplex-vars 8
+ :simplex-rows 4
+ :simplex-atoms 1
+ :simplex-pivots 18
+ :simplex-conflicts 2
+ :simplex-interface-lemmas 0
+ :simplex-integer-vars 8
+ :simplex-branch-and-bound 1
+ :simplex-bound-conflicts 0
+ :simplex-bound-recheck-conflicts 2
+ :simplex-itest-conflicts 0
+ :simplex-itest-bound-conflicts 0
+ :simplex-itest-recheck-conflicts 0
+ :simplex-gcd-conflicts 0
+ :simplex-dioph-checks 2
+ :simplex-dioph-conflicts 0
+ :simplex-dioph-bound-conflicts 0
+ :simplex-dioph-recheck-conflicts 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: prime_cone_unsat_4.smt2
+*****************************************************
+unsat
+(:num-terms 23
+ :num-types 3
+ :total-run-time 0.001
+ :mem-usage 3.660
+ :boolean-variables 4
+ :atoms 3
+ :clauses 5
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 1
+ :decisions 4
+ :conflicts 4
+ :theory-conflicts 4
+ :boolean-propagations 1
+ :theory-propagations 0
+ :simplex-init-vars 10
+ :simplex-init-rows 5
+ :simplex-init-atoms 0
+ :simplex-vars 10
+ :simplex-rows 5
+ :simplex-atoms 3
+ :simplex-pivots 40
+ :simplex-conflicts 4
+ :simplex-interface-lemmas 0
+ :simplex-integer-vars 10
+ :simplex-branch-and-bound 3
+ :simplex-bound-conflicts 2
+ :simplex-bound-recheck-conflicts 1
+ :simplex-itest-conflicts 0
+ :simplex-itest-bound-conflicts 0
+ :simplex-itest-recheck-conflicts 0
+ :simplex-gcd-conflicts 0
+ :simplex-dioph-checks 4
+ :simplex-dioph-conflicts 0
+ :simplex-dioph-bound-conflicts 0
+ :simplex-dioph-recheck-conflicts 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: prime_cone_unsat_5.smt2
+*****************************************************
+unsat
+(:num-terms 27
+ :num-types 3
+ :total-run-time 0.001
+ :mem-usage 3.660
+ :boolean-variables 3
+ :atoms 2
+ :clauses 4
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 2
+ :conflicts 3
+ :theory-conflicts 3
+ :boolean-propagations 1
+ :theory-propagations 0
+ :simplex-init-vars 12
+ :simplex-init-rows 6
+ :simplex-init-atoms 0
+ :simplex-vars 12
+ :simplex-rows 6
+ :simplex-atoms 2
+ :simplex-pivots 42
+ :simplex-conflicts 3
+ :simplex-interface-lemmas 0
+ :simplex-integer-vars 12
+ :simplex-branch-and-bound 2
+ :simplex-bound-conflicts 1
+ :simplex-bound-recheck-conflicts 0
+ :simplex-itest-conflicts 0
+ :simplex-itest-bound-conflicts 0
+ :simplex-itest-recheck-conflicts 0
+ :simplex-gcd-conflicts 0
+ :simplex-dioph-checks 3
+ :simplex-dioph-conflicts 0
+ :simplex-dioph-bound-conflicts 0
+ :simplex-dioph-recheck-conflicts 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: prime_cone_unsat_6.smt2
+*****************************************************
+unsat
+(:num-terms 31
+ :num-types 3
+ :total-run-time 0.001
+ :mem-usage 3.660
+ :boolean-variables 4
+ :atoms 3
+ :clauses 6
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 3
+ :conflicts 4
+ :theory-conflicts 4
+ :boolean-propagations 2
+ :theory-propagations 0
+ :simplex-init-vars 14
+ :simplex-init-rows 7
+ :simplex-init-atoms 0
+ :simplex-vars 14
+ :simplex-rows 7
+ :simplex-atoms 3
+ :simplex-pivots 52
+ :simplex-conflicts 4
+ :simplex-interface-lemmas 0
+ :simplex-integer-vars 14
+ :simplex-branch-and-bound 3
+ :simplex-bound-conflicts 2
+ :simplex-bound-recheck-conflicts 0
+ :simplex-itest-conflicts 0
+ :simplex-itest-bound-conflicts 0
+ :simplex-itest-recheck-conflicts 0
+ :simplex-gcd-conflicts 0
+ :simplex-dioph-checks 4
+ :simplex-dioph-conflicts 0
+ :simplex-dioph-bound-conflicts 0
+ :simplex-dioph-recheck-conflicts 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: prime_cone_unsat_7.smt2
+*****************************************************
+unsat
+(:num-terms 35
+ :num-types 3
+ :total-run-time 0.001
+ :mem-usage 3.660
+ :boolean-variables 4
+ :atoms 3
+ :clauses 6
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 3
+ :conflicts 4
+ :theory-conflicts 4
+ :boolean-propagations 2
+ :theory-propagations 0
+ :simplex-init-vars 16
+ :simplex-init-rows 8
+ :simplex-init-atoms 0
+ :simplex-vars 16
+ :simplex-rows 8
+ :simplex-atoms 3
+ :simplex-pivots 70
+ :simplex-conflicts 4
+ :simplex-interface-lemmas 0
+ :simplex-integer-vars 16
+ :simplex-branch-and-bound 3
+ :simplex-bound-conflicts 2
+ :simplex-bound-recheck-conflicts 0
+ :simplex-itest-conflicts 0
+ :simplex-itest-bound-conflicts 0
+ :simplex-itest-recheck-conflicts 0
+ :simplex-gcd-conflicts 0
+ :simplex-dioph-checks 3
+ :simplex-dioph-conflicts 0
+ :simplex-dioph-bound-conflicts 0
+ :simplex-dioph-recheck-conflicts 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: prime_cone_unsat_8.smt2
+*****************************************************
+unsat
+(:num-terms 39
+ :num-types 3
+ :total-run-time 0.002
+ :mem-usage 3.660
+ :boolean-variables 4
+ :atoms 3
+ :clauses 6
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 3
+ :conflicts 4
+ :theory-conflicts 4
+ :boolean-propagations 2
+ :theory-propagations 0
+ :simplex-init-vars 18
+ :simplex-init-rows 9
+ :simplex-init-atoms 0
+ :simplex-vars 18
+ :simplex-rows 9
+ :simplex-atoms 3
+ :simplex-pivots 71
+ :simplex-conflicts 4
+ :simplex-interface-lemmas 0
+ :simplex-integer-vars 18
+ :simplex-branch-and-bound 3
+ :simplex-bound-conflicts 1
+ :simplex-bound-recheck-conflicts 0
+ :simplex-itest-conflicts 0
+ :simplex-itest-bound-conflicts 0
+ :simplex-itest-recheck-conflicts 0
+ :simplex-gcd-conflicts 0
+ :simplex-dioph-checks 4
+ :simplex-dioph-conflicts 0
+ :simplex-dioph-bound-conflicts 0
+ :simplex-dioph-recheck-conflicts 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: prime_cone_unsat_9.smt2
+*****************************************************
+unsat
+(:num-terms 43
+ :num-types 3
+ :total-run-time 0.002
+ :mem-usage 3.660
+ :boolean-variables 4
+ :atoms 3
+ :clauses 6
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 3
+ :conflicts 4
+ :theory-conflicts 4
+ :boolean-propagations 2
+ :theory-propagations 0
+ :simplex-init-vars 20
+ :simplex-init-rows 10
+ :simplex-init-atoms 0
+ :simplex-vars 20
+ :simplex-rows 10
+ :simplex-atoms 3
+ :simplex-pivots 79
+ :simplex-conflicts 4
+ :simplex-interface-lemmas 0
+ :simplex-integer-vars 20
+ :simplex-branch-and-bound 3
+ :simplex-bound-conflicts 2
+ :simplex-bound-recheck-conflicts 0
+ :simplex-itest-conflicts 0
+ :simplex-itest-bound-conflicts 0
+ :simplex-itest-recheck-conflicts 0
+ :simplex-gcd-conflicts 0
+ :simplex-dioph-checks 3
+ :simplex-dioph-conflicts 0
+ :simplex-dioph-bound-conflicts 0
+ :simplex-dioph-recheck-conflicts 0
+)
+*****************************************************

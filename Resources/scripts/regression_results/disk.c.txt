@@ -1,0 +1,112 @@
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `disk.c' ...
+Parsing disk.c
+Converting
+Type-checking disk
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+file disk.c line 1814 function ExAllocateFromNPagedLookasideList: replacing function pointer by 0 possible targets
+file disk.c line 1827 function ExFreeToNPagedLookasideList: replacing function pointer by 1 possible targets
+Generic Property Instrumentation
+    LOAD Time: 2.275 sec.
+Total number of claims in program...(79)
+Warrning: --claim is set to 1.
+Use QF_UF logic.
+    Checking Claim #1 (1%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+*** INLINING function: _BLAST_init
+*** INLINING function: stub_driver_init
+*** INLINING function: DiskPerfCreate
+*** INLINING function: DiskPerfDeviceControl
+*** INLINING function: DiskPerfDispatchPnp
+*** INLINING function: DiskPerfDispatchPower
+*** INLINING function: DiskPerfShutdownFlush
+*** NONDET abstraction used for function: DiskPerfUnload
+Processing a deferred function: _BLAST_init
+Processing a deferred function: stub_driver_init
+Processing a deferred function: DiskPerfCreate
+*** INLINING function: IofCompleteRequest
+Processing a deferred function: DiskPerfDeviceControl
+*** INLINING function: IofCompleteRequest
+*** INLINING function: memset
+*** INLINING function: KeQueryPerformanceCounter
+*** INLINING function: KeQuerySystemTime
+*** INLINING function: DiskPerfAddCounters
+*** INLINING function: memcpy
+*** INLINING function: IofCompleteRequest
+*** INLINING function: IofCallDriver
+Processing a deferred function: DiskPerfDispatchPnp
+*** INLINING function: DiskPerfStartDevice
+*** INLINING function: DiskPerfRemoveDevice
+*** INLINING function: DiskPerfSendToNextDriver
+Processing a deferred function: DiskPerfDispatchPower
+*** INLINING function: PoStartNextPowerIrp
+*** INLINING function: PoCallDriver
+Processing a deferred function: DiskPerfShutdownFlush
+*** INLINING function: IofCallDriver
+Processing a deferred function: IofCompleteRequest
+Processing a deferred function: IofCompleteRequest
+Processing a deferred function: memset
+Processing a deferred function: KeQueryPerformanceCounter
+Processing a deferred function: KeQuerySystemTime
+Processing a deferred function: DiskPerfAddCounters
+Processing a deferred function: memcpy
+Processing a deferred function: IofCompleteRequest
+Processing a deferred function: IofCallDriver
+*** INLINING function: DiskPerfIrpCompletion
+*** INLINING function: DiskPerfIoCompletion
+*** INLINING function: stubMoreProcessingRequired
+Processing a deferred function: DiskPerfStartDevice
+*** INLINING function: DiskPerfForwardIrpSynchronous
+*** INLINING function: DiskPerfSyncFilterWithTarget
+*** INLINING function: DiskPerfRegisterDevice
+*** INLINING function: IofCompleteRequest
+Processing a deferred function: DiskPerfRemoveDevice
+*** INLINING function: IoWMIRegistrationControl
+*** INLINING function: InterlockedExchange
+*** INLINING function: memset
+*** INLINING function: DiskPerfForwardIrpSynchronous
+*** INLINING function: IoDetachDevice
+*** INLINING function: IoDeleteDevice
+*** INLINING function: IofCompleteRequest
+Processing a deferred function: DiskPerfSendToNextDriver
+*** INLINING function: IofCallDriver
+Processing a deferred function: PoStartNextPowerIrp
+Processing a deferred function: PoCallDriver
+*** INLINING function: DiskPerfIrpCompletion
+*** INLINING function: DiskPerfIoCompletion
+*** INLINING function: stubMoreProcessingRequired
+Processing a deferred function: IofCallDriver
+*** INLINING function: DiskPerfIrpCompletion
+*** INLINING function: DiskPerfIoCompletion
+*** INLINING function: stubMoreProcessingRequired
+Processing a deferred function: DiskPerfIrpCompletion
+*** INLINING function: KeSetEvent
+Processing a deferred function: DiskPerfIoCompletion
+*** INLINING function: KeGetCurrentProcessorNumber
+*** INLINING function: KeQueryPerformanceCounter
+*** INLINING function: InterlockedDecrement
+*** INLINING function: InterlockedIncrement
+Processing a deferred function: stubMoreProcessingRequired
+Processing a deferred function: DiskPerfForwardIrpSynchronous
+*** INLINING function: KeInitializeEvent
+*** INLINING function: memcpy
+*** INLINING function: IofCallDriver
+*** INLINING function: KeWaitForSingleObject
+Processing a deferred function: DiskPerfSyncFilterWithTarget
+Processing a deferred function: DiskPerfRegisterDevice
+*** INLINING function: KeInitializeEvent
+*** INLINING function: IoBuildDeviceIoControlRequest
+*** INLINING function: DiskPerfLogError
+*** INLINING function: IofCallDriver
+*** INLINING function: KeWaitForSingleObject
+*** INLIN

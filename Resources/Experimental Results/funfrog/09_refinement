@@ -1,0 +1,517 @@
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `havoc_all_1.c' ...
+Parsing havoc_all_1.c
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+<built-in>: note: this is the location of the previous definition
+Converting
+Type-checking havoc_all_1
+file havoc_all_1.c line 28 function main: function `assert' is not declared
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.204 sec.
+Total number of claims in program...(1)
+A specific claim is not set, nor any other claim specification is set.
+Warrning: --claim is set to 1.
+; Warning: disabling SATElite preprocessing to track proof
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LIA logic.
+    Checking Claim #1 (100%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+*** INLINING function: dec
+*** INLINING function: stub
+*** INLINING function: stub2
+Processing a deferred function: dec
+Processing a deferred function: stub
+Processing a deferred function: stub2
+SYMEX TIME: 0.014
+All SSA steps: 49
+Ignored SSA steps after slice: 23
+SLICER TIME: 0
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+CONVERSION TIME: 0.002
+; lia checker query time so far: 0.000000
+;         0 |        0        0 |    1.231 s | 147.031 MB
+SOLVER TIME: 0.001
+RESULT: UNSAT - it holds!
+Skip generating interpolants
+ASSERTION(S) HOLD(S) WITH FULL INLINE
+
+VERIFICATION SUCCESSFUL
+Initial unwinding bound: 10
+Total number of steps: 1
+TOTAL TIME FOR CHECKING THIS CLAIM: 0.017
+
+
+Main Checked Assertion:
+  file havoc_all_1.c line 28 function main
+  assertion
+  a > 0
+#X: Done.
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `t_diff_a.c' ...
+Parsing t_diff_a.c
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+<built-in>: note: this is the location of the previous definition
+Converting
+Type-checking t_diff_a
+file t_diff_a.c line 155 function main1: function `assert' is not declared
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.167 sec.
+Total number of claims in program...(2)
+A specific claim is not set, nor any other claim specification is set.
+Warrning: --claim is set to 1.
+; Warning: disabling SATElite preprocessing to track proof
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LIA logic.
+    Checking Claim #1 (50%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+*** INLINING function: main1
+Processing a deferred function: main1
+*** INLINING function: getchar
+*** INLINING function: getchar
+*** INLINING function: getchar
+*** INLINING function: getchar
+*** INLINING function: triple
+*** INLINING function: common1
+*** INLINING function: test
+*** INLINING function: irrelevant0
+Processing a deferred function: getchar
+Processing a deferred function: getchar
+Processing a deferred function: getchar
+Processing a deferred function: getchar
+Processing a deferred function: triple
+Processing a deferred function: common1
+Processing a deferred function: test
+*** INLINING function: test0
+*** INLINING function: crash
+*** INLINING function: irrelevant1
+Processing a deferred function: irrelevant0
+Processing a deferred function: test0
+Processing a deferred function: crash
+Processing a deferred function: irrelevant1
+*** INLINING function: irrelevant0
+*** INLINING function: irrelevant0
+*** INLINING function: irrelevant0
+*** INLINING function: irrelevant0
+*** INLINING function: irrelevant0
+Processing a deferred function: irrelevant0
+Processing a deferred function: irrelevant0
+Processing a deferred function: irrelevant0
+Processing a deferred function: irrelevant0
+Processing a deferred function: irrelevant0
+SYMEX TIME: 0.243
+All SSA steps: 559
+Ignored SSA steps after slice: 284
+SLICER TIME: 0.001
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+CONVERSION TIME: 0.014
+; lia checker query time so far: 0.000000
+SOLVER TIME: 0.008
+RESULT: UNSAT - it holds!
+Skip generating interpolants
+ASSERTION(S) HOLD(S) WITH FULL INLINE
+
+VERIFICATION SUCCESSFUL
+Initial unwinding bound: 10
+Total number of steps: 1
+TOTAL TIME FOR CHECKING THIS CLAIM: 0.267
+
+
+Main Checked Assertion:
+  file t_diff_a.c line 155 function main1
+  assertion
+  a > 4
+#X: Done.
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `t_diff_e.c' ...
+Parsing t_diff_e.c
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+<built-in>: note: this is the location of the previous definition
+Converting
+Type-checking t_diff_e
+file t_diff_e.c line 109 function main: function `assert' is not declared
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.137 sec.
+Total number of claims in program...(2)
+A specific claim is not set, nor any other claim specification is set.
+Warrning: --claim is set to 1.
+; Warning: disabling SATElite preprocessing to track proof
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LIA logic.
+    Checking Claim #1 (50%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+*** INLINING function: getchar
+*** INLINING function: getchar
+*** INLINING function: getchar
+*** INLINING function: do_one
+*** INLINING function: do_two
+*** INLINING function: getchar
+*** INLINING function: do_three
+*** INLINING function: do_foor
+*** INLINING function: getchar
+*** INLINING function: getchar
+*** INLINING function: do_five
+*** INLINING function: do_six
+*** INLINING function: getchar
+*** INLINING function: do_seven
+*** INLINING function: do_eight
+Processing a deferred function: getchar
+Processing a deferred function: getchar
+Processing a deferred function: getchar
+Processing a deferred function: do_one
+*** INLINING function: getchar0
+Processing a deferred function: do_two
+*** INLINING function: getchar1
+Processing a deferred function: getchar
+Processing a deferred function: do_three
+*** INLINING function: getchar2
+Processing a deferred function: do_foor
+*** INLINING function: getchar3
+Processing a deferred function: getchar
+Processing a deferred function: getchar
+Processing a deferred function: do_five
+*** INLINING function: getchar4
+Processing a deferred function: do_six
+*** INLINING function: getchar5
+Processing a deferred function: getchar
+Processing a deferred function: do_seven
+*** INLINING function: getchar6
+Processing a deferred function: do_eight
+*** INLINING function: getchar7
+Processing a deferred function: getchar0
+*** INLINING function: getchar
+Processing a deferred function: getchar1
+*** INLINING function: getchar
+Processing a deferred function: getchar2
+*** INLINING function: getchar
+Processing a deferred function: getchar3
+*** INLINING function: getchar
+Processing a deferred function: getchar4
+*** INLINING function: getchar
+Processing a deferred function: getchar5
+*** INLINING function: getchar
+Processing a deferred function: getchar6
+*** INLINING function: getchar
+Processing a deferred function: getchar7
+*** INLINING function: getchar
+Processing a deferred function: getchar
+Processing a deferred function: getchar
+Processing a deferred function: getchar
+Processing a deferred function: getchar
+Processing a deferred function: getchar
+Processing a deferred function: getchar
+Processing a deferred function: getchar
+Processing a deferred function: getchar
+SYMEX TIME: 0.085
+All SSA steps: 341
+Ignored SSA steps after slice: 57
+SLICER TIME: 0.001
+CONVERSION TIME: 0.022
+; lia checker query time so far: 0.000000
+;         0 |        0        0 |    1.262 s | 147.418 MB
+/home/mabutalibov1271/scripts/regression.sh: line 1:  4800 Segmentation fault      (core dumped) ~/hifrog/trunk/cprover/build/hifrog --logic qflia --unwind 10 $i
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `t_diff_g.c' ...
+Parsing t_diff_g.c
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+<built-in>: note: this is the location of the previous definition
+Converting
+Type-checking t_diff_g
+file t_diff_g.c line 155 function main1: function `assert' is not declared
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.108 sec.
+Total number of claims in program...(2)
+A specific claim is not set, nor any other claim specification is set.
+Warrning: --claim is set to 1.
+; Warning: disabling SATElite preprocessing to track proof
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LIA logic.
+    Checking Claim #1 (50%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+*** INLINING function: main1
+Processing a deferred function: main1
+*** INLINING function: getchar
+*** INLINING function: getchar
+*** INLINING function: getchar
+*** INLINING function: getchar
+*** INLINING function: triple
+*** INLINING function: common1
+*** INLINING function: test
+*** INLINING function: irrelevant0
+Processing a deferred function: getchar
+Processing a deferred function: getchar
+Processing a deferred function: getchar
+Processing a deferred function: getchar
+Processing a deferred function: triple
+Processing a deferred function: common1
+Processing a deferred function: test
+*** INLINING function: test0
+*** INLINING function: crash
+*** INLINING function: irrelevant1
+Processing a deferred function: irrelevant0
+Processing a deferred function: test0
+Processing a deferred function: crash
+Processing a deferred function: irrelevant1
+*** INLINING function: irrelevant0
+*** INLINING function: irrelevant0
+*** INLINING function: irrelevant0
+*** INLINING function: irrelevant0
+*** INLINING function: irrelevant0
+Processing a deferred function: irrelevant0
+Processing a deferred function: irrelevant0
+Processing a deferred function: irrelevant0
+Processing a deferred function: irrelevant0
+Processing a deferred function: irrelevant0
+SYMEX TIME: 0.239
+All SSA steps: 559
+Ignored SSA steps after slice: 284
+SLICER TIME: 0.001
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+CONVERSION TIME: 0.016
+; lia checker query time so far: 0.000000
+SOLVER TIME: 0.007
+RESULT: UNSAT - it holds!
+Skip generating interpolants
+ASSERTION(S) HOLD(S) WITH FULL INLINE
+
+VERIFICATION SUCCESSFUL
+Initial unwinding bound: 10
+Total number of steps: 1
+TOTAL TIME FOR CHECKING THIS CLAIM: 0.265
+
+
+Main Checked Assertion:
+  file t_diff_g.c line 155 function main1
+  assertion
+  a > 4
+#X: Done.
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `t_diff_m.c' ...
+Parsing t_diff_m.c
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+<built-in>: note: this is the location of the previous definition
+Converting
+Type-checking t_diff_m
+file t_diff_m.c line 155 function main1: function `assert' is not declared
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.092 sec.
+Total number of claims in program...(2)
+A specific claim is not set, nor any other claim specification is set.
+Warrning: --claim is set to 1.
+; Warning: disabling SATElite preprocessing to track proof
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LIA logic.
+    Checking Claim #1 (50%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+*** INLINING function: main1
+Processing a deferred function: main1
+*** INLINING function: getchar
+*** INLINING function: getchar
+*** INLINING function: getchar
+*** INLINING function: getchar
+*** INLINING function: triple
+*** INLINING function: common1
+*** INLINING function: test
+*** INLINING function: irrelevant0
+Processing a deferred function: getchar
+Processing a deferred function: getchar
+Processing a deferred function: getchar
+Processing a deferred function: getchar
+Processing a deferred function: triple
+Processing a deferred function: common1
+Processing a deferred function: test
+*** INLINING function: test0
+*** INLINING function: crash
+*** INLINING function: irrelevant1
+Processing a deferred function: irrelevant0
+Processing a deferred function: test0
+Processing a deferred function: crash
+Processing a deferred function: irrelevant1
+*** INLINING function: irrelevant0
+*** INLINING function: irrelevant0
+*** INLINING function: irrelevant0
+*** INLINING function: irrelevant0
+*** INLINING function: irrelevant0
+Processing a deferred function: irrelevant0
+Processing a deferred function: irrelevant0
+Processing a deferred function: irrelevant0
+Processing a deferred function: irrelevant0
+Processing a deferred function: irrelevant0
+SYMEX TIME: 0.225
+All SSA steps: 559
+Ignored SSA steps after slice: 284
+SLICER TIME: 0.001
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+CONVERSION TIME: 0.017
+; lia checker query time so far: 0.000000
+SOLVER TIME: 0.009
+RESULT: UNSAT - it holds!
+Skip generating interpolants
+ASSERTION(S) HOLD(S) WITH FULL INLINE
+
+VERIFICATION SUCCESSFUL
+Initial unwinding bound: 10
+Total number of steps: 1
+TOTAL TIME FOR CHECKING THIS CLAIM: 0.252
+
+
+Main Checked Assertion:
+  file t_diff_m.c line 155 function main1
+  assertion
+  a > 4
+#X: Done.
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `t_diff_z.c' ...
+Parsing t_diff_z.c
+file <command-line> line 0: <command-line>:0:0: warning: "__STDC_VERSION__" redefined
+<built-in>: note: this is the location of the previous definition
+Converting
+Type-checking t_diff_z
+file t_diff_z.c line 155 function main1: function `assert' is not declared
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.187 sec.
+Total number of claims in program...(2)
+A specific claim is not set, nor any other claim specification is set.
+Warrning: --claim is set to 1.
+; Warning: disabling SATElite preprocessing to track proof
+Adding Type Constraints (1) for type constraints on non-deterministic input
+Use QF_LIA logic.
+    Checking Claim #1 (50%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+*** INLINING function: main1
+Processing a deferred function: main1
+*** INLINING function: getchar
+*** INLINING function: getchar
+*** INLINING function: getchar
+*** INLINING function: getchar
+*** INLINING function: triple
+*** INLINING function: common1
+*** INLINING function: test
+*** INLINING function: irrelevant0
+Processing a deferred function: getchar
+Processing a deferred function: getchar
+Processing a deferred function: getchar
+Processing a deferred function: getchar
+Processing a deferred function: triple
+Processing a deferred function: common1
+Processing a deferred function: test
+*** INLINING function: test0
+*** INLINING function: crash
+*** INLINING function: irrelevant1
+Processing a deferred function: irrelevant0
+Processing a deferred function: test0
+Processing a deferred function: crash
+Processing a deferred function: irrelevant1
+*** INLINING function: irrelevant0
+*** INLINING function: irrelevant0
+*** INLINING function: irrelevant0
+*** INLINING function: irrelevant0
+*** INLINING function: irrelevant0
+Processing a deferred function: irrelevant0
+Processing a deferred function: irrelevant0
+Processing a deferred function: irrelevant0
+Processing a deferred function: irrelevant0
+Processing a deferred function: irrelevant0
+SYMEX TIME: 0.237
+All SSA steps: 559
+Ignored SSA steps after slice: 284
+SLICER TIME: 0.002
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+*** BENCHMARK USES Type-CAST in LIA, test carefully! ***
+CONVERSION TIME: 0.017
+; lia checker query time so far: 0.000000
+SOLVER TIME: 0.011
+RESULT: UNSAT - it holds!
+Skip generating interpolants
+ASSERTION(S) HOLD(S) WITH FULL INLINE
+
+VERIFICATION SUCCESSFUL
+Initial unwinding bound: 10
+Total number of steps: 1
+TOTAL TIME FOR CHECKING THIS CLAIM: 0.267
+
+
+Main Checked Assertion:
+  file t_diff_z.c line 155 function main1
+  assertion
+  a > 4
+#X: Done.

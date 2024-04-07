@@ -1,0 +1,1806 @@
+*****************************************************
+Toolname: OpenSMT Filename: pigeon-hole-10.smt2
+*****************************************************
+; this binary is compiled in debug mode (slow)
+; git hash: 6c7cdb4a5347cca012ba39dc381264c308d39f7d
+; symbol enode size: 4
+; list enode size: 13
+; term enode size: 18
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 1
+; Unsatisfiable calls......: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 1
+; Bland operations.........: 0
+; LA time.............: 0 s
+;         0 |        0        0 |    0.043 s | 78.348 MB
+unsat
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 241
+; Unsatisfiable calls......: 1
+; Conflicts sent...........: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 39
+; Bland operations.........: 0
+; LA time.............: 0 s
+; -------------------------
+; STATISTICS FOR LOGICS
+; -------------------------
+; Substitutions............: 0
+; -------------------------
+; STATISTICS FOR SAT SOLVER
+; -------------------------
+; Restarts.................: 1
+; Conflicts................: 0
+; Decisions................: 0
+; Propagations.............: 243
+; Conflict literals........: 0
+; T-Lemmata learnt.........: 0
+; T-Lemmata perm learnt....: 0
+; Conflicts learnt.........: 0
+; T-conflicts learnt.......: 0
+; Average learnts size.....: -nan
+; Top level literals.......: 243
+; Search time..............: 0 s
+; Preprocessing time.......: 0.041579 s
+; TSolvers time............: 0 s
+; Init clauses.............: 0
+; Variables................: 243
+
+real	0m0.083s
+user	0m0.084s
+sys	0m0.005s
+*****************************************************
+*****************************************************
+Toolname: OpenSMT Filename: pigeon-hole-11.smt2
+*****************************************************
+; this binary is compiled in debug mode (slow)
+; git hash: 6c7cdb4a5347cca012ba39dc381264c308d39f7d
+; symbol enode size: 4
+; list enode size: 13
+; term enode size: 18
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 1
+; Unsatisfiable calls......: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 1
+; Bland operations.........: 0
+; LA time.............: 0 s
+;         0 |        0        0 |    0.046 s | 78.434 MB
+unsat
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 287
+; Unsatisfiable calls......: 1
+; Conflicts sent...........: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 39
+; Bland operations.........: 0
+; LA time.............: 0 s
+; -------------------------
+; STATISTICS FOR LOGICS
+; -------------------------
+; Substitutions............: 0
+; -------------------------
+; STATISTICS FOR SAT SOLVER
+; -------------------------
+; Restarts.................: 1
+; Conflicts................: 0
+; Decisions................: 0
+; Propagations.............: 289
+; Conflict literals........: 0
+; T-Lemmata learnt.........: 0
+; T-Lemmata perm learnt....: 0
+; Conflicts learnt.........: 0
+; T-conflicts learnt.......: 0
+; Average learnts size.....: -nan
+; Top level literals.......: 289
+; Search time..............: 0 s
+; Preprocessing time.......: 0.04401 s
+; TSolvers time............: 0 s
+; Init clauses.............: 0
+; Variables................: 289
+
+real	0m0.081s
+user	0m0.088s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: OpenSMT Filename: pigeon-hole-12.smt2
+*****************************************************
+; this binary is compiled in debug mode (slow)
+; git hash: 6c7cdb4a5347cca012ba39dc381264c308d39f7d
+; symbol enode size: 4
+; list enode size: 13
+; term enode size: 18
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 1
+; Unsatisfiable calls......: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 1
+; Bland operations.........: 0
+; LA time.............: 0 s
+;         0 |        0        0 |    0.056 s | 78.633 MB
+unsat
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 337
+; Unsatisfiable calls......: 1
+; Conflicts sent...........: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 42
+; Bland operations.........: 0
+; LA time.............: 0 s
+; -------------------------
+; STATISTICS FOR LOGICS
+; -------------------------
+; Substitutions............: 0
+; -------------------------
+; STATISTICS FOR SAT SOLVER
+; -------------------------
+; Restarts.................: 1
+; Conflicts................: 0
+; Decisions................: 0
+; Propagations.............: 339
+; Conflict literals........: 0
+; T-Lemmata learnt.........: 0
+; T-Lemmata perm learnt....: 0
+; Conflicts learnt.........: 0
+; T-conflicts learnt.......: 0
+; Average learnts size.....: -nan
+; Top level literals.......: 339
+; Search time..............: 0 s
+; Preprocessing time.......: 0.054334 s
+; TSolvers time............: 0 s
+; Init clauses.............: 0
+; Variables................: 339
+
+real	0m0.099s
+user	0m0.105s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: OpenSMT Filename: pigeon-hole-13.smt2
+*****************************************************
+; this binary is compiled in debug mode (slow)
+; git hash: 6c7cdb4a5347cca012ba39dc381264c308d39f7d
+; symbol enode size: 4
+; list enode size: 13
+; term enode size: 18
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 1
+; Unsatisfiable calls......: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 1
+; Bland operations.........: 0
+; LA time.............: 0 s
+;         0 |        0        0 |    0.068 s | 78.723 MB
+unsat
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 391
+; Unsatisfiable calls......: 1
+; Conflicts sent...........: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 60
+; Bland operations.........: 0
+; LA time.............: 0 s
+; -------------------------
+; STATISTICS FOR LOGICS
+; -------------------------
+; Substitutions............: 0
+; -------------------------
+; STATISTICS FOR SAT SOLVER
+; -------------------------
+; Restarts.................: 1
+; Conflicts................: 0
+; Decisions................: 0
+; Propagations.............: 393
+; Conflict literals........: 0
+; T-Lemmata learnt.........: 0
+; T-Lemmata perm learnt....: 0
+; Conflicts learnt.........: 0
+; T-conflicts learnt.......: 0
+; Average learnts size.....: -nan
+; Top level literals.......: 393
+; Search time..............: 0 s
+; Preprocessing time.......: 0.066141 s
+; TSolvers time............: 0 s
+; Init clauses.............: 0
+; Variables................: 393
+
+real	0m0.146s
+user	0m0.153s
+sys	0m0.005s
+*****************************************************
+*****************************************************
+Toolname: OpenSMT Filename: pigeon-hole-14.smt2
+*****************************************************
+; this binary is compiled in debug mode (slow)
+; git hash: 6c7cdb4a5347cca012ba39dc381264c308d39f7d
+; symbol enode size: 4
+; list enode size: 13
+; term enode size: 18
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 1
+; Unsatisfiable calls......: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 1
+; Bland operations.........: 0
+; LA time.............: 0 s
+;         0 |        0        0 |    0.072 s | 78.742 MB
+unsat
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 449
+; Unsatisfiable calls......: 1
+; Conflicts sent...........: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 65
+; Bland operations.........: 0
+; LA time.............: 0 s
+; -------------------------
+; STATISTICS FOR LOGICS
+; -------------------------
+; Substitutions............: 0
+; -------------------------
+; STATISTICS FOR SAT SOLVER
+; -------------------------
+; Restarts.................: 1
+; Conflicts................: 0
+; Decisions................: 0
+; Propagations.............: 451
+; Conflict literals........: 0
+; T-Lemmata learnt.........: 0
+; T-Lemmata perm learnt....: 0
+; Conflicts learnt.........: 0
+; T-conflicts learnt.......: 0
+; Average learnts size.....: -nan
+; Top level literals.......: 451
+; Search time..............: 0 s
+; Preprocessing time.......: 0.069662 s
+; TSolvers time............: 0 s
+; Init clauses.............: 0
+; Variables................: 451
+
+real	0m0.161s
+user	0m0.174s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: OpenSMT Filename: pigeon-hole-15.smt2
+*****************************************************
+; this binary is compiled in debug mode (slow)
+; git hash: 6c7cdb4a5347cca012ba39dc381264c308d39f7d
+; symbol enode size: 4
+; list enode size: 13
+; term enode size: 18
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 1
+; Unsatisfiable calls......: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 1
+; Bland operations.........: 0
+; LA time.............: 0 s
+;         0 |        0        0 |    0.082 s | 78.871 MB
+unsat
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 511
+; Unsatisfiable calls......: 1
+; Conflicts sent...........: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 69
+; Bland operations.........: 0
+; LA time.............: 0 s
+; -------------------------
+; STATISTICS FOR LOGICS
+; -------------------------
+; Substitutions............: 0
+; -------------------------
+; STATISTICS FOR SAT SOLVER
+; -------------------------
+; Restarts.................: 1
+; Conflicts................: 0
+; Decisions................: 0
+; Propagations.............: 513
+; Conflict literals........: 0
+; T-Lemmata learnt.........: 0
+; T-Lemmata perm learnt....: 0
+; Conflicts learnt.........: 0
+; T-conflicts learnt.......: 0
+; Average learnts size.....: -nan
+; Top level literals.......: 513
+; Search time..............: 0 s
+; Preprocessing time.......: 0.079251 s
+; TSolvers time............: 0 s
+; Init clauses.............: 0
+; Variables................: 513
+
+real	0m0.188s
+user	0m0.197s
+sys	0m0.005s
+*****************************************************
+*****************************************************
+Toolname: OpenSMT Filename: pigeon-hole-16.smt2
+*****************************************************
+; this binary is compiled in debug mode (slow)
+; git hash: 6c7cdb4a5347cca012ba39dc381264c308d39f7d
+; symbol enode size: 4
+; list enode size: 13
+; term enode size: 18
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 1
+; Unsatisfiable calls......: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 1
+; Bland operations.........: 0
+; LA time.............: 0 s
+;         0 |        0        0 |    0.093 s | 79.035 MB
+unsat
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 577
+; Unsatisfiable calls......: 1
+; Conflicts sent...........: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 63
+; Bland operations.........: 0
+; LA time.............: 0 s
+; -------------------------
+; STATISTICS FOR LOGICS
+; -------------------------
+; Substitutions............: 0
+; -------------------------
+; STATISTICS FOR SAT SOLVER
+; -------------------------
+; Restarts.................: 1
+; Conflicts................: 0
+; Decisions................: 0
+; Propagations.............: 579
+; Conflict literals........: 0
+; T-Lemmata learnt.........: 0
+; T-Lemmata perm learnt....: 0
+; Conflicts learnt.........: 0
+; T-conflicts learnt.......: 0
+; Average learnts size.....: -nan
+; Top level literals.......: 579
+; Search time..............: 0 s
+; Preprocessing time.......: 0.090066 s
+; TSolvers time............: 0 s
+; Init clauses.............: 0
+; Variables................: 579
+
+real	0m0.198s
+user	0m0.213s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: OpenSMT Filename: pigeon-hole-17.smt2
+*****************************************************
+; this binary is compiled in debug mode (slow)
+; git hash: 6c7cdb4a5347cca012ba39dc381264c308d39f7d
+; symbol enode size: 4
+; list enode size: 13
+; term enode size: 18
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 1
+; Unsatisfiable calls......: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 1
+; Bland operations.........: 0
+; LA time.............: 0 s
+;         0 |        0        0 |    0.102 s | 79.277 MB
+unsat
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 647
+; Unsatisfiable calls......: 1
+; Conflicts sent...........: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 90
+; Bland operations.........: 0
+; LA time.............: 0 s
+; -------------------------
+; STATISTICS FOR LOGICS
+; -------------------------
+; Substitutions............: 0
+; -------------------------
+; STATISTICS FOR SAT SOLVER
+; -------------------------
+; Restarts.................: 1
+; Conflicts................: 0
+; Decisions................: 0
+; Propagations.............: 649
+; Conflict literals........: 0
+; T-Lemmata learnt.........: 0
+; T-Lemmata perm learnt....: 0
+; Conflicts learnt.........: 0
+; T-conflicts learnt.......: 0
+; Average learnts size.....: -nan
+; Top level literals.......: 649
+; Search time..............: 0 s
+; Preprocessing time.......: 0.098719 s
+; TSolvers time............: 0 s
+; Init clauses.............: 0
+; Variables................: 649
+
+real	0m0.292s
+user	0m0.311s
+sys	0m0.005s
+*****************************************************
+*****************************************************
+Toolname: OpenSMT Filename: pigeon-hole-18.smt2
+*****************************************************
+; this binary is compiled in debug mode (slow)
+; git hash: 6c7cdb4a5347cca012ba39dc381264c308d39f7d
+; symbol enode size: 4
+; list enode size: 13
+; term enode size: 18
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 1
+; Unsatisfiable calls......: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 1
+; Bland operations.........: 0
+; LA time.............: 0 s
+;         0 |        0        0 |    0.108 s | 79.523 MB
+unsat
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 721
+; Unsatisfiable calls......: 1
+; Conflicts sent...........: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 73
+; Bland operations.........: 0
+; LA time.............: 0 s
+; -------------------------
+; STATISTICS FOR LOGICS
+; -------------------------
+; Substitutions............: 0
+; -------------------------
+; STATISTICS FOR SAT SOLVER
+; -------------------------
+; Restarts.................: 1
+; Conflicts................: 0
+; Decisions................: 0
+; Propagations.............: 723
+; Conflict literals........: 0
+; T-Lemmata learnt.........: 0
+; T-Lemmata perm learnt....: 0
+; Conflicts learnt.........: 0
+; T-conflicts learnt.......: 0
+; Average learnts size.....: -nan
+; Top level literals.......: 723
+; Search time..............: 0 s
+; Preprocessing time.......: 0.104463 s
+; TSolvers time............: 0 s
+; Init clauses.............: 0
+; Variables................: 723
+
+real	0m0.271s
+user	0m0.287s
+sys	0m0.005s
+*****************************************************
+*****************************************************
+Toolname: OpenSMT Filename: pigeon-hole-19.smt2
+*****************************************************
+; this binary is compiled in debug mode (slow)
+; git hash: 6c7cdb4a5347cca012ba39dc381264c308d39f7d
+; symbol enode size: 4
+; list enode size: 13
+; term enode size: 18
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 1
+; Unsatisfiable calls......: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 1
+; Bland operations.........: 0
+; LA time.............: 0 s
+;         0 |        0        0 |    0.126 s | 79.621 MB
+unsat
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 799
+; Unsatisfiable calls......: 1
+; Conflicts sent...........: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 75
+; Bland operations.........: 0
+; LA time.............: 0 s
+; -------------------------
+; STATISTICS FOR LOGICS
+; -------------------------
+; Substitutions............: 0
+; -------------------------
+; STATISTICS FOR SAT SOLVER
+; -------------------------
+; Restarts.................: 1
+; Conflicts................: 0
+; Decisions................: 0
+; Propagations.............: 801
+; Conflict literals........: 0
+; T-Lemmata learnt.........: 0
+; T-Lemmata perm learnt....: 0
+; Conflicts learnt.........: 0
+; T-conflicts learnt.......: 0
+; Average learnts size.....: -nan
+; Top level literals.......: 801
+; Search time..............: 0 s
+; Preprocessing time.......: 0.12188 s
+; TSolvers time............: 0 s
+; Init clauses.............: 0
+; Variables................: 801
+
+real	0m0.311s
+user	0m0.336s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: OpenSMT Filename: pigeon-hole-20.smt2
+*****************************************************
+; this binary is compiled in debug mode (slow)
+; git hash: 6c7cdb4a5347cca012ba39dc381264c308d39f7d
+; symbol enode size: 4
+; list enode size: 13
+; term enode size: 18
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 1
+; Unsatisfiable calls......: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 1
+; Bland operations.........: 0
+; LA time.............: 0 s
+;         0 |        0        0 |    0.145 s | 79.828 MB
+unsat
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 881
+; Unsatisfiable calls......: 1
+; Conflicts sent...........: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 47
+; Bland operations.........: 0
+; LA time.............: 0 s
+; -------------------------
+; STATISTICS FOR LOGICS
+; -------------------------
+; Substitutions............: 0
+; -------------------------
+; STATISTICS FOR SAT SOLVER
+; -------------------------
+; Restarts.................: 1
+; Conflicts................: 0
+; Decisions................: 0
+; Propagations.............: 883
+; Conflict literals........: 0
+; T-Lemmata learnt.........: 0
+; T-Lemmata perm learnt....: 0
+; Conflicts learnt.........: 0
+; T-conflicts learnt.......: 0
+; Average learnts size.....: -nan
+; Top level literals.......: 883
+; Search time..............: 0 s
+; Preprocessing time.......: 0.140325 s
+; TSolvers time............: 0 s
+; Init clauses.............: 0
+; Variables................: 883
+
+real	0m0.251s
+user	0m0.270s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: OpenSMT Filename: pigeon-hole-2.smt2
+*****************************************************
+; this binary is compiled in debug mode (slow)
+; git hash: 6c7cdb4a5347cca012ba39dc381264c308d39f7d
+; symbol enode size: 4
+; list enode size: 13
+; term enode size: 18
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 1
+; Unsatisfiable calls......: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 1
+; Bland operations.........: 0
+; LA time.............: 0 s
+;         0 |        0        0 |    0.004 s | 77.836 MB
+unsat
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 17
+; Unsatisfiable calls......: 1
+; Conflicts sent...........: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 5
+; Bland operations.........: 0
+; LA time.............: 0 s
+; -------------------------
+; STATISTICS FOR LOGICS
+; -------------------------
+; Substitutions............: 0
+; -------------------------
+; STATISTICS FOR SAT SOLVER
+; -------------------------
+; Restarts.................: 1
+; Conflicts................: 0
+; Decisions................: 0
+; Propagations.............: 19
+; Conflict literals........: 0
+; T-Lemmata learnt.........: 0
+; T-Lemmata perm learnt....: 0
+; Conflicts learnt.........: 0
+; T-conflicts learnt.......: 0
+; Average learnts size.....: -nan
+; Top level literals.......: 19
+; Search time..............: 0 s
+; Preprocessing time.......: 0.004086 s
+; TSolvers time............: 0 s
+; Init clauses.............: 0
+; Variables................: 19
+
+real	0m0.005s
+user	0m0.005s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: OpenSMT Filename: pigeon-hole-3.smt2
+*****************************************************
+; this binary is compiled in debug mode (slow)
+; git hash: 6c7cdb4a5347cca012ba39dc381264c308d39f7d
+; symbol enode size: 4
+; list enode size: 13
+; term enode size: 18
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 1
+; Unsatisfiable calls......: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 1
+; Bland operations.........: 0
+; LA time.............: 0 s
+;         0 |        0        0 |    0.007 s | 77.836 MB
+unsat
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 31
+; Unsatisfiable calls......: 1
+; Conflicts sent...........: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 7
+; Bland operations.........: 0
+; LA time.............: 0 s
+; -------------------------
+; STATISTICS FOR LOGICS
+; -------------------------
+; Substitutions............: 0
+; -------------------------
+; STATISTICS FOR SAT SOLVER
+; -------------------------
+; Restarts.................: 1
+; Conflicts................: 0
+; Decisions................: 0
+; Propagations.............: 33
+; Conflict literals........: 0
+; T-Lemmata learnt.........: 0
+; T-Lemmata perm learnt....: 0
+; Conflicts learnt.........: 0
+; T-conflicts learnt.......: 0
+; Average learnts size.....: -nan
+; Top level literals.......: 33
+; Search time..............: 0 s
+; Preprocessing time.......: 0.006198 s
+; TSolvers time............: 0 s
+; Init clauses.............: 0
+; Variables................: 33
+
+real	0m0.008s
+user	0m0.008s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: OpenSMT Filename: pigeon-hole-4.smt2
+*****************************************************
+; this binary is compiled in debug mode (slow)
+; git hash: 6c7cdb4a5347cca012ba39dc381264c308d39f7d
+; symbol enode size: 4
+; list enode size: 13
+; term enode size: 18
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 1
+; Unsatisfiable calls......: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 1
+; Bland operations.........: 0
+; LA time.............: 0 s
+;         0 |        0        0 |    0.009 s | 77.836 MB
+unsat
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 49
+; Unsatisfiable calls......: 1
+; Conflicts sent...........: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 10
+; Bland operations.........: 0
+; LA time.............: 0 s
+; -------------------------
+; STATISTICS FOR LOGICS
+; -------------------------
+; Substitutions............: 0
+; -------------------------
+; STATISTICS FOR SAT SOLVER
+; -------------------------
+; Restarts.................: 1
+; Conflicts................: 0
+; Decisions................: 0
+; Propagations.............: 51
+; Conflict literals........: 0
+; T-Lemmata learnt.........: 0
+; T-Lemmata perm learnt....: 0
+; Conflicts learnt.........: 0
+; T-conflicts learnt.......: 0
+; Average learnts size.....: -nan
+; Top level literals.......: 51
+; Search time..............: 0 s
+; Preprocessing time.......: 0.009012 s
+; TSolvers time............: 0 s
+; Init clauses.............: 0
+; Variables................: 51
+
+real	0m0.012s
+user	0m0.012s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: OpenSMT Filename: pigeon-hole-5.smt2
+*****************************************************
+; this binary is compiled in debug mode (slow)
+; git hash: 6c7cdb4a5347cca012ba39dc381264c308d39f7d
+; symbol enode size: 4
+; list enode size: 13
+; term enode size: 18
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 1
+; Unsatisfiable calls......: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 1
+; Bland operations.........: 0
+; LA time.............: 0 s
+;         0 |        0        0 |    0.013 s | 77.961 MB
+unsat
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 71
+; Unsatisfiable calls......: 1
+; Conflicts sent...........: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 13
+; Bland operations.........: 0
+; LA time.............: 0 s
+; -------------------------
+; STATISTICS FOR LOGICS
+; -------------------------
+; Substitutions............: 0
+; -------------------------
+; STATISTICS FOR SAT SOLVER
+; -------------------------
+; Restarts.................: 1
+; Conflicts................: 0
+; Decisions................: 0
+; Propagations.............: 73
+; Conflict literals........: 0
+; T-Lemmata learnt.........: 0
+; T-Lemmata perm learnt....: 0
+; Conflicts learnt.........: 0
+; T-conflicts learnt.......: 0
+; Average learnts size.....: -nan
+; Top level literals.......: 73
+; Search time..............: 0 s
+; Preprocessing time.......: 0.012929 s
+; TSolvers time............: 0 s
+; Init clauses.............: 0
+; Variables................: 73
+
+real	0m0.017s
+user	0m0.018s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: OpenSMT Filename: pigeon-hole-6.smt2
+*****************************************************
+; this binary is compiled in debug mode (slow)
+; git hash: 6c7cdb4a5347cca012ba39dc381264c308d39f7d
+; symbol enode size: 4
+; list enode size: 13
+; term enode size: 18
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 1
+; Unsatisfiable calls......: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 1
+; Bland operations.........: 0
+; LA time.............: 0 s
+;         0 |        0        0 |    0.012 s | 77.965 MB
+unsat
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 97
+; Unsatisfiable calls......: 1
+; Conflicts sent...........: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 13
+; Bland operations.........: 0
+; LA time.............: 0 s
+; -------------------------
+; STATISTICS FOR LOGICS
+; -------------------------
+; Substitutions............: 0
+; -------------------------
+; STATISTICS FOR SAT SOLVER
+; -------------------------
+; Restarts.................: 1
+; Conflicts................: 0
+; Decisions................: 0
+; Propagations.............: 99
+; Conflict literals........: 0
+; T-Lemmata learnt.........: 0
+; T-Lemmata perm learnt....: 0
+; Conflicts learnt.........: 0
+; T-conflicts learnt.......: 0
+; Average learnts size.....: -nan
+; Top level literals.......: 99
+; Search time..............: 0 s
+; Preprocessing time.......: 0.011552 s
+; TSolvers time............: 0 s
+; Init clauses.............: 0
+; Variables................: 99
+
+real	0m0.021s
+user	0m0.015s
+sys	0m0.008s
+*****************************************************
+*****************************************************
+Toolname: OpenSMT Filename: pigeon-hole-7.smt2
+*****************************************************
+; this binary is compiled in debug mode (slow)
+; git hash: 6c7cdb4a5347cca012ba39dc381264c308d39f7d
+; symbol enode size: 4
+; list enode size: 13
+; term enode size: 18
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 1
+; Unsatisfiable calls......: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 1
+; Bland operations.........: 0
+; LA time.............: 0 s
+;         0 |        0        0 |    0.020 s | 78.094 MB
+unsat
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 127
+; Unsatisfiable calls......: 1
+; Conflicts sent...........: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 20
+; Bland operations.........: 0
+; LA time.............: 0 s
+; -------------------------
+; STATISTICS FOR LOGICS
+; -------------------------
+; Substitutions............: 0
+; -------------------------
+; STATISTICS FOR SAT SOLVER
+; -------------------------
+; Restarts.................: 1
+; Conflicts................: 0
+; Decisions................: 0
+; Propagations.............: 129
+; Conflict literals........: 0
+; T-Lemmata learnt.........: 0
+; T-Lemmata perm learnt....: 0
+; Conflicts learnt.........: 0
+; T-conflicts learnt.......: 0
+; Average learnts size.....: -nan
+; Top level literals.......: 129
+; Search time..............: 0 s
+; Preprocessing time.......: 0.019295 s
+; TSolvers time............: 0 s
+; Init clauses.............: 0
+; Variables................: 129
+
+real	0m0.029s
+user	0m0.031s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: OpenSMT Filename: pigeon-hole-8.smt2
+*****************************************************
+; this binary is compiled in debug mode (slow)
+; git hash: 6c7cdb4a5347cca012ba39dc381264c308d39f7d
+; symbol enode size: 4
+; list enode size: 13
+; term enode size: 18
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 1
+; Unsatisfiable calls......: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 1
+; Bland operations.........: 0
+; LA time.............: 0 s
+;         0 |        0        0 |    0.030 s | 78.223 MB
+unsat
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 161
+; Unsatisfiable calls......: 1
+; Conflicts sent...........: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 26
+; Bland operations.........: 0
+; LA time.............: 0 s
+; -------------------------
+; STATISTICS FOR LOGICS
+; -------------------------
+; Substitutions............: 0
+; -------------------------
+; STATISTICS FOR SAT SOLVER
+; -------------------------
+; Restarts.................: 1
+; Conflicts................: 0
+; Decisions................: 0
+; Propagations.............: 163
+; Conflict literals........: 0
+; T-Lemmata learnt.........: 0
+; T-Lemmata perm learnt....: 0
+; Conflicts learnt.........: 0
+; T-conflicts learnt.......: 0
+; Average learnts size.....: -nan
+; Top level literals.......: 163
+; Search time..............: 0 s
+; Preprocessing time.......: 0.029287 s
+; TSolvers time............: 0 s
+; Init clauses.............: 0
+; Variables................: 163
+
+real	0m0.043s
+user	0m0.042s
+sys	0m0.005s
+*****************************************************
+*****************************************************
+Toolname: OpenSMT Filename: pigeon-hole-9.smt2
+*****************************************************
+; this binary is compiled in debug mode (slow)
+; git hash: 6c7cdb4a5347cca012ba39dc381264c308d39f7d
+; symbol enode size: 4
+; list enode size: 13
+; term enode size: 18
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 1
+; Unsatisfiable calls......: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 1
+; Bland operations.........: 0
+; LA time.............: 0 s
+;         0 |        0        0 |    0.032 s | 78.297 MB
+unsat
+; -------------------------
+; STATISTICS FOR LIA SOLVER
+; -------------------------
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 0
+; Unsatisfiable calls......: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 0
+; Bland operations.........: 0
+; LA time.............: 0 s
+; Number of LIA vars.......: 0
+; BB time.............: 0 s
+; -------------------------
+; STATISTICS FOR LA SOLVER
+; -------------------------
+; Satisfiable calls........: 199
+; Unsatisfiable calls......: 1
+; Conflicts sent...........: 0
+; Deductions done..........: 0
+; Deductions sent..........: 0
+; Reasons sent.............: 0
+; SOD done.................: 0
+; SOD sent.................: 0
+; Number of LA vars.......: 0
+; Pivot operations.........: 28
+; Bland operations.........: 0
+; LA time.............: 0 s
+; -------------------------
+; STATISTICS FOR LOGICS
+; -------------------------
+; Substitutions............: 0
+; -------------------------
+; STATISTICS FOR SAT SOLVER
+; -------------------------
+; Restarts.................: 1
+; Conflicts................: 0
+; Decisions................: 0
+; Propagations.............: 201
+; Conflict literals........: 0
+; T-Lemmata learnt.........: 0
+; T-Lemmata perm learnt....: 0
+; Conflicts learnt.........: 0
+; T-conflicts learnt.......: 0
+; Average learnts size.....: -nan
+; Top level literals.......: 201
+; Search time..............: 0 s
+; Preprocessing time.......: 0.030614 s
+; TSolvers time............: 0 s
+; Init clauses.............: 0
+; Variables................: 201
+
+real	0m0.049s
+user	0m0.052s
+sys	0m0.000s
+*****************************************************
+/home/mabutalibov1271/opensmt.sh: line 8: /home/mabutalibov1271: Is a directory

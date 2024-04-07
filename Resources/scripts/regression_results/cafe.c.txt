@@ -1,0 +1,10 @@
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `cafe.c' ...
+Parsing cafe.c
+Converting
+Type-checking cafe

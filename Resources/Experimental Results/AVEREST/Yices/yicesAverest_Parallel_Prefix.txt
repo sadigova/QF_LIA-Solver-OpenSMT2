@@ -1,0 +1,570 @@
+*****************************************************
+Toolname: Yices SMT2 Filename: ParallelPrefixSum_live_bgmc000.smt2
+*****************************************************
+sat
+(:num-terms 2425
+ :num-types 3
+ :total-run-time 0.003
+ :mem-usage 4.184
+ :boolean-variables 431
+ :atoms 422
+ :clauses 255
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 1
+ :decisions 181
+ :conflicts 0
+ :theory-conflicts 0
+ :boolean-propagations 185
+ :theory-propagations 169
+ :simplex-init-vars 232
+ :simplex-init-rows 211
+ :simplex-init-atoms 422
+ :simplex-vars 232
+ :simplex-rows 171
+ :simplex-atoms 422
+ :simplex-pivots 0
+ :simplex-conflicts 0
+ :simplex-interface-lemmas 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: ParallelPrefixSum_live_bgmc002.smt2
+*****************************************************
+sat
+(:num-terms 4812
+ :num-types 3
+ :total-run-time 0.005
+ :mem-usage 4.477
+ :boolean-variables 613
+ :atoms 596
+ :clauses 358
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 1
+ :decisions 261
+ :conflicts 0
+ :theory-conflicts 0
+ :boolean-propagations 279
+ :theory-propagations 247
+ :simplex-init-vars 331
+ :simplex-init-rows 298
+ :simplex-init-atoms 596
+ :simplex-vars 331
+ :simplex-rows 246
+ :simplex-atoms 596
+ :simplex-pivots 0
+ :simplex-conflicts 0
+ :simplex-interface-lemmas 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: ParallelPrefixSum_live_bgmc003.smt2
+*****************************************************
+unsat
+(:num-terms 7195
+ :num-types 3
+ :total-run-time 0.007
+ :mem-usage 4.844
+ :boolean-variables 811
+ :atoms 786
+ :clauses 490
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 0
+ :conflicts 0
+ :theory-conflicts 0
+ :boolean-propagations 0
+ :theory-propagations 0
+ :simplex-init-vars 0
+ :simplex-init-rows 0
+ :simplex-init-atoms 0
+ :simplex-vars 438
+ :simplex-rows 393
+ :simplex-atoms 786
+ :simplex-pivots 0
+ :simplex-conflicts 0
+ :simplex-interface-lemmas 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: ParallelPrefixSum_live_blmc000.smt2
+*****************************************************
+sat
+(:num-terms 7233
+ :num-types 3
+ :total-run-time 0.007
+ :mem-usage 4.914
+ :boolean-variables 665
+ :atoms 640
+ :clauses 388
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 1
+ :decisions 281
+ :conflicts 0
+ :theory-conflicts 0
+ :boolean-propagations 319
+ :theory-propagations 271
+ :simplex-init-vars 373
+ :simplex-init-rows 320
+ :simplex-init-atoms 640
+ :simplex-vars 373
+ :simplex-rows 264
+ :simplex-atoms 640
+ :simplex-pivots 0
+ :simplex-conflicts 0
+ :simplex-interface-lemmas 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: ParallelPrefixSum_live_blmc002.smt2
+*****************************************************
+unsat
+(:num-terms 14412
+ :num-types 3
+ :total-run-time 0.014
+ :mem-usage 6.168
+ :boolean-variables 1691
+ :atoms 1642
+ :clauses 1014
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 0
+ :conflicts 0
+ :theory-conflicts 0
+ :boolean-propagations 0
+ :theory-propagations 0
+ :simplex-init-vars 0
+ :simplex-init-rows 0
+ :simplex-init-atoms 0
+ :simplex-vars 918
+ :simplex-rows 821
+ :simplex-atoms 1642
+ :simplex-pivots 0
+ :simplex-conflicts 0
+ :simplex-interface-lemmas 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: ParallelPrefixSum_safe_bgmc002.smt2
+*****************************************************
+unsat
+(:num-terms 3018
+ :num-types 3
+ :total-run-time 0.003
+ :mem-usage 4.324
+ :boolean-variables 608
+ :atoms 530
+ :clauses 816
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 0
+ :conflicts 0
+ :theory-conflicts 0
+ :boolean-propagations 87
+ :theory-propagations 0
+ :simplex-init-vars 0
+ :simplex-init-rows 0
+ :simplex-init-atoms 0
+ :simplex-vars 290
+ :simplex-rows 265
+ :simplex-atoms 530
+ :simplex-pivots 0
+ :simplex-conflicts 0
+ :simplex-interface-lemmas 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: ParallelPrefixSum_safe_bgmc003.smt2
+*****************************************************
+unsat
+(:num-terms 5771
+ :num-types 3
+ :total-run-time 0.007
+ :mem-usage 5.047
+ :boolean-variables 1525
+ :atoms 1078
+ :clauses 3953
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 0
+ :conflicts 0
+ :theory-conflicts 0
+ :boolean-propagations 459
+ :theory-propagations 0
+ :simplex-init-vars 0
+ :simplex-init-rows 0
+ :simplex-init-atoms 0
+ :simplex-vars 576
+ :simplex-rows 539
+ :simplex-atoms 1078
+ :simplex-pivots 0
+ :simplex-conflicts 0
+ :simplex-interface-lemmas 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: ParallelPrefixSum_safe_bgmc004.smt2
+*****************************************************
+unsat
+(:num-terms 8526
+ :num-types 3
+ :total-run-time 0.009
+ :mem-usage 5.559
+ :boolean-variables 2445
+ :atoms 1626
+ :clauses 7102
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 0
+ :conflicts 0
+ :theory-conflicts 0
+ :boolean-propagations 853
+ :theory-propagations 0
+ :simplex-init-vars 0
+ :simplex-init-rows 0
+ :simplex-init-atoms 0
+ :simplex-vars 862
+ :simplex-rows 813
+ :simplex-atoms 1626
+ :simplex-pivots 0
+ :simplex-conflicts 0
+ :simplex-interface-lemmas 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: ParallelPrefixSum_safe_bgmc005.smt2
+*****************************************************
+unsat
+(:num-terms 11281
+ :num-types 3
+ :total-run-time 0.011
+ :mem-usage 6.297
+ :boolean-variables 3282
+ :atoms 2114
+ :clauses 9938
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 0
+ :conflicts 0
+ :theory-conflicts 0
+ :boolean-propagations 1220
+ :theory-propagations 0
+ :simplex-init-vars 0
+ :simplex-init-rows 0
+ :simplex-init-atoms 0
+ :simplex-vars 1118
+ :simplex-rows 1057
+ :simplex-atoms 2114
+ :simplex-pivots 0
+ :simplex-conflicts 0
+ :simplex-interface-lemmas 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: ParallelPrefixSum_safe_bgmc006.smt2
+*****************************************************
+sat
+(:num-terms 14036
+ :num-types 3
+ :total-run-time 0.019
+ :mem-usage 7.383
+ :boolean-variables 4334
+ :atoms 2722
+ :clauses 3279
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 1
+ :decisions 2111
+ :conflicts 3
+ :theory-conflicts 3
+ :boolean-propagations 4197
+ :theory-propagations 2019
+ :simplex-init-vars 1434
+ :simplex-init-rows 1361
+ :simplex-init-atoms 2722
+ :simplex-vars 1434
+ :simplex-rows 1261
+ :simplex-atoms 2722
+ :simplex-pivots 3
+ :simplex-conflicts 3
+ :simplex-interface-lemmas 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: ParallelPrefixSum_safe_blmc000.smt2
+*****************************************************
+unsat
+(:num-terms 5653
+ :num-types 3
+ :total-run-time 0.006
+ :mem-usage 5.043
+ :boolean-variables 1930
+ :atoms 1132
+ :clauses 6555
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 0
+ :decisions 2
+ :conflicts 2
+ :theory-conflicts 0
+ :boolean-propagations 889
+ :theory-propagations 0
+ :simplex-init-vars 587
+ :simplex-init-rows 542
+ :simplex-init-atoms 1132
+ :simplex-vars 587
+ :simplex-rows 522
+ :simplex-atoms 1132
+ :simplex-pivots 0
+ :simplex-conflicts 0
+ :simplex-interface-lemmas 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: ParallelPrefixSum_safe_blmc001.smt2
+*****************************************************
+sat
+(:num-terms 10983
+ :num-types 3
+ :total-run-time 0.013
+ :mem-usage 6.676
+ :boolean-variables 3307
+ :atoms 2012
+ :clauses 8403
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 1
+ :decisions 1101
+ :conflicts 2
+ :theory-conflicts 0
+ :boolean-propagations 3374
+ :theory-propagations 1185
+ :simplex-init-vars 1039
+ :simplex-init-rows 982
+ :simplex-init-atoms 2012
+ :simplex-vars 1039
+ :simplex-rows 950
+ :simplex-atoms 2012
+ :simplex-pivots 0
+ :simplex-conflicts 0
+ :simplex-interface-lemmas 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: ParallelPrefixSum_safe_blmc002.smt2
+*****************************************************
+unsat
+(:num-terms 15821
+ :num-types 3
+ :total-run-time 0.016
+ :mem-usage 7.555
+ :boolean-variables 4881
+ :atoms 2908
+ :clauses 13515
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 1
+ :decisions 4
+ :conflicts 3
+ :theory-conflicts 0
+ :boolean-propagations 2660
+ :theory-propagations 0
+ :simplex-init-vars 1511
+ :simplex-init-rows 1422
+ :simplex-init-atoms 2908
+ :simplex-vars 1511
+ :simplex-rows 1366
+ :simplex-atoms 2908
+ :simplex-pivots 0
+ :simplex-conflicts 0
+ :simplex-interface-lemmas 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: ParallelPrefixSum_safe_blmc003.smt2
+*****************************************************
+sat
+(:num-terms 21493
+ :num-types 3
+ :total-run-time 0.025
+ :mem-usage 9.457
+ :boolean-variables 6419
+ :atoms 3884
+ :clauses 19080
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 1
+ :decisions 2104
+ :conflicts 5
+ :theory-conflicts 0
+ :boolean-propagations 6806
+ :theory-propagations 1998
+ :simplex-init-vars 2011
+ :simplex-init-rows 1910
+ :simplex-init-atoms 3884
+ :simplex-vars 2011
+ :simplex-rows 1842
+ :simplex-atoms 3884
+ :simplex-pivots 0
+ :simplex-conflicts 0
+ :simplex-interface-lemmas 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: ParallelPrefixSum_safe_blmc004.smt2
+*****************************************************
+unsat
+(:num-terms 29057
+ :num-types 3
+ :total-run-time 0.031
+ :mem-usage 10.891
+ :boolean-variables 8751
+ :atoms 5286
+ :clauses 25148
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 1
+ :decisions 942
+ :conflicts 9
+ :theory-conflicts 1
+ :boolean-propagations 8028
+ :theory-propagations 559
+ :simplex-init-vars 2748
+ :simplex-init-rows 2603
+ :simplex-init-atoms 5286
+ :simplex-vars 2748
+ :simplex-rows 2499
+ :simplex-atoms 5286
+ :simplex-pivots 2
+ :simplex-conflicts 1
+ :simplex-interface-lemmas 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: ParallelPrefixSum_safe_blmc005.smt2
+*****************************************************
+sat
+(:num-terms 34389
+ :num-types 3
+ :total-run-time 0.046
+ :mem-usage 12.984
+ :boolean-variables 10208
+ :atoms 6196
+ :clauses 32256
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 1
+ :decisions 4453
+ :conflicts 9
+ :theory-conflicts 0
+ :boolean-propagations 13716
+ :theory-propagations 3275
+ :simplex-init-vars 3215
+ :simplex-init-rows 3058
+ :simplex-init-atoms 6196
+ :simplex-vars 3215
+ :simplex-rows 2942
+ :simplex-atoms 6196
+ :simplex-pivots 0
+ :simplex-conflicts 0
+ :simplex-interface-lemmas 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: ParallelPrefixSum_safe_blmc006.smt2
+*****************************************************
+unsat
+(:num-terms 43640
+ :num-types 3
+ :total-run-time 0.050
+ :mem-usage 15.691
+ :boolean-variables 13328
+ :atoms 7876
+ :clauses 42120
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 1
+ :decisions 1443
+ :conflicts 13
+ :theory-conflicts 0
+ :boolean-propagations 26006
+ :theory-propagations 843
+ :simplex-init-vars 4103
+ :simplex-init-rows 3890
+ :simplex-init-atoms 7876
+ :simplex-vars 4103
+ :simplex-rows 3726
+ :simplex-atoms 7876
+ :simplex-pivots 0
+ :simplex-conflicts 0
+ :simplex-interface-lemmas 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: ParallelPrefixSum_safe_blmc007.smt2
+*****************************************************
+sat
+(:num-terms 48648
+ :num-types 3
+ :total-run-time 0.066
+ :mem-usage 18.141
+ :boolean-variables 14773
+ :atoms 8630
+ :clauses 44538
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 1
+ :decisions 7508
+ :conflicts 20
+ :theory-conflicts 11
+ :boolean-propagations 30635
+ :theory-propagations 5352
+ :simplex-init-vars 4492
+ :simplex-init-rows 4267
+ :simplex-init-atoms 8630
+ :simplex-vars 4492
+ :simplex-rows 4091
+ :simplex-atoms 8630
+ :simplex-pivots 41
+ :simplex-conflicts 11
+ :simplex-interface-lemmas 0
+)
+*****************************************************
+*****************************************************
+Toolname: Yices SMT2 Filename: ParallelPrefixSum_safe_blmc008.smt2
+*****************************************************
+sat
+(:num-terms 62005
+ :num-types 3
+ :total-run-time 0.078
+ :mem-usage 20.895
+ :boolean-variables 19008
+ :atoms 11200
+ :clauses 59490
+ :restarts 0
+ :clause-db-reduce 0
+ :clause-db-simplify 1
+ :decisions 7800
+ :conflicts 13
+ :theory-conflicts 1
+ :boolean-propagations 22733
+ :theory-propagations 6333
+ :simplex-init-vars 5837
+ :simplex-init-rows 5544
+ :simplex-init-atoms 11200
+ :simplex-vars 5837
+ :simplex-rows 5308
+ :simplex-atoms 11200
+ :simplex-pivots 32
+ :simplex-conflicts 1
+ :simplex-interface-lemmas 0
+)
+*****************************************************

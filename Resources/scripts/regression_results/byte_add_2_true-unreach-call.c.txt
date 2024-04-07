@@ -1,0 +1,51 @@
+
+*** USING INTERPOLATION AND SUMMARIES (DPRODUCE_PROOF is on) ***
+
+
+*** EXECUTE WITH OPTIMIZATIONS (DDISABLE_OPTIMIZATIONS is off) ***
+
+Loading `byte_add_2_true-unreach-call.c' ...
+Parsing byte_add_2_true-unreach-call.c
+Converting
+Type-checking byte_add_2_true-unreach-call
+Generating GOTO Program
+Ignoring CPROVER library
+Removal of function pointers and virtual functions
+Generic Property Instrumentation
+    LOAD Time: 1.068 sec.
+Total number of claims in program...(1)
+Warrning: --claim is set to 1.
+Use QF_UF logic.
+    Checking Claim #1 (100%) ...
+*** INLINING function: __CPROVER_initialize
+*** INLINING function: main
+Processing a deferred function: __CPROVER_initialize
+Processing a deferred function: main
+*** INLINING function: mp_add
+*** INLINING function: __VERIFIER_assert
+Processing a deferred function: mp_add
+Processing a deferred function: __VERIFIER_assert
+SYMEX TIME: 0.35
+All SSA steps: 465
+Ignored SSA steps after slice: 154
+SLICER TIME: 0.001
+CONVERSION TIME: 0.03
+; uf checker query time so far: 0.000000
+SOLVER TIME: 0.01
+RESULT: SAT - doesn't hold
+Building error trace
+
+A bug found.
+WARNING: Possibly due to the Theory conversion.
+
+VERIFICATION FAILED
+Initial unwinding bound: 10
+Total number of steps: 1
+TOTAL TIME FOR CHECKING THIS CLAIM: 0.393
+
+
+Main Checked Assertion: 
+  file byte_add_2_true-unreach-call.c line 6 function __VERIFIER_assert
+  assertion
+  FALSE
+#X: Done.

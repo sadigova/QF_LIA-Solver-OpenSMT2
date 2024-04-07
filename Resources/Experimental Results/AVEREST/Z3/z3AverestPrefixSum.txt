@@ -1,0 +1,337 @@
+*****************************************************
+Toolname: Z3 Filename: ParallelPrefixSum_live_bgmc000.smt2
+*****************************************************
+sat
+(:eliminated-vars 42
+ :max-memory      1.34
+ :memory          1.34
+ :mk-bool-var     1
+ :num-allocs      29785
+ :rlimit-count    11753
+ :time            0.00
+ :total-time      0.01)
+
+real	0m0.015s
+user	0m0.006s
+sys	0m0.006s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: ParallelPrefixSum_live_bgmc002.smt2
+*****************************************************
+sat
+(:eliminated-vars 63
+ :max-memory      2.01
+ :memory          1.88
+ :mk-bool-var     1
+ :num-allocs      53025
+ :rlimit-count    23526
+ :time            0.01
+ :total-time      0.01)
+
+real	0m0.020s
+user	0m0.013s
+sys	0m0.004s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: ParallelPrefixSum_live_bgmc003.smt2
+*****************************************************
+unsat
+(:max-memory   2.81
+ :memory       2.51
+ :mk-bool-var  1
+ :num-allocs   78615
+ :rlimit-count 34276
+ :time         0.01
+ :total-time   0.02)
+
+real	0m0.020s
+user	0m0.015s
+sys	0m0.005s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: ParallelPrefixSum_live_blmc000.smt2
+*****************************************************
+sat
+(:eliminated-vars 105
+ :max-memory      2.83
+ :memory          2.55
+ :mk-bool-var     1
+ :num-allocs      85668
+ :rlimit-count    38425
+ :time            0.01
+ :total-time      0.01)
+
+real	0m0.017s
+user	0m0.013s
+sys	0m0.004s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: ParallelPrefixSum_live_blmc002.smt2
+*****************************************************
+unsat
+(:max-memory   4.84
+ :memory       4.28
+ :mk-bool-var  1
+ :num-allocs   146802
+ :rlimit-count 57660
+ :time         0.01
+ :total-time   0.02)
+
+real	0m0.029s
+user	0m0.029s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: ParallelPrefixSum_safe_bgmc002.smt2
+*****************************************************
+unsat
+(:max-memory   1.79
+ :memory       1.63
+ :mk-bool-var  1
+ :num-allocs   42151
+ :rlimit-count 13408
+ :time         0.00
+ :total-time   0.01)
+
+real	0m0.009s
+user	0m0.010s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: ParallelPrefixSum_safe_bgmc003.smt2
+*****************************************************
+unsat
+(:max-memory   2.64
+ :memory       2.31
+ :mk-bool-var  1
+ :num-allocs   64509
+ :rlimit-count 28145
+ :time         0.00
+ :total-time   0.01)
+
+real	0m0.013s
+user	0m0.010s
+sys	0m0.003s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: ParallelPrefixSum_safe_bgmc004.smt2
+*****************************************************
+unsat
+(:max-memory   3.01
+ :memory       2.69
+ :mk-bool-var  1
+ :num-allocs   93358
+ :rlimit-count 96327
+ :time         0.01
+ :total-time   0.02)
+
+real	0m0.019s
+user	0m0.020s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: ParallelPrefixSum_safe_bgmc005.smt2
+*****************************************************
+unsat
+(:max-memory   4.58
+ :memory       3.73
+ :mk-bool-var  1
+ :num-allocs   133926
+ :rlimit-count 254989
+ :time         0.02
+ :total-time   0.03)
+
+real	0m0.030s
+user	0m0.024s
+sys	0m0.008s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: ParallelPrefixSum_safe_bgmc006.smt2
+*****************************************************
+sat
+(:eliminated-applications 3
+ :eliminated-vars         127
+ :max-memory              4.99
+ :memory                  4.13
+ :mk-bool-var             1
+ :num-allocs              162442
+ :rlimit-count            471084
+ :time                    0.03
+ :total-time              0.04)
+
+real	0m0.044s
+user	0m0.037s
+sys	0m0.008s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: ParallelPrefixSum_safe_blmc000.smt2
+*****************************************************
+unsat
+(:max-memory   2.70
+ :memory       2.26
+ :mk-bool-var  1
+ :num-allocs   76490
+ :rlimit-count 142781
+ :time         0.01
+ :total-time   0.02)
+
+real	0m0.019s
+user	0m0.015s
+sys	0m0.004s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: ParallelPrefixSum_safe_blmc001.smt2
+*****************************************************
+sat
+(:eliminated-vars 105
+ :max-memory      3.59
+ :memory          2.95
+ :mk-bool-var     1
+ :num-allocs      126452
+ :rlimit-count    502439
+ :time            0.02
+ :total-time      0.03)
+
+real	0m0.037s
+user	0m0.029s
+sys	0m0.008s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: ParallelPrefixSum_safe_blmc002.smt2
+*****************************************************
+unsat
+(:max-memory   5.31
+ :memory       4.29
+ :mk-bool-var  1
+ :num-allocs   203115
+ :rlimit-count 388818
+ :time         0.02
+ :total-time   0.04)
+
+real	0m0.041s
+user	0m0.034s
+sys	0m0.008s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: ParallelPrefixSum_safe_blmc003.smt2
+*****************************************************
+sat
+(:eliminated-vars 189
+ :max-memory      6.42
+ :memory          5.06
+ :mk-bool-var     1
+ :num-allocs      241600
+ :rlimit-count    1219476
+ :time            0.06
+ :total-time      0.08)
+
+real	0m0.083s
+user	0m0.081s
+sys	0m0.004s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: ParallelPrefixSum_safe_blmc004.smt2
+*****************************************************
+unsat
+(:max-memory   9.03
+ :memory       7.36
+ :mk-bool-var  1
+ :num-allocs   308380
+ :rlimit-count 757795
+ :time         0.05
+ :total-time   0.07)
+
+real	0m0.075s
+user	0m0.075s
+sys	0m0.004s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: ParallelPrefixSum_safe_blmc005.smt2
+*****************************************************
+sat
+(:eliminated-vars 294
+ :max-memory      10.30
+ :memory          8.04
+ :mk-bool-var     1
+ :num-allocs      360118
+ :rlimit-count    1561255
+ :time            0.09
+ :total-time      0.12)
+
+real	0m0.122s
+user	0m0.128s
+sys	0m0.000s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: ParallelPrefixSum_safe_blmc006.smt2
+*****************************************************
+unsat
+(:max-memory   12.43
+ :memory       9.36
+ :mk-bool-var  1
+ :num-allocs   461217
+ :rlimit-count 2065947
+ :time         0.11
+ :total-time   0.15)
+
+real	0m0.155s
+user	0m0.142s
+sys	0m0.021s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: ParallelPrefixSum_safe_blmc007.smt2
+*****************************************************
+sat
+(:eliminated-vars 420
+ :max-memory      16.21
+ :memory          12.82
+ :mk-bool-var     1
+ :num-allocs      516404
+ :rlimit-count    2669748
+ :time            0.15
+ :total-time      0.20)
+
+real	0m0.196s
+user	0m0.195s
+sys	0m0.013s
+*****************************************************
+*****************************************************
+Toolname: Z3 Filename: ParallelPrefixSum_safe_blmc008.smt2
+*****************************************************
+sat
+(:arith-bound-propagations-cheap 291
+ :arith-bound-propagations-lp    200
+ :arith-conflicts                3
+ :arith-lower                    889
+ :arith-make-feasible            334
+ :arith-max-columns              480
+ :arith-max-rows                 296
+ :arith-propagations             291
+ :arith-rows                     1372
+ :arith-upper                    483
+ :binary-propagations            2886
+ :conflicts                      9
+ :decisions                      312
+ :del-clause                     349
+ :eliminated-applications        132
+ :eliminated-vars                42
+ :final-checks                   1
+ :max-memory                     19.73
+ :memory                         14.70
+ :mk-bool-var                    1811
+ :mk-clause                      1433
+ :num-allocs                     2050095
+ :num-checks                     1
+ :propagations                   3717
+ :rlimit-count                   5386831
+ :time                           0.33
+ :total-time                     0.40)
+
+real	0m0.382s
+user	0m0.382s
+sys	0m0.026s
+*****************************************************
+/home/mabutalibov1271/z3.sh: line 8: /home/mabutalibov1271: Is a directory
+/home/mabutalibov1271/z3.sh: line 9: /home/mabutalibov1271: Is a directory
+/home/mabutalibov1271/z3.sh: line 10: /home/mabutalibov1271: Is a directory
+/home/mabutalibov1271/z3.sh: line 11: /home/mabutalibov1271: Is a directory
